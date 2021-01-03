@@ -1,5 +1,6 @@
-## Just enter the number along with the country code and get your details about the number .
-<img align='center' alt='Demo' width='300px' src="https://github.com/Kushal997-das/Projects/blob/main/Python/Basic%20Projects/Track%20Phone%20number%20location/Documents%3F/locationtracker.gif"/> <br>
+## Just enter the number along with the country code and get your details about the number . <br>
+<img align='center' alt='Demo' width='300px' src="https://github.com/Kushal997-das/Projects/blob/main/Python/Basic%20Projects/Track%20Phone%20number%20location/Documents%3F/locationtracker.gif"/> <br> <br>
+
 Phonenumbers module in Python 
 -----------------------------
 > phonenumbers is one of the modules that provides numerous features like providing basic information of a phone number, validation of a phone number etc. <br>
