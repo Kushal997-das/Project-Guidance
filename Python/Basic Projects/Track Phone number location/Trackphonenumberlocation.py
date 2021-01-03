@@ -27,4 +27,6 @@ print(Carrier)
 speak('Your carrier name'+Carrier)
 print(Region)
 speak(Region+'is your region')
-speak('Thank You !')
+print('Thank You for using location tracker !')
+speak('Thank You for using location tracker !')
+
