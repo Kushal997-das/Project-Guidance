@@ -13,4 +13,4 @@ if connectionCheck():
     print("Yes your internet is connected")
 else:
     print("opps!😅 your internet is not connected with your System")
-© 2021 GitHub, Inc.
+
