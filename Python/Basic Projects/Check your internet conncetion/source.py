@@ -4,7 +4,7 @@ def connectionCheck():
     try:
 
 
-        urlopen('https://github.com/Kushal997-das',timeout=1)
+        urlopen('https://github.com/Kushal997-das',timeout=3)
         return True
     except urllib.error.URLError as Error:
         return False
