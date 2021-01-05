@@ -10,10 +10,10 @@ Full documentation available at https://docs.python.org/3/library/urllib.html <b
 
 Pre-requisites:
 ---------
-  Python3
-  urllib
+    Python3
+    urllib
   
 Installation:
 ------------
-  pip install urllib
+    pip install urllib
   
