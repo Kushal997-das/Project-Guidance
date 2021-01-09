@@ -23,7 +23,6 @@
 ---
 <h2> 💡 Click on the Star If You Love This Project and Follow me on GitHub To Get New Poject Updates<h2>
 
-# <p align="left">
 - ###  [Click Here To See the Project Video](https://youtu.be/9MZDMAiR24I "LCO")
 - ###  [Follow Me on LinkedIn To Get Regular Project Updates](https://www.linkedin.com/in/samarpan-dasgupta-4aa1061b0/ "LCO")
  
