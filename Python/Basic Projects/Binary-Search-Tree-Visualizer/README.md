@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/Data_Struvture-BST-brown.svg)
 ![](https://img.shields.io/badge/Status-Complete-green.svg)
 
-## <p align="center">Hello Programmers, Here I made</p> <p align="center">Binary Search Tree Visualizer</p> <p align="center">using</p> <p align="center">Python Tkinter</p> 
+# <p align="center">Hello Programmers,</p> <p align="center">Here I made Binary Search Tree Visualizer using Python Tkinter
 
 <p align="center"> <img alt="GIF" height="500px"  width="800px" src="bst_gif.gif"/><br></p>
 
