@@ -26,9 +26,9 @@
 ---
 
 
-# <p style="color: Blue"> ***_💡 Algo Used in This Project:_***</p>
-### ***<p style="color: green"> ➡️ 1. Linear Search***</p>
-### ***<p style="color: green"> ➡️ 2. Binary Search***</p>
+# <p style="color: Blue"> ***_💡 Concepts Used Here:_***</p>
+### ***<p style="color: green"> ➡️ 1. Insertion in Circular Queue***</p>
+### ***<p style="color: green"> ➡️ 2. Deletion from Circular Queue***</p>
 
 ---
 
