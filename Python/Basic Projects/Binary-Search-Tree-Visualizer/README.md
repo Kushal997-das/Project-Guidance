@@ -1,7 +1,8 @@
 ![](https://img.shields.io/badge/Programming_Language-Python-blue.svg)
 ![](https://img.shields.io/badge/Tool_Used-Tkinter-orange.svg)
 ![](https://img.shields.io/badge/Python_Version-3.7-blue.svg)
-![](https://img.shields.io/badge/Data_Struvture-BST-brown.svg)
+![](https://img.shields.io/badge/Data_Structure-BST-brown.svg)
+![](https://img.shields.io/badge/Functionality-7-red.svg)
 ![](https://img.shields.io/badge/Status-Complete-green.svg)
 
 # <p align="center">Hello Programmers,</p> <p align="center">Here I made Binary Search Tree Visualizer using Python Tkinter
