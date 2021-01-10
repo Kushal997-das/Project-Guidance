@@ -59,4 +59,4 @@ if __name__ == "__main__":
         if 'Grab image' in query or 'take photo' in query:
             grabPhoto()
         else:
-            speak('did not get it !')
+            speak('Did not get it !')
