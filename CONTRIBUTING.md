@@ -3,6 +3,11 @@
 This documentation contains a set of guidelines to help you during the contribution process.   
 We are happy to welcome all the contributions from anyone willing to improve/add new projects (doesn't matter which language) to this Repository.
 
+Code of Conduct
+---------------
+
+Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md)
+
 ### Before contributing please ensure your **pull request** adheres to the following guidelines:
 
 
