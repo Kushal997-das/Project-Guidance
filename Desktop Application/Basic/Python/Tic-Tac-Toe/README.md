@@ -8,7 +8,7 @@
 
 ## <p align="center">***_Introducing My New Project Tic-Tac-Toe Game_*** </p>
 
-<p align="center"><img src="tic-tac-toe-gif.gif"></p>
+<p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe/tic-tac-toe-gif.gif?raw=true"></p>
 
 ### ***_This game is for Human vs Human_***
 
