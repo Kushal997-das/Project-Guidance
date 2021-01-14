@@ -8,7 +8,7 @@
 
 ### <p align="center">  💡 _Now I am going to present you my New Project_ 💡 </p>
 
-<p align="center"><img src="Calculator_gif.gif"></p>
+<p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Desktop%20Application/Basic/Python/Scientific%20Calculator%20Dolly/Documents/Calculator_gif.gif?raw=true"></p>
 
 ###  <p align="center">⚒️ _Yes, This is Scientific Calculator made by Python(Version 3) Tkinter_</p>
 
