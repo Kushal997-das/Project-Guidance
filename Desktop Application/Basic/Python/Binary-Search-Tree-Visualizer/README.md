@@ -8,7 +8,7 @@
 
 # <p align="center">Hello Programmers,</p> <p align="center">Here I made Binary Search Tree Visualizer using Python Tkinter
 
-<p align="center"> <img alt="GIF" height="500px"  width="800px" src="bst_gif.gif"/><br></p>
+<p align="center"> <img alt="GIF" height="500px"  width="800px" src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Desktop%20Application/Basic/Python/Binary-Search-Tree-Visualizer/bst_gif.gif?raw=true"/><br></p>
 
 ---
 

@@ -9,7 +9,7 @@
 
 ### <p align="center">  💡 _Now I am going to present you my New Game_ 💡 </p>
 
-<p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Python/Intermediate_Projects/Ludo_Game/ludo_gif.gif?raw=true"></p>
+<p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Desktop%20Application/Intermediate/Python/Ludo_Game/ludo_gif.gif?raw=true"></p>
 
 ###  <p align="center">⚒️ _Yes, This is Ludo Game made by Python(Version 3) Tkinter_</p>
 

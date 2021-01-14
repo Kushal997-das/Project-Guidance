@@ -8,7 +8,7 @@
 ---
 ### <p align="center" style="color: blue">***Hello Programmers, Here I made a Visualizer <p align="center" style="color: red">Stack Visualizer</p> <p align="center" style="color: blue">Using</p> <p align="center" style="color: red">Python Tkinter***</p></p>
 
-<p align="center"> <img alt="gif" height="350px" width="350px" src="stack_gif.gif"/><br></p>
+<p align="center"> <img alt="gif" height="350px" width="350px" src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Desktop%20Application/Basic/Python/Stack-Visualizer/stack_gif.gif?raw=true"/><br></p>
 
 ---
 ### <p align="left" style="color: brown">⚒️ _Important Module Used Here:_</p>
