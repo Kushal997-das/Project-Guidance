@@ -19,6 +19,7 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
   
     ## **Flow** :
       - Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request.
+  <img align="center" alt="png" height='300px' width="800px" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/official%20sructure%20tree.png" />   
        
  
 ## STEP-1 : Find an issue
