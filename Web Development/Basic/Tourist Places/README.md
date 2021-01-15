@@ -18,4 +18,4 @@
 
   - Languages:Html,Css,bootstrap and javascript
 
-[Website_Demo](priya510.github.io/tourist_places/) 
+[Website Demo](priya510.github.io/tourist_places/) 
