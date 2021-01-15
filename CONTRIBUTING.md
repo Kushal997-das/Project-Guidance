@@ -17,7 +17,7 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
   - If Yes that your project is already exits with the same programming language then you can't be able to add your project to this repo. 
   - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
   
-    ## **Flow**
+    ## **Flow** :
       - Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request.
        
  
@@ -84,7 +84,7 @@ $ git commit -m "message"
 - Check your spelling and grammar.
 - Remove any trailing whitespace.
 
-**Note**
+**Note** :
   - New categories, or improvements to the existing categorisation, are always welcome.
   - Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions.
   
