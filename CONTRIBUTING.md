@@ -11,16 +11,14 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
 ### Before contributing please ensure your **pull request** adheres to the following guidelines:
 
 
- ## STEP-0 : Key Points to remember :
+## STEP-0 : Key Points to remember :
   - Look at the previous projects and get some idea from them [Previous](https://github.com/Kushal997-das/Project-Guidance)
-  - Suppose you want to contribute one javascript projet then first check is there any [javascript folder](https://github.com/Kushal997-das/Project-Guidance) is existing or not.
-  - If Yes then you can contribute there but make sure under that folder you have to create another folder with your project name . 
-  - If there is no such folder then make sure you create one folder and folder name should be **Javascript**  (In this case)  and add your project.
+  - Suppose you want to contribute one projet to one particular domain then first check is there any [Projects](https://github.com/Kushal997-das/Project-Guidance) exits with the same language or not.
+  - If Yes that your project is already exits with the same programming language then you can't be able to add your project to this repo. 
+  - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
   
     -  **NOTE** If you think the project which you want to contribute is beginner level then the flow should be like this :-
-        - **Javascript --> Basic --> Projects_name(folder) --> project_file** (In case of Basic Project)
-        - **Javascript --> Intermediate --> Projects_name(folder) --> project_file** (in case of intermediate)
-        - **Javascript --> Advance --> Projects_name(folder) --> project_file** (In case of Advance Project)
+       
  
 ## STEP-1 : Find an issue
   - Take a look at the Existing [Issues](https://github.com/Kushal997-das/Project-Guidance/issues) and [Pull Requests](https://github.com/Kushal997-das/Project-Guidance/pulls) as yours may be a duplicate  or create your own [Issues!](https://github.com/Kushal997-das/Project-Guidance/issues) 
@@ -28,7 +26,7 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
   - Wait for the Issue to be assigned to you after which you can start working on it.
   
   
-## Step 1 : Fork the Project  
+## Step 2 : Fork the Project  
 - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile. Keep a reference to the original project in `upstream` remote.  
  ```  
  $ git clone https://github.com/<your-username>/<repo-name>  
@@ -43,17 +41,23 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
  $ git rebase upstream/<branch-name>  
  ```  
  
- ## Step 3 : Work on the issue assigned  
-- Work on the issue(s) assigned to you.   
-- Add all the files/folders needed.  
-- After you've made changes or made your contribution to the project add changes to the branch you've just created by:  
- ```  
- # To add all new files to branch Branch_Name  
- $ git add .  
+ ## Step 3 : Choose your domain.
+- Create a branch  :
+ ``` 
+ $ git branch <branch-name>
+ $ git checkout <branch-name>
+ 
+ - Add your projects to a folder and the folder name should be your project .   
+ - Add all the files/folders needed.  
+ - After you've made changes or made your contribution to the project add changes to the branch you've just created by:
 
  # To add only a few files to Branch_Name
  $ git add <some files>
+ # To add only a few files to Branch_Name
+ $ git add <some files>
  ```
+  
+ 
 ## Step 4 : Commit  
 - To commit give a descriptive message for the convenience of reviewer by:  
 - Please make an individual commit for each suggestion in a separate pull request.
@@ -82,4 +86,13 @@ $ git commit -m "message"
 **Note**
   - New categories, or improvements to the existing categorisation, are always welcome.
   - Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions.
+  
+## Need more help?🤔  
+You can refer to the following articles on basics of Git and Github and also contact the Project [Mentor](https://github.com/Kushal997-das/), in case you are stuck:  
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)  
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)  
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)  
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)  
+- [Learn GitHub from Scratch](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLozRqGzj97d02YjR5JVqDwN2K0cAiT7VK)  
+  
   
