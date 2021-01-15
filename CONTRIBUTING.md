@@ -8,21 +8,18 @@ Code of Conduct
 
 Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md)
 
-### Before contributing please ensure your ***_pull request_*** adheres to the following guidelines:
+### Before contributing please ensure your **pull request** adheres to the following guidelines:
 
 
 ## STEP-0 : Key Points to remember :
   - Look at the previous projects and get some idea from them [Previous](https://github.com/Kushal997-das/Project-Guidance)
-  - Suppose you want to contribute one project to one particular domain then first check is there any [Projects](https://github.com/Kushal997-das/Project-Guidance) exits with the same language or not.
+  - Suppose you want to contribute one projet to one particular domain then first check is there any [Projects](https://github.com/Kushal997-das/Project-Guidance) exits with the same language or not.
   - If Yes that your project is already exits with the same programming language then you can't be able to add your project to this repo. 
   - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
   
     ## **Flow** :
-### ***_HEAD:: Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request._***</br>
-  <img align="center" alt="png" height='450px' width="900px" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/official%20sructure%20tree.png" />   
-
-      - Project-Guidance --> Choose your domain --> Choose your project level (Basic,Intermediate,Advanced) --> Create a folder with your project name --> Send a pull request.
-
+      - Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request.
+  <img align="center" alt="png" height='300px' width="800px" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/official%20sructure%20tree.png" />   
        
  
 ## STEP-1 : Find an issue
@@ -92,7 +89,7 @@ $ git commit -m "message"
 
 **Note** :
   - New categories, or improvements to the existing categorisation, are always welcome.
-  - Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions.
+  - Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions. 🏆
   
 ## Need more help?🤔  
 You can refer to the following articles on basics of Git and Github and also contact the Project [Mentor](https://github.com/Kushal997-das/), in case you are stuck:  
