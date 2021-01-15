@@ -17,7 +17,8 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
   - If Yes that your project is already exits with the same programming language then you can't be able to add your project to this repo. 
   - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
   
-    -  **NOTE** If you think the project which you want to contribute is beginner level then the flow should be like this :-
+    -  **Flow**
+      - Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request.
        
  
 ## STEP-1 : Find an issue
