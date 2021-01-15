@@ -17,3 +17,5 @@
 > Software/Editor used : Notepad++ <br>
 
   - Languages:Html,Css,bootstrap and javascript
+
+[Website Demo](priya510.github.io/tourist_places/) 
