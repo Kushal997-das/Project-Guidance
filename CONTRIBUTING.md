@@ -18,12 +18,11 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
   - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
   
     ## **Flow** :
-<<<<<<< HEAD
-      - Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request.
-  <img align="center" alt="png" height='300px' width="800px" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/official%20sructure%20tree.png" />   
-=======
+### ***_HEAD:: Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request._***</br>
+  <img align="center" alt="png" height='450px' width="900px" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/official%20sructure%20tree.png" />   
+
       - Project-Guidance --> Choose your domain --> Choose your project level (Basic,Intermediate,Advanced) --> Create a folder with your project name --> Send a pull request.
->>>>>>> 6c4c21e2f795ec74963d0e0f9d0dbf5fcfd7dc3e
+
        
  
 ## STEP-1 : Find an issue
