@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tourist places</title>
+        <meta name="author" content="TheShahriyar">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+    
+        <!-- load google font -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+        
+        <!-- all stylesheets include start -->
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <!-- revolution slider css -->
+        <link rel="stylesheet" href="css/rev_slider/settings.css">
+        <link rel="stylesheet" href="css/rev_slider/layers.css">
+         <!-- fontawesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+
+        <!-- theme style css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- all stylesheets include end -->
+		<style>
+.button {
+  border-radius: 4px;
+  background-color: #3069b3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+    </head>
+    <body>
+    <div id="container">
+
+     
+	 
+	<!-- Start Top Header Section -->
+        <section class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="social-icons">
+                            <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    </div>
+					<div class="col-md-4">
+                        <div class="contact-info">
+                           <input type="text" placeholder="Search.."> 
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-info">
+                            <li>
+                                
+                                <a href="login.html">Login</a>
+                            </li>
+							<li>
+                                
+                                <a href="signup.html">Signup</a>
+                            </li>
+                            
+                            <li>
+                                
+                                <a href="help.html">Help</a>
+                            </li>
+							<li>
+							<a href="feedback.html">Feedback</a>
+							</li>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+ 
+        <!-- End Top Header Section -->
+         <!-- Start Header & Navigation Section -->
+        <header class="clearfix" id="header">
+            <!-- Static navbar -->
+            <nav class="navbar navbar-default">
+                 
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img alt="" src="images/slideshow/logo.jpg" height="110" width="90"></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="drop"><a href="index.html">Home</a>
+                             <li><a href="Aboutus.html">AboutUs</a></li>
+                                    
+                            </li>
+                           
+                            <li class="drop"><a href="#">Places</a>
+                                <ul class="drop-down">
+                                    <li><a href="goa.html">GOA</a></li>
+                                    <li><a href="shimla.html">SHIMLA</a></li>
+                                    <li><a href="coorg.html">COORG</a></li>
+                                    <li><a href="darjeeling.html">DARJEELING</a></li>
+                                    <li><a href="udaipur.html">UDAIPUR</a></li>
+									<li><a href="manali.html">MANALI</a></li>
+									<li><a href="mumbai.html">MUMBAI</a></li>
+									<li><a href="delhi.html">DELHI</a></li>
+									<li><a href="andamaan.html">Andaman and Nicobar </a></li>
+                                
+                                </ul>
+                            </li>
+                            
+                            <li class="drop"><a href="#">Hotels</a>
+                                <ul class="drop-down">
+                                    <li><a href="hotelsahara.html">Hotel Sahara star</a></li>
+                                    <li><a href="lalit.html">Lalit Mumbai</a></li>
+                                    <li><a href="jw.html">JW Mariott Mumbai</a></li>
+									<li><a href="kc.html">KC Residency</a></li>
+									<li><a href="oberoi.html">The Oberoi </a></li>
+									
+                                </ul>
+                            </li>
+                            
+                            <li><a href="Gallery.html">Gallery</a></li>
+							<li><a href="bestimetovisit.html">Best time to visite</a></li>
+                            <li><a href="Contactus.html">ContactUs</a></li>
+							
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Header -->
+	 
+        
+       
+ <!-- Start Revolution SLideshow-->
+        <div class="rev_slider_wrapper fullscreen-container">
+            <div id="rev_slider_1" class="rev_slider fullscreenbanner" style="display: none;" data-version="5.4.5">
+                <ul>
+                    <li data-transition="parallaxtoright">
+                        <img src="images/slideshow/silde2.jpg" alt="Slideshow" class="rev-slidebg">
+                        <!-- START LAYER 1 -->
+						 <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme slider-text" id="slide-1-layer-2" 
+                            data-x="['left','left','center','center']" 
+                            data-y="['middle','middle','middle','middle']" 
+ 
+                            data-width="none" 
+                            data-height="none" 
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                            data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" 
+                            data-start="1000" 
+                            data-splitin="none" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+                            style="z-index: 5; white-space: nowrap; color: #fff; line-height: 22px;">We Are
+							
+                        </div>
+						<br><br><br>
+                        <div class="tp-caption tp-resizeme max-style" id="slide-1-layer-1" 
+                            data-x="['left','left','center','center']" 
+                            data-y="['middle','middle','middle','middle']" 
+                           data-hoffset="['0','0','0','0']" 
+                            data-voffset="['-100','-100','-110','-90']" 
+                            data-fontsize="['70','70','45','40']" 
+                            data-lineheight="['70','70','50','50']" 
+                            data-width="none" 
+                            data-height="none" 
+                            data-whitespace="nowrap" 
+                            data-transform_idle="o:1;" 
+                            data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                            data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+                            data-start="1000" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+                            data-elementdelay="0.05" 
+                            style="z-index: 5; white-space: nowrap; color: #fff; font-weight: 700; text-transform: uppercase;"><span>
+TOURIST </span> PLACES
+                            </div>
+                        <!-- END LAYER 1 -->
+
+                        <!-- LAYER NR. 2 -->
+                        
+                        
+                    </li>
+                    <li data-transition="parallaxtoright">
+                        <img src="images/slideshow/slide7.jpg" alt="Slideshow" class="rev-slidebg">
+                        <!-- START LAYER 1 -->
+                        <div class="tp-caption tp-resizeme max-style" id="slide-2-layer-1" 
+                            data-x="['center','center','center','center']" 
+                            data-y="['middle','middle','middle','middle']" 
+                            data-hoffset="['0','0','0','0']" 
+                            data-voffset="['-100','-100','-110','-90']" 
+                            data-fontsize="['60','60','45','30']" 
+                            data-lineheight="['70','70','50','50']" 
+                            data-width="none" 
+                            data-height="none" 
+                            data-whitespace="nowrap" 
+                            data-transform_idle="o:1;" 
+                            data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                            data-mask_in="x:[100%];y:0;s:inherit;e:inherit;"  
+                            data-start="1000" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+                            data-elementdelay="0.05" 
+                            style="z-index: 5; white-space: nowrap; color: #fff; font-weight: 700; text-transform: uppercase;">
+BEST <span> VISIT TIME</span> 
+                            </div>
+                        <!-- END LAYER 1 -->
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme slider-text" id="slide-2-layer-2" 
+                            data-x="['center','center','center','center']" 
+                            data-y="['middle','middle','middle','middle']" 
+                            data-hoffset="['0','0','0','0']" 
+                            data-voffset="['0','0','0','0']" 
+                            data-fontsize="['18','18','18','12']" 
+                            data-lineheight="['30','30','22','22']" 
+                            data-width="none" 
+                            data-height="none" 
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                            data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" 
+                            data-start="2500" 
+                            data-splitin="none" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+                            style="z-index: 5; white-space: nowrap; color: #fff; text-align: center;">Share
+
+                        </div>
+                        
+                    </li>
+                    <li data-transition="parallaxtoright">
+                       <img src="images/slideshow/silde3.jpg" alt="Slideshow" class="rev-slidebg">
+                        <!-- START LAYER 1 -->
+                        <div class="tp-caption tp-resizeme max-style" id="slide-3-layer-1" 
+                            data-x="['right','right','center','center']" 
+                            data-y="['middle','middle','middle','middle']" 
+                            data-hoffset="['0','0','0','0']" 
+                            data-voffset="['-100','-100','-110','-90']" 
+                            data-fontsize="['70','70','45','40']" 
+                            data-lineheight="['70','70','50','50']" 
+                            data-width="none" 
+                            data-height="none" 
+                            data-whitespace="nowrap" 
+                            data-transform_idle="o:1;" 
+                            data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                            data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+                            data-start="1000" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+                            data-elementdelay="0.05" 
+                            style="z-index: 5; white-space: nowrap; color: #fff; font-weight: 700; text-transform: uppercase;"><span>
+BEAUTIFUL   </span>  NATURE
+                            </div>
+                        <!-- END LAYER 1 -->
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme slider-text" id="slide-3-layer-2" 
+                            data-x="['right','right','center','center']" 
+                            data-y="['middle','middle','middle','middle']" 
+                            data-hoffset="['0','0','0','0']" 
+                            data-voffset="['0','0','0','0']" 
+                            data-fontsize="['18','18','18','12']" 
+                            data-lineheight="['30','30','22','22']" 
+                            data-width="none" 
+                            data-height="none" 
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+                            data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" 
+                            data-start="2500" 
+                            data-splitin="none" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+                            style="z-index: 5; white-space: nowrap; color: #fff; line-height: 22px; text-align: right;">Make
+                        </div>
+						
+						  
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Revolution SLideshow-->
+       
+<br><br><br><br>
+
+       <div class="container">
+			
+			<h4>Love to travel places! </h4><br>
+			<p><b>India is a cosmic country offering an exotic, extravagant, elegant and diverse 
+			experience to each traveller. With a desire to travel, there is a breath-taking natural 
+			wonders for ultimate outdoor travelling adventure, like, in the Himalayan moorland, in the 
+			untamed waters of the sacred rivers, snow capped mountains, Indian beaches dotting the 
+			Indian coastline, various national parks and wild life sanctuaries abounding a wide range 
+			of flora-fauna are some of the great sites you might fall in love with. But, sometimes
+			things are even good when there is reliable travel agency or agent to help and guide you to 
+			understand your travel destination well. Ranked below are the best and top 10 tour and 
+			travel websites in India. These sites are ultimate resource in-case you are searching for
+			most visiting or popular travel sites in India.One of the oldest civilisations in the world,
+			India is a mosaic of multicultural experiences.
+ With a rich heritage and myriad attractions, the country is among the most popular tourist destinations
+ in the world.  
+</b>
+</p>
+</div>
+
+<p><center><b>India is one of the top travel destinations for tourists from across the globe. 
+The cultural, geographical, traditional, and linguistic diversity in the nation attracts visitors from all over the world.
+ The rise in the popularity of Indian tourism has also encouraged the development of numerous tourism websites in India.
+ Incredible India is an initiative launched by the Government of India to promote tourism in the country. 
+ This campaign was launched in 2002 and the website is being maintained by the Ministry of Tourism.</b></center></p>
+ <br>
+ <h1 style="background-color:pink"><center>Beautiful Views </center></h1><br>
+ <div>
+<center>
+<img src="images/GOA/goa3.jpg" height="300px" width="600px">
+<img src="images/MANALI/manali2.jpg" height="300px" width="600px">
+<img src="images/shimla/s4.jpg" height="300px" width="600px">
+<img src="images/shimla/s5.jpg" height="300px" width="600px">
+<img src="images/DELHI/del5.jpg" height="300px" width="600px">
+<img src="images/DELHI/del6.jpg" height="300px" width="600px">
+<img src="images/Andaman/img4.jpg" height="300px" width="600px">
+<img src="images/Mumbai/m3.jpg" height="300px" width="600px">
+<img src="images/Mumbai/m4.jpg" height="300px" width="600px">
+
+</center>
+
+
+
+    <section class="footer-section pad-t100 pad-b70 parallax" style="background-image: url(assets/images/bg/bg2.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="section-title-2">
+                            <h3>About</h3>
+                        </div>
+                        <div class="footer-address">
+                            <p><span>India Tourist places</span> Explore Before You Visit
+Dive deeper into India's rich culture and heritage</p>
+
+                        </div>
+                    </div>
+					<div class="col-md-4">
+                        <div class="section-title-2">
+                            <h3>Contact</h3>
+                        </div>
+                        <div class="footer-address">
+                            <p><span>India Tour Mate</span> Reg Add: 201, R-45, Sonashree CHS, Sudarshan Nagar, MIDC, Dombivali (E) - 421 203</p>
+                            <p><span>Email :</span> priyaksingh98@gmail.com
+
+</p>
+                            <p><span>Phone :</span>  9423359851  / 7020939167</p>
+                        </div>
+                    </div>
+                   
+                    
+                    <div class="col-md-4">
+                        <div class="section-title-2">
+                            <h3>Newsletter</h3>
+                        </div>
+                        <p>India tour mate .</p>
+                        <form>
+                            <div class="form-group footer-subscribe">
+                                <input type="email" class="form-control" id="Email1" placeholder="Subscribe with us">
+                                <button type="submit" class="btn btn-default">Join</button>
+                            </div>
+                        </form>
+                        <div class="footer-social">
+                            <ul class="top-social">
+                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Footer & Copyright Section -->
+
+        <!-- Start  Copyright Section -->
+        <section class="copyright-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-text text-center">
+                         Developed by <a href="">Priya Singh</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Copyright Section -->
+
+        <div id="back-to-top" class="back-to-top reveal">
+            <img src="images/others/up.png" alt="" class="img-responsive">
+        </div>
+
+
+        <!-- Start Switcher Section -->
+        <div class="switcher-box">
+            <a href="#" class="open-switcher show-switcher"><i class="fa fa-cog fa-2x"></i></a>
+            <h4>Style Switcher</h4>
+            <span>Layout Style</span>
+            <select id="layout-style" class="layout-style">
+                <option value="1">Wide</option>
+                <option value="2">Boxed</option>
+            </select>
+            <span>Patterns for Boxed Version</span>
+            <ul class="bg-list">
+                <li>
+                    <a href="#" class="bg1"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg2"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg3"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg4"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg5"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg6"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg7"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg8"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg9"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg10"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg11"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg12"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg13"></a>
+                </li>
+                <li>
+                    <a href="#" class="bg14"></a>
+                </li>
+            </ul>
+        </div>
+        <!--End Switcher Section -->
+		
+		
+		
+
+        
+        
+
+        <!-- all js include start -->
+        <!-- jquery latest version -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <!-- bootstrap latest version -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- revolution slider js files start -->
+        <script src="js/rev_slider/jquery.themepunch.tools.min.js"></script>
+        <script src="js/rev_slider/jquery.themepunch.revolution.min.js"></script>
+        
+        <script src="js/rev_slider/extensions/revolution.extension.actions.min.js"></script>
+        <script src="js/rev_slider/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="js/rev_slider/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="js/rev_slider/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="js/rev_slider/extensions/revolution.extension.migration.min.js"></script>
+        <script src="js/rev_slider/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="js/rev_slider/extensions/revolution.extension.parallax.min.js"></script>
+        <script src="js/rev_slider/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="js/rev_slider/extensions/revolution.extension.video.min.js"></script>
+        <!-- revolution slider js files end -->
+
+        <!-- Other jQuery library -->
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/jquery.easypiechart.js"></script>
+        <script src="js/jquery.mb.YTPlayer.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        
+
+        <!-- template main js file -->
+        <script src="js/main.js"></script>
+        <!-- all js include end -->
+    </div>    
+    </body>
+</html>
