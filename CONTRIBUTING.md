@@ -36,7 +36,7 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
  $ git remote add upstream https://github.com/<upstream-owner>/<repo-name>  
  ```  
  
- - If you have already forked the project, update your copy before working.  
+- If you have already forked the project, update your copy before working.  
  ```  
  $ git remote update  
  $ git checkout <branch-name>  
@@ -48,16 +48,18 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
  ``` 
  $ git branch <branch-name>
  $ git checkout <branch-name>
- 
- - Add your projects to a folder and the folder name should be your project .   
- - Add all the files/folders needed.  
- - After you've made changes or made your contribution to the project add changes to the branch you've just created by:
 
- # To add only a few files to Branch_Name
- $ git add <some files>
- # To add only a few files to Branch_Name
- $ git add <some files>
+  ```
+ 
+- Add your projects to a folder and the folder name should be your project .   
+- Add all the files/folders needed.  
+- After you've made changes or made your contribution to the project add changes to the branch you've just created by:
  ```
+ # To add only a few files to Branch_Name
+ $ git add <some files>
+ # To add only a few files to Branch_Name
+ $ git add <some files>
+  ```
   
  
 ## Step 4 : Commit  
