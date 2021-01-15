@@ -36,11 +36,11 @@ def choose():
         print("THRILLER MYSTERY IT IS!!!!!")
         a=input("ENTER A DATE OR A DAY:")
         b=input("ENTER A PLACE YOU GO WITH FRIENDS")
-        c=input("ENTER A FRIEND'S NAME")
+        Z=input("ENTER A FRIEND'S NAME")
         d=input("ENTER EITHER 'A LOT OF PEOPLE' OR ' FEW PEOPLE' :")
         e=input("A SPECIFIC PLACE IN THE PLACE YOU GO WITH FRIENDS")
         print("++++++++++++STORY++++++++++++++")
-        print("ON " +a+" I WENT TO " +b+",I WENT WITH " +c+" AND THERE WERE "+d+",I LOST HER I SEARCHED FOR HER FOR A LONG TIME AND FOUND HER SHOE IN "+e+" AND THAT WAS THE LAST TIME I HAVE SEEN HER,TILL NOW ITS STILL A MYSTERY ")
+        print("ON " +a+" I WENT TO " +b+",I WENT WITH " +Z+" AND THERE WERE "+d+",I LOST HER I SEARCHED FOR HER FOR A LONG TIME AND FOUND HER SHOE IN "+e+" AND THAT WAS THE LAST TIME I HAVE SEEN HER,TILL NOW ITS STILL A MYSTERY ")
         print("++++++++++++STORY END+++++++++++++++")
     else:
         print("ACHIEVMENT STORY IT IS!!!")
