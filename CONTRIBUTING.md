@@ -88,7 +88,7 @@ $ git commit -m "message"
   - Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions.
   
 ## Need more help?🤔  
-You can refer to the following articles on basics of Git and Github and also contact the Project Mentors, in case you are stuck:  
+You can refer to the following articles on basics of Git and Github and also contact the Project [Mentor](https://github.com/Kushal997-das/), in case you are stuck:  
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)  
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)  
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)  
