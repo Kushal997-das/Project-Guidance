@@ -20,4 +20,4 @@
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Kushal997-das/Project-Guidance.svg?color=yellow)](https://github.com/Kushal997-das/Project-Guidance/pulls)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/Kushal997-das/Project-Guidance.svg?color=green)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
 
-<a href ="https://github.com/Kushal997-das/Project-Guidance/discussions"><img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
+<a href ="https://github.com/Kushal997-das/Project-Guidance/discussions"><img align='center' height="25" src="https://img.shields.io/badge/Discussions-black.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
