@@ -9,7 +9,7 @@
 <img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=blue" />
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-![All  contributors](https://img.shields.io/github/contributors/Kushal997-das/Project-Guidance?color=green)
+[![All  contributors](https://img.shields.io/github/contributors/Kushal997-das/Project-Guidance?color=green)](https://github.com/Kushal997-das/Project-Guidance/graphs/contributors)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Kushal997-das/Project-Guidance?color=blue)
 ![](https://img.shields.io/badge/Status-Ongoing-green.svg)
 [![](https://img.shields.io/github/license/Kushal997-das/Project-Guidance.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance)
