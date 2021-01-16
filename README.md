@@ -12,7 +12,7 @@
 [![All  contributors](https://img.shields.io/github/contributors/Kushal997-das/Project-Guidance?color=green)](https://github.com/Kushal997-das/Project-Guidance/graphs/contributors)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Kushal997-das/Project-Guidance?color=blue)
 ![](https://img.shields.io/badge/Status-Ongoing-green.svg)
-[![](https://img.shields.io/github/license/Kushal997-das/Project-Guidance.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance)
+[![license](https://img.shields.io/github/license/Kushal997-das/Project-Guidance.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance/blob/main/LICENSE)
 [![GitHub forks](https://img.shields.io/github/forks/kushal997-das/Project-Guidance.svg?color=green)](https://github.com/kushal997-das/Project-Guidance/network) [![GitHub stars](https://img.shields.io/github/stars/Kushal997-das/Project-Guidance.svg?color=orange)](https://github.com/kushal997-das/Project-Guidance/stargazers)
 
 [![GitHub issues](https://img.shields.io/github/issues/Kushal997-das/Project-Guidance.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance/issues)
