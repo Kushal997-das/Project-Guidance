@@ -19,8 +19,6 @@ basic as well as advanced charts <br>
 > Solution:
 <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Advanced/Timeline%20Analysis%20%20Covid-19/COVID19%20Analysis.ipynb">Timeline Analysis : Covid-19 </a>
 
-> Demo:
-<a href="">Timeline Analysis : Covid-19</a>
 
 If you have any Queries or Suggestions, feel free to reach out to me.
 
