@@ -8,7 +8,7 @@
 
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a> <br>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
+[![GitHub last commit](https://img.shields.io/github/last-commit/Kushal997-das/Project-Guidance?logo=git&logoColor=white)](https://github.com/Kushal997-das/Project-Guidance/commits/master)
 [![All  contributors](https://img.shields.io/github/contributors/Kushal997-das/Project-Guidance?color=green)](https://github.com/Kushal997-das/Project-Guidance/graphs/contributors)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Kushal997-das/Project-Guidance?color=blue)
 ![](https://img.shields.io/badge/Status-Ongoing-green.svg)
@@ -67,6 +67,56 @@ Domain Names 🚀
   
 
 
+## Contributing :handshake:
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/Kushal997-das/Project-Guidance/pulls)[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance)
+
+> Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md).
+
+
+**We're accepting PRs for our open and unassigned [issues](https://github.com/Kushal997-das/Project-Guidance/issues)**. Please check [CONTRIBUTING.md](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). We'd love your contributions! **Kindly follow the steps below to get started:** 
+
+**0.** Star[this](https://github.com/Kushal997-das/Project-Guidance) repository.
+
+**1.** Fork [this](https://github.com/Kushal997-das/Project-Guidance) repository.
+
+**2.** Clone the forked repository.
+
+```bash
+git clone https://github.com/<your-github-username>/Project-Guidance
+```
+
+**3.** Navigate to the project directory.
+
+```bash
+cd Project-Guidance
+```
+
+**4.** Create a new branch.
+
+```bash
+git checkout -b <your_branch_name>
+```
+
+**5.** Make changes.
+
+**6.** Stage your changes and commit
+
+```bash
+git add .
+
+git commit -m "<your_commit_message>"
+```
+
+**7.** Push your local commits to the remote repo.
+
+```bash
+git push -u origin <your_branch_name>
+```
+
+**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to `develop` !
+
+**9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://Kushal997-das.github.io/Project-Guidance/) project. :v: :heart:
 
 
 
