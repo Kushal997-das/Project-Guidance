@@ -118,17 +118,20 @@ git push -u origin <your_branch_name>
 
 **9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://Kushal997-das.github.io/Project-Guidance/) project. :v: :heart:
 
+<br><br>
 
 
 
 
-
-
+<a href ="https://github.com/Kushal997-das/Project-Guidance/graphs/contributors"><img align='center' height="25" src="https://img.shields.io/badge/contributors✨-green.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
 <a href ="https://github.com/Kushal997-das/Project-Guidance/discussions"><img align='center' height="25" src="https://img.shields.io/badge/Discussions-black.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
-<a href ="https://github.com/Kushal997-das/Project-Guidance/actions"><img align='center' height="25" src="https://img.shields.io/badge/Actions-black.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
+<a href ="https://github.com/Kushal997-das/Project-Guidance/actions"><img align='center' height="25" src="https://img.shields.io/badge/Actions-red.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
+<a href ="https://github.com/Kushal997-das/Project-Guidance"><img align='center' height="25" src="https://img.shields.io/badge/made with- Programming languages-orange.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
 
-
-
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/Kushal997-das/)
 
 
 
