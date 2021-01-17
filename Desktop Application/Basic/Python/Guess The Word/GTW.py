@@ -11,35 +11,35 @@ def game():
     #score and no of wrong answer
     score=0
     wrong=0
-    ans1=input("QUESTION 1=I MAKE TWO PEOPLE OUT OF ONE:")
+    ans1=input("QUESTION 1 : I MAKE TWO PEOPLE OUT OF ONE:")
     if ans1=='mirror':
         print("!!!!YOU ARE RIGHT!!!!!")
         score=score+1
     else:
         print(":( YOU ARE WRONG :(")
         wrong=wrong+1
-    ans2=input("QUESTION 2=I AM WHITE WHEN I AM DIRTY AND BLACK WHEN I AM CLEAN:")
+    ans2=input("QUESTION 2 : I AM WHITE WHEN I AM DIRTY AND BLACK WHEN I AM CLEAN:")
     if ans2=='black board':
         print("!!!!!!!!YOU ARE RIGHT!!!!!!!")
         score=score+1
     else:
         print(":( YOU ARE WRONG")
         wrong=wrong+1
-    ans3 = input("QUESTION 3=THE MORE I TAKE AWAY THE MORE I BECOME:")
+    ans3 = input("QUESTION 3 : THE MORE I TAKE AWAY THE MORE I BECOME:")
     if ans3 == 'hole':
         print("!!!!!!!!YOU ARE RIGHT!!!!!!!")
         score = score + 1
     else:
         print(":( YOU ARE WRONG")
         wrong = wrong + 1
-    ans4 = input("QUESTION 4=I HAVE TWO HANDS BUT I CAN NOT SCRATCH MYSELF:")
+    ans4 = input("QUESTION 4 : I HAVE TWO HANDS BUT I CAN NOT SCRATCH MYSELF:")
     if ans4 == 'clock':
         print("!!!!!!!!YOU ARE RIGHT!!!!!!!")
         score = score + 1
     else:
         print(":( YOU ARE WRONG")
         wrong = wrong + 1
-    ans5 = input("QUESTION 5= AM TALL WHEN I AM YOUNG AND I AM SHORT WHEN I AM OLD:")
+    ans5 = input("QUESTION 5 : AM TALL WHEN I AM YOUNG AND I AM SHORT WHEN I AM OLD:")
     if ans5 == 'pencil':
         print("!!!!!!!!YOU ARE RIGHT!!!!!!!")
         score = score + 1
