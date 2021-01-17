@@ -1,5 +1,6 @@
 <img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Beginner-green.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />
 <br>
+
 ![](https://img.shields.io/badge/Programming_Language-Python-blue.svg)
 ![](https://img.shields.io/badge/Main_Tool_Used-Jupyter_Notebook-orange.svg)
 ![](https://img.shields.io/badge/Status-Complete-green.svg)
