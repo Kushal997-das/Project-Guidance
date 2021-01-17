@@ -23,7 +23,7 @@
 📌 Introduction
 ------------------
 **Project-Guidance** Contains amazing projects written in multiple programming languages. Here you can easily find beginner to advance level projects.
-The main reason behind to create this repository so that people can find their projects all at one place with the source code. Most of the programmer (beginner) they are 
+The main reason behind to create this repository so that people can find their projects all at one place with the source code. Most of the programmer (beginner 🔰) they are 
 unable to find the project so we took the initiative to help them . Consider this repository as your personal space to find or add any new project to this repository .
 Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions. 🌟🏆
 
@@ -71,10 +71,10 @@ Domain Names 🚀
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/Kushal997-das/Project-Guidance/pulls)[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance)
 
-> Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md).
+> Please read our [Code of Conduct :octocat:](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md).
 
 
-**We're accepting PRs for our open and unassigned [issues](https://github.com/Kushal997-das/Project-Guidance/issues)**. Please check [CONTRIBUTING.md](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). We'd love your contributions! **Kindly follow the steps below to get started:** 
+**We're accepting PRs for our open and unassigned [issues🐛](https://github.com/Kushal997-das/Project-Guidance/issues)**. Please check [CONTRIBUTING.md✨](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). We'd love your contributions! **Kindly follow the steps below to get started:** 
 
 **0.** Star[this](https://github.com/Kushal997-das/Project-Guidance) repository.
 
@@ -116,7 +116,7 @@ git push -u origin <your_branch_name>
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to `develop` !
 
-**9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://Kushal997-das.github.io/Project-Guidance/) project. :v: :heart:
+**9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://Kushal997-das.github.io/Project-Guidance/) project. :v: :heart: 💥
 
 <br><br>
 
