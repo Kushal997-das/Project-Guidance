@@ -21,8 +21,6 @@ while not changing the objective of the task.<br>
 > Solution:
 <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Advanced/Stock%20Market%20Prediction%20using%20Numerical%20and%20Textual%20Analysis/Stock%20Market%20Prediction%20.ipynb">Stock Market Prediction using Numerical and Textual Analysis</a>
 
-> Demo:
-<a href="https://youtu.be/4aQkjzaDQIg">Stock Market Prediction using Numerical and Textual Analysis</a>
 
 
 If you have any Queries or Suggestions, feel free to reach out to me.
