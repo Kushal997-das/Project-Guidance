@@ -27,5 +27,6 @@ If you have any Queries or Suggestions, feel free to reach out to me.
 [<img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][LinkedIn]
 [<img height="30" src="https://img.shields.io/badge/github-black.svg?&style=for-the-badge&logo=github&logoColor=white" />][Github]
 <br />
+
 [linkedin]: https://www.linkedin.com/in/kushal-das-7337421a9/
 [github]: https://github.com/Kushal997-das/
