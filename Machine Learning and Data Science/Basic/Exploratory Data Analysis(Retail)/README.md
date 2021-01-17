@@ -17,8 +17,6 @@ make more profit.<br>
 > Solution:
 <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Exploratory%20Data%20Analysis(Retail)/Retail.ipynb"> Exploratory Data Analysis-Retail</a>
 
-> Demo:
-<a href="https://youtu.be/tPzOUmbOKnQ">Exploratory Data Analysis-Retail</a>
 
 <br><br>
 If you have any Queries or Suggestions, feel free to reach out to me.
