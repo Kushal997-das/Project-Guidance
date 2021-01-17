@@ -117,7 +117,7 @@ git push -u origin <your_branch_name>
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to `develop` !
 
-**9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance(https://github.com/Kushal997-das/Project-Guidance)project. :v: :heart: 💥
+**9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://github.com/Kushal997-das/Project-Guidance)project. :v: :heart: 💥
 
 <br><br>
 
