@@ -17,10 +17,6 @@
 > Solution:
 <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Advanced/EXPLORATORY%20DATA%20ANALYSIS%20(SPORTS)/Sports.ipynb">Exploratory Data Analysis - Sports</a>
 
-> Demo:
-<a href="https://youtu.be/aXOHe1lsPBo">Exploratory Data Analysis - Sports</a>
-
-
 
 If you have any Queries or Suggestions, feel free to reach out to me.
 
