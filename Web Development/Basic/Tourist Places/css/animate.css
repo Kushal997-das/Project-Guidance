@@ -3,6 +3,7 @@
 	-webkit-animation-delay: 0s;
 	-moz-animation-delay: 0s;
 	-o-animation-delay: 0s;
+	
 }
 
 .animated.delay-02 {
@@ -130,6 +131,7 @@
 	-moz-animation-delay: 9s;
 	-o-animation-delay: 9s;
 }
+
 
 .animated.delay-20 {
 	animation-delay: 9.5s;
@@ -596,6 +598,7 @@
         opacity: 0;
     }
 }
+
 
 @-moz-keyframes flipOutX {
     0% {
@@ -1384,6 +1387,7 @@
 	
 	100% {
 		opacity: 0;
+
 		-moz-transform: translateX(-20px);
 	}
 }
@@ -3589,3 +3593,4 @@
 	-o-animation-name: rollOut;
 	animation-name: rollOut;
 }
+
