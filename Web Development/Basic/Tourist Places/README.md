@@ -6,6 +6,7 @@
 
 <img align='center' alt='Demo' width='400px'  height='300px' src="https://github.com/Kushal997-das/tourist_places/blob/main/docs/kush_docs.gif"/> <br> <br>
 
+#
 - This is a tourist places website which is designed using Html,Css,bootstrap and javascript .<br>
 - In this website various tourist places in India are mentioned like GOA,MUMBAI,SHIMLA,DARJEELING,COORG,DELHI,JAIPUR etc.<br>
 - One can easily get the information about places and which is the best time and months to visit.<br>
@@ -17,5 +18,7 @@
 > Software/Editor used : Notepad++ <br>
 
   - Languages:Html,Css,bootstrap and javascript
+
+
 
 [Website Demo](https://priya510.github.io/tourist_places/) 
