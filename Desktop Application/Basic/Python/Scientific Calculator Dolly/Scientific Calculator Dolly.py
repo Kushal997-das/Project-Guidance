@@ -12,111 +12,111 @@ class Calculator:
         self.widget()
 
     def butn(self):
-        self.plus = Button(self.window,text="+",width=3,font=("arial",15,"bold"),fg="red",bg="#262626", activebackground="#262626",
+        self.plus = Button(self.window,text="+",width=3,font=("arial",15,"bold"),fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("+"), relief=RAISED, bd=3)
         self.plus.place(x=535,y=240)
 
-        self.subs = Button(self.window, text="-", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.subs = Button(self.window, text="-", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("-"), relief=RAISED, bd=3)
         self.subs.place(x=535, y=300)
 
-        self.mul = Button(self.window, text="X", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.mul = Button(self.window, text="X", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("X"), relief=RAISED, bd=3)
         self.mul.place(x=535, y=360)
 
-        self.div = Button(self.window, text="/", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.div = Button(self.window, text="/", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("/"), relief=RAISED, bd=3)
         self.div.place(x=535, y=420)
 
-        self.rad = Button(self.window, text="rad", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.rad = Button(self.window, text="rad", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("Radian"), relief=RAISED, bd=3)
         self.rad.place(x=440, y=360)
 
-        self.reci = Button(self.window, text="1/x", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.reci = Button(self.window, text="1/x", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("Reciprocal"), relief=RAISED, bd=3)
         self.reci.place(x=440, y=420)
 
 
-        self.sqr = Button(self.window, text="X^2", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.sqr = Button(self.window, text="X^2", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("Square"), relief=RAISED, bd=3)
         self.sqr.place(x=440, y=240)
 
-        self.cube = Button(self.window, text="X^3", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.cube = Button(self.window, text="X^3", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("Cube"), relief=RAISED, bd=3)
         self.cube.place(x=440, y=300)
 
-        self.equal = Button(self.window, text="=", width=11, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.equal = Button(self.window, text="=", width=11, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                             command=self.evaluation_opr, relief=RAISED, bd=3)
         self.equal.place(x=440, y=490)
 
         self.clear = Button(self.window, text="Information", width=11, font=("arial", 10, "bold"), activebackground="#262626",
-                            fg="red",bg="#262626",command=self.information, relief=RAISED, bd=3)
+                            fg="magenta",bg="#262626",command=self.information, relief=RAISED, bd=3)
         self.clear.place(x=480, y=68)
 
-        self.sqrt = Button(self.window, text="Square root", width=11, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.sqrt = Button(self.window, text="Square root", width=11, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("Square root"), relief=RAISED, bd=3)
         self.sqrt.place(x=10, y=240)
 
-        self.cubert = Button(self.window, text="Cube root", width=11, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.cubert = Button(self.window, text="Cube root", width=11, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("Cube root"), relief=RAISED, bd=3)
         self.cubert.place(x=200, y=240)
 
-        self.log2 = Button(self.window, text="log2", width=11, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.log2 = Button(self.window, text="log2", width=11, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("log2"), relief=RAISED, bd=3)
         self.log2.place(x=10, y=300)
 
-        self.log10 = Button(self.window, text="log10", width=11, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.log10 = Button(self.window, text="log10", width=11, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("log10"), relief=RAISED, bd=3)
         self.log10.place(x=200, y=300)
 
-        self.exponent = Button(self.window, text="e^x", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.exponent = Button(self.window, text="e^x", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("Exponent"), relief=RAISED, bd=3)
         self.exponent.place(x=200, y=360)
 
-        self.power = Button(self.window, text="X^Y", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.power = Button(self.window, text="X^Y", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("x^y"), relief=RAISED, bd=3)
         self.power.place(x=295, y=360)
 
-        self.factorial = Button(self.window, text="n!", width=5, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.factorial = Button(self.window, text="n!", width=5, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=lambda : self.opr("Factorial"), relief=RAISED, bd=3)
         self.factorial.place(x=10, y=360)
 
-        self.mod = Button(self.window, text="Mod", width=4, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.mod = Button(self.window, text="Mod", width=4, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                                 command=lambda: self.opr("Modulus"), relief=RAISED, bd=3)
         self.mod.place(x=94, y=360)
 
-        self.reset = Button(self.window, text="Reset", width=5, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.reset = Button(self.window, text="Reset", width=5, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                            command=self.reset_now, relief=RAISED, bd=3)
         self.reset.place(x=10, y=420)
 
-        self.reset = Button(self.window, text="Pi", width=4, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.reset = Button(self.window, text="Pi", width=4, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                             command=self.pi_val, relief=RAISED, bd=3)
         self.reset.place(x=95 ,y=420)
 
-        self.sin = Button(self.window, text="sin", width=5, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.sin = Button(self.window, text="sin", width=5, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                                command=lambda: self.opr("sin"), relief=RAISED, bd=3)
         self.sin.place(x=10, y=490)
 
-        self.cos = Button(self.window, text="cos", width=4, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.cos = Button(self.window, text="cos", width=4, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                             command=lambda: self.opr("cos"), relief=RAISED, bd=3)
         self.cos.place(x=95, y=490)
 
-        self.tan = Button(self.window, text="tan", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.tan = Button(self.window, text="tan", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                                 command=lambda: self.opr("tan"), relief=RAISED, bd=3)
         self.tan.place(x=200, y=490)
-        self.cot = Button(self.window, text="cot", width=3, font=("arial", 15, "bold"), fg="red",bg="#262626", activebackground="#262626",
+        self.cot = Button(self.window, text="cot", width=3, font=("arial", 15, "bold"), fg="sky blue",bg="#262626", activebackground="#262626",
                                 command=lambda: self.opr("cot"), relief=RAISED, bd=3)
         self.cot.place(x=295, y=490)
 
-        self.bye = Button(self.window, text="Exit", width=47, font=("arial", 15, "bold"), bg="#262626", fg="green", activebackground="#262626",
+        self.bye = Button(self.window, text="Exit", width=47, font=("arial", 15, "bold"), bg="#262626", fg="#FF0000", activebackground="#262626",
                            command=self.tata, relief=RAISED, bd=3)
         self.bye.place(x=10, y=560)
 
-        self.lcm = Button(self.window, text="LCM", width=3, font=("arial", 15, "bold"), bg="#262626", fg="red", activebackground="#262626",
+        self.lcm = Button(self.window, text="LCM", width=3, font=("arial", 15, "bold"), bg="#262626", fg="sky blue", activebackground="#262626",
                            command=lambda : self.opr("lcm"), relief=RAISED, bd=3)
         self.lcm.place(x=200, y=420)
 
-        self.hcf = Button(self.window, text="HCF", width=3, font=("arial", 15, "bold"), bg="#262626", fg="red", activebackground="#262626",
+        self.hcf = Button(self.window, text="HCF", width=3, font=("arial", 15, "bold"), bg="#262626", fg="sky blue", activebackground="#262626",
                            command=lambda : self.opr("hcf"), relief=RAISED, bd=3)
         self.hcf.place(x=295, y=420)
 
