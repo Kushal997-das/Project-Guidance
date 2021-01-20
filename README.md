@@ -77,7 +77,7 @@ Domain Names 🚀
 
 **We're accepting PRs for our open and unassigned [issues🐛](https://github.com/Kushal997-das/Project-Guidance/issues)**. Please check [CONTRIBUTING.md✨](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). We'd love your contributions! **Kindly follow the steps below to get started:** 
 
-**0.** Star[this](https://github.com/Kushal997-das/Project-Guidance) repository.
+**0.** Star [this](https://github.com/Kushal997-das/Project-Guidance) repository.
 
 **1.** Fork [this](https://github.com/Kushal997-das/Project-Guidance) repository.
 
