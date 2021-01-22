@@ -121,8 +121,9 @@ git push -u origin <your_branch_name>
 
 <br><br>
 
+## Stargazers over time 🤗🚀
 
-
+<img align="center" alt="Stargazers over time" src="https://starchart.cc/Kushal997-das/Project-Guidance.svg?raw=true&color=green" /><br><br>
 
 <a href ="https://github.com/Kushal997-das/Project-Guidance/graphs/contributors"><img align='center' height="25" src="https://img.shields.io/badge/contributors✨-green.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
 <a href ="https://github.com/Kushal997-das/Project-Guidance/discussions"><img align='center' height="25" src="https://img.shields.io/badge/Discussions-black.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
@@ -135,4 +136,6 @@ git push -u origin <your_branch_name>
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 [![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/Kushal997-das/)
+
+
 
