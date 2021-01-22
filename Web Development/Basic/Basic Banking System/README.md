@@ -1,6 +1,5 @@
 <a href="https://github.com/Kushal997-das/Basic-Banking-system"><img height="30" src="https://img.shields.io/badge/Basic Banking System Website-orange.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=blue" /></a> <br> <br>
 ![](https://img.shields.io/badge/Most_Programming_Language_Used-PHP-blue.svg)
-[![](https://img.shields.io/github/license/Kushal997-das/Webmap.svg?style=plastic)](https://github.com/priya510/Basic-Banking-system/tree/main)
 <a href="https://github.com/priya510/Basic-Banking-system/graphs/contributors"><img height="22" src="https://img.shields.io/badge/Basic Banking System Website-blue.svg?&style=for-the-badge&logo=kush&logoColor=blue" /></a>
 ![](https://img.shields.io/badge/Status-Complete-green.svg) <br><br>
 
