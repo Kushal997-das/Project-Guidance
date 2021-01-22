@@ -16,6 +16,8 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
   - Suppose you want to contribute one projet to one particular domain then first check is there any [Projects](https://github.com/Kushal997-das/Project-Guidance) exits with the same language or not.
   - If Yes that your project is already exits with the same programming language then you can't be able to add your project to this repo. 
   - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
+  - Please don't add any License under your project. This repo already under MIT License.
+  
   
     ## **Flow** :
       - Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request.
