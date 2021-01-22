@@ -1,6 +1,5 @@
 <a href="https://github.com/Kushal997-das/tourist_places"><img height="30" src="https://img.shields.io/badge/Tourist Places Website-yellow.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=blue" /></a> <br> <br>
 ![](https://img.shields.io/badge/Most_Programming_Language_Used-HTML-blue.svg)
-[![](https://img.shields.io/github/license/priya510/tourist_places.svg?style=plastic)](https://github.com/priya510/tourist_places/tree/main)
 ![GitHub contributors](https://img.shields.io/github/contributors/priya510/tourist_places)
 ![](https://img.shields.io/badge/Status-Complete-green.svg) <br><br>
 
