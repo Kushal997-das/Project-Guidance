@@ -1,0 +1,3 @@
+pyperclip
+win10toast
+mysql-connector-python
