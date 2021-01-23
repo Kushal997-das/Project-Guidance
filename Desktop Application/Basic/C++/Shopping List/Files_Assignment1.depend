@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1609003496 source:t:\fcai\code\files_assignment1\main.cpp
-	<iostream>
-	<fstream>
-	<sstream>
-	<algorithm>
-	<bits/stdc++.h>
-
