@@ -39,4 +39,14 @@ A web site to reserve hotels.
 * MySQL
 * Ajax
 
+###### See the following images to know more
+
+![Image1](https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Advanced/Hotel%20Reservation%20System/Image-1.jfif)
+
+![Image2](https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Advanced/Hotel%20Reservation%20System/Image-2.jfif)
+
+![Image3](https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Advanced/Hotel%20Reservation%20System/Image-3.jfif)
+
+![Image4](https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Advanced/Hotel%20Reservation%20System/Image-4.jfif)
+
 I hope this project helps other developers.
