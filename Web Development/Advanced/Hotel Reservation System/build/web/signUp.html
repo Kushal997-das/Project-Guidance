@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="hotelicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script src="jCaptcha.min.js"></script>
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
+            body{
+                min-height: 100vh;
+                background: #eee;
+                display: flex;
+                font-family: 'Nunito', sans-serif;
+            }
+            .container{
+                margin: auto;
+                width: 500px;
+                max-width: 90%
+            }
+            .container h1{
+                text-align: center;
+                margin: 50px;
+                font-family: 'Nunito', sans-serif;
+            }
+            .container form{
+                width: 100%;
+                height: 100%;
+                padding: 20px;
+                background: white;
+                border-radius: 1px;
+                box-shadow: 0 8px 16px rgba(0,0,0,.3);
+                padding-top: 50px;
+                padding-right: 50px;
+                padding-left: 50px;
+                padding-bottom: 50px;
+            }
+            .container form .form-control{
+                width: 100%;
+                height: 50px;
+                color: black;
+                background: #EAEAEA;
+                border-radius: 1px;
+                border: 0px solid silver;
+                margin: 0px 0 25px 0;
+                padding: 0 10px;
+                font-family: 'Nunito', sans-serif;
+            }
+            .container form .btn{
+                margin-left: 50%;
+                transform: translateX(-50%);
+                width: 100%;
+                height: 50px;
+                border: none;
+                outline: none;
+                background: linear-gradient(to right,rgba(79,172,254,.8),rgba(0,242,254,.8));
+                cursor: pointer;
+                font-size: 16px;
+                text-transform: uppercase;
+                color: white;
+                border-radius: 1px;
+                transition: .3s;
+                font-family: 'Nunito', sans-serif;
+            }
+            .container form .btn:hover{
+                opacity: .7;
+            }
+            .h1{
+                text-align: center;
+                margin-bottom: 24px;
+                margin: auto;
+                color: #222;
+                font-family: 'Nunito', sans-serif;
+            }
+            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: #B8B8B8;
+                opacity: 1; /* Firefox */
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+
+            .capbox {
+                background-color: #BBBBBB;
+                background-image: linear-gradient(#BBBBBB, #9E9E9E);
+                border: #2A7D05 0px solid;
+                border-width: 2px 2px 2px 20px;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                display: inline-block;
+                padding: 5px 8px 5px 8px;
+                border-radius: 4px 4px 4px 4px;
+            }
+
+            .capbox-inner {
+                font: bold 12px arial, sans-serif;
+                color: #000000;
+                background-color: #E3E3E3;
+                margin: 0px auto 0px auto;
+                padding: 3px 10px 5px 10px;
+                border-radius: 4px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            #CaptchaDiv {
+                color: #000000;
+                font: normal 25px Impact, Charcoal, arial, sans-serif;
+                font-style: italic;
+                text-align: center;
+                vertical-align: middle;
+                background-color: #FFFFFF;
+                user-select: none;
+                display: inline-block;
+                padding: 3px 14px 3px 8px;
+                margin-right: 4px;
+                border-radius: 4px;
+            }
+
+            #CaptchaInput {
+                border: #38B000 2px solid;
+                margin: 3px 0px 1px 0px;
+                width: 105px;
+            }
+
+
+            .subbutx3	{ padding: 10px 15px 10px 15px; font-weight: bold; }
+
+            .contain {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 25px;
+            }
+            #capt {
+                width: 170px;
+                height: 72px;
+                font-size: 37px;
+                background-color: #009879;
+                padding: 5px;
+                border: none;
+                letter-spacing: 1px;
+                float: left;
+                padding-left: 15px;
+                color: white;
+                border-radius: 5px 0 0 5px;
+            }
+            #refresh {
+                float: left;
+                color: white;
+                background-color: #009879;
+                height: 72px;
+                border-radius: 0 5px 5px 0;
+            }
+            #refresh img {
+                margin-top: 12px;
+                cursor: pointer;
+            }
+            #textinput {
+                width: 170px;
+                height: 70px;
+                font-size: 25px;
+                border: none;
+                margin-left: 10px;
+                border-radius: 5px;
+                padding: 5px;
+                color: #111;
+                background: #EAEAEA;
+                font-family: 'Nunito', sans-serif;
+
+            }
+            .contain button {
+                padding: 8px 20px;
+                height: 35px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                margin-left: 10px;
+                margin-top: 25px;
+                background-color: #764D11;
+                color: #CED4F0;
+                transition: .5s;
+            }
+            .contain button:hover {
+                background-color: #976216;
+            }
+
+
+
+        </style>
+        <script>
+
+            function checkForm2(form)
+            {
+                if (form.username.value === "") {
+                    var userName = document.getElementById("usernameError");
+                    userName.innerHTML = "   Error: Username cannot be blank!";
+                    userName.style.color = "red";
+                    form.username.focus();
+                    return false;
+                }
+                if (form.displayname.value === "") {
+                    var displayName = document.getElementById("displaynameError");
+                    displayName.innerHTML = "   Error: Display Name cannot be blank!";
+                    displayName.style.color = "red";
+                    form.displayname.focus();
+                    return false;
+                }
+                if (form.email.value === "") {
+                    var Email = document.getElementById("emailError");
+                    Email.innerHTML = "   Error: Email cannot be blank!";
+                    Email.style.color = "red";
+                    form.email.focus();
+                    return false;
+                }
+                if (form.phone.value === "") {
+                    var Phone = document.getElementById("phoneError");
+                    Phone.innerHTML = "   Error: Phone Number cannot be blank!";
+                    Phone.style.color = "red";
+                    form.phone.focus();
+                    return false;
+                }
+                var string1 = document.getElementById('capt').value;
+                var string2 = document.getElementById('textinput').value;
+                if (string1 == string2) {
+                    return true;
+                } else {
+                    alert("Invalid Captcha Code!");
+                    return false;
+                }
+            }
+            function myFunction(elem) {
+                if (elem.name === "username") {
+                    document.getElementById("usernameError").innerHTML = "";
+                }
+                if (elem.name === "displayname") {
+                    document.getElementById("displaynameError").innerHTML = "";
+                }
+                if (elem.name === "email") {
+                    document.getElementById("emailError").innerHTML = "";
+                }
+                if (elem.name === "phone") {
+                    document.getElementById("phoneError").innerHTML = "";
+                }
+            }
+
+
+            function cap() {
+
+                var alpha = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V'
+                            , 'W', 'X', 'Y', 'Z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
+                    'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+
+                var a = alpha[Math.floor(Math.random() * 62)];
+                var b = alpha[Math.floor(Math.random() * 62)];
+                var c = alpha[Math.floor(Math.random() * 62)];
+                var d = alpha[Math.floor(Math.random() * 62)];
+                var e = alpha[Math.floor(Math.random() * 62)];
+                var f = alpha[Math.floor(Math.random() * 62)];
+
+                var sum = a + b + c + d + e + f;
+
+                document.getElementById("capt").value = sum;
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="hotelicon.png" alt="Hotel Reservation System" width="100" height="100" class="center">
+            <h1>Create a new account</h1>
+            <form onsubmit= "return checkForm2(this)" action="signupValidation" method="Post">     
+                <div class="form-group">
+                    <input type="text" class="form-control" name="username" id="username" placeholder="Username" onchange="myFunction(this)">
+                    <label id="usernameError"></label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="displayname" id="displayname" placeholder="Display Name" onchange="myFunction(this)">
+                    <label id="displaynameError"></label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email Address" onchange="myFunction(this)">
+                    <label id="emailError"></label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number" onchange="myFunction(this)">
+                    <label id="phoneError"></label>
+                </div>
+                <div class="contain">
+                    <input type="text" id="capt" readonly="readonly" >
+                    <div id="refresh"> <img src="refresh_white.png" style="width: 50px;" onclick="cap()"></div>
+                    <input type="text" id="textinput"  placeholder="Type ...">
+                </div>
+                <div class="error-ajax"></div>
+                <input type="submit" class="btn" value="Sign Up" onclick="goToReg()">
+            </form>
+
+        </div>
+    </body>
+</html>
