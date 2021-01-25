@@ -1,0 +1,5 @@
+Queue Visualizer
+Read the following points carefully before use.
+After  running the program if you want to insert or delete kindly do as tell below
+1: Press 1 for Insert 
+2: Press 2 for Delete 
