@@ -1,0 +1,7 @@
+Queue Visualizer
+Hey Guys If you want to run this project so you should first read the informations given below ...
+1:Open the program
+2:There you can see two options 1:Insert 2:Delete
+3:If you Press 1 Then it will ask you to enter data you want to insert.
+4:If you Press 2 So it will delete the data inserted at front.
+Now Enjoy the Project..
