@@ -14,7 +14,7 @@ This project an application for `Primary` and `Secondary` Index file structure.
 * Search by category.
 * Update item (Name - Category - Quantity - All).
 
-=> The following image to describe the program running state:
+###### The following image to describe the program running state:
 
 ![Shopping List Image](https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Basic/C%2B%2B/Shopping%20List/Shopping-Image.png)
 
