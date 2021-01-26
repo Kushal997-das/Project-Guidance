@@ -15,3 +15,9 @@ the Router will not accept other incoming connection until an existing connectio
 
 -> Can choose between Console Application and GUI Application once running the program.
 
+###### See the following image to know more about how to use the program
+
+![Image](https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization/Router%20S-Img.png)
+
+Have Fun!
+
