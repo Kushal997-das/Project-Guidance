@@ -6,7 +6,7 @@ This project implements the red black tree with gui in java
 * Delete
 * Clear
 
-###### see the following image to know more
+###### See the following image to know more
 
 ![Image-RBT](https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI/Image-rbt.png)
 
