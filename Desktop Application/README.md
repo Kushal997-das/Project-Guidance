@@ -41,11 +41,11 @@
   - ### ***_[Python Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)_***
 
 ***
-## ***_<p align="center">Show ❤️ by Starring this Repo</p>_***
+<h1><i> <p align="center">Show ❤️ by Starring this Repo</p> </i></h1>
 
-## <p align="center">🌷 More languages will added consecutively. 🌷</p>
+<h1><i> <p align="center">🌷 More languages will added consecutively. 🌷</p></i></h1>
  
-## <p align="center">🌱 We welcome all contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🌱</p>
+<h1><i> <p align="center">🌱 We welcome all contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🌱</p></i></h1>
 
 <h1></h1>
 
