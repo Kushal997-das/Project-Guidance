@@ -46,7 +46,7 @@
 
 <h3><i> <p align="center"> 💌 More languages will added consecutively. 💌</p> </i></h3>
 
-## <p align="center"> 🎉 We welcome all contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉
+### <p align="center"> 🎉 We welcome all contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉
 
 
 
