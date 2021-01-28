@@ -1,6 +1,6 @@
 <p align="center">
  <h1 align="center">Desktop Applications</h1>
- <img src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Desktop-Image.png" align="center" alt="Desktop Application Image" />
+ <img src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Documents/Desktop-Image.png?raw=true" align="center" alt="Desktop Application Image" />
    <p align="center"><strong>Welcome Developers to Desktop Application Domain of Project Guidance</strong></p>
 </p>
 
