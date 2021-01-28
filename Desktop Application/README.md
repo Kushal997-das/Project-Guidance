@@ -12,9 +12,9 @@
 
 <h1> ⚒️ In this directory `Desktop Application` there are 3 levels:</h1>
 
-* ## ***_Basic_***
-* ## ***_Intermediate_***
-* ## ***_Advanced_***
+<h3><i> 📢 Basic</i></h3>
+<h3><i> 📢 Intermediate</i></h3>
+<h3><i> 📢 Advanced</i></h3>
 
 <h1> 🎯 In each level you will find paths for programming languages such as:</h1>
 
