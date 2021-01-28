@@ -12,7 +12,7 @@
 
 <h2> 🎯 In each level you will find paths for programming languages such as:</h2>
 
-- <h2>Basic</h2>
+- <h2><i>Basic</i></h2>
 
   - ### ***_[C Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)_***
 
@@ -22,13 +22,13 @@
 
   - ### ***_[Python Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)_***
 
-- <h2>Intermediate</h2>
+- <h2><i>Intermediate</i></h2>
 
   - ### ***_[Java Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)_***
 
   - ### ***_[Python Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)_***
   
-- <h2>Advanced</h2>
+- <h2><i>Advanced</i></h2>
 
   - ### ***_[C++ Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)_***
 
