@@ -10,12 +10,13 @@
 
 </br>
 
-# ⚒️ In this directory `Desktop Application` there are 3 levels:
+<h1> ⚒️ In this directory `Desktop Application` there are 3 levels:</h1>
+
 * ## ***_Basic_***
 * ## ***_Intermediate_***
 * ## ***_Advanced_***
 
-# 🎯 In each level you will find paths for programming languages such as:
+<h1> 🎯 In each level you will find paths for programming languages such as:</h1>
 
 - ## ***_Basic_***
   - ### ***_[C Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)_***
