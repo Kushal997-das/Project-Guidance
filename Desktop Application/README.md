@@ -54,6 +54,110 @@ print("Hello World")
 
 More languages will added consecutively.
 
+### Desktop Application Tree Structure:
+<details>
+  <summary>Click to expand</summary>
+
+```bash
+
+├───Advanced
+│   ├───C++
+│   │   ├───Car Zone
+│   │   │   └───screenshot of car zone
+│   │   └───Paint With UG
+│   ├───Java
+│   │   └───Red Black Tree GUI
+│   │       ├───.settings
+│   │       ├───bin
+│   │       │   ├───rbt
+│   │       │   └───res
+│   │       └───src
+│   │           ├───rbt
+│   │           └───res
+│   └───Python
+│       ├───Sketch With Sam
+│       │   ├───Icons
+│       │   ├───Pictures
+│       │   ├───Saved_file
+│       │   └───Screen_shots
+│       └───Tic-Tac-Toe-AI
+├───Basic
+│   ├───C
+│   │   └───Library managment
+│   ├───C++
+│   │   ├───Queue Visualizer
+│   │   │   └───screenshots
+│   │   └───Shopping List
+│   ├───Java
+│   │   ├───CPU Scheduler
+│   │   │   ├───.idea
+│   │   │   ├───out
+│   │   │   │   └───production
+│   │   │   │       └───CPU-Scheduler
+│   │   │   └───src
+│   │   └───LudoGame
+│   │       ├───Data
+│   │       │   ├───die
+│   │       │   ├───opening
+│   │       │   ├───player
+│   │       │   └───start
+│   │       └───src
+│   │           ├───Animation
+│   │           ├───main
+│   │           ├───player
+│   │           └───ResourseEngine
+│   └───Python
+│       ├───Capture Image
+│       │   └───Documents
+│       ├───Check your internet conncetion
+│       │   └───documents
+│       ├───Circular-Queue-Visualizer
+│       ├───Flim Data Collector
+│       │   └───Images_for_README
+│       ├───Generation-Sam-Music-Player
+│       │   ├───Images_for_README
+│       │   └───Pictures
+│       ├───Graph-Traversing-Visualizer
+│       ├───Guess The Word
+│       ├───Scientific Calculator Dolly
+│       │   └───Documents
+│       ├───Searching-Algo-Visualizer
+│       │   └───Images
+│       ├───Shivji Sketch Using Turtle
+│       ├───Stack-Visualizer
+│       ├───Story-Generator
+│       │   └───Documents
+│       ├───Tic-Tac-Toe
+│       └───Track Phone number location
+│           └───Documents
+└───Intermediate
+    ├───Java
+    │   ├───CMD
+    │   │   ├───.settings
+    │   │   ├───bin
+    │   │   │   ├───main
+    │   │   │   └───major
+    │   │   └───src
+    │   │       └───main
+    │   └───Router Synchronization
+    │       ├───.settings
+    │       ├───bin
+    │       │   └───synchronizationPackage
+    │       └───src
+    │           └───synchronizationPackage
+    └───Python
+        ├───Binary-Search-Tree-Visualizer
+        │   └───__pycache__
+        ├───Ludo_Game
+        │   ├───Help to understand
+        │   └───Images
+        └───Password-Generator-and-Manager
+
+```
+
+</details>
+
+
 We welcome all contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md).
 
 <h1></h1>
