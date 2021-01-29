@@ -10,7 +10,7 @@
 
 </br>
 
-<h2> 🎯 In each level you will find paths for programming languages such as:</h2>
+<h2> 🎯 Explore <i>Desktop Application</i> With Three Level:</h2>
 
 - <h2><i>Basic</i></h2>
 
