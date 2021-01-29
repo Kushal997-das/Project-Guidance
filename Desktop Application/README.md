@@ -9,9 +9,9 @@
 
 </br>
 
-<h2> 🎯 Explore <i>Desktop Application</i> With Three Level:</h2>
+<h2> 🎯 Explore <i>Desktop Application</i> With Three Level:-</h2>
 
-- <h2>Basic</h2>
+- <h2>🚩 Basic</h2>
 
   - [<h2>🌼 C Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)</br>
     [<h3 align="center"> 🔱 Library Management 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
@@ -86,13 +86,13 @@
     <p align="center"><img src="https://github.com/shrutijain0/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Story-Generator/Documents/ezgif.com-video-to-gif.gif" alt="jpg" /></p></br>
 
 
-- <h2>Intermediate</h2>
+- <h2>🚩 Intermediate</h2>
 
   - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)
 
   - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)
   
-- <h2>Advanced</h2>
+- <h2>🚩 Advanced</h2>
 
   - [<h2>🌼 C++ Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)
 
