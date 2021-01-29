@@ -26,7 +26,7 @@
     <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Basic/C%2B%2B/Shopping%20List/Shopping-Image.png" alt="jpg" width=1000px></p>
     
     ### <p align="center">***_3. [Stack Visualizer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stack%20Visualizer)_***</p>
-    <p align="center"><img src="https://user-images.githubusercontent.com/75884061/106172026-4c7bf180-61b8-11eb-8f68-ea3266a7737b.png" alt="jpg" width=1000px></p>
+    <p align="center"><img src="https://user-images.githubusercontent.com/75884061/106172026-4c7bf180-61b8-11eb-8f68-ea3266a7737b.png" alt="jpg" width=1000px height=500px></p>
 
   - ### ***_[Java Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)_***
 
