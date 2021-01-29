@@ -86,24 +86,19 @@
     <p align="center"><img src="https://github.com/shrutijain0/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Story-Generator/Documents/ezgif.com-video-to-gif.gif" alt="jpg" /></p></br>
 
 
+- <h2>Intermediate</h2>
 
+  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)
 
-
-
-
-- <h2><i>Intermediate</i></h2>
-
-  - ## ***_[🌼 Java Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)_***
-
-  - ## ***_[🌼 Python Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)_***
+  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)
   
-- <h2><i>Advanced</i></h2>
+- <h2>Advanced</h2>
 
-  - ## ***_[🌼 C++ Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)_***
+  - [<h2>🌼 C++ Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)
 
-  - ## ***_[🌼 Java Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)_***
+  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)
 
-  - ## ***_[🌼 Python Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)_***
+  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)
 
 ***
 
