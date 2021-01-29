@@ -16,7 +16,8 @@
   - [<h3>🌼 C Programming Language</h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
     ## <p align="center">1. [🔱 Library Management 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)</p>
     <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Desktop%20Application/Basic/C/Library%20managment/Screenshot%202021-01-27%20223853.png?raw=true" alt="jpg" /></p>
-  
+
+  ***
   - [<h3>🌼 C++ Programming Language<h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
 
     ## <p align="center">1. [🔱 Queue Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Queue%20Visualizer)</p>
@@ -28,12 +29,16 @@
     ## <p align="center">3. [🔱 Stack Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stack%20Visualizer)</p>
     <p align="center"><img src="https://user-images.githubusercontent.com/75884061/106172026-4c7bf180-61b8-11eb-8f68-ea3266a7737b.png" alt="jpg" /></p>
 
+***
+
   - [<h3>🌼 Java Programming Language</h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)
     ## <p align="center">1. [🔱 CPU Scheduler 🔱](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)</p>
     <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/CPU%20Scheduler/CPU-Image.png" alt="jpg" /></p>
     
     ## <p align="center">2. [🔱 Ludo Game 🔱](https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif)</p>
     <p align="center"><img src="https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif" alt="jpg" /></p>
+
+***
 
   - [<h3>🌼 Python Programming Language</h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)
     ## <p align="center">1. [🔱 Capture Image 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Capture%20Image)</p>
