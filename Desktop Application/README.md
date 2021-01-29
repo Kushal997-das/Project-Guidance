@@ -5,7 +5,7 @@
 
 <h1></h1>
 
-> In this directory you will find an awesome desktop applications from different levels and programming languages, Our projects developed from a passionate developers to help beginners with their way in learning programming and practice in effective way by builing a greate projects.
+> <h4>🍊 In this directory you will find an awesome desktop applications from different levels and programming languages, Our projects developed from a passionate developers to help beginners with their way in learning programming and practice in effective way by builing a great projects. 🍊</h4>
 
 </br>
 
