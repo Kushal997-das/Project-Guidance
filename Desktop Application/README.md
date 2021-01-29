@@ -16,7 +16,7 @@
 
   - ### ***_[C Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)_***
     ### <p align="center">***_1. [Library Management](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)_***</p>
-    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Desktop%20Application/Basic/C/Library%20managment/Screenshot%202021-01-27%20223853.png?raw=true" alt="jpg" width=500px></p>
+    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Desktop%20Application/Basic/C/Library%20managment/Screenshot%202021-01-27%20223853.png?raw=true" alt="jpg" width=1000px></p>
   
   - ### ***_[C++ Programming Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)_***
     ### <p align="center">***_1. [Queue Visualizer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Queue%20Visualizer)_***</p>
