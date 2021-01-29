@@ -1,7 +1,6 @@
-<p align="center">
-<h1 align="center">Desktop Applications</h1>
- <img src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Documents/Desktop-Image.png?raw=true" align="center" alt="Desktop Application Image" />
-   <h3><p align="center"><strong>Welcome Developers to Desktop Application Domain of Project Guidance</strong></p>
+<h1 align="center">💙 Desktop Applications 💙</h1>
+<p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Documents/Desktop-Image.png?raw=true" alt="Desktop Application Image" width=800px />
+   <h3><p align="center"><strong>😮 Welcome Developers to Desktop Application Domain of Project Guidance 😮</strong></p>
 </p></h3>
 
 <h1></h1>
