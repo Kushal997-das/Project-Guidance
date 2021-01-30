@@ -88,28 +88,58 @@
 
 - <h2>🚩 Intermediate</h2>
 
-  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)
+  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)</br>
 
-  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)
+    [<h3 align="center"> 🔱 CMD 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
+    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Intermediate/Java/CMD/CMD-Image.png" alt="jpg" /></p>
+    
+    [<h3 align="center"> 🔱 Router Synhronization 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization)
+    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization/Router%20S-Img.png" alt="jpg" /></p></br>
+
+
+  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)</br>
+
+    [<h3 align="center"> 🔱 Binry Serch Tree Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Binary-Search-Tree-Visualizer)
+    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/raw/main/Desktop%20Application/Intermediate/Python/Binary-Search-Tree-Visualizer/bst_gif.gif"></p>
+
+    [<h3 align="center"> 🔱 Ludo Game 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Ludo_Game)
+    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Desktop%20Application/Intermediate/Python/Ludo_Game/ludo_gif.gif?raw=true"></p>
+    
+    [<h3 align="center"> 🔱 Password Generator and Manager 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Password-Generator-and-Manager)
+    <p align="center"><img src="https://raw.githubusercontent.com/smv1999/Password-Generator-and-Manager/main/save_password.png" alt="jpg" /></p></br>
   
 - <h2>🚩 Advanced</h2>
 
-  - [<h2>🌼 C++ Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)
+  - [<h2>🌼 C++ Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)</br>
 
-  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)
+    [<h3 align="center"> 🔱 Car Zone 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B/Car%20Zone)
+    <p align="center"><img src="https://user-images.githubusercontent.com/75884061/105381759-58eed000-5c35-11eb-9eee-7112eb0f7f0f.png" alt="jpg" /></p>
+    
+    [<h3 align="center"> 🔱 Paint With UG 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG)
+    <p align="center"><img src="https://user-images.githubusercontent.com/75884061/105488952-79bc3180-5cd8-11eb-9e32-55c1f0afd456.jpeg" alt="jpg" /></p></br>
 
-  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)
+  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)</br>
+
+    [<h3 align="center"> 🔱 Red Black Tree GUI 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
+    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI/Image-rbt.png" alt="jpg" /></p></br>
+
+  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)</br>
+
+    [<h3 align="center"> 🔱 Sketch With Sam 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Sketch%20With%20Sam)
+    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/raw/main/Desktop%20Application/Advanced/Python/Sketch%20With%20Sam/sketch_gif.gif" alt="jpg" /></p>
+    
+    [<h3 align="center"> 🔱 Tic-Tac-Toe-AI 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Tic-Tac-Toe-AI)
+    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/raw/main/Desktop%20Application/Advanced/Python/Tic-Tac-Toe-AI/game_gif.gif" alt="jpg" /></p></br>
 
 ***
 
-<h3><i> <p align="center">Show ❤️ by Starring this Repo</p> </i></h3>
+<h3> <p align="center">Show ❤️ by Starring this Repo</p> </h3>
 
-<h3><i> <p align="center"> 💌 More languages will added consecutively. 💌</p> </i></h3>
+<h3> <p align="center"> 💌 More languages will added consecutively. 💌</p> </h3>
 
-### <p align="center"> 🎉 We welcome all contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉
+### <p align="center"> 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉
 
-
-
-[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/Kushal997-das/)
