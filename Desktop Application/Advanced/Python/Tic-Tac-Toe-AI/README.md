@@ -21,6 +21,6 @@
 
 ---
 # <p align="center">💡 ***_Links_*** 💡</p>
-- ## [Click Here to See the Project Video]()
+- ## [Click Here to See the Project Video](https://youtu.be/eDpWs09ZGvI)
 
 - ## [Follow Me on LinkedIn to Get Regular Project Updates](https://www.linkedin.com/in/samarpan-dasgupta-4aa1061b0/ "LCO")
