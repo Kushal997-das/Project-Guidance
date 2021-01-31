@@ -18,6 +18,10 @@ are able to manage all applications in an efficient manner.
 * Performing operations on vacancies: apply and save (by job seeker)
 * Performing operations on vacancies: hide (by employer)
 
+> Functionalities Image Example [Update Vacancy]:
+
+![Update Vacnciy](https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Basic/SQL/Recruitment%20System/Project%20functions/Update%20vacancy.png)
+
 ###### Project Queries
 * What was the most interesting job “title” that had maximum number of applicants?
 * What was the announced job “title” that hadn’t any applicants last month?
