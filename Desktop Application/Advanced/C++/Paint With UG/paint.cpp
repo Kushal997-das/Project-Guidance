@@ -151,6 +151,7 @@ while(1)
         x1=cursor_pos->x;
         y1=cursor_pos->y;
         putpixel(x1-5,y1-23,getcolor());
+    put(Start,x1-20,y1-20,x1+20,y1+20,getcolor());
     }
 }
 }
@@ -365,7 +366,8 @@ void make_line(POINT *cursor_pos,struct node **Start)
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
         setcolor(getbkcolor());
-     line(x1-5,y1-20,x2-5,y2-20);
+
+      line(x1-5,y1-20,x2-5,y2-20);
      setcolor(color);
         GetCursorPos(cursor_pos);
         x2=cursor_pos->x;
@@ -386,6 +388,7 @@ void make_line(POINT *cursor_pos,struct node **Start)
      line(x1-5,y1-20,x2-5,y2-20);
     setcolor(color);
         line(x1-5,y1-20,x2-5,y2-20);
+        put(Start,x1-20,y1-20,x1+20,y2+20,getcolor());
     i=0;
     }
     delay(50);
@@ -484,7 +487,7 @@ rectangle(0,125,40,160);
 settextstyle(BOLD_FONT,HORIZ_DIR,4);
 outtextxy(8,126,"A");
 settextstyle(DEFAULT_FONT,HORIZ_DIR,1);
-//Save
+ //Save
 rectangle(0,165,40,200);
 rectangle(10,170,30,195);
 line(10,170,15,178);
