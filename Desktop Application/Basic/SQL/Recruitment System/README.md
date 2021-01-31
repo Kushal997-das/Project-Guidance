@@ -29,3 +29,11 @@ are able to manage all applications in an efficient manner.
 * Who were the employers didn’t announce any job last month?
 * What were the available positions at each employer last month?
 * For each seeker, retrieve all his/her information and the number of jobs he applied for
+
+> Queries Image Example [For each seeker, retrieve all his/her information and the number of jobs he applied for]:
+
+![Query Image](https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Basic/SQL/Recruitment%20System/Project%20Queries/Query%206.png)
+
+> I hope this helps other developers
+
+Have Fun! 
