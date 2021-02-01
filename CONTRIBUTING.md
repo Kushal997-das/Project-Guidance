@@ -45,6 +45,20 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
  $ git rebase upstream/<branch-name>  
  ```  
  
+ - See the following image:
+ 
+ > Fork the repository by clicking on `Fork` button
+ 
+ ![Fork-Image](https://github.com/TawfikYasser/Project-Guidance/blob/main/Documents/Fork-Image.png)
+  
+ > Clone the repository by clicking ob `Code` button
+ 
+ ![Clone-Image](https://github.com/TawfikYasser/Project-Guidance/blob/main/Documents/Clone-Image.png)
+ 
+ > Then click on the `clipboard` icon and follow the above commands 
+ 
+ ![Clone-Image-2](https://github.com/TawfikYasser/Project-Guidance/blob/main/Documents/Clone-Link-Image.png)
+ 
  ## Step 3 : Choose your domain.
 - Create a branch  :
  ``` 
