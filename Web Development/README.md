@@ -25,9 +25,10 @@
   <h3>No Intermediate Projects to Display</h3>
   </br>
 
-- <h2>🚩 Advanced</h2>
+- [<h2>🚩 Advanced</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced)
 
-  - [<h3>Hotel Reservation System</h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/Hotel%20Reservation%20System)</br>
+  - [<h3>Hotel Reservation System</h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/Hotel%20Reservation%20System)
+  </br>
   
 
 ---
