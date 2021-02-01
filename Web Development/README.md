@@ -14,35 +14,21 @@
 - <h2>🚩 Basic</h2>
 
   - [<h2>🌼 Basic Banking System</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Basic%20Banking%20System)</br>
-    <p align="center"><img src="https://github.com/Kushal997-das/Basic-Banking-system/blob/main/docs/gif%20(2).gif?raw=true" alt="jpg" /></p></br>
 
   - [<h2>🌼 JTM Project</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/JTM%20Project)</br>
-  <p align="center"><img src="https://github.com/TawfikYasser/JTM-Site/blob/main/JTM-Image.png?raw=true" alt="jpg" /></p></br>
 
   - [<h2>🌼 Multiply JSP</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Multiply%20JSP)</br>
-  <p align="center">
-  <img  width="45%" src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Basic/Multiply%20JSP/Img-1.png?raw=true" alt="jpg" />
-  <img width="45%" src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Basic/Multiply%20JSP/Img-2.png?raw=true" alt="jpg" />
-  </p>
-  </br>
-
+  
   - [<h2>🌼 Tourist Places</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Tourist%20Places)</br>
-  <p align="center"><img src="https://github.com/Kushal997-das/tourist_places/blob/main/docs/kush_docs.gif?raw=true" alt="jpg" /></p></br>
-
+  
 - <h2>🚩 Intermediate</h2>
   <h3>No Intermediate Projects to Display</h3>
+  </br>
 
 - <h2>🚩 Advanced</h2>
 
   - [<h2>🌼 Hotel Reservation System</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/Hotel%20Reservation%20System)</br>
-  <p align="center">
-  <img  width="45%" src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Advanced/Hotel%20Reservation%20System/Image-1.jfif?raw=true" alt="jpg" />
-  <img width="45%" src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Advanced/Hotel%20Reservation%20System/Image-2.jfif?raw=true" alt="jpg" />
-  </p>
-  <p align="center">
-  <img  width="45%" src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Advanced/Hotel%20Reservation%20System/Image-3.jfif?raw=true" alt="jpg" />
-  <img width="45%" src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Web%20Development/Advanced/Hotel%20Reservation%20System/Image-4.jfif?raw=true" alt="jpg" />
-  </p>
+  
 
 ---
 
