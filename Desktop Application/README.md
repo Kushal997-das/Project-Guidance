@@ -92,17 +92,9 @@
     </br>
 
   - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)
+  
+    - [<h3 >  Red Black Tree GUI </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - [<h3 >  Red Black Tree GUI </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
-=======
-    - [<h3 >  Red Black Tree GUI ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
->>>>>>> ab91ba5da1c695a35efe95ae58dc95db4c91e059
-=======
-    - [<h3 >  Red Black Tree GUI </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
->>>>>>> e843da3d6070344f224d0332c5218264f839e6ae
-    
     - [<h3 > Notification REST API </h3>](https://github.com/TawfikYasser/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API)
     </br>
 
