@@ -13,134 +13,105 @@
 
 - <h2>🚩 Basic</h2>
 
-  - [<h2>🌼 C Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)</br>
-    [<h3 align="center"> 🔱 Library Management 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
-    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Desktop%20Application/Basic/C/Library%20managment/Screenshot%202021-01-27%20223853.png?raw=true" alt="jpg" /></p></br>
+  - [<h2> C </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
+    - [<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
+    </br>
 
+  - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
 
-  - [<h2>🌼 C++ Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)</br>
-
-    [<h3 align="center"> 🔱 Queue Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Queue%20Visualizer)
-    <p align="center"><img src="https://user-images.githubusercontent.com/75884061/105746071-fe22e480-5f64-11eb-8551-78167c5eb0b5.png" alt="jpg" /></p>
+    - [<h3 >  Queue Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Queue%20Visualizer)
     
-    [<h3 align="center"> 🔱 Shopping List 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Shopping%20List)
-    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Basic/C%2B%2B/Shopping%20List/Shopping-Image.png" alt="jpg" /></p>
+    - [<h3 >  Shopping List </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Shopping%20List)
     
-    [<h3 align="center"> 🔱 Stack Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stack%20Visualizer)
-    <p align="center"><img src="https://user-images.githubusercontent.com/75884061/106172026-4c7bf180-61b8-11eb-8f68-ea3266a7737b.png" alt="jpg" /></p></br>
+    - [<h3 >  Stack Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stack%20Visualizer)</br>
 
-  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)</br>
-    [<h3 align="center"> 🔱 CPU Scheduler 🔱](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)
-    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/CPU%20Scheduler/CPU-Image.png" alt="jpg" /></p>
-    
-    [<h3 align="center"> 🔱 Ludo Game 🔱](https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif)
-    <p align="center"><img src="https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif" alt="jpg" /></p></br>
-
-
-  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)</br>
-    [<h3 align="center"> 🔱 Capture Image 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Capture%20Image)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Capture%20Image/Documents/docs.gif?raw=true" alt="jpg"/></p>
-        
-    [<h3 align="center"> 🔱 Check Your Internet Connection 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Check%20your%20internet%20conncetion)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Check%20your%20internet%20conncetion/documents/demo1.gif?raw=true" alt="jpg" /></p>
-
-    [<h3 align="center"> 🔱 Circular Queue Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Circular-Queue-Visualizer)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Circular-Queue-Visualizer/CQ_gif.gif?raw=true" alt="jpg" /></p>
-    
+  - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)
+    - [<h3 >  CPU Scheduler </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)
   
-    [<h3 align="center"> 🔱 Flim Data Collector 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Flim%20Data%20Collector)
-    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Flim%20Data%20Collector/Images_for_README/flim_gif.gif" alt="jpg" /></p>
+    - [<h3 >  Ludo Game </h3>](https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif)
+    </br>
 
-    [<h3 align="center"> 🔱 Generation-Sam-Music-Player 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Generation-Sam-Music-Player)
-    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Generation-Sam-Music-Player/Images_for_README/music_gif.gif" alt="jpg" /></p>
+  - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)
+    - [<h3 >  Capture Image </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Capture%20Image)
+    </p>
+        
+    - [<h3 >  Check Your Internet Connection </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Check%20your%20internet%20conncetion)
     
-    [<h3 align="center"> 🔱 Graph Traversing Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Graph-Traversing-Visualizer)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Graph-Traversing-Visualizer/graph_visualizer_algo.gif?raw=true" alt="jpg" /></p>
+    - [<h3 >  Circular Queue Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Circular-Queue-Visualizer)
+  
+    - [<h3 >  Flim Data Collector </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Flim%20Data%20Collector)
+    
+    - [<h3 >  Generation-Sam-Music-Player </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Generation-Sam-Music-Player)
+    
+    - [<h3 >  Graph Traversing Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Graph-Traversing-Visualizer)
+    
+    - [<h3 >  Guess The Word </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Guess%20The%20Word)
+    
+    - [<h3 >  Scientific Calculator Dolly </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Scientific%20Calculator%20Dolly)
 
-    [<h3 align="center"> 🔱 Guess The Word 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Guess%20The%20Word)
-    <p align="center"><img src="https://github.com/shrutijain0/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Guess%20The%20Word/GTW.gif" alt="jpg" /></p>
+    - [<h3 >  Searching Algo Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Searching-Algo-Visualizer)
     
+    - [<h3 >  Shivji Sketch Using Turtle </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Shivji%20Sketch%20Using%20Turtle)
     
-    [<h3 align="center"> 🔱 Scientific Calculator Dolly 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Scientific%20Calculator%20Dolly)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Scientific%20Calculator%20Dolly/Documents/Calculator_gif.gif?raw=true" alt="jpg" /></p>
-
-    [<h3 align="center"> 🔱 Searching Algo Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Searching-Algo-Visualizer)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Searching-Algo-Visualizer/searching_algo_gif.gif?raw=true" alt="jpg" width=600px height=500px /></p>
+    - [<h3 >  Stack Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe)
+        
+    - [<h3 >  Tic-Tac-Toe </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe)
     
-    
-    [<h3 align="center"> 🔱 Shivji Sketch Using Turtle 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Shivji%20Sketch%20Using%20Turtle)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Shivji%20Sketch%20Using%20Turtle/shiv.gif?raw=true" alt="jpg" /></p>
-
-    [<h3 align="center"> 🔱 Stack Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Stack-Visualizer/stack_gif.gif?raw=true" alt="jpg" /></p>
-    
-    
-    [<h3 align="center"> 🔱 Tic-Tac-Toe 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe/tic-tac-toe-gif.gif?raw=true" alt="jpg" /></p>
-
-    [<h3 align="center"> 🔱 Track Phone Number Location 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Track%20Phone%20number%20location)
-    <p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Track%20Phone%20number%20location/Documents/locationtracker.gif?raw=true" alt="jpg" /></p>
-    
-    
-    [<h3 align="center"> 🔱 Story Generator 🔱 </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Story-Generator)
-    <p align="center"><img src="https://github.com/shrutijain0/Project-Guidance/raw/main/Desktop%20Application/Basic/Python/Story-Generator/Documents/ezgif.com-video-to-gif.gif" alt="jpg" /></p></br>
+    - [<h3 >  Track Phone Number Location </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Track%20Phone%20number%20location)
+        
+    - [<h3 >  Story Generator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Story-Generator)
+    </br>
 
 
 - <h2>🚩 Intermediate</h2>
 
-  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)</br>
+  - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)
 
-    [<h3 align="center"> 🔱 CMD 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
-    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Intermediate/Java/CMD/CMD-Image.png" alt="jpg" /></p>
+    - [<h3 >  CMD </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
+    </p>
     
-    [<h3 align="center"> 🔱 Router Synhronization 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization)
-    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization/Router%20S-Img.png" alt="jpg" /></p></br>
+    - [<h3 >  Router Synhronization </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization)
+    </br>
 
+  - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)
 
-  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)</br>
-
-    [<h3 align="center"> 🔱 Binry Serch Tree Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Binary-Search-Tree-Visualizer)
-    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/raw/main/Desktop%20Application/Intermediate/Python/Binary-Search-Tree-Visualizer/bst_gif.gif"></p>
-
-    [<h3 align="center"> 🔱 Ludo Game 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Ludo_Game)
-    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Desktop%20Application/Intermediate/Python/Ludo_Game/ludo_gif.gif?raw=true"></p>
+    - [<h3 >  Binry Serch Tree Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Binary-Search-Tree-Visualizer)
     
-    [<h3 align="center"> 🔱 Password Generator and Manager 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Password-Generator-and-Manager)
-    <p align="center"><img src="https://raw.githubusercontent.com/smv1999/Password-Generator-and-Manager/main/save_password.png" alt="jpg" /></p></br>
+    - [<h3 >  Ludo Game </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Ludo_Game)
+    
+    - [<h3 >  Password Generator and Manager</h3> ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Password-Generator-and-Manager)
+    </br>
   
 - <h2>🚩 Advanced</h2>
 
-  - [<h2>🌼 C++ Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)</br>
+  - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)
 
-    [<h3 align="center"> 🔱 Car Zone 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B/Car%20Zone)
-    <p align="center"><img src="https://user-images.githubusercontent.com/75884061/105381759-58eed000-5c35-11eb-9eee-7112eb0f7f0f.png" alt="jpg" /></p>
+    - [<h3 >  Car Zone </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B/Car%20Zone)
     
-    [<h3 align="center"> 🔱 Paint With UG 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG)
-    <p align="center"><img src="https://user-images.githubusercontent.com/75884061/105488952-79bc3180-5cd8-11eb-9e32-55c1f0afd456.jpeg" alt="jpg" /></p></br>
+    - [<h3 >  Paint With UG </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG)
+    </br>
 
-  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)</br>
+  - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)
+  
+    - [<h3 >  Red Black Tree GUI </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
 
-    [<h3 align="center"> 🔱 Red Black Tree GUI 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
-    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI/Image-rbt.png" alt="jpg" /></p></br>
+    - [<h3 > Notification REST API </h3>](https://github.com/TawfikYasser/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API)
+    </br>
+
+  - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)
+
+    - [<h3 >  Sketch With Sam </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Sketch%20With%20Sam)
     
-     [<h3 align="center"> 🔱Notification REST API 🔱](https://github.com/TawfikYasser/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API)
-    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API/assets/Img-1.png" alt="jpg" /></p></br>
-
-  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)</br>
-
-    [<h3 align="center"> 🔱 Sketch With Sam 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Sketch%20With%20Sam)
-    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/raw/main/Desktop%20Application/Advanced/Python/Sketch%20With%20Sam/sketch_gif.gif" alt="jpg" /></p>
-    
-    [<h3 align="center"> 🔱 Tic-Tac-Toe-AI 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Tic-Tac-Toe-AI)
-    <p align="center"><img src="https://github.com/Kushal997-das/Project-Guidance/raw/main/Desktop%20Application/Advanced/Python/Tic-Tac-Toe-AI/game_gif.gif" alt="jpg" /></p></br>
+    - [<h3 >  Tic-Tac-Toe-AI </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Tic-Tac-Toe-AI)
+    </br>
 
 ***
 
-<h3> <p align="center">Show ❤️ by Starring this Repo</p> </h3>
+<h3 align="center"> Show ❤️ by Starring this Repo</p> </h3>
 
-<h3> <p align="center"> 💌 More languages will added consecutively. 💌</p> </h3>
+<h3 align="center"> 💌 More languages will added consecutively. 💌 </h3>
 
-### <p align="center"> 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉
+### <p > 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
