@@ -14,7 +14,7 @@
 - <h2>🚩 Basic</h2>
 
   - [<h2> C </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
-    - [<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
+    -[<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
     </br>
 
   - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
