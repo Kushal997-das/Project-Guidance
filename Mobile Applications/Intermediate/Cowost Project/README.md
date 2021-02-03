@@ -5,10 +5,10 @@ In this app. you can create profile as a visitor or profile as a co-working spac
 
 ###### Tools & Technologies
 
-* Firebase (Auth-Storage-RTDatabase-FireStore)
+* Firebase ( Auth - Storage - Real Time Database - FireStore)
 * Lottie Animation
 * Glide and Circle image view and Image cropper
-* MVC
+* MVC Design Architecture
 * Android Studio
 
 ###### See the following image: 
