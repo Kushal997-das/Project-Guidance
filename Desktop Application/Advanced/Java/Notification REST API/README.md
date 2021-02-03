@@ -56,3 +56,5 @@ You also may want to log the status ( success / failure ) of these handled deque
 ###### See the following images:
 
 ![Image-1](https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API/assets/Img-1.png)
+
+![Image-2](https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API/assets/Img-2.png)
