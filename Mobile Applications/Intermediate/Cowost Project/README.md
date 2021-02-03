@@ -11,6 +11,8 @@ In this app. you can create profile as a visitor or profile as a co-working spac
 * MVC
 * Android Studio
 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6653527224647462912" height="861" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 Have fun!
 
 
