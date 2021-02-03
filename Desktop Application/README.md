@@ -94,7 +94,6 @@
   - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)
 
     - [<h3 >  Red Black Tree GUI ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
-    </br>
     
     - [<h3 > Notification REST API ](https://github.com/TawfikYasser/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API)
     </br>
