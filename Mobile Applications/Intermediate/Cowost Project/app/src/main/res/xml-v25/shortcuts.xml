@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <shortcut
+        android:shortcutId="Timeline"
+        android:enabled="true"
+        android:icon="@mipmap/app_icon_cowot"
+        android:shortcutShortLabel="@string/Timeline">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tawfik.cowosp"
+            android:targetClass="com.tawfik.cowosp.Ui.MainActivity" />
+    </shortcut>
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+
+
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

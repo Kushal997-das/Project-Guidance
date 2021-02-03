@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InnerUi.EditProfile">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/mulireg"
+                android:layout_width="wrap_content"
+                android:text="EDIT YOUR PROFILE"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Nick Name:"
+                    android:layout_margin="16dp"/>
+                <EditText
+                    android:singleLine="true"
+                    android:scrollbars="vertical"
+                    android:inputType="textLongMessage|textPersonName"
+                    android:maxLength="2000"
+                    android:maxLines="4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:id="@+id/et_nickname_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/et_shape"
+                    android:hint="Edit your nick name"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Phone:"
+                    android:layout_margin="16dp"/>
+                <EditText
+                    android:singleLine="true"
+                    android:scrollbars="vertical"
+                    android:inputType="textLongMessage|numberDecimal"
+                    android:maxLength="2000"
+                    android:maxLines="4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:id="@+id/et_phone_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/et_shape"
+                    android:hint="Edit your Phone"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Address:"
+                    android:layout_margin="16dp"/>
+                <EditText
+                    android:singleLine="true"
+                    android:scrollbars="vertical"
+                    android:inputType="textLongMessage|textPostalAddress"
+                    android:maxLength="2000"
+                    android:maxLines="4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:id="@+id/et_address_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/et_shape"
+                    android:hint="Edit your address"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Gender:"
+                    android:layout_margin="16dp"/>
+                <EditText
+                    android:singleLine="true"
+                    android:scrollbars="vertical"
+                    android:inputType="textLongMessage|text"
+                    android:maxLength="2000"
+                    android:maxLines="4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:id="@+id/et_gender_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/et_shape"
+                    android:hint="Edit your gender"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your job:"
+                    android:layout_margin="16dp"/>
+                <EditText
+                    android:singleLine="true"
+                    android:scrollbars="vertical"
+                    android:inputType="textLongMessage|text"
+                    android:maxLength="2000"
+                    android:maxLines="4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:id="@+id/et_job_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/et_shape"
+                    android:hint="Edit your job"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Your Status"
+                    android:layout_margin="16dp"/>
+                <EditText
+                    android:singleLine="true"
+                    android:scrollbars="vertical"
+                    android:inputType="textLongMessage|text"
+                    android:maxLength="2000"
+                    android:maxLines="4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:id="@+id/et_status_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/et_shape"
+                    android:hint="Edit your status"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ccc"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"/>
+                <Button
+                    android:background="@drawable/btn_two_shape"
+                    android:id="@+id/save_edit_profile_btn"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/mulibold"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="30dp"
+                    android:textAllCaps="false"
+                    android:text="Save"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

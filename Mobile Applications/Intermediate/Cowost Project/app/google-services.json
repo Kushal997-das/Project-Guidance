@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "968924461794",
+    "firebase_url": "https://cowosp-84a97.firebaseio.com",
+    "project_id": "cowosp-84a97",
+    "storage_bucket": "cowosp-84a97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968924461794:android:32aa044613feea3b463cbb",
+        "android_client_info": {
+          "package_name": "com.tawfik.cowosp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968924461794-98jgmd0atob9ak369tskp8u06uvnmcrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF3wtIorRB9R3ZNqpDeJhnLzHzWu99C_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968924461794-98jgmd0atob9ak369tskp8u06uvnmcrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
