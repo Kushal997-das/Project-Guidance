@@ -11,6 +11,10 @@ In this app. you can create profile as a visitor or profile as a co-working spac
 * MVC
 * Android Studio
 
+###### See the following image: 
+
+![Image](https://github.com/TawfikYasser/Project-Guidance/blob/main/Mobile%20Applications/Intermediate/Cowost%20Project/Home-Page-Cowost.png)*Cowost*
+
 Have fun!
 
 
