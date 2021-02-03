@@ -122,6 +122,9 @@
 
     [<h3 align="center"> 🔱 Red Black Tree GUI 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
     <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/raw/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI/Image-rbt.png" alt="jpg" /></p></br>
+    
+     [<h3 align="center"> 🔱Notification REST API 🔱](https://github.com/TawfikYasser/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API)
+    <p align="center"><img src="https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API/assets/Img-1.png" alt="jpg" /></p></br>
 
   - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)</br>
 
