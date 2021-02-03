@@ -52,3 +52,7 @@ You also may want to log the status ( success / failure ) of these handled deque
 * http://localhost:8080/nq/sms/dequeue
 * http://localhost:8080/nq/sms/dequeueAll
 * http://localhost:8080/nq/sms/delete
+
+###### See the following images:
+
+![Image-1](https://github.com/TawfikYasser/Project-Guidance/blob/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API/assets/Img-1.png)
