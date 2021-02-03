@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cowost</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Timeline">Home</string>
+    <string name="Profile">Profile</string>
+    <string name="info_details">Welcome to cowost, the co-working space system, this app allow your to communicate to your favourite co-working spaces, also if you are a co-working space owner you can create your profile and add posts to communicate with your visitors, a lot of features will added soon!,relax.</string>
+    <string name="features">Create Profile - Add Post - Display All Users - Create Your Fav. Users - Adjust Your Personal Settings - Display App Info. - Help Form Developer - Delete Account - Logout</string>
+    <string name="developer_info">Tawfik Yasser Tawfik - Junior Android Developer - 20 Years - Student at Faculty of Computers and Artificial Intelligence - From Cairo - Email: tawfekyassertawfek@gmail.com - Tel.:01129348206 </string>
+    <string-array name="usertype">
+        <item>Visitor</item>
+        <item>Owner</item>
+    </string-array>
+    <string-array name="timeslots">
+        <item>1 Hour</item>
+        <item>2 Hours</item>
+        <item>3 hours</item>
+        <item>4 Hours</item>
+        <item>5 hours</item>
+    </string-array>
+
+</resources>
