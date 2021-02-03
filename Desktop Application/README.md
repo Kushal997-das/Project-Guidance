@@ -13,12 +13,12 @@
 
 - <h2>🚩 Basic</h2>
 
-  - [<h2>🌼 C Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
+  - [<h2> C </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
     [<h3 align="center"> 🔱 Library Management 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
     </br>
 
 
-  - [<h2>🌼 C++ Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
+  - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
 
     [<h3 align="center"> 🔱 Queue Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Queue%20Visualizer)
     
@@ -28,7 +28,7 @@
     
     [<h3 align="center"> 🔱 Stack Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stack%20Visualizer)</br>
 
-  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)
+  - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)
     [<h3 align="center"> 🔱 CPU Scheduler 🔱](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)
     
     
@@ -36,7 +36,7 @@
     </br>
 
 
-  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)
+  - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)
     [<h3 align="center"> 🔱 Capture Image 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Capture%20Image)
     </p>
         
@@ -85,7 +85,7 @@
 
 - <h2>🚩 Intermediate</h2>
 
-  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)
+  - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)
 
     [<h3 align="center"> 🔱 CMD 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
     </p>
@@ -94,7 +94,7 @@
     </br>
 
 
-  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)
+  - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)
 
     [<h3 align="center"> 🔱 Binry Serch Tree Visualizer 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Binary-Search-Tree-Visualizer)
     
@@ -107,7 +107,7 @@
   
 - <h2>🚩 Advanced</h2>
 
-  - [<h2>🌼 C++ Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)
+  - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B)
 
     [<h3 align="center"> 🔱 Car Zone 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B/Car%20Zone)
     
@@ -115,7 +115,7 @@
     [<h3 align="center"> 🔱 Paint With UG 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG)
     </br>
 
-  - [<h2>🌼 Java Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)
+  - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java)
 
     [<h3 align="center"> 🔱 Red Black Tree GUI 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI)
     </br>
@@ -123,7 +123,7 @@
      [<h3 align="center"> 🔱Notification REST API 🔱](https://github.com/TawfikYasser/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API)
     </br>
 
-  - [<h2>🌼 Python Programming Language</h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)
+  - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)
 
     [<h3 align="center"> 🔱 Sketch With Sam 🔱](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Sketch%20With%20Sam)
     
