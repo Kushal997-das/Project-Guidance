@@ -17,7 +17,6 @@
     - [<h3 >  Library Management ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
     </br>
 
-
   - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
 
     - [<h3 >  Queue Visualizer ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Queue%20Visualizer)
