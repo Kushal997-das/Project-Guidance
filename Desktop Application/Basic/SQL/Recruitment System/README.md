@@ -1,4 +1,3 @@
-
 # Databases Recruitment System
 
 An online recruitment system is a service that automates company’s recruiting needs by

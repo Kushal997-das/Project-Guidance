@@ -12,14 +12,14 @@ Education VARCHAR(15),
 Experience INT,
 Adddress int)
 -- 1) Signing up a new user (Job Seeker): Add new job seeker.
-insert into JobSeeker values('Kareem','hasan','mohamed',542,'M',25,'Done','CS',3,12);
-insert into JobSeeker values('ahmed','yousef','mohamed',156,'M',20,'Done','CS',2,5);
-insert into JobSeeker values('ahmed','hessuien','mazen',123,'M',15,'Done','IT',5,10);
-insert into JobSeeker values('yousef','essam','kareem',897,'M',15,'Done','IS',3,7);
-insert into JobSeeker values('hazem','tareq','mohamed',515,'M',35,'Done','DS',4,3);
-insert into JobSeeker values('nader','ahmed','ramadan',564,'M',24,'Done','AI',3,1);
-insert into JobSeeker values('essam','walled','mohey',111,'M',22,'Done','CS',8,2);
-insert into JobSeeker values('dina','ahmed','khaled',496,'F',21,'Done','IT',2,5);
+insert into JobSeeker values('Kareem','Hasan','Mohamed',542,'M',25,'Done','CS',3,12);
+insert into JobSeeker values('Ahmed','Yousef','Mohamed',156,'M',20,'Done','CS',2,5);
+insert into JobSeeker values('Ahmed','Hessuien','Mazen',123,'M',15,'Done','IT',5,10);
+insert into JobSeeker values('Yousef','Essam','Kareem',897,'M',15,'Done','IS',3,7);
+insert into JobSeeker values('Hazem','Tareq','Mohamed',515,'M',35,'Done','DS',4,3);
+insert into JobSeeker values('Nader','Ahmed','Ramadan',564,'M',24,'Done','AI',3,1);
+insert into JobSeeker values('Essam','Walled','Mohey',111,'M',22,'Done','CS',8,2);
+insert into JobSeeker values('Dina','Ahmed','Khaled',496,'F',21,'Done','IT',2,5);
 -- 2) Update user details
 update JobSeeker
 set Fname='Jhon'
