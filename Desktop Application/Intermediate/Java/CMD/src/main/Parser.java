@@ -8,8 +8,6 @@ import java.util.regex.Pattern;
 
 import main.*;
 public class Parser {
-	
-	
 	static int ff=0;
 	static int z=0;
 	public static String cmd = "";
@@ -23,9 +21,7 @@ public class Parser {
 	public static ArrayList<String> pipeCommands = new ArrayList<String>();
 	public boolean validate = false;
 	public static Terminal terminal= new Terminal();
-
 	public Parser() {
-
 		commands.add("cd");
 		commands.add("ls");
 		commands.add("cp");
@@ -62,97 +58,75 @@ public class Parser {
 		commandsArgs.add(1);
 		commandsArgs.add(0);
 		commandsArgs.add(0);
-
 	}
-
 	public boolean parse(String userInput) {
-
-
 		if (userInput != null) {
-			
 			for(int t=0;t<userInput.length();t++) {
-				
 				if(userInput.charAt(t)=='>') {
 					z++;
 				}
-				
 			}
-			
 			
 			if(userInput.contains("args")) {
 				checkAndAssign(userInput);
-			}else {
-			
+			}
+			else {
 			if(userInput.contains("|")) {
 				ff = -1;
 				// pipe Case
 				userInput+="|";
 				for(int k = 0; k < userInput.length(); k++) {
-
 					if(userInput.charAt(k) != '|') {
-					  
 						operatorCommand+=userInput.charAt(k);
 					}
 					else {
 						pipeCommands.add(operatorCommand);
 						operatorCommand = "";
 					}
-				}
-					
+				}	
 					for(int f = 0 ;f<pipeCommands.size();f++) {
 						String space  = pipeCommands.get(f);
 						if(space.charAt(0) == ' ') {
 							space = space.substring(1, space.length()); 
 						}
-						checkAndAssign(space);
-						
+						checkAndAssign(space);						
 					}
-
-				
 			}else if(z==1) {
 				// > Case
 				fullInput = userInput;
 				userInput+=">";
-				for(int k = 0; k < userInput.length(); k++) {
-					  
+				for(int k = 0; k < userInput.length(); k++) {  
 					if(userInput.charAt(k) != '>')  {
-					  
 						operatorCommand+=userInput.charAt(k);
-					
 					}
 					else {
 						pipeCommands.add(operatorCommand); // array with one arg
 						operatorCommand = "";
 					}
 				}
-
 				operatorFilename  = pipeCommands.get(1);
 				if(operatorFilename.charAt(0) == ' ') {
 					operatorFilename = operatorFilename.substring(1, operatorFilename.length()); 
 				}
 					checkAndAssign(pipeCommands.get(0));			
 			}
-			
 			else if(z==2) {
 				// >> Case
 				userInput+=">>";
-				for(int k = 0; k < userInput.length(); k++) {
-					  
+				for(int k = 0; k < userInput.length(); k++) {		  
 					if(userInput.charAt(k) == '>' && userInput.charAt(k+1) == '>')  {
-						
 						pipeCommands.add(operatorCommand);
 						operatorCommand = "";
 						k++;
 					}
-					else {
-						
+					else {	
 						operatorCommand+=userInput.charAt(k);	
 					}
 				}
-			operatorFilename  = pipeCommands.get(1);
-			String space = "";
-			for(int f = 0 ;f<pipeCommands.size();f++) {
-				 space  = pipeCommands.get(f);
+				operatorFilename  = pipeCommands.get(1);
+				String space = "";
+				for(int f = 0 ;f<pipeCommands.size();f++) {
+				space  = pipeCommands.get(f);
 				if(space.charAt(0) == ' ') {
 					space = space.substring(1, space.length()); 
 				}
@@ -160,30 +134,23 @@ public class Parser {
 			}
 			operatorFilename  = space;
 			checkAndAssign(pipeCommands.get(0));
-
 			}else {
 				//Normal Case
 				checkAndAssign(userInput);
 			}
-			
-			}
 		}
-		return validate;
 	}
-
+		return validate;
+}
 	public static void checkAndAssign(String userInput) {
-
 		int i;
 		// First for loop - to get the command
 		for (i = 0; i < userInput.length(); i++) {
-
 			if (!Character.isWhitespace(userInput.charAt(i))) {
 				cmd += userInput.charAt(i);
-
 			} else
 				break;
 		}
-
 		// Second for loop - to get the args
 		for (int j = i + 1; j < userInput.length(); j++) {
 			if (!Character.isWhitespace(userInput.charAt(j))) {
@@ -193,48 +160,29 @@ public class Parser {
 				temp = "";
 			}
 		}
-		
-		
 		callCommand(fullInput);
-	}
-	
+}	
 	public static void callCommand(String uI) {
-
-
 		int flag = 0;
-
 		for (int y = 0; y < commands.size(); y++) {
-
 			if (cmd.equals(commands.get(y))) {
-
 				flag++;
-
 				if (Args.size() == commandsArgs.get(y)) {
-
 					flag++;
 				}
 			}
-		}
-	
-		
-
-		
-		
+		}		
 		if (flag == 0) {
 			System.out.println("Invalid Command");
 		} else if (flag == 1) {
 			System.out.println("The arguments number is wrong");
-		} else {
-			
-			
-			if(z==1 ) {
+		} else {	
+			if(z==1) {
 				callReturnFunctions(Args,">");	
 			}
-			
 			else if(z==2) {
 				callReturnFunctions(Args,">>");	
 			}else {
-
 				if (cmd.equals("mv")) {
 					terminal.mv(Args);
 				} else if (cmd.equals("help")) {
@@ -277,7 +225,6 @@ public class Parser {
 		cmd="";
 		Args.clear();
 	}
-	
 	public static void callReturnFunctions(ArrayList<String> rArgs,String operatorType) {
 		if (cmd.equals("mv")) {
 			terminal.mvReturn(rArgs, operatorFilename, operatorType);
@@ -287,8 +234,7 @@ public class Parser {
 			terminal.clear();
 		} else if (cmd.equals("more")) {
 			try {
-				terminal.moreReturn(rArgs,operatorFilename,operatorType);
-				
+				terminal.moreReturn(rArgs,operatorFilename,operatorType);			
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -313,14 +259,12 @@ public class Parser {
 		}else if(cmd.equals("cat")) {
 			terminal.catReturn(rArgs, operatorFilename, operatorType);
 		}
-		
 		operatorFilename="";
 		rArgs.clear();
 		operatorType="";
 		cmd="";
 		Args.clear();
 		z=0;
-		pipeCommands.clear();
-		
+		pipeCommands.clear();		
 	}
 }
