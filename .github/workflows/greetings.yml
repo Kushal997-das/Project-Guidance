@@ -15,7 +15,7 @@ jobs:
   welcome:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v0.3
+      - uses: actions/checkout@v1
       # This GitHub action uses the action from EddieHubCommunity/gh-action-community, Thanks for Eddie
       - uses: EddieHubCommunity/gh-action-community/src/welcome@v0.3 
         with:
