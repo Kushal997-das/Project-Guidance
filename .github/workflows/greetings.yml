@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v0.3
       # This GitHub action uses the action from EddieHubCommunity/gh-action-community, Thanks for Eddie
-      - uses: EddieHubCommunity/gh-action-community/src/welcome@main 
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@v0.3 
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: '<h1>It''s great having you contribute to this project</h1> Thank you for raising an <strong>Issue</strong>, Welcome to <strong>Project Guidance</strong>'
