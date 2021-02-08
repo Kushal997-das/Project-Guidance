@@ -1,7 +1,7 @@
 <%-- 
     Document   : home
     Created on : Jan 11, 2021, 2:20:38 AM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,13 +12,6 @@
 <%@page import="java.sql.Connection"%>
 <!DOCTYPE html>
 <%
-    /*String username = request.getSession().getAttribute("session_username").toString();
-    String email = request.getSession().getAttribute("session_email").toString();
-    String displayname = request.getSession().getAttribute("session_displayname").toString();
-    String password = request.getSession().getAttribute("session_password").toString();
-    String phonenumber = request.getSession().getAttribute("session_phonenumber").toString();
-    String role = request.getSession().getAttribute("session_role").toString();*/
-
     String email = request.getParameter("email");
     String password = request.getParameter("password");
     String username = "";
@@ -287,13 +280,6 @@
                 background-color: white;
                 color: white;
             }
-            /*            tr:hover {
-                            background-color: #C1FDC5;
-                            transform: scale(1.02);
-                            color: white;
-                            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-                        }*/
-
             @media only screen and (max-width: 768px) {
                 table {
                     width: 100%;
@@ -415,16 +401,13 @@
                 <li><a href="login.html" class="logout">Log Out</a></li>
             </ul>
         </nav>
-
         <div class="search_container">
             <form class="form">
-
                 <h3>Find deals on hotels, homes and much more...</h3>
                 <div class="form_group">
                     <select class="city-menu" id="city" name="cityList" data-dropdown>
                         <option value="" disabled selected>Where are you going?</option>
                         <%
-
                             Class.forName("com.mysql.jdbc.Driver");
                             url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
                             user = "root";
@@ -481,7 +464,6 @@
                     </select>
                 </div>
                 <br>
-
             </form>
             <div class="form_group">
                 <button type="button" class="btn-search" id="sub" onclick="searchHotels()">Submit</button>
@@ -527,9 +509,7 @@
                 %>
             </select>
         </div>
-
         <div class="form_group_search">
-
         </div>
         <div class="footer">
             <p>Made with ❤ By Al-Amir Hassan & Abd El-Rhman Esmat & Tawfik Yasser</p>

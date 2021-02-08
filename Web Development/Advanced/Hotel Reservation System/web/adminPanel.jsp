@@ -1,7 +1,7 @@
 <%-- 
     Document   : adminPanel
     Created on : Jan 13, 2021, 7:40:33 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -11,13 +11,6 @@
 <%@page import="java.sql.Connection"%>
 <!DOCTYPE html>
 <%
-    /*String username = request.getSession().getAttribute("session_username").toString();
-    String email = request.getSession().getAttribute("session_email").toString();
-    String displayname = request.getSession().getAttribute("session_displayname").toString();
-    String password = request.getSession().getAttribute("session_password").toString();
-    String phonenumber = request.getSession().getAttribute("session_phonenumber").toString();
-    String role = request.getSession().getAttribute("session_role").toString();*/
-
     String email = request.getParameter("email");
     String password = request.getParameter("password");
     String username = "";
@@ -45,7 +38,6 @@
             user_Id = resultSet.getInt("user_id");
         }
     }
-
     Statement s1 = null;
     Statement s2 = null;
     Statement s3 = null;
@@ -227,8 +219,6 @@
                 box-shadow: 5px 5px 18px #888888;
 
             }
-
-
             .card {
                 /* Add shadows to create the "card" effect */
                 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -239,7 +229,6 @@
                 display: inline-block;
                 text-align: center;
             }
-
             /* On mouse-over, add a deeper shadow */
             .card:hover {
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -266,10 +255,6 @@
                 <li><a href="login.html" class="logout">Log Out</a></li>
             </ul>
         </nav>
-
-
-
-
         <div class="container">
             <form class="form">
                 <div class="form_group">
@@ -279,31 +264,25 @@
                             <p style="color: white; font-size: 30px;"><%=s_hotels%></p>
                         </div>
                     </div>
-
                     <div class="card" style="background-color: red;">
                         <div class="container-card">
                             <h4 style="margin-top: 60px; color: white; font-size: 30px;"><b>Clients</b></h4>
                             <p style="color: white; font-size: 30px;"><%=s_users%></p>
                         </div>
                     </div>
-
                     <br><br><br><br><br>
-
                     <div class="card" style="margin-right:200px; background-color: navy;">
                         <div class="container-card">
                             <h4 style="margin-top: 60px; color: white; font-size: 30px;"><b>Reservations</b></h4>
                             <p style="color: white; font-size: 30px;"><%=s_reservations%></p>
                         </div>
                     </div>
-
                     <div class="card" style="background-color: orange;">
                         <div class="container-card">
                             <h4 style="margin-top: 60px; color: white; font-size: 30px;"><b>Rooms</b></h4>
                             <p style="color: white; font-size: 30px;"><%=s_rooms%></p>
                         </div>
                     </div>
-
-
                 </div>
             </form>
         </div>
