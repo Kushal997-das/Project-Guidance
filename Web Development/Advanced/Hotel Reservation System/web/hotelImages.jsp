@@ -1,7 +1,7 @@
 <%-- 
     Document   : hotelImages
     Created on : Jan 15, 2021, 7:02:46 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -75,7 +75,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 width: 50%;
                 margin-left: auto; 
@@ -183,7 +182,6 @@
                 transition: .3s;
                 font-family: 'Nunito', sans-serif;
             }
-
             .add-container{
                 margin: auto;
                 width: 100%;
@@ -317,20 +315,16 @@
                     Select Image 5:  <input type="file" name="img5" id="img5" >
                     <br>
                     <br>
-
                     <input type="submit" class="btn" value="Add Hotel Photos">
                     <input type="hidden" name="hidden_img1" id="img_1" class="btn"/>
                     <input type="hidden" name="hidden_img2" id="img_2" class="btn"/>
                     <input type="hidden" name="hidden_img3" id="img_3" class="btn"/>
                     <input type="hidden" name="hidden_img4" id="img_4" class="btn"/>
                     <input type="hidden" name="hidden_img5" id="img_5" class="btn"/>
-
                     <input type="hidden" name="hiddenHotelId" id="h_id" class="btn"/>
                 </form>
             </div>
-
             <h3 style="margin: 30px;">Update Images (Choose Hotel ID)</h3>
-
             <div class="filter-date-div">
                 <form action="updateHotelImages.jsp" method="Post">  
                     <div class="form_group">
@@ -360,7 +354,6 @@
                     <input type="hidden" name="hiddenHotelId2" id="h_id2"/>
                 </form>
             </div>
-
         </div>
     </body>
 </html>
