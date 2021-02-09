@@ -1,7 +1,7 @@
 <%-- 
     Document   : rates
     Created on : Jan 15, 2021, 2:23:50 AM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -49,7 +49,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 width: 50%;
                 margin-left: auto; 
@@ -259,7 +258,6 @@
                     <tr>
                         <th colspan="2">Rate #<%=resultSet.getInt("rate_id")%></th>
                     </tr>
-
                     <tr>
                         <th>Client Display Name</th>
                         <td><%=resultSet.getString("display_name")%></td>
