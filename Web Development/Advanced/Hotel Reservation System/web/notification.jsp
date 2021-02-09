@@ -1,7 +1,7 @@
 <%-- 
     Document   : notification
     Created on : Jan 15, 2021, 2:03:18 AM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -49,7 +49,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 width: 50%;
                 margin-left: auto; 
@@ -127,7 +126,6 @@
                 padding: 0 30px;
                 font-family: 'Nunito', sans-serif;
             }
-
             .city-menu{
                 padding: 8px 12px;
                 color: #333333;
@@ -157,7 +155,6 @@
                 transition: .3s;
                 font-family: 'Nunito', sans-serif;
             }
-
             .add-container{
                 margin: auto;
                 width: 100%;
@@ -259,7 +256,6 @@
                     <tr>
                         <th colspan="2">Notification #<%=resultSet.getInt("notification_id")%></th>
                     </tr>
-
                     <tr>
                         <th>Notification Message</th>
                         <td>This notification to inform you that a user has been canceled a reservation</td>
