@@ -1,6 +1,6 @@
-# poke_book
+# PokeBook
 
-A new Flutter application.
+Pokemon App with animations, beautiful UI and network call.
 
 ## Getting Started
 
