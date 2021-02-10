@@ -1,31 +1,37 @@
-# Paint With UG
+ # Paint-with-UG-The-SEP
+# 😲Updated Version😲
 ## Feature in Paint with UG
-### **1: Free Draw** </br>
-### **2: Fill** </br>
-### **3: Text** </br>
-### **4: Save** </br>
-### **5: Load** </br>
-### **6: Line** </br>
-### **7: Rectangle** </br>
-### **8: Circle** </br>
-### **9: Clear**  </br>
-### **10: Triangle** </br>
-### **11: Right Angled Triangle** </br>
-### **12: Diamond** </br>
-### **11: Cube** </br>
-### **11: Cylinder** </br>
-### **12: Hori arrow** </br>
-### **13: Cone** </br>
+1. Pencil 
+1. Fill
+1. Text
+1. Line 
+1. Rectangle
+1. Oval
+1. Load 
+1. Save
+1. Triangle
+1. Right Angled Triangle
+1. Diamond
+1. Cube
+1. Cuboid
+1. Horizontal Arrow
+1. Cone
+1. Clear
+1. Change Background
 
-## Colors
+ ## Colors
  ![color](https://user-images.githubusercontent.com/75884061/104131874-5d96c700-539f-11eb-9a13-57f1da378603.png)
  ## OutLook
- ![paint with ug](https://user-images.githubusercontent.com/75884061/106383060-9992da00-63e9-11eb-9c38-af591452fc48.jpeg)
- ## Some drawing
- ![paint with ug](https://user-images.githubusercontent.com/75884061/106383002-28532700-63e9-11eb-8ee0-0bf6c06e5993.jpeg)
-![paint with ug](https://user-images.githubusercontent.com/75884061/105488952-79bc3180-5cd8-11eb-9e32-55c1f0afd456.jpeg)
-![paint with ug](https://user-images.githubusercontent.com/75884061/105489392-2b5b6280-5cd9-11eb-8fa3-0e0f930ec645.jpeg)
-### Recommend: Please read the How to use file because there are few changes like normal Paint
-## Developed by Ujjwal(UG)
+ ![Screenshot 2021-02-09 225255](https://user-images.githubusercontent.com/75884061/107402279-c81b5e00-6b29-11eb-82e9-1d2e0f8f1a74.jpg)
+## Creativity 
+ ![Screenshot 2021-02-09 215935](https://user-images.githubusercontent.com/75884061/107402763-5bed2a00-6b2a-11eb-92c4-29f9de7c7c2a.jpg)
+![Screenshot 2021-02-09 223034](https://user-images.githubusercontent.com/75884061/107402781-61e30b00-6b2a-11eb-93b3-a8a249e2fb18.jpg)
+![Screenshot 2021-02-09 223338](https://user-images.githubusercontent.com/75884061/107402791-63acce80-6b2a-11eb-8175-22f5d0c0f045.jpg)
+![Screenshot 2021-02-09 223744](https://user-images.githubusercontent.com/75884061/107402796-64456500-6b2a-11eb-9c57-c34294cd5c90.jpg)
+![Screenshot 2021-02-09 225255](https://user-images.githubusercontent.com/75884061/107402799-65769200-6b2a-11eb-8696-8fbd47601b5c.jpg)
+ ![paint with ug](https://user-images.githubusercontent.com/75884061/107402946-8f2fb900-6b2a-11eb-836e-1332f64626f4.jpeg)
+## Connect With ME
+[LinkedIn Account](https://www.linkedin.com/in/ujjwal-gupta-ug-233543202/)</br>
+[Video Link](https://www.youtube.com/watch?v=yV6qC1A3YCk)
 
-
+# Love By Giving Star❤❤
