@@ -1,7 +1,7 @@
 <%-- 
     Document   : hotelProfile
     Created on : Jan 11, 2021, 11:52:17 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page import="java.util.Collections"%>
@@ -42,7 +42,6 @@
     String hotel_availability = "";
     String userId = "";
     ArrayList<String> hotel_photos = new ArrayList<>();
-
     while (resultSet.next()) {
         hotel_name = resultSet.getString("hotel_name");
         hotel_city = resultSet.getString("hotel_city");
@@ -63,7 +62,6 @@
     ArrayList<String> rValues = new ArrayList<>();
     ArrayList<Integer> rUserId = new ArrayList<>();
     ArrayList<String> rUserName = new ArrayList<>();
-
     statement = null;
     statement = (Statement) connection.createStatement();
     String query5 = "SELECT rate.comment, rate.rate, rate.user_id , rate.hotel_id, user.user_id AS uid, user.display_name FROM rate "
@@ -87,7 +85,6 @@
         meals.add(resultSet.getString("meal_name"));
         meals_price.add(resultSet.getString("meal_price"));
     }
-
     statement = null;
     statement = (Statement) connection.createStatement();
     query = "SELECT * FROM hotel_facilities WHERE hotel_id='" + hotel_id + "'";
@@ -97,7 +94,6 @@
     while (resultSet.next()) {
         facilities.add(resultSet.getString("hotel_facilities_name"));
     }
-
     statement = null;
     statement = (Statement) connection.createStatement();
     query = "SELECT * FROM room WHERE hotel_id='" + hotel_id + "'";
@@ -113,12 +109,9 @@
         room_availability.add(resultSet.getString("room_availability"));
         room_price.add(resultSet.getString("room_price"));
     }
-
-
 %>
 <html>
     <head>
-
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script src="jquery-3.5.1.js"></script>
@@ -133,7 +126,6 @@
             var arr_no_rooms = [];
             var roomids = "";
             var noroom = "";
-
             function checkDates(element)
             {
                 var currentDate = new Date();
@@ -167,8 +159,6 @@
                     }
                 }
             }
-
-
             function checkAvilability(element, index, room_id) {
                 var selectedValue = document.getElementById("room-menu").value;//selected value for each room
                 //Adding the ids to the array
@@ -195,7 +185,6 @@
                 if (selectedValue === "") {
                     alert("Please choose a room number from above first!");
                 } else {
-
                     counter = 0;
                     arr[index] = Number(element.value);
                     var i;
@@ -210,9 +199,7 @@
                     }
                 }
             }
-
             function checkOnClick() {
-
                 var selectedValue = document.getElementById("room-menu").value;
                 if (counter < Number(selectedValue)) {
                     alert("You must choose " + selectedValue + " rooms.");
@@ -236,7 +223,6 @@
                     return true;
                 }
             }
-
             function getRate() {
                 document.getElementById("rate_number").value = document.getElementById("rateList").value;
             }
@@ -394,7 +380,6 @@
                 margin-right: auto;
                 width: 100%;
                 opacity: 0.3;
-
             }
             .hotel_img-additional{
                 margin: 10px auto;
@@ -429,7 +414,6 @@
                 padding: 0 30px;
                 font-family: 'Nunito', sans-serif;
             }
-
             .hotel-info{
                 font-size: 25px;
             }
@@ -473,7 +457,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 margin-left: auto; 
                 margin-right: auto;
@@ -524,7 +507,6 @@
 
         </style>
     </head>
-
     <body>
         <nav>
             <div class="logo">Hotel System</div>
@@ -537,14 +519,9 @@
         <div class="container-img">
             <img class='hotel_img' src='<%=hotel_photos.get(0)%>'/>
             <div class="center-hotel-name"><b><%=hotel_name%></b></div>
-
-
             <a href="#makeReserve"><input type="submit" class="btn" value="Reserve"></a>
-
         </div>
-
         <div class="profile-container">
-
             <form class="form">
                 <h3>Hotel Photos</h3>
                 <br>
