@@ -1,9 +1,8 @@
 <%-- 
     Document   : notification
     Created on : Jan 15, 2021, 2:03:18 AM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
-
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.ResultSet"%>
@@ -49,7 +48,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 width: 50%;
                 margin-left: auto; 
@@ -157,7 +155,6 @@
                 transition: .3s;
                 font-family: 'Nunito', sans-serif;
             }
-
             .add-container{
                 margin: auto;
                 width: 100%;
@@ -259,7 +256,6 @@
                     <tr>
                         <th colspan="2">Notification #<%=resultSet.getInt("notification_id")%></th>
                     </tr>
-
                     <tr>
                         <th>Notification Message</th>
                         <td>This notification to inform you that a user has been canceled a reservation</td>
