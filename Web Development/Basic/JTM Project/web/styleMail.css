@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 23, 2021, 9:37:33 PM
+    Author     : Tawfek
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    font-family: 'Acme', sans-serif;
+}
+.container{
+    margin: auto ;
+    width: 500px;
+    max-width: 100%
+}
+.container h3{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Acme', sans-serif;
+}
+.container h4{
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Acme', sans-serif;
+}
+.container form{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: white;
+    border-radius: 1px;
+    box-shadow: 0 8px 16px rgba(0,0,0,.3);
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.container form .form-control{
+    width: 100%;
+    height: 50px;
+    color: black;
+    background: #EAEAEA;
+    border-radius: 1px;
+    border: 0px solid silver;
+    margin: 0px 0 15px 0;
+    padding: 0 10px;
+    font-family: 'Acme', sans-serif;
+}
+.container form .btn{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #6583fe;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 1px;
+    transition: .3s;
+    font-family: 'Acme', sans-serif;
+}
+.container form .btn:hover{
+    opacity: .7;
+}
+.h3{
+    text-align: center;
+    margin-bottom: 24px;
+    margin: auto;
+    color: #222;
+    font-family: 'Nunito', sans-serif;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #B8B8B8;
+    opacity: 1; /* Firefox */
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

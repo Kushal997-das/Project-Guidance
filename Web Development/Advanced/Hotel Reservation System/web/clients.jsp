@@ -1,7 +1,7 @@
 <%-- 
     Document   : clients
     Created on : Jan 14, 2021, 6:36:50 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -17,7 +17,6 @@
     String reservation_id = "";
     String reservation_check_in = "";
     String reservation_check_out = "";
-
     Class.forName("com.mysql.jdbc.Driver");
     String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
     String user = "root";
@@ -32,7 +31,6 @@
             + "reservation.reservation_check_in, reservation.reservation_check_out FROM user INNER JOIN reservation ON user.user_id = reservation.user_id ;";
     ResultSet resultSet = statement.executeQuery(query);
     ResultSet resultSet1 = statement1.executeQuery("SELECT * FROM user WHERE role = 'client';");
-
 %>
 <html>
     <head>
@@ -56,10 +54,7 @@
                 };
                 xmlhttp.open("GET", "searchClient?id=" + val, true);
                 xmlhttp.send();
-
-
             }
-
         </script>
         <style>
             .container{
@@ -74,7 +69,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 margin-left: auto; 
                 margin-right: auto;
@@ -152,7 +146,6 @@
                 padding: 0 30px;
                 font-family: 'Nunito', sans-serif;
             }
-
             .city-menu{
                 padding: 8px 12px;
                 color: #333333;
@@ -230,18 +223,12 @@
                     <%}%>
                 </table>
             </div>
-
             <h3 style="margin: 30px;">Search for clients</h3>
-
             <div class="filter-date-div">
-
                 <div class="form-group">
-
                     <input type="text" class="form-control" name="client_id" placeholder="Client Id" id="c_id" onchange="clientSearch(this.value)">
                 </div>
-
             </div>
-
             <div class="table-group-2">
                 <table class="center">
                     <tr>

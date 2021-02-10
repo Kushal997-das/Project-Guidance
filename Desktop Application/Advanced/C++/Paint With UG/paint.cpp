@@ -24,6 +24,7 @@ void diamond(POINT *cursor_pos,struct node **Start);
 void cube(POINT *cursor_pos,struct node **Start);
 void cylinder(POINT *cursor_pos,struct node **Start);
 void hori_arrow(POINT *cursor_pos,struct node **Start);
+void cone(POINT *cursor_pos,struct node **Start);
 main()
 {
 struct node *Start=NULL;
@@ -131,6 +132,9 @@ else if(cursorpos->x-5>=45&&cursorpos->x-5<=85&&cursorpos->y-35>=165&&cursorpos-
 cylinder(cursorpos,Start);
 else if(cursorpos->x-5>=45&&cursorpos->x-5<=85&&cursorpos->y-35>=205&&cursorpos->y-35<=240)
   hori_arrow(cursorpos,Start);
+else if(cursorpos->x-5>=45&&cursorpos->x-5<=85&&cursorpos->y-35>=245&&cursorpos->y-35<=280)
+   cone(cursorpos,Start);
+
 }
 void pencil(POINT *cursor_pos,struct node **Start)
 {
@@ -147,6 +151,7 @@ while(1)
         x1=cursor_pos->x;
         y1=cursor_pos->y;
         putpixel(x1-5,y1-23,getcolor());
+    put(Start,x1-20,y1-20,x1+20,y1+20,getcolor());
     }
 }
 }
@@ -247,7 +252,7 @@ void make_rectangle(POINT *cursor_pos,struct node **Start)
     GetCursorPos(cursor_pos);
         x2=cursor_pos->x-5;
         y2=cursor_pos->y-25;
-      rectangle(x1,y1,x2,y2);
+        rectangle(x1,y1,x2,y2);
     y++;
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
@@ -361,7 +366,8 @@ void make_line(POINT *cursor_pos,struct node **Start)
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
         setcolor(getbkcolor());
-     line(x1-5,y1-20,x2-5,y2-20);
+
+      line(x1-5,y1-20,x2-5,y2-20);
      setcolor(color);
         GetCursorPos(cursor_pos);
         x2=cursor_pos->x;
@@ -382,6 +388,7 @@ void make_line(POINT *cursor_pos,struct node **Start)
      line(x1-5,y1-20,x2-5,y2-20);
     setcolor(color);
         line(x1-5,y1-20,x2-5,y2-20);
+        put(Start,x1-20,y1-20,x1+20,y2+20,getcolor());
     i=0;
     }
     delay(50);
@@ -480,7 +487,7 @@ rectangle(0,125,40,160);
 settextstyle(BOLD_FONT,HORIZ_DIR,4);
 outtextxy(8,126,"A");
 settextstyle(DEFAULT_FONT,HORIZ_DIR,1);
-//Save
+ //Save
 rectangle(0,165,40,200);
 rectangle(10,170,30,195);
 line(10,170,15,178);
@@ -550,6 +557,11 @@ line(58,216,58,212);
 line(58,226,58,230);
 line(58,230,75,220);
 line(58,212,75,220);
+//cone
+rectangle(45,245,85,280);
+line(65,250,50,270);
+line(65,250,80,270);
+ellipse(65,270,0,360,15,7);
 while(i<16)
 {
     setfillstyle(SOLID_FILL,i);
@@ -920,6 +932,68 @@ line(x1+(x2-x1)/2,y1-(y2-y1)/1.5,x2,y2);
        else
        put(Start,x2,y1-(y2-y1),x1,y2+(y2-y1),getcolor());
 
+    i=0;
+    y=0;}
+    delay(50);
+
+    }
+
+}
+void cone(POINT *cursor_pos,struct node **Start)
+{
+     int color;
+     int i=0,y=0,x1,x2,y1,y2;
+     while(1)
+     {
+         GetCursorPos(cursor_pos);
+         if(GetAsyncKeyState(VK_TAB))
+            identify_shape(cursor_pos,Start);
+        else if(GetAsyncKeyState(VK_SHIFT))
+            check_color(cursor_pos);
+
+         else if(GetAsyncKeyState(VK_LBUTTON)&&i==0)
+    {
+        x1=cursor_pos->x-5;
+        y1=cursor_pos->y-25;
+        i++;
+    }
+    else if(GetAsyncKeyState(VK_LBUTTON))
+    {  if(y>0){
+        color=getcolor();
+        setcolor(getbkcolor());
+      line(x1,y1,x1-(x2-x1),y2);
+      line(x1,y1,x1+(x2-x1),y2);
+      ellipse(x1,y2,0,360,(x2-x1),(y2-y1)/4);
+     setcolor(color);
+    }
+    GetCursorPos(cursor_pos);
+        x2=cursor_pos->x-5;
+        y2=cursor_pos->y-25;
+      line(x1,y1,x1-(x2-x1),y2);
+      line(x1,y1,x1+(x2-x1),y2);
+      ellipse(x1,y2,0,360,(x2-x1),(y2-y1)/4);
+
+  y++;
+    }
+    else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
+    {
+        setcolor(getbkcolor());
+    line(x1,y1,x1-(x2-x1),y2);
+      line(x1,y1,x1+(x2-x1),y2);
+      ellipse(x1,y2,0,360,(x2-x1),(y2-y1)/4);
+        setcolor(color);
+        GetCursorPos(cursor_pos);
+        x2=cursor_pos->x-5;
+        y2=cursor_pos->y-25;
+        i++;
+    }
+    if(i==2){
+setcolor(color);
+  line(x1,y1,x1-(x2-x1),y2);
+      line(x1,y1,x1+(x2-x1),y2);
+      ellipse(x1,y2,0,360,(x2-x1),(y2-y1)/4);
+
+       put(Start,x1-(x2-x1),y1-(y2-y1),x2,y2+(y2-y1),getcolor());
     i=0;
     y=0;}
     delay(50);

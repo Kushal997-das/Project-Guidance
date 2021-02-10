@@ -1,3 +1,7 @@
+/*
+@author: Tawfik Yasser
+@since: 2021
+*/
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -67,29 +71,41 @@ int getRecordRRN(PrimaryIndex primaryIndexArray[],int numberOfRecords, string na
     }
     return RRN;
 }
+
+//Function to write the primary index file
 void writePrimaryIndexToFile(PrimaryIndex primaryIndexArray[], int numberOfRecords, fstream &primaryIndexFile){
     for(int i =0 ;i< numberOfRecords;i++)
         primaryIndexFile.write((char*) &primaryIndexArray[i],sizeof(primaryIndexArray[i]));
 }
+
+//Function to write the secondary index file
 void writeSecondaryIndexToFile(SecondaryIndex secondaryIndexArray[], int numberOfRecords, fstream &secondaryIndexFile){
     for(int i =0 ; i<numberOfRecords;i++)
         secondaryIndexFile.write((char*) &secondaryIndexArray[i],sizeof(secondaryIndexArray[i]));
 }
+
+//Function to read the primary index file
 void readPrimaryIndexFromFile(PrimaryIndex primaryIndexArray[], int numberOfRecords, fstream &primaryIndexFile){
     for(int i =0 ;i<numberOfRecords;i++)
         primaryIndexFile.read((char*) &primaryIndexArray[i],sizeof(primaryIndexArray[i]));
 }
+
+//Function to read the secondary index file
 void readSecondaryIndexFromFile(SecondaryIndex secondaryIndexArray[], int numberOfRecords, fstream &secondaryIndexFile){
     for(int i =0 ;i<numberOfRecords;i++)
         secondaryIndexFile.read((char*) &secondaryIndexArray[i],sizeof(secondaryIndexArray[i]));
 }
-void readDataFile(Item itemsArray[], int numberOfRecords, fstream &dataFile){
-    for(int i =0 ;i<numberOfRecords;i++)
-        dataFile.read((char*) &itemsArray[i],sizeof(itemsArray[i]));
-}
+
+//Function to write the data file
 void writeDataFile(Item itemsArray[], int numberOfRecords, fstream &dataFile){
     for(int i =0 ;i<numberOfRecords;i++)
         dataFile.write((char*) &itemsArray[i],sizeof(itemsArray[i]));
+}
+
+//Function to read the data file
+void readDataFile(Item itemsArray[], int numberOfRecords, fstream &dataFile){
+    for(int i =0 ;i<numberOfRecords;i++)
+        dataFile.read((char*) &itemsArray[i],sizeof(itemsArray[i]));
 }
 
 //Primary Index Search
@@ -115,6 +131,7 @@ void searchByName(int numberOfRecords){
 	primaryIndexFile.close();
 }
 
+//Function to search in data file by `Name`
 void searchByName(int numberOfRecords, string name){
     fstream dataFile,primaryIndexFile;
     dataFile.open("Items.txt",ios::in);
@@ -133,6 +150,7 @@ void searchByName(int numberOfRecords, string name){
 	primaryIndexFile.close();
 }
 
+//Function to update in data file : `Name`
 bool searchByNameUpdate(int numberOfRecords, string name){
     fstream dataFile,primaryIndexFile;
     dataFile.open("Items.txt",ios::in);
@@ -154,7 +172,7 @@ bool searchByNameUpdate(int numberOfRecords, string name){
 	primaryIndexFile.close();
 }
 
-//Secondary Index Search
+//Function to search in data file by `Category`
 void searchByCategory(int numberOfRecords) {
 
     fstream dataFile,primaryIndexFile,secondaryIndexFile;
@@ -225,6 +243,7 @@ void searchByCategory(int numberOfRecords,string category) {
 	secondaryIndexFile.close();
 }
 
+//Function to print quantity of a record
 void printQuantity(int numberOfRecords){
     int choice;
     cout<<"Enter 1 for search name or 2 for search category: "<<endl;
@@ -243,6 +262,8 @@ void printQuantity(int numberOfRecords){
         cout<<"Error";
     }
 }
+
+//Function to add new record
 void addItem(int numberOfRecords){
 
     fstream dataFile,primaryIndexFile,secondaryIndexFile;
@@ -281,6 +302,8 @@ void addItem(int numberOfRecords){
     primaryIndexFile.close();
     secondaryIndexFile.close();
 }
+
+//Function to print all record’s names
 void printAllNames(int numberOfRecords){
     fstream dataFile;
     dataFile.open("Items.txt",ios::in);
@@ -292,6 +315,8 @@ void printAllNames(int numberOfRecords){
     }
 
 }
+
+//Function to print all record’s categories
 void printAllCategories(int numberOfRecords){
     fstream dataFile;
     dataFile.open("Items.txt",ios::in);
@@ -303,6 +328,8 @@ void printAllCategories(int numberOfRecords){
     }
 
 }
+
+//Function to count items in the list
 void countItems(int numberOfRecords){
     fstream dataFile;
     dataFile.open("Items.txt",ios::in);
@@ -318,6 +345,8 @@ void countItems(int numberOfRecords){
     cout<<"Number of items in the shopping list = "<<counter<<endl;
 
 }
+
+//Function to count categories in the list
 void countItemsCategories(int numberOfRecords){
     fstream dataFile;
     dataFile.open("Items.txt",ios::in);
@@ -333,6 +362,8 @@ void countItemsCategories(int numberOfRecords){
     cout<<"Number of categories in the shopping list = "<<distinctListCategories.size()<<endl;
 
 }
+
+//Function to update an item name
 void updateName(int numberOfRecords,string oldName){
 
     fstream dataFile,primaryIndexFile,secondaryIndexFile;
@@ -386,6 +417,8 @@ void updateName(int numberOfRecords,string oldName){
     secondaryIndexFile.close();
 
 }
+
+//Function to update item category
 void updateCategory(int numberOfRecords,string oldName){
     fstream dataFile,primaryIndexFile,secondaryIndexFile;
     dataFile.open("Items.txt",ios::in);
@@ -424,6 +457,8 @@ void updateCategory(int numberOfRecords,string oldName){
     secondaryIndexFile.close();
 
 }
+
+//Function to update item quantity
 void updateQuantity(int numberOfRecords,string oldName){
 
     fstream dataFile,primaryIndexFile,secondaryIndexFile;
@@ -448,6 +483,7 @@ void updateQuantity(int numberOfRecords,string oldName){
     dataFile.close();
 }
 
+//Update mechanism
 void updateItem(int numberOfRecords){
     char oldName[15];
     string category,quantity;
@@ -477,10 +513,12 @@ void updateItem(int numberOfRecords){
         cout<<"Not found!"<<endl;
     }
 }
+
+//Driver Class
 int main()
 {
-    cout<<"Welcome to the shopping list files assignment****************"<<endl;
     //Starting of the program
+    cout<<"Welcome to the shopping list [Practice on Primary Index & Secondary Index]"<<endl;
     int choice = 0;
     int numberOfRecords;
     cout<<"Please enter number of records you want to add: ";

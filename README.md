@@ -7,6 +7,8 @@
 
 
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a> <br>
+
+<a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a> <br>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![GitHub last commit](https://img.shields.io/github/last-commit/Kushal997-das/Project-Guidance?logo=git&logoColor=white)](https://github.com/Kushal997-das/Project-Guidance/commits/master)
 [![All  contributors](https://img.shields.io/github/contributors/Kushal997-das/Project-Guidance?color=green)](https://github.com/Kushal997-das/Project-Guidance/graphs/contributors)
@@ -19,7 +21,7 @@
 [![GitHub issues closed](https://img.shields.io/github/issues-closed/Kushal997-das/Project-Guidance.svg)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Kushal997-das/Project-Guidance.svg?color=yellow)](https://github.com/Kushal997-das/Project-Guidance/pulls)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/Kushal997-das/Project-Guidance.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
-<a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/Projects-39-blue.svg?color=5ac4bf"></a> <br>
+<a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/Projects-53-blue.svg?color=5ac4bf"></a> <br>
 
 📌 Introduction
 ------------------
@@ -104,7 +106,7 @@ git checkout -b <your_branch_name>
 **6.** Stage your changes and commit
 
 ```bash
-git add .
+git add -A
 
 git commit -m "<your_commit_message>"
 ```
@@ -117,7 +119,7 @@ git push -u origin <your_branch_name>
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to `develop` !
 
-**9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://github.com/Kushal997-das/Project-Guidance)project. :v: :heart: 💥
+**9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://github.com/Kushal997-das/Project-Guidance). :v: :heart: 💥
 
 <br><br>
 
@@ -136,7 +138,4 @@ git push -u origin <your_branch_name>
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 [![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/Kushal997-das/)
-
-
-
 

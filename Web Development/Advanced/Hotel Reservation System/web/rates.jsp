@@ -1,7 +1,7 @@
 <%-- 
     Document   : rates
     Created on : Jan 15, 2021, 2:23:50 AM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -49,7 +49,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 width: 50%;
                 margin-left: auto; 
@@ -127,7 +126,6 @@
                 padding: 0 30px;
                 font-family: 'Nunito', sans-serif;
             }
-
             .city-menu{
                 padding: 8px 12px;
                 color: #333333;
@@ -138,7 +136,6 @@
                 border: 1px solid #dddddd;
                 cursor: pointer;
                 border-radius: 1px;
-
             }
             .container .filter-date-div .btn-search{
                 margin: auto;
@@ -157,7 +154,6 @@
                 transition: .3s;
                 font-family: 'Nunito', sans-serif;
             }
-
             .add-container{
                 margin: auto;
                 width: 100%;
@@ -259,7 +255,6 @@
                     <tr>
                         <th colspan="2">Rate #<%=resultSet.getInt("rate_id")%></th>
                     </tr>
-
                     <tr>
                         <th>Client Display Name</th>
                         <td><%=resultSet.getString("display_name")%></td>

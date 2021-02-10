@@ -1,9 +1,8 @@
 <%-- 
     Document   : hotels
     Created on : Jan 14, 2021, 8:24:28 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
-
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.ResultSet"%>
@@ -127,8 +126,6 @@
                     document.getElementById("cityError").innerHTML = "";
                 }
             }
-
-
             function getRoomData(room_id) {
                 var xmlhttp = new XMLHttpRequest();
                 xmlhttp.onreadystatechange = function ()
@@ -141,11 +138,9 @@
                 xmlhttp.open("GET", "getRoom?room_id=" + room_id, true);
                 xmlhttp.send();
             }
-
             function getHotelId() {
                 document.getElementById("h_id").value = document.getElementById("hotel").value;
             }
-
         </script>
         <style>
             *{
@@ -165,7 +160,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 width: 50%;
                 margin-left: auto; 
@@ -243,7 +237,6 @@
                 padding: 0 30px;
                 font-family: 'Nunito', sans-serif;
             }
-
             .city-menu{
                 padding: 8px 12px;
                 color: #333333;
@@ -273,7 +266,6 @@
                 transition: .3s;
                 font-family: 'Nunito', sans-serif;
             }
-
             .add-container{
                 margin: auto;
                 width: 100%;
@@ -419,12 +411,9 @@
                     <%}%>
                 </table>
             </div>
-
             <h3 style="margin: 30px;">Add Hotel</h3>
-
             <div class="filter-date-div">
                 <form  onsubmit="return checkForm(this)" action="addHotel" method="Post">
-
                     <div class="form-group">
                         <input type="text" class="form-control" name="hotel_name" placeholder="Hotel Name" onchange="myFunction(this)">
                         <label id="nameError"></label>
@@ -464,9 +453,7 @@
                     <input type="submit" class="btn" value="Add Hotel">
                 </form>
             </div>
-
             <h3 style="margin-bottom: 50px;">Update Hotel</h3> 
-
             <div class="filter-date-div">
                 <form action="updateHotel.jsp" method="Post">  
                     <div class="form_group">
@@ -493,7 +480,6 @@
                         </select>
                         <label id="listError"></label>
                     </div>
-
                     <input type="submit" class="btn" value="Update Hotel">
                     <input type="hidden" name="hiddenHotelId" id="h_id" class="btn"/>
                 </form>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : changeProfileDataView
     Created on : Jan 12, 2021, 2:14:49 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -32,11 +32,7 @@
                 if (form.phone.value === "") {
                     form.phone.value = "phone";
                 }
-
-
             }
-
-
         </script>
         <style>
             *{

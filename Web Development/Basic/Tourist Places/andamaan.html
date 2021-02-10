@@ -1,80 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Tourist places</title>
-        <meta name="author" content="TheShahriyar">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tourist places</title>
+    <meta name="author" content="TheShahriyar">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- load google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
 
-        
-    
-        <!-- load google font -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
-        
-        <!-- all stylesheets include start -->
-        <!-- Bootstrap css -->
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <!-- revolution slider css -->
-        <link rel="stylesheet" href="css/rev_slider/settings.css">
-        <link rel="stylesheet" href="css/rev_slider/layers.css">
-         <!-- fontawesome css -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        
+    <!-- all stylesheets include start -->
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- revolution slider css -->
+    <link rel="stylesheet" href="css/rev_slider/settings.css">
+    <link rel="stylesheet" href="css/rev_slider/layers.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- theme style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- all stylesheets include end -->
+    <style>
+        .button {
+            border-radius: 4px;
+            background-color: #3069b3;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 10px;
+            width: 500px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
 
-        <!-- theme style css -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- responsive css -->
-        <link rel="stylesheet" href="css/responsive.css">
-        <!-- all stylesheets include end -->
-		<style>
-.button {
-  border-radius: 4px;
-  background-color: #3069b3;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 10px;
-  width: 500px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+        .button:hover span {
+            padding-right: 25px;
+        }
 
-.button:hover span {
-  padding-right: 25px;
-}
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+</head>
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-</style>
-    </head>
-    <body>
+<body>
     <div id="container">
-
-     
-	 
-	<!-- Start Top Header Section -->
+        <!-- Start Top Header Section -->
         <section class="topbar">
             <div class="container">
                 <div class="row">
@@ -85,66 +78,66 @@
                             <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
                             <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
                             <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                            
+
                         </ul>
                     </div>
-					<div class="col-md-4">
+                    <div class="col-md-4">
                         <div class="contact-info">
-                           <input type="text" placeholder="Search.."> 
-                            
+                            <input type="text" placeholder="Search..">
+
                         </div>
                     </div>
                     <div class="col-md-4">
-                         <div class="contact-info">
+                        <div class="contact-info">
                             <li>
-                                
+
                                 <a href="login.html">Login</a>
                             </li>
-							<li>
-                                
+                            <li>
+
                                 <a href="#">Signup</a>
                             </li>
                             <li>
-                                
+
                                 <a href="#">Cart</a>
                             </li>
                             <li>
-                                
+
                                 <a href="#">Help</a>
                             </li>
-							<li>
-							<a href="#">Feedback</a>
-							</li>
-                            
+                            <li>
+                                <a href="#">Feedback</a>
+                            </li>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-		
- 
         <!-- End Top Header Section -->
-         <!-- Start Header & Navigation Section -->
+        <!-- Start Header & Navigation Section -->
         <header class="clearfix" id="header">
             <!-- Static navbar -->
             <nav class="navbar navbar-default">
-                 
+
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img alt="" src="images/slideshow/logo.jpg" height="90" width="90"></a>
+                        <a class="navbar-brand" href="index.html"><img alt="" src="images/slideshow/logo.jpg"
+                                height="90" width="90"></a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="drop"><a href="index.html">Home</a>
-                             <li><a href="Aboutus.html">AboutUs</a></li>
-                                    
+                            <li><a href="Aboutus.html">AboutUs</a></li>
+
                             </li>
-                           
+
                             <li class="drop"><a href="#">Places</a>
                                 <ul class="drop-down">
                                     <li><a href="goa.html">GOA</a></li>
@@ -152,62 +145,69 @@
                                     <li><a href="coorg.html">COORG</a></li>
                                     <li><a href="darjeeling.html">DARJEELING</a></li>
                                     <li><a href="udaipur.html">UDAIPUR</a></li>
-									<li><a href="manali.html">MANALI</a></li>
-									<li><a href="mumbai.html">MUMBAI</a></li>
-									<li><a href="delhi.html">DELHI</a></li>
-									<li><a href="andamaan.html">Andaman and Nicobar </a></li>
-                                
+                                    <li><a href="manali.html">MANALI</a></li>
+                                    <li><a href="mumbai.html">MUMBAI</a></li>
+                                    <li><a href="delhi.html">DELHI</a></li>
+                                    <li><a href="andamaan.html">Andaman and Nicobar </a></li>
+
                                 </ul>
                             </li>
-                            
+
                             <li class="drop"><a href="#">Hotels</a>
                                 <ul class="drop-down">
                                     <li><a href="hotelsahara.html">Hotel Sahara star</a></li>
                                     <li><a href="lalit.html">Lalit Mumbai</a></li>
                                     <li><a href="jw.html">JW Mariott Mumbai</a></li>
-									<li><a href="kc.html">KC Residency</a></li>
-									<li><a href="oberoi.html">The Oberoi </a></li>
-									
+                                    <li><a href="kc.html">KC Residency</a></li>
+                                    <li><a href="oberoi.html">The Oberoi </a></li>
+
                                 </ul>
                             </li>
-                            
+
                             <li><a href="Gallery.html">Gallery</a></li>
-							<li><a href="bestimetovisit.html">Best time to visite</a></li>
+                            <li><a href="bestimetovisit.html">Best time to visite</a></li>
                             <li><a href="Contactus.html">ContactUs</a></li>
-							
+
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
         <!-- End Header -->
-	 
-	 <br>
-        
-<h4><b><center>Andamaan and Nicobar</center></b></h4><br>
-<center><p>
-The Andaman Islands are an Indian archipelago in the Bay of Bengal.
-These roughly 300 islands are known for their palm-lined, white-sand beaches, mangroves and tropical 
-rainforests. </p>
-<p>Coral reefs supporting marine life such as sharks and rays make for popular diving and snorkeling sites. 
-Indigenous Andaman Islanders inhabit the more remote islands, many of which are off limits to visitors.</p>
 
-</p></center>
-<br>
- <div>
-<marquee>
-<img src="images/Andaman/img1.jpg" height="400px" width="600px"></img>
-<img src="images/Andaman/img2.jpg" height="400px" width="600px">
-<img src="images/Andaman/img3.jpg" height="400px" width="650px">
-<img src="images/Andaman/img4.jpg" height="400px" width="600px">
-<img src="images/Andaman/img5.jpg" height="400px" width="600px">
-<img src="images/Andaman/img6.jpg" height="400px" width="600px">
-<img src="images/Andaman/img7.jpg" height="400px" width="600px">
-<img src="images/Andaman/img8.jpg" height="400px" width="600px">
-<img src="images/Andaman/img10.jpg" height="400px" width="600px">
-</marquee></div><br>
+        <br>
 
-    <section class="footer-section pad-t100 pad-b70 parallax" style="background-image: url(assets/images/bg/bg2.png);">
+        <h4><b>
+                <center>Andamaan and Nicobar</center>
+            </b></h4><br>
+        <center>
+            <p>
+                The Andaman Islands are an Indian archipelago in the Bay of Bengal.
+                These roughly 300 islands are known for their palm-lined, white-sand beaches, mangroves and tropical
+                rainforests. </p>
+            <p>Coral reefs supporting marine life such as sharks and rays make for popular diving and snorkeling sites.
+                Indigenous Andaman Islanders inhabit the more remote islands, many of which are off limits to visitors.
+            </p>
+
+            </p>
+        </center>
+        <br>
+        <div>
+            <marquee>
+                <img src="images/Andaman/img1.jpg" height="400px" width="600px"></img>
+                <img src="images/Andaman/img2.jpg" height="400px" width="600px">
+                <img src="images/Andaman/img3.jpg" height="400px" width="650px">
+                <img src="images/Andaman/img4.jpg" height="400px" width="600px">
+                <img src="images/Andaman/img5.jpg" height="400px" width="600px">
+                <img src="images/Andaman/img6.jpg" height="400px" width="600px">
+                <img src="images/Andaman/img7.jpg" height="400px" width="600px">
+                <img src="images/Andaman/img8.jpg" height="400px" width="600px">
+                <img src="images/Andaman/img10.jpg" height="400px" width="600px">
+            </marquee>
+        </div><br>
+
+        <section class="footer-section pad-t100 pad-b70 parallax"
+            style="background-image: url(assets/images/bg/bg2.png);">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -216,24 +216,25 @@ Indigenous Andaman Islanders inhabit the more remote islands, many of which are 
                         </div>
                         <div class="footer-address">
                             <p><span>India Tourist places</span> Explore Before You Visit
-Dive deeper into India's rich culture and heritage</p>
+                                Dive deeper into India's rich culture and heritage</p>
 
                         </div>
                     </div>
-					<div class="col-md-4">
+                    <div class="col-md-4">
                         <div class="section-title-2">
                             <h3>Contact</h3>
                         </div>
                         <div class="footer-address">
-                            <p><span>India Tour Mate</span> Reg Add: 201, R-45, Sonashree CHS, Sudarshan Nagar, MIDC, Dombivali (E) - 421 203</p>
+                            <p><span>India Tour Mate</span> Reg Add: 201, R-45, Sonashree CHS, Sudarshan Nagar, MIDC,
+                                Dombivali (E) - 421 203</p>
                             <p><span>Email :</span> priyaksingh98@gmail.com
 
-</p>
-                            <p><span>Phone :</span>  9423359851  / 7020939167</p>
+                            </p>
+                            <p><span>Phone :</span> 9423359851 / 7020939167</p>
                         </div>
                     </div>
-                   
-                    
+
+
                     <div class="col-md-4">
                         <div class="section-title-2">
                             <h3>Newsletter</h3>
@@ -260,14 +261,13 @@ Dive deeper into India's rich culture and heritage</p>
             </div>
         </section>
         <!-- End Footer & Copyright Section -->
-
         <!-- Start  Copyright Section -->
         <section class="copyright-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="copyright-text text-center">
-                         Developed by <a href="">Priya Singh</a></p>
+                            Developed by <a href="">Priya Singh</a></p>
                         </div>
                     </div>
                 </div>
@@ -278,7 +278,6 @@ Dive deeper into India's rich culture and heritage</p>
         <div id="back-to-top" class="back-to-top reveal">
             <img src="images/others/up.png" alt="" class="img-responsive">
         </div>
-
 
         <!-- Start Switcher Section -->
         <div class="switcher-box">
@@ -336,13 +335,6 @@ Dive deeper into India's rich culture and heritage</p>
             </ul>
         </div>
         <!--End Switcher Section -->
-		
-		
-		
-
-        
-        
-
         <!-- all js include start -->
         <!-- jquery latest version -->
         <script src="js/jquery-3.1.1.min.js"></script>
@@ -352,7 +344,7 @@ Dive deeper into India's rich culture and heritage</p>
         <!-- revolution slider js files start -->
         <script src="js/rev_slider/jquery.themepunch.tools.min.js"></script>
         <script src="js/rev_slider/jquery.themepunch.revolution.min.js"></script>
-        
+
         <script src="js/rev_slider/extensions/revolution.extension.actions.min.js"></script>
         <script src="js/rev_slider/extensions/revolution.extension.carousel.min.js"></script>
         <script src="js/rev_slider/extensions/revolution.extension.kenburn.min.js"></script>
@@ -374,7 +366,6 @@ Dive deeper into India's rich culture and heritage</p>
         <script src="js/jquery.mb.YTPlayer.js"></script>
         <script src="js/countdown.js"></script>
         <script src="js/jquery.fitvids.js"></script>
-        
 
         <!-- template main js file -->
         <script src="js/main.js"></script>
