@@ -1,7 +1,7 @@
 <%-- 
     Document   : updateHotel
     Created on : Jan 14, 2021, 11:59:18 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.DriverManager"%>
@@ -44,8 +44,6 @@
             city = resultSet.getString("hotel_city");
         }
     }
-
-
 %>
 <html>
     <head>
@@ -122,7 +120,6 @@
                     return false;
                 }
             }
-
         </script>
         <style>
             *{

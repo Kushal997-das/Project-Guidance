@@ -1,7 +1,7 @@
 <%-- 
     Document   : rooms
     Created on : Jan 14, 2021, 2:02:40 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -26,7 +26,6 @@
     String query = "SELECT * FROM room";
     ResultSet resultSet = null;
     resultSet = statement.executeQuery(query);
-
 %>
 <html>
     <head>
@@ -37,7 +36,6 @@
         <script type="text/javascript" src="reservationJs.js"></script>
         <title>Rooms</title>
         <script>
-
             function checkForm(form)
             {
                 if (form.room_type.value === "") {
@@ -93,8 +91,6 @@
                     document.getElementById("listError").innerHTML = "";
                 }
             }
-
-
             function getRoomData(room_id) {
                 var xmlhttp = new XMLHttpRequest();
                 xmlhttp.onreadystatechange = function ()
@@ -107,11 +103,9 @@
                 xmlhttp.open("GET", "getRoom?room_id=" + room_id, true);
                 xmlhttp.send();
             }
-
             function getRoomId() {
                 document.getElementById("r_id").value = document.getElementById("room").value;
             }
-
         </script>
         <style>
             *{
@@ -131,7 +125,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 width: 50%;
                 margin-left: auto; 
@@ -220,7 +213,6 @@
                 border: 1px solid #dddddd;
                 cursor: pointer;
                 border-radius: 1px;
-
             }
             .container .filter-date-div .btn-search{
                 margin: auto;
@@ -341,7 +333,6 @@
                     <tr>
                         <th colspan="2">Room #<%=resultSet.getInt("room_id")%></th>
                     </tr>
-
                     <tr>
                         <th>Room Type</th>
                         <td><%=resultSet.getString("room_type")%></td>
@@ -365,13 +356,9 @@
                     <%}%>
                 </table>
             </div>
-
             <h3 style="margin-bottom: 50px;">Add Room</h3>
-
-
             <div class="filter-date-div">
                 <form onsubmit= "return checkForm(this)" action="addRoom" method="Post">  
-
                     <div class="form-group">
                         <input type="text" class="form-control" name="room_type" placeholder="Room Type" onchange="myFunction(this)">
                         <label id="typeError"></label>
@@ -392,7 +379,6 @@
                         <select class="city-menu" id="hotel" name="hotelList" data-dropdown>
                             <option value="" disabled selected>Select the hotel name</option>
                             <%
-
                                 Class.forName("com.mysql.jdbc.Driver");
                                 url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
                                 user = "root";
@@ -416,9 +402,7 @@
                     <input type="submit" class="btn" value="Add Room">
                 </form>
             </div>
-
             <h3 style="margin-bottom: 50px;">Update Room</h3>  
-
             <div class="filter-date-div">
                 <form action="updateRoom.jsp" method="Post">  
                     <div class="form_group">
@@ -445,14 +429,10 @@
                         </select>
                         <label id="listError"></label>
                     </div>
-
                     <input type="submit" class="btn" value="Update Room">
                     <input type="hidden" name="hiddenRoomId" id="r_id" class="btn"/>
                 </form>
             </div>
-
-
         </div>
-
     </body>
 </html>
