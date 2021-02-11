@@ -1,7 +1,7 @@
 <%-- 
     Document   : reservationsClient
     Created on : Jan 15, 2021, 1:06:11 AM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -23,15 +23,12 @@
     connection = (Connection) DriverManager.getConnection(url, user, passworddb);
     statement = (Statement) connection.createStatement();
     statement1 = (Statement) connection.createStatement();
-
     String query = "SELECT * FROM reservation WHERE user_id ='" + Integer.valueOf(id) + "'";
     String query1 = "SELECT * FROM reserved_rooms";
     ResultSet resultSet = null;
     ResultSet resultSet1 = null;
-
     resultSet = statement.executeQuery(query);
     resultSet1 = statement1.executeQuery(query1);
-
     ArrayList<Integer> res_id = new ArrayList<>();
     ArrayList<Integer> room_id = new ArrayList<>();
     ArrayList<String> room_price = new ArrayList<>();
@@ -40,7 +37,6 @@
         room_price.add(resultSet1.getString("room_price"));
         room_id.add(resultSet1.getInt("room_id"));
     }
-
 %>
 <html>
     <head>
@@ -63,7 +59,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 margin-left: auto; 
                 margin-right: auto;
@@ -151,7 +146,6 @@
                 padding: 0 30px;
                 font-family: 'Nunito', sans-serif;
             }
-
             .city-menu{
                 padding: 8px 12px;
                 color: #333333;
@@ -162,7 +156,6 @@
                 border: 1px solid #dddddd;
                 cursor: pointer;
                 border-radius: 1px;
-
             }
             .container .filter-date-div .btn-search{
                 margin: auto;
@@ -181,7 +174,6 @@
                 transition: .3s;
                 font-family: 'Nunito', sans-serif;
             }
-
         </style>
     </head>
     <body>
@@ -193,7 +185,6 @@
                     <tr>
                         <th colspan="2">Reservation #<%=resultSet.getInt("reservation_id")%></th>
                     </tr>
-
                     <tr>
                         <th>Reservation Payment</th>
                         <td>$<%=resultSet.getString("reservation_payment")%></td>
@@ -247,11 +238,8 @@
                         <th>Room Price</th>
                         <td>$<%=room_price.get(i)%></td>
                     </tr>
-
                     <%}%>
-
                     <%}%>
-
                     <tr>
                         <th style="background-color: #f3f3f3; color:#009879; ">Change</th>
                         <td>
@@ -263,7 +251,6 @@
                             </form>
                         </td>
                     </tr>
-
                     <tr>
                         <th style="background-color: #f3f3f3; color:#009879; ">Cancel</th>
                         <td>
@@ -274,9 +261,6 @@
                             </form>
                         </td>
                     </tr>
-
-
-
                     <%}%>
                 </table>
             </div>

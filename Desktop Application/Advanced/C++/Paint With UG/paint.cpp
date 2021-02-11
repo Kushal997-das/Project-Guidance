@@ -1,5 +1,6 @@
- #include<stdio.h>
+#include<stdio.h>
 #include<graphics.h>
+int bk=0;
 struct node
 {
     int color;
@@ -30,6 +31,7 @@ main()
 struct node *Start=NULL;
 int gd=0,gm;
 initgraph(&gd,&gm,"");
+put(&Start,0,0,getmaxx(),getmaxy(),WHITE);
 POINT cursor_pos;
 set_panel();
 pencil(&cursor_pos,&Start);
@@ -107,6 +109,8 @@ make_circle(cursorpos,Start);
 else if(cursorpos->x-5>=0&&cursorpos->x-5<=40&&cursorpos->y-35>=325&&cursorpos->y-35<=360)
 {
     cleardevice();
+    bk=0;
+    setbkcolor(0);
     set_panel();
 
 }
@@ -169,10 +173,8 @@ void put(struct node **Start,int x1,int y1,int x2,int y2,int color)
         *Start=temp;
         else
         {
-            t=*Start;
-            while(t->next!=NULL)
-                t=t->next;
-            t->next=temp;
+            temp->next=*Start;
+            *Start=temp;
         }
 }
 void make_circle(POINT *cursor_pos,struct node **Start)
@@ -194,7 +196,7 @@ void make_circle(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     { if(0<j){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
         //circle(x1+(x2-x1)/2,y1+(y2-y1)/2,((x2-x1)/2));
         ellipse(x2-(x2-x1),y2-(y2-y1),0,360,x2-x1,y2-y1);
         setcolor(color);
@@ -208,7 +210,7 @@ void make_circle(POINT *cursor_pos,struct node **Start)
         j++;
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
-    { setcolor(getbkcolor());
+    { setcolor(bk);
         //circle(x1+(x2-x1)/2,y1+(y2-y1)/2,((x2-x1)/2));
         ellipse(x2-(x2-x1),y2-(y2-y1),0,360,x2-x1,y2-y1);
 
@@ -245,7 +247,7 @@ void make_rectangle(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     {  if(y>0){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
        rectangle(x1,y1,x2,y2);
      setcolor(color);
     }
@@ -257,7 +259,7 @@ void make_rectangle(POINT *cursor_pos,struct node **Start)
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
         rectangle(x1,y1,x2,y2);
         setcolor(color);
         GetCursorPos(cursor_pos);
@@ -266,7 +268,7 @@ void make_rectangle(POINT *cursor_pos,struct node **Start)
         i++;
     }
     if(i==2){
-            setcolor(getbkcolor());
+            setcolor(bk);
      rectangle(x1,y1,x2,y2);
     setcolor(color);
        rectangle(x1,y1,x2,y2);
@@ -298,7 +300,7 @@ void right_angle(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     {  if(y>0){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
         line(x1,y1,x2,y2);
       line(x1,y1,x1,y2);
       line(x1,y2,x2,y2);
@@ -314,7 +316,7 @@ void right_angle(POINT *cursor_pos,struct node **Start)
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
         line(x1,y1,x2,y2);
       line(x1,y1,x1,y2);
       line(x1,y2,x2,y2);
@@ -325,7 +327,7 @@ void right_angle(POINT *cursor_pos,struct node **Start)
         i++;
     }
     if(i==2){
-            setcolor(getbkcolor());
+            setcolor(bk);
       line(x1,y1,x2,y2);
       line(x1,y1,x1,y2);
       line(x1,y2,x2,y2);
@@ -365,7 +367,7 @@ void make_line(POINT *cursor_pos,struct node **Start)
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
 
       line(x1-5,y1-20,x2-5,y2-20);
      setcolor(color);
@@ -375,7 +377,7 @@ void make_line(POINT *cursor_pos,struct node **Start)
         i++;
     }
     else if(GetAsyncKeyState(VK_LBUTTON))
-    { setcolor(getbkcolor());
+    { setcolor(bk);
      line(x1-5,y1-20,x2-5,y2-20);
      setcolor(color);
               GetCursorPos(cursor_pos);
@@ -384,7 +386,7 @@ void make_line(POINT *cursor_pos,struct node **Start)
            line(x1-5,y1-20,x2-5,y2-20);
     }
  if(i==2){
-            setcolor(getbkcolor());
+            setcolor(bk);
      line(x1-5,y1-20,x2-5,y2-20);
     setcolor(color);
         line(x1-5,y1-20,x2-5,y2-20);
@@ -402,7 +404,7 @@ int i=0,x,y,color;
             identify_shape(cursor_pos,Start);
  else if(GetAsyncKeyState(VK_SHIFT))
             check_color(cursor_pos);
-
+setbkcolor(bk);
      outtextxy(580,240,"Text");
     while(1)
     {
@@ -423,11 +425,13 @@ int i=0,x,y,color;
 GetCursorPos(cursor_pos);
     outtextxy(cursor_pos->x-5,cursor_pos->y-35,text);
     color=getcolor();
-     setcolor(getbkcolor());
+     setcolor(bk);
+     setbkcolor(bk);
      outtextxy(550,240,"Enter text");
      outtextxy(550,280,text);
     outtextxy(500,300,"enter x & y axis");
     setcolor(color);
+
     break;}
     }
     pencil(cursor_pos,Start);
@@ -438,6 +442,8 @@ void checkshape(POINT *cursor_pos,struct node *Start)
     {
         if(Start->x1<=cursor_pos->x&&Start->x2>=cursor_pos->x&&Start->y1<=cursor_pos->y&&Start->y2>=cursor_pos->y)
     {
+        if(Start->x1<=0&&Start->x2>=getmaxx()&&Start->y1<=0&&Start->y2>=getmaxy())
+        bk=getcolor();
         setfillstyle(SOLID_FILL,getcolor());
         floodfill(cursor_pos->x-5,cursor_pos->y-25,Start->color);
         break;
@@ -591,7 +597,7 @@ void triangle(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     {  if(y>0){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
         line(x1,y1,x1-(x2-x1),y2);
         line(x1,y1,x1+(x2-x1),y2);
         line(x1-(x2-x1),y2,x2,y2);
@@ -607,7 +613,7 @@ void triangle(POINT *cursor_pos,struct node **Start)
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
         line(x1,y1,x1-(x2-x1),y2);
         line(x1,y1,x1+(x2-x1),y2);
         line(x1-(x2-x1),y2,x2,y2);
@@ -657,7 +663,7 @@ void diamond(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     {  if(y>0){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
         line(x1,y1,x1-(x2-x1),y2);
  line(x1,y1,x1+(x2-x1),y2);
 line(x2,y2,x1,y2+(y2-y1));
@@ -676,7 +682,7 @@ line(x1-(x2-x1),y2,x1,y2+(y2-y1));
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
  line(x1,y1,x1-(x2-x1),y2);
  line(x1,y1,x1+(x2-x1),y2);
 line(x2,y2,x1,y2+(y2-y1));
@@ -688,7 +694,7 @@ line(x1-(x2-x1),y2,x1,y2+(y2-y1));
         i++;
     }
     if(i==2){
-            setcolor(getbkcolor());
+            setcolor(bk);
  line(x1,y1,x1-(x2-x1),y2);
  line(x1,y1,x1+(x2-x1),y2);
 line(x2,y2,x1,y2+(y2-y1));
@@ -733,7 +739,7 @@ void cube(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     {  if(y>0){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
 rectangle(x1,y1,x2-(((x2-x1)/2)/2),y2-(((y2-y1)/2)/2));
 rectangle(x1+(((x2-x1)/2)/2),y1+(((y2-y1)/2)/2),x2,y2);
 line(x1,y1,x1+(((x2-x1)/2)/2),y1+(((y2-y1)/2)/2));
@@ -755,7 +761,7 @@ line(x2-(((x2-x1)/2)/2),y2-(((y2-y1)/2)/2),x2,y2);
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
  rectangle(x1,y1,x2-(((x2-x1)/2)/2),y2-(((y2-y1)/2)/2));
 rectangle(x1+(((x2-x1)/2)/2),y1+(((y2-y1)/2)/2),x2,y2);
 line(x1,y1,x1+(((x2-x1)/2)/2),y1+(((y2-y1)/2)/2));
@@ -769,7 +775,7 @@ line(x1,y1,x1+(((x2-x1)/2)/2),y1+(((y2-y1)/2)/2));
         i++;
     }
     if(i==2){
-            setcolor(getbkcolor());
+            setcolor(bk);
 setcolor(color);
  rectangle(x1,y1,x2-(((x2-x1)/2)/2),y2-(((y2-y1)/2)/2));
 rectangle(x1+(((x2-x1)/2)/2),y1+(((y2-y1)/2)/2),x2,y2);
@@ -806,7 +812,7 @@ void cylinder(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     {  if(y>0){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
         ellipse(x2-(x2-x1),y2-(y2-y1),0,360,x2-x1,(y2-y1)/4);
   line(x1+(x2-x1),y1,x2,y2);
    line(x1-(x2-x1),y1,x1-(x2-x1),y2);
@@ -825,7 +831,7 @@ void cylinder(POINT *cursor_pos,struct node **Start)
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
         ellipse(x2-(x2-x1),y2-(y2-y1),0,360,x2-x1,(y2-y1)/4);
          line(x1+(x2-x1),y1,x2,y2);
    line(x1-(x2-x1),y1,x1-(x2-x1),y2);
@@ -838,7 +844,7 @@ void cylinder(POINT *cursor_pos,struct node **Start)
         i++;
     }
     if(i==2){
-        setcolor(getbkcolor());
+        setcolor(bk);
         ellipse(x2-(x2-x1),y2-(y2-y1),0,360,x2-x1,(y2-y1)/4);
   line(x1+(x2-x1),y1,x2,y2);
    line(x1-(x2-x1),y1,x1-(x2-x1),y2);
@@ -879,7 +885,7 @@ void hori_arrow(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     {  if(y>0){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
   line(x1,y1,x1+(x2-x1)/2,y1);
   line(x1,y1,x1,y2+(y2-y1));
   line(x1,y2+(y2-y1),x1+(x2-x1)/2,y2+(y2-y1));
@@ -903,7 +909,7 @@ line(x1+(x2-x1)/2,y1-(y2-y1)/1.5,x2,y2);
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
        line(x1,y1,x1+(x2-x1)/2,y1);
   line(x1,y1,x1,y2+(y2-y1));
   line(x1,y2+(y2-y1),x1+(x2-x1)/2,y2+(y2-y1));
@@ -960,7 +966,7 @@ void cone(POINT *cursor_pos,struct node **Start)
     else if(GetAsyncKeyState(VK_LBUTTON))
     {  if(y>0){
         color=getcolor();
-        setcolor(getbkcolor());
+        setcolor(bk);
       line(x1,y1,x1-(x2-x1),y2);
       line(x1,y1,x1+(x2-x1),y2);
       ellipse(x1,y2,0,360,(x2-x1),(y2-y1)/4);
@@ -977,7 +983,7 @@ void cone(POINT *cursor_pos,struct node **Start)
     }
     else if(!GetAsyncKeyState(VK_LBUTTON)&&i==1)
     {
-        setcolor(getbkcolor());
+        setcolor(bk);
     line(x1,y1,x1-(x2-x1),y2);
       line(x1,y1,x1+(x2-x1),y2);
       ellipse(x1,y2,0,360,(x2-x1),(y2-y1)/4);

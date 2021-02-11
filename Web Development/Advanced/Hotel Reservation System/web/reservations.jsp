@@ -1,7 +1,7 @@
 <%-- 
     Document   : reservations
     Created on : Jan 13, 2021, 9:20:41 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -76,7 +76,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 margin-left: auto; 
                 margin-right: auto;
@@ -154,7 +153,6 @@
                 padding: 0 30px;
                 font-family: 'Nunito', sans-serif;
             }
-
             .city-menu{
                 padding: 8px 12px;
                 color: #333333;
@@ -184,11 +182,9 @@
                 transition: .3s;
                 font-family: 'Nunito', sans-serif;
             }
-
         </style>
     </head>
     <body>
-
         <div class="container">
             <h3 style="margin: 30px;">System Reservations</h3>
             <div class="table-group">
@@ -197,7 +193,6 @@
                     <tr>
                         <th colspan="2">Reservation #<%=resultSet.getInt("reservation_id")%></th>
                     </tr>
-
                     <tr>
                         <th>Reservation Payment</th>
                         <td>$<%=resultSet.getString("reservation_payment")%></td>
@@ -255,8 +250,6 @@
                     <%}%>
 
                     <%}%>
-
-
                     <%if (resultSet.getString("status").equals("Pending")) {%>
                     <tr>
                         <th style="background-color: #fff; color:#009879; ">Confirm</th>
@@ -285,38 +278,29 @@
                         </td>
                     </tr>
                     <%}%>
-
-
                     <tr>
                         <th style="background-color: #f3f3f3; color:#009879; ">Cancel</th>
                         <td>
                             <form action="cancelReservation" method="Post">
                                 <input type="submit" class="btn-cancel" value="Cancel Reservation">
                                 <input type="hidden" class="btn"  value='<%=String.valueOf(resultSet.getInt("reservation_id"))%>' name="reservation_id">
-
                             </form>
                         </td>
                     </tr>
-
                     <%}%>
                 </table>
             </div>
-
             <h3 style="margin-bottom: 50px;">Reservations History</h3>
-
             <div class="filter-date-div">
                 <h3 style="margin: 10px; font-size: 15px;">From Date</h3>
                 <input class="city-menu" type="date"  name="checkindate" id="checkindate"/>
                 <h3 style="margin: 10px; font-size: 15px;">To Date</h3>
                 <input class="city-menu" type="date" name="checkoutdate" id="checkoutdate"/>
             </div>
-
             <div class="filter-date-div">
                 <button type="button" class="btn-search" id="sub" onclick="searchHistory()">Filter</button>
             </div>
-            
             <div class="table-group-history">
-
                 <table  class="center">
                     <%while (resultSet2.next()) {%>
                     <tr>
@@ -376,14 +360,10 @@
                         <th>Room Price</th>
                         <td>$<%=room_price_his.get(i)%></td>
                     </tr>
-
                     <%}%>
-
                     <%}%>
-
                     <%}%>
                 </table>
-
             </div>
         </div>
     </body>
