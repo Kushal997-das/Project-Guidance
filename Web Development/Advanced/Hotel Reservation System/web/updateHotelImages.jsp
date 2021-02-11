@@ -1,7 +1,7 @@
 <%-- 
     Document   : updateHotelImages
     Created on : Jan 15, 2021, 8:05:09 PM
-    Author     : tawfe
+    Author     : Tawfik
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -44,7 +44,6 @@
             function goto() {
                 alert(document.getElementById("img2").value);
             }
-
             function getImg1() {
                 document.getElementById("img_1").value = document.getElementById("img1").files[0].name;
                 alert(document.getElementById("img_1").value);
@@ -71,7 +70,6 @@
                 alert(document.getElementById("img_5").value);
                 alert(document.getElementById("img_5_id").value);
             }
-
         </script>
         <style>
             *{
@@ -91,7 +89,6 @@
                 text-align: center;
 
             }
-
             table.center {
                 width: 50%;
                 margin-left: auto; 
@@ -113,7 +110,6 @@
             }
             .center th,td{
                 padding: 12px 15px;
-
             }
             .center tbody,tr{
                 border-bottom: 1px solid #dddddd;
@@ -180,7 +176,6 @@
                 border: 1px solid #dddddd;
                 cursor: pointer;
                 border-radius: 1px;
-
             }
             .container .filter-date-div .btn-search{
                 margin: auto;
@@ -199,7 +194,6 @@
                 transition: .3s;
                 font-family: 'Nunito', sans-serif;
             }
-
             .add-container{
                 margin: auto;
                 width: 100%;
@@ -302,13 +296,11 @@
         </style>
     </head>
     <body>
-
         <div class="container">
             <h3 style="margin: 30px;">Hotel Photos <%=hotel_id%></h3>
             <h3 style="margin: 30px;">If you want to change a specific photo click on browse else </h3>
             <div class="filter-date-div">
                 <form action="updateHotelPhotosDB" method="Post">  
-
                     <img class='hotel_img-additional' id="img-t-1" src='<%=phos.get(0)%>'/>
                     <input type="hidden" name="hidden_img1" id="img_1" class="btn" value='<%=phos.get(0)%>'/>
                     <input type="hidden" name="hidden_img1_id" id="img_1_id" class="btn" value='<%=String.valueOf(phos_id.get(0))%>'/>
@@ -319,7 +311,6 @@
                     <img class='hotel_img-additional' id="img-t-2" src='<%=phos.get(1)%>' />
                     <input type="hidden" name="hidden_img2" id="img_2" class="btn" value='<%=phos.get(1)%>'/>
                     <input type="hidden" name="hidden_img2_id" id="img_2_id" class="btn" value='<%=String.valueOf(phos_id.get(1))%>'/>
-
                     <br>
                     Select Image 2:  <input type="file" name="img2" id="img2" onchange="getImg2()" >
                     <br>
@@ -327,7 +318,6 @@
                     <img class='hotel_img-additional' id="img-t-3" src='<%=phos.get(2)%>' />
                     <input type="hidden" name="hidden_img3" id="img_3" class="btn" value='<%=phos.get(2)%>'/>
                     <input type="hidden" name="hidden_img3_id" id="img_3_id" class="btn" value='<%=String.valueOf(phos_id.get(2))%>'/>
-
                     <br>
                     Select Image 3:  <input type="file" name="img3" id="img3" onchange="getImg3()">
                     <br>
@@ -335,7 +325,6 @@
                     <img class='hotel_img-additional' id="img-t-4" src='<%=phos.get(3)%>' />
                     <input type="hidden" name="hidden_img4" id="img_4" class="btn" value='<%=phos.get(3)%>'/>
                     <input type="hidden" name="hidden_img4_id" id="img_4_id" class="btn" value='<%=String.valueOf(phos_id.get(3))%>'/>
-
                     <br>
                     Select Image 4:  <input type="file" name="img4" id="img4" onchange="getImg4()">
                     <br>
@@ -343,19 +332,14 @@
                     <img class='hotel_img-additional' id="img-t-5" src='<%=phos.get(4)%>' />
                     <input type="hidden" name="hidden_img5" id="img_5" class="btn" value='<%=phos.get(4)%>'/>
                     <input type="hidden" name="hidden_img5_id" id="img_5_id" class="btn" value='<%=String.valueOf(phos_id.get(4))%>'/>
-
                     <br>
                     Select Image 5:  <input type="file" name="img5" id="img5" onchange="getImg5()" >
                     <br>
                     <br>
                     <input type="hidden" name="hiddenHotelId_u" id="h_id_u" class="btn" value='<%=hotel_id%>'/>
-
                     <input type="submit" class="btn" value="Update Hotel Photos">
-
                 </form>
             </div>
         </div>
-
-
     </body>
 </html>
