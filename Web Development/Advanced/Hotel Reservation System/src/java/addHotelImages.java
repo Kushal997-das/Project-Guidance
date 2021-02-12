@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/addHotelImages"})
 public class addHotelImages extends HttpServlet {
@@ -42,7 +42,6 @@ public class addHotelImages extends HttpServlet {
             String img3 = request.getParameter("img3");
             String img4 = request.getParameter("img4");
             String img5 = request.getParameter("img5");
-
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
             String user = "root";
@@ -59,41 +58,31 @@ public class addHotelImages extends HttpServlet {
             statement3 = (Statement) connection.createStatement();
             statement4 = (Statement) connection.createStatement();
             statement5 = (Statement) connection.createStatement();
-
             String query = "INSERT INTO photos (photo,hotel_id) VALUES("
                     + "'" + img1 + "',"
                     + "'" + Integer.valueOf(hotel_id) + "')";
             int res1 = statement.executeUpdate(query);
-
             String query2 = "INSERT INTO photos (photo,hotel_id) VALUES("
                     + "'" + img2 + "',"
                     + "'" + Integer.valueOf(hotel_id) + "')";
             int res2 = statement2.executeUpdate(query2);
-
             String query3 = "INSERT INTO photos (photo,hotel_id) VALUES("
                     + "'" + img3 + "',"
                     + "'" + Integer.valueOf(hotel_id) + "')";
             int res3 = statement3.executeUpdate(query3);
-
             String query4 = "INSERT INTO photos (photo,hotel_id) VALUES("
                     + "'" + img4 + "',"
                     + "'" + Integer.valueOf(hotel_id) + "')";
             int res4 = statement4.executeUpdate(query4);
-
             String query5 = "INSERT INTO photos (photo,hotel_id) VALUES("
                     + "'" + img5 + "',"
                     + "'" + Integer.valueOf(hotel_id) + "')";
             int res5 = statement5.executeUpdate(query5);
-
             response.sendRedirect("hotelImages.jsp");
-            
-            
-            
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
