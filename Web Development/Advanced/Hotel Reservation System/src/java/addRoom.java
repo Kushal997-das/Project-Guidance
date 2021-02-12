@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/addRoom"})
 public class addRoom extends HttpServlet {
@@ -58,16 +58,12 @@ public class addRoom extends HttpServlet {
                     + "'" + Integer.valueOf(hotel_id) + "',"
                     + "'" + facility + "')";
             int res = statement.executeUpdate(query);
-//            RequestDispatcher dispatcher = request.getRequestDispatcher("rooms.jsp");
-//            dispatcher.forward(request, response);
-
             response.sendRedirect("rooms.jsp");
         } catch (Exception e) {
             e.printStackTrace();
             out.println(e);
         }
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
