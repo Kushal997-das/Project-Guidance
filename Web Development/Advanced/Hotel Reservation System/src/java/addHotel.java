@@ -26,7 +26,7 @@ import org.apache.tomcat.util.http.fileupload.servlet.ServletFileUpload;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/addHotel"})
 public class addHotel extends HttpServlet {
@@ -56,7 +56,6 @@ public class addHotel extends HttpServlet {
             String max = request.getParameter("hotel_max_price");
             String availability = request.getParameter("hotel_availability");
             String city = request.getParameter("hotel_city");
-
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
             String user = "root";
@@ -76,7 +75,6 @@ public class addHotel extends HttpServlet {
                     + "'" + availability + "',"
                     + "'" + city + "')";
             int res = statement.executeUpdate(query);
-
             int hotel_id = 0;
             Statement statement3 = null;
             statement3 = (Statement) connection.createStatement();
@@ -84,30 +82,25 @@ public class addHotel extends HttpServlet {
             resultSet = statement3.executeQuery("SELECT * FROM hotel WHERE hotel_name ='" + name + "' AND hotel_stars ='" + stars + "' AND "
                     + "hotel_location = '" + location + "' AND hotel_distance ='" + distance + "' AND hotel_phone ='" + phone + "' AND hotel_price_min ='" + min + "' AND "
                     + "hotel_price_max ='" + max + "' AND hotel_availability ='" + availability + "' AND hotel_city='" + city + "';");
-
             while (resultSet.next()) {
                 hotel_id = resultSet.getInt("hotel_id");
             }
-
             Statement statement2 = null;
             statement2 = (Statement) connection.createStatement();
             ResultSet resultSet2 = null;
             String query2 = "SELECT * FROM rate WHERE hotel_id ='" + hotel_id + "'";
             resultSet2 = statement2.executeQuery(query2);
-
             int avgRate = 0;
             int counter = 0;
             while (resultSet.next()) {
                 avgRate += Integer.valueOf(resultSet.getString("rate"));
                 counter++;
             }
-
             if (counter == 0) {
                 String query3 = "UPDATE hotel SET hotel_avg_rate = '" + String.valueOf(0) + "' WHERE hotel_id = '" + hotel_id + "';";
                 Statement statement4 = null;
                 statement4 = (Statement) connection.createStatement();
                 int resQuery = statement4.executeUpdate(query3);
-
                 String query4 = "INSERT INTO rate (comment,rate,hotel_id,user_id) VALUES ("
                         + "'" + "Good" + "',"
                         + "'" + "0" + "',"
@@ -122,17 +115,13 @@ public class addHotel extends HttpServlet {
                 Statement statement4 = null;
                 statement4 = (Statement) connection.createStatement();
                 int resQuery = statement4.executeUpdate(query3);
-            }
-            
+            }            
             response.sendRedirect("hotels.jsp");
-
         } catch (Exception e) {
             e.printStackTrace();
             out.println(e);
         }
-
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.

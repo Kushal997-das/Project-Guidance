@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/cancelReservation"})
 public class cancelReservation extends HttpServlet {
@@ -40,7 +40,6 @@ public class cancelReservation extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             String res_id = request.getParameter("reservation_id");
-            
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
             String user = "root";
@@ -52,7 +51,6 @@ public class cancelReservation extends HttpServlet {
             ResultSet resultSet = null;
             resultSet = statement1.executeQuery("SELECT * FROM reserved_rooms");
             ArrayList<Integer> reservedRooms = new ArrayList<>();
-            
             while (resultSet.next()) {
                 if (resultSet.getInt("reservation_id") == Integer.valueOf(res_id)) {
                     reservedRooms.add(resultSet.getInt("reservation_id"));
@@ -63,19 +61,16 @@ public class cancelReservation extends HttpServlet {
             for (int i = 0; i < reservedRooms.size(); i++) {
                 int result2 = statement2.executeUpdate("DELETE FROM reserved_rooms WHERE (reservation_id = '" + Integer.valueOf(res_id) + "')");
             }
-            
             Statement statement = null;
             statement = (Statement) connection.createStatement();
             String query = "DELETE FROM reservation WHERE (reservation_id = '" + Integer.valueOf(res_id) + "')";
             int result = statement.executeUpdate(query);
-
             response.sendRedirect("reservations.jsp");
         } catch (Exception e) {
             e.printStackTrace();
             out.println(e);
         }
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
