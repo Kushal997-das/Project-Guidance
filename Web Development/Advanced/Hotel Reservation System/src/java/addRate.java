@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/addRate"})
 public class addRate extends HttpServlet {
@@ -42,7 +42,6 @@ public class addRate extends HttpServlet {
             String hotel_id = request.getParameter("h_hotel_id");
             String rate = request.getParameter("h_rate");
             String comment = request.getParameter("comment");
-
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
             String user = "root";
@@ -61,7 +60,6 @@ public class addRate extends HttpServlet {
                     flag = false;
                 }
             }
-
             if (flag == true) {
                 String query = "INSERT INTO rate (comment,rate,hotel_id,user_id) VALUES ("
                         + "'" + comment + "',"
@@ -69,43 +67,33 @@ public class addRate extends HttpServlet {
                         + "'" + Integer.valueOf(hotel_id) + "',"
                         + "'" + Integer.valueOf(user_id) + "')";
                 int res = statement.executeUpdate(query);
-
                 Statement statement2 = null;
                 statement2 = (Statement) connection.createStatement();
                 ResultSet resultSet = null;
                 String query2 = "SELECT * FROM rate WHERE hotel_id ='" + Integer.valueOf(hotel_id) + "'";
                 resultSet = statement2.executeQuery(query2);
-
                 int avgRate = 0;
                 int counter = 0;
                 while (resultSet.next()) {
                     if (Integer.valueOf(resultSet.getString("rate")) != 0) {
                         avgRate += Integer.valueOf(resultSet.getString("rate"));
                         counter++;
-
                     }
-
                 }
-
                 avgRate /= counter;
-
                 String query3 = "UPDATE hotel SET hotel_avg_rate = '" + String.valueOf(avgRate) + "' WHERE hotel_id = '" + Integer.valueOf(hotel_id) + "';";
                 Statement statement3 = null;
                 statement3 = (Statement) connection.createStatement();
                 int resQuery = statement3.executeUpdate(query3);
                 response.sendRedirect("hotelProfile.jsp?hotel_id=" + hotel_id+"&u_id="+user_id);
-
             } else {
                 response.sendRedirect("hotelProfile.jsp?hotel_id=" + hotel_id+"&u_id="+user_id);
-
             }
-
         } catch (Exception e) {
             e.printStackTrace();
             out.println(e);
         }
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
