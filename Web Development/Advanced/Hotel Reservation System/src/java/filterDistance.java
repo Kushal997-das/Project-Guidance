@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/filterDistance"})
 public class filterDistance extends HttpServlet {
@@ -55,7 +55,6 @@ public class filterDistance extends HttpServlet {
             statement5 = (Statement) connection.createStatement();
             ResultSet resultSet5 = null;
             resultSet5 = statement5.executeQuery(query5);
-
             out.println("<table>");
             while (resultSet.next()) {
                 out.println("<tr>");
@@ -110,7 +109,6 @@ public class filterDistance extends HttpServlet {
                 out.println("View on Map");
                 out.println("</a>");
                 out.println("</div>");
-
                 out.println("</div>");
                 out.println("</figure>");
                 out.println("</section>");
@@ -118,8 +116,6 @@ public class filterDistance extends HttpServlet {
                 out.println("</tr>");
             }
             out.println("</table>");
-
-//                out.println("<h1 style='color:red';>No existing data!</h3>");
         } catch (Exception e) {
             e.printStackTrace();
             out.print(e);

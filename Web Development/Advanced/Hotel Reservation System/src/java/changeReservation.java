@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/changeReservation"})
 public class changeReservation extends HttpServlet {
@@ -41,7 +41,6 @@ public class changeReservation extends HttpServlet {
             String res_id = request.getParameter("reservation_id");
             String hotel_id = request.getParameter("hotel_id");
             String user_id = request.getParameter("user_id");
-            
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
             String user = "root";
@@ -53,7 +52,6 @@ public class changeReservation extends HttpServlet {
             ResultSet resultSet = null;
             resultSet = statement1.executeQuery("SELECT * FROM reserved_rooms");
             ArrayList<Integer> reservedRooms = new ArrayList<>();
-
             while (resultSet.next()) {
                 if (resultSet.getInt("reservation_id") == Integer.valueOf(res_id)) {
                     reservedRooms.add(resultSet.getInt("reservation_id"));
@@ -64,7 +62,6 @@ public class changeReservation extends HttpServlet {
             for (int i = 0; i < reservedRooms.size(); i++) {
                 int result2 = statement2.executeUpdate("DELETE FROM reserved_rooms WHERE (reservation_id = '" + Integer.valueOf(res_id) + "')");
             }
-
             Statement statement = null;
             statement = (Statement) connection.createStatement();
             String query = "DELETE FROM reservation WHERE (reservation_id = '" + Integer.valueOf(res_id) + "')";

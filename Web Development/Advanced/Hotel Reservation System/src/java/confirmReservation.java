@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/confirmReservation"})
 public class confirmReservation extends HttpServlet {
@@ -39,7 +39,6 @@ public class confirmReservation extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             String res_id = request.getParameter("reservation_id");
-
             String payment = request.getParameter("reservation_payment");
             String checkin = request.getParameter("reservation_check_in");
             String checkout = request.getParameter("reservation_check_out");
@@ -48,7 +47,6 @@ public class confirmReservation extends HttpServlet {
             String no_rooms = request.getParameter("no_rooms");
             String hotel_id = request.getParameter("hotel_id");
             String user_id = request.getParameter("user_id");
-
             String status = "Confirmed";
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
@@ -63,7 +61,6 @@ public class confirmReservation extends HttpServlet {
                     + "WHERE (reservation_id = '"
                     + Integer.valueOf(res_id) + "');";
             int result = statement.executeUpdate(query);
-
             int his_res_id = 0;
             Statement statement1 = null;
             statement1 = (Statement) connection.createStatement();
@@ -80,7 +77,6 @@ public class confirmReservation extends HttpServlet {
                     his_res_id = resultSet.getInt("history_id");
                 }
             }
-
             Statement statement2 = null;
             statement2 = (Statement) connection.createStatement();
             String query2 = "UPDATE history SET status = "
@@ -88,13 +84,7 @@ public class confirmReservation extends HttpServlet {
                     + "WHERE (history_id = '"
                     + his_res_id + "');";
             int qRes = statement2.executeUpdate(query2);
-//
-//            RequestDispatcher dispatcher = request.getRequestDispatcher("reservations.jsp");
-//            dispatcher.forward(request, response);
-//            
-//            
             response.sendRedirect("reservations.jsp");
-
         } catch (Exception e) {
             e.printStackTrace();
             out.print(e);
