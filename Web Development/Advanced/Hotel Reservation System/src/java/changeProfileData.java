@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/changeProfileData"})
 public class changeProfileData extends HttpServlet {
@@ -43,7 +43,6 @@ public class changeProfileData extends HttpServlet {
             String password = request.getParameter("password");
             String phone = request.getParameter("phone");
             String id = request.getParameter("hiddenUserId");
-            
             if (!displayname.equals("displayname")) {
                 Class.forName("com.mysql.jdbc.Driver");
                 String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
@@ -59,7 +58,6 @@ public class changeProfileData extends HttpServlet {
                         + Integer.valueOf(id) + "');";
                 int result = statement.executeUpdate(query);
             }
-            
             if (!email.equals("email")) {
                 Class.forName("com.mysql.jdbc.Driver");
                 String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
@@ -75,7 +73,6 @@ public class changeProfileData extends HttpServlet {
                         + Integer.valueOf(id) + "');";
                 int result = statement.executeUpdate(query);
             }
-            
             if (!phone.equals("phone")) {
                 Class.forName("com.mysql.jdbc.Driver");
                 String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
@@ -91,7 +88,6 @@ public class changeProfileData extends HttpServlet {
                         + Integer.valueOf(id) + "');";
                 int result = statement.executeUpdate(query);
             }
-            
             if (!password.equals("password")) {
                 Class.forName("com.mysql.jdbc.Driver");
                 String url = "jdbc:mysql://localhost:3306/hotel_reservation_system_db?useSSL=false";
@@ -107,8 +103,6 @@ public class changeProfileData extends HttpServlet {
                         + Integer.valueOf(id) + "');";
                 int result = statement.executeUpdate(query);
             }            
-//            RequestDispatcher dispatcher = request.getRequestDispatcher("userProfile.jsp?id=" + id);
-//            dispatcher.forward(request, response);
             request.setAttribute("id", id);
             response.sendRedirect("userProfile.jsp");
         } catch (Exception e) {
@@ -116,7 +110,6 @@ public class changeProfileData extends HttpServlet {
             out.print(e);
         }
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
