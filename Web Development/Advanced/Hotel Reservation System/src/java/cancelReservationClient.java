@@ -28,7 +28,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author tawfe
+ * @author Tawfik
  */
 @WebServlet(urlPatterns = {"/cancelReservationClient"})
 public class cancelReservationClient extends HttpServlet {
@@ -60,7 +60,6 @@ public class cancelReservationClient extends HttpServlet {
             ResultSet resultSet = null;
             resultSet = statement1.executeQuery("SELECT * FROM reserved_rooms");
             ArrayList<Integer> reservedRooms = new ArrayList<>();
-
             while (resultSet.next()) {
                 if (resultSet.getInt("reservation_id") == Integer.valueOf(res_id)) {
                     reservedRooms.add(resultSet.getInt("reservation_id"));
@@ -71,12 +70,10 @@ public class cancelReservationClient extends HttpServlet {
             for (int i = 0; i < reservedRooms.size(); i++) {
                 int result2 = statement2.executeUpdate("DELETE FROM reserved_rooms WHERE (reservation_id = '" + Integer.valueOf(res_id) + "')");
             }
-
             Statement statement = null;
             statement = (Statement) connection.createStatement();
             String query = "DELETE FROM reservation WHERE (reservation_id = '" + Integer.valueOf(res_id) + "')";
             int result = statement.executeUpdate(query);
-
             String displayname = "";
             String clientEmail = "";//sender
             Statement statement3 = null;
@@ -87,38 +84,29 @@ public class cancelReservationClient extends HttpServlet {
                 displayname = resultSet1.getString("display_name");
                 clientEmail = resultSet1.getString("email");
             }
-
             Statement statement4 = null;
             statement4 = (Statement) connection.createStatement();
             String q = "INSERT INTO cancel_notification (n_reservation_id,client_display_name) VALUES ("
                     + "'" + Integer.valueOf(res_id) + "',"
                     + "'" + displayname + "')";
             int res = statement4.executeUpdate(q);
-
             Send_Mail(clientEmail, res_id, displayname);
-
-//            RequestDispatcher dispatcher = request.getRequestDispatcher("reservationsClient.jsp?id=" + user_id);
-//            dispatcher.forward(request, response);
             request.setAttribute("id", user_id);
             response.sendRedirect("reservationsClient.jsp");
-
         } catch (Exception e) {
             e.printStackTrace();
             out.println(e);
         }
     }
-
     public void Send_Mail(String email, String reservation_id, String diaplayname) throws MessagingException {
         String USER_NAME = "tawfekyassertawfek@gmail.com";
         String PASSWORD = "02k0181381tyd";
         String RECIPIENT = "alamirhassan8@gmail.com";
-
         String from = USER_NAME;
         String pass = PASSWORD;
         String[] to = {RECIPIENT};
         String subject = "Hotel Reservation System - Reservation Cancellation Mail";
         String body = "The user " + diaplayname + " has been canceled his reservation with ID = " + reservation_id;
-
         sendFromGMail(from, pass, to, subject, body);
     }
 
@@ -131,28 +119,22 @@ public class cancelReservationClient extends HttpServlet {
         props.put("mail.smtp.password", pass);
         props.put("mail.smtp.port", "587");
         props.put("mail.smtp.auth", "true");
-
         Session session = Session.getDefaultInstance(props);
         MimeMessage message = new MimeMessage(session);
-
         message.setFrom(new InternetAddress(from));
         InternetAddress[] toAddress = new InternetAddress[to.length];
-
         for (int i = 0; i < to.length; i++) {
             toAddress[i] = new InternetAddress(to[i]);
         }
-
         for (InternetAddress toAddres : toAddress) {
             message.addRecipient(Message.RecipientType.TO, toAddres);
         }
-
         message.setSubject(subject);
         message.setText(body);
         Transport transport;
         transport = session.getTransport("smtp");
         transport.connect(host, from, pass);
         transport.sendMessage(message, message.getAllRecipients());
-
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
