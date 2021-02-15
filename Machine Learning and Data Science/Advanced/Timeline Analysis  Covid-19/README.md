@@ -5,8 +5,6 @@
 ![](https://img.shields.io/badge/Main_Tool_Used-Jupyter_Notebook-orange.svg)
 ![](https://img.shields.io/badge/Status-Complete-green.svg)
 
-
-
 > Problem Statement:
 - Create a storyboard showing spread of Covid-19 cases in your country or any
 region (Asia, Europe, BRICS etc) using Tableau, Power BI or SAP <br>
