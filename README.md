@@ -2,7 +2,6 @@
 
 ### The Ultimate resources for beginner to advance level projects all place 😃 + 💻 + 🧠 = 🏆
 
-
 <img align="center" alt="GIF"  width="950px" height='900px' src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Documents/document_pic.jpg?raw=true" />
 
 
