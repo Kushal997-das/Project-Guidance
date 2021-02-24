@@ -6,4 +6,6 @@ API Endpoint Example:
 
 ###### See the following api controller
 
-![Image](https://github.com/TawfikYasser/Project-Guidance/blob/feat/add_spring_boot_project/Desktop%20Application/Intermediate/Java/Mail%20API/jty-mail-img.png)
+![Image](https://github.com/Kushal997-das/Project-Guidance/blob/main/Desktop%20Application/Intermediate/Java/Mail%20API/jty-mail-img.png)
+
+###### Have fun
