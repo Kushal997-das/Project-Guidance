@@ -9,10 +9,10 @@
 <h3> 1. Fixed Few Bugs.</br>
      2. GUI type mode.</h3>
 <p align="center">
-<img src="screenshots/Screenshot 2021-02-22 224927.jpg" alt="Image" height="300">
-<img src="screenshots/Screenshot 2021-02-22 225031.jpg" alt="Image" height="300">
-<img src="screenshots/Screenshot 2021-02-22 225122.jpg" alt="Image" height="300">
-<img src="screenshots/Screenshot 2021-02-22 225152.jpg" alt="Image" height="300">
+<img src="screenshots/Screenshot 2021-02-22 224927.jpg" alt="Image" height="300"></br>
+<img src="screenshots/Screenshot 2021-02-22 225031.jpg" alt="Image" height="300"></br>
+<img src="screenshots/Screenshot 2021-02-22 225122.jpg" alt="Image" height="300"></br>
+<img src="screenshots/Screenshot 2021-02-22 225152.jpg" alt="Image" height="300"></br>
 </p>
 <h1><p align="center">💖💖🔥Show your love By Staring My Repos💖💖🔥</p></h1></br>
 [Connect With Me👋👋](https://www.linkedin.com/in/ujjwal-gupta-ug-233543202/)</br>
