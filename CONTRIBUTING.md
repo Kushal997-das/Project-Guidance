@@ -116,4 +116,6 @@ You can refer to the following articles on basics of Git and Github and also con
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)  
 - [Learn GitHub from Scratch](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLozRqGzj97d02YjR5JVqDwN2K0cAiT7VK)  
   
-  
+Tip from us😇
+-------------
+It always takes time to understand and learn. So, do not worry at all. We know you have got this!💪
