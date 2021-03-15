@@ -141,6 +141,6 @@ git push -u origin <your_branch_name>
 ## Awesome contributors :star_struck:
 <a href="https://github.com/Kushal997-das/Project-Guidance/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Kushal997-das/Project-Guidance" />
-</a> <br>
+</a> <br><br>
 
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
