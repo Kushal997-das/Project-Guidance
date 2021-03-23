@@ -27,11 +27,16 @@
 18. Horizontal symetric<br>
 19. Vertical symetric<br>
 <h1>What's New👀👀??</h1><br>
-<h2>1. Fixed few bugs</br>
-2:New features</h2>
-## Colors
-![color](https://user-images.githubusercontent.com/75884061/104131874-5d96c700-539f-11eb-9a13-57f1da378603.png)
- ## OutLook
+<h2>1. Fixed few bugs🐛🐛</br>
+2:New features🆕🆕</h2></br>
+<h1>What's New Features🤔🤔🤔🤔</h1>
+<h2>1.Horizontal Symetric 😲😲</br>
+    2.Vertical Symetric😲😲</h2>
+<h1>Advantages of New Feature</h1>
+<h2>1. Less effort while drawing figure😊</br>
+    2. Easy to create eyes of human i.e. help  to make the eyes equidistant and same👁‍🗨👁‍🗨.</br>
+    3. easy to make body parts..👂👃👅👁</br></h2>
+<h2>OutLook</h2>
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/new%20look.jpg">
  <h2>Creativity</h2> 
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/Screenshot%202021-02-09%20215935.jpg">
