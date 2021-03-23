@@ -26,6 +26,8 @@ void cube(POINT *cursor_pos,struct node **Start);
 void cylinder(POINT *cursor_pos,struct node **Start);
 void hori_arrow(POINT *cursor_pos,struct node **Start);
 void cone(POINT *cursor_pos,struct node **Start);
+void hori_symetric(POINT *cursor_pos,struct node **Start);
+void verti_symetric(POINT *cursor_pos,struct node **Start);
 main()
 {
 struct node *Start=NULL;
@@ -138,7 +140,10 @@ else if(cursorpos->x-5>=45&&cursorpos->x-5<=85&&cursorpos->y-35>=205&&cursorpos-
   hori_arrow(cursorpos,Start);
 else if(cursorpos->x-5>=45&&cursorpos->x-5<=85&&cursorpos->y-35>=245&&cursorpos->y-35<=280)
    cone(cursorpos,Start);
-
+else if(cursorpos->x-5>=45&&cursorpos->x-5<=85&&cursorpos->y-35>=285&&cursorpos->y-35<=320)
+hori_symetric(cursorpos,Start);
+else if(cursorpos->x-5>=45&&cursorpos->x-5<=85&&cursorpos->y-35>=325&&cursorpos->y-35<=365)
+verti_symetric(cursorpos,Start);
 }
 void pencil(POINT *cursor_pos,struct node **Start)
 {
@@ -154,6 +159,10 @@ while(1)
         GetCursorPos(cursor_pos);
         x1=cursor_pos->x;
         y1=cursor_pos->y;
+        putpixel(x1-5,y1-22,getcolor());
+        putpixel(x1-5,y1-24,getcolor());
+        putpixel(x1-6,y1-23,getcolor());
+        putpixel(x1-4,y1-22,getcolor());
         putpixel(x1-5,y1-23,getcolor());
     put(Start,x1-20,y1-20,x1+20,y1+20,getcolor());
     }
@@ -568,6 +577,16 @@ rectangle(45,245,85,280);
 line(65,250,50,270);
 line(65,250,80,270);
 ellipse(65,270,0,360,15,7);
+//hori_symetric
+rectangle(45,285,85,320);
+setlinestyle(DOTTED_LINE,0,1);
+line(45,303,85,303);
+setlinestyle(SOLID_LINE,0,1);
+//verti_symetric
+rectangle(45,325,85,365);
+setlinestyle(DOTTED_LINE,0,1);
+line(65,325,65,365);
+setlinestyle(SOLID_LINE,0,1);
 while(i<16)
 {
     setfillstyle(SOLID_FILL,i);
@@ -1006,4 +1025,60 @@ setcolor(color);
 
     }
 
+}
+void hori_symetric(POINT *cursor_pos,struct node **Start)
+{
+   int x1,y1;
+while(1)
+{
+       if(GetAsyncKeyState(VK_TAB))
+ identify_shape(cursor_pos,Start);
+     else if(GetAsyncKeyState(VK_SHIFT))
+            check_color(cursor_pos);
+          else if(GetAsyncKeyState(VK_LBUTTON))
+    {
+        GetCursorPos(cursor_pos);
+        x1=cursor_pos->x;
+        y1=cursor_pos->y;
+        putpixel(x1-5,y1-23,getcolor());
+        putpixel(x1-5,y1-24,getcolor());
+        putpixel(x1-6,y1-23,getcolor());
+        putpixel(x1-4,y1-22,getcolor());
+        putpixel(x1-5,y1-23,getcolor());
+        putpixel((getmaxx()-x1)-5,y1-22,getcolor());
+        putpixel((getmaxx()-x1)-5,y1-24,getcolor());
+        putpixel((getmaxx()-x1)-4,y1-23,getcolor());
+        putpixel((getmaxx()-x1)-6,y1-23,getcolor());
+        putpixel((getmaxx()-x1)-5,y1-23,getcolor());
+    put(Start,x1-20,y1-20,x1+20,y1+20,getcolor());
+    }
+}
+}
+void verti_symetric(POINT *cursor_pos,struct node **Start)
+{
+   int x1,y1;
+while(1)
+{
+       if(GetAsyncKeyState(VK_TAB))
+ identify_shape(cursor_pos,Start);
+     else if(GetAsyncKeyState(VK_SHIFT))
+            check_color(cursor_pos);
+          else if(GetAsyncKeyState(VK_LBUTTON))
+    {
+        GetCursorPos(cursor_pos);
+        x1=cursor_pos->x;
+        y1=cursor_pos->y;
+                putpixel(x1-5,y1-22,getcolor());
+        putpixel(x1-5,y1-24,getcolor());
+        putpixel(x1-6,y1-23,getcolor());
+        putpixel(x1-4,y1-22,getcolor());
+        putpixel(x1-5,y1-23,getcolor());
+        putpixel(x1-5,(getmaxy()-y1)-22,getcolor());
+        putpixel(x1-5,(getmaxy()-y1)-24,getcolor());
+        putpixel(x1-4,(getmaxy()-y1)-23,getcolor());
+        putpixel(x1-6,(getmaxy()-y1)-23,getcolor());
+        putpixel(x1-5,(getmaxy()-y1)-23,getcolor());
+    put(Start,x1-20,y1-20,x1+20,y1+20,getcolor());
+    }
+}
 }
