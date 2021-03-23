@@ -1,5 +1,10 @@
- # Paint-with-UG-The-SEP
-# 😲Updated Version😲
+ ![](https://img.shields.io/badge/Programming_Language-c++-blue.svg)
+![](https://img.shields.io/badge/Library-Graphics.h-gold.svg)
+![](https://img.shields.io/badge/Platform-Desktop_Development-green.svg)
+![](https://img.shields.io/badge/Status-Beta-green.svg)
+![](https://img.shields.io/badge/Version-CodeBlocks_13.12-red.svg)
+<h1><p align="center">Paint-with-UG-The-SEP</p></br>
+😲Updated Version😲 </h1>
 ## Feature in Paint with UG
 1. Pencil 
 1. Fill
@@ -31,8 +36,7 @@
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/Screenshot%202021-02-09%20223034.jpg">
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/Screenshot%202021-02-09%20223338.jpg">
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/Screenshot%202021-02-09%20223744.jpg">
-# Love By Starting Some of my repos💖💖💖
+# Love By Starting Some of my repos💖💖💖</br>
 ## Connect With ME
 [LinkedIn Account](https://www.linkedin.com/in/ujjwal-gupta-ug-233543202/)</br>
-[Video Link](https://www.youtube.com/watch?v=yV6qC1A3YCk)
-
+[Video Link](https://www.youtube.com/watch?v=yV6qC1A3YCk)</br>
