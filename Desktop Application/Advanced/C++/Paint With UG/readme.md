@@ -3,29 +3,29 @@
 ![](https://img.shields.io/badge/Platform-Desktop_Development-green.svg)
 ![](https://img.shields.io/badge/Status-Beta-green.svg)
 ![](https://img.shields.io/badge/Version-CodeBlocks_13.12-red.svg)
-<h1><p align="center">Paint-with-UG-The-SEP</p></br>
-😲Updated Version😲 </h1>
-## Feature in Paint with UG
-1. Pencil 
-1. Fill
-1. Text
-1. Line 
-1. Rectangle
-1. Oval
-1. Load 
-1. Save
-1. Triangle
-1. Right Angled Triangle
-1. Diamond
-1. Cube
-1. Cuboid
-1. Horizontal Arrow
-1. Cone
-1. Clear
-1. Change Background
-1. Horizontal symetric
-1. Vertical symetric
-# `What's New👀👀??`
+<h1><p align="center">Paint-with-UG-The-SEP</p>
+<p align="center">😲Updated Version😲</p> </h1>
+<h2> Feature in Paint with UG</h2><br>
+1. Pencil <br>
+2. Fill<br>
+3. Text<br>
+4. Line <br>
+5. Rectangle<br>
+6. Oval<br>
+7. Load <br>
+8. Save<br>
+9. Triangle<br>
+10. Right Angled Triangle<br>
+11. Diamond<br>
+12. Cube<br>
+13. Cuboid<br>
+14. Horizontal Arrow<br>
+15. Cone<br>
+16. Clear<br>
+17. Change Background<br>
+18. Horizontal symetric<br>
+19. Vertical symetric<br>
+# `What's New👀👀??`<br>
 
  ## Colors
  ![color](https://user-images.githubusercontent.com/75884061/104131874-5d96c700-539f-11eb-9a13-57f1da378603.png)
