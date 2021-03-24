@@ -21,13 +21,11 @@
 ```javascript
 if(You Want contribute)
 {
-Follow the Steps:
-1: Fork this Repo
-2: make the changes in your local repo
-3:pull Request 
-Note: Always Fetch the data of original repo before pulling request.
+click on visit me to contribute
+Thanks for contributing😊😊😊😊😊
 }
 ```
+# [visit me to contribute](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
 # 😀😀😀Enjoy The **_Game_**
 ![car](https://user-images.githubusercontent.com/75884061/112270767-1c286f00-8ca0-11eb-87c3-818b75aeb050.gif)
-# Show your ```love``` by staring some of my repos💖💖💖💖
+# Show your ```love``` by staring some of our repos and share it to other💖💖💖💖
