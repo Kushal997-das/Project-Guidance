@@ -106,7 +106,18 @@
     </br>
 
 ***
+<h2 align="center">All Contributor of <i>Desktop Application<i> Domain 👨‍💻👩‍💻</h2> 
+<table align="center">
+ <tr>
+<td align="center"><a href="https://github.com/Kushal997-das"><img src="https://avatars.githubusercontent.com/Kushal997-das" width="100px;" alt="Avatar"/><br/><sub><b>Kushal Das</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Author">👨‍💻</a></td>
+<td align="center"><a href="https://github.com/TawfikYasser"><img src="https://avatars.githubusercontent.com/TawfikYasser" width="100px;" alt="Avatar"/><br /><sub><b>Tawfik Yasser</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Contributor">👨‍💻</a></td>
+<td align="center"><a href="https://github.com/shrutijain0"><img src="https://avatars.githubusercontent.com/shrutijain0" width="100px;" alt="Avatar"/><br /><sub><b>Shruti</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Contributor">👩‍💻</a></td>
+<td align="center"><a href="https://github.com/UG-SEP"><img src="https://avatars.githubusercontent.com/UG-SEP" width="100px;" alt="Avatar"/><br /><sub><b>Ujjwal</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Contributor">👨‍💻</a></td>
+<td align="center"><a href="https://github.com/SamarpanCoder2002"><img src="https://avatars.githubusercontent.com/SamarpanCoder2002" width="100px;" alt="Avatar"/><br /><sub><b>Samarpan Dasgupta</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Partner of Author">👨‍💻</a></td>
+  </tr>
+</table>
 
+***
 <h3 align="center"> Show ❤️ by Starring this Repo</p> </h3>
 
 <h3 align="center"> 💌 More languages will added consecutively. 💌 </h3>
