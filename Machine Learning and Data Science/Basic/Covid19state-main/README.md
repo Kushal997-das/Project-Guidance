@@ -23,3 +23,12 @@
 Link:-  https://share.streamlit.io/suy1968/covid19state/main/app.py
 
 Recording of project :- Uploaded named as streamlit web.am Please see there
+
+
+Important:-
+
+1- Make sure that you have Python 3.6 - Python 3.8 installed.
+
+2- Install Streamlit using PIP and run the ‘hello world’ app:
+pip install streamlit
+streamlit hello
