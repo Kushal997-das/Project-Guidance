@@ -5,13 +5,11 @@
                    💻 This is a Desktop App And Link work in mobile also
                    
                    
-                   ![streamlit-app-2021-06-06-18-06-3](https://user-images.githubusercontent.com/72243026/120926664-76f83100-c6fb-11eb-8e20-694b979d3948.gif)
 
                    
                    
-                   
-                   
-                   
+![app](https://user-images.githubusercontent.com/72243026/120927160-82e4f280-c6fd-11eb-8663-cecc46f57e0e.gif) 
+
                    
                    
                    
