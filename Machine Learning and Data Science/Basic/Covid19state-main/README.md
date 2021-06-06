@@ -8,7 +8,8 @@
 
                    
                    
-![app](https://user-images.githubusercontent.com/72243026/120927160-82e4f280-c6fd-11eb-8663-cecc46f57e0e.gif) 
+![streamlit-app-2021-06-06-18-06-3](https://user-images.githubusercontent.com/72243026/120927313-28986180-c6fe-11eb-9e7b-2a5b27f43961.gif)
+
 
                    
                    
