@@ -14,7 +14,7 @@
 - <h2>🚩 Basic</h2>
 
   - [<h2> C </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
-    - [<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
+  - [<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
     </br>
 
   - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
@@ -32,7 +32,7 @@
     </br>
 
   - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)
-    - [<h3 >  Capture Image </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Capture%20Image)
+  - [<h3 >  Capture Image </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Capture%20Image)
     </p>
         
     - [<h3 >  Check Your Internet Connection </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Check%20your%20internet%20conncetion)
@@ -67,10 +67,10 @@
 
   - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)
 
-    - [<h3 >  CMD </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
+  - [<h3 >  CMD </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
     </p>
     
-    - [<h3 >  Router Synhronization </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization)
+  - [<h3 >  Router Synhronization </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization)
     </br>
 
   - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)
