@@ -1,8 +1,8 @@
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="30" src="https://img.shields.io/badge/Project Guidance-💡-orange.svg?&style=for-the-badge&logo=KD&logoColor=blue" /></a> <br> <br>
 
-### The Ultimate resources for beginner to advance level projects all place 😃 + 💻 + 🧠 = 🏆
+### The Ultimate resources for beginner to advance level projects all place 😎
 
-<img align="center" alt="GIF"  width="950px" height='900px' src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Documents/document_pic.jpg?raw=true" />
+<img align="center" alt="GIF"  width="800px" height='650px' src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Documents/document_pic.jpg?raw=true" />
 
 
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a> <br>
