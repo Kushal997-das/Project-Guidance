@@ -1,6 +1,15 @@
-# payment_gateway_integration
+## <p align="center"> Payment Gateway Integration</p>
 
-A new Flutter application.
+
+
+### <p align="center">App Example</p>
+
+<p align="center">
+<img src="documents\1.png" width=200/>
+<img src="documents\2.png" width=200/>
+</p>
+
+### <p align="center">Razorpay Payement Gateway Integrated</p>
 
 ## Getting Started
 
