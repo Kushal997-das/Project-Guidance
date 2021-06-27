@@ -22,5 +22,8 @@ pass:jordi1234
 **Screenshot**
 ![To Do App](C:\Users\jordi\To Do App.jpg)
 
+**GIF**
+![appDemo](C:\Users\jordi\Videos\appDemo.gif)
+
 **Author**
 Yarden Galon
