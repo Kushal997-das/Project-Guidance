@@ -23,7 +23,7 @@ pass:jordi1234
 ![To Do App](C:\Users\jordi\To Do App.jpg)
 
 **GIF**
-![appDemo](C:\Users\jordi\Videos\appDemo.gif)
+![appDemo](https://github.com/Jordistyd/Project-Guidance/blob/jordibranch/Web%20Development/Basic/To%20Do%20App/GIF/appDemo.gif?raw=true)
 
 **Author**
 Yarden Galon
