@@ -18,6 +18,8 @@
 
   - [JTM Project](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/JTM%20Project)<br>
 
+  - [Movie App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Movie%20App)<br>
+
   - [Multiply JSP](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Multiply%20JSP)<br>
   
   - [Tourist Places](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Tourist%20Places)<br>
