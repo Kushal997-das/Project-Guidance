@@ -1,0 +1,191 @@
+body{
+    font-family: sans-serif;
+}
+.header{
+    font-family: sans-serif;
+    justify-content: flex-end;
+    font-size: 14px;
+    display: flex;
+    
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    transition: 1s;
+    
+}
+.header a:hover{
+    text-decoration: underline;
+    color: brown;
+    font-size: 20px;
+}
+.header img{
+    border-radius: 50px;
+}
+.header #gmail, #images{
+    padding-top: 8px;
+}
+.header img:hover{
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+}
+#mainbody{
+    
+    position: relative;
+    padding-top: 6%;
+}
+#mainbody img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 70%;
+}
+#inputSection{
+    width: 100%;
+    display: inline-block;
+}
+#inputSection #takeInput{
+    position: relative;
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inputSection #takeInput #searchIcon {
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    top: 12px;
+}
+
+#inputSection #takeInput #voiceIcon {
+    position: absolute;
+    display: flex;
+    flex: 0 0 auto;
+    left: 95%;
+    top: 12%;
+}
+
+#inputSection #takeInput input{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 50px;
+    padding-left: 20px;
+    outline: none;
+    padding-left: 40px;
+}
+#inputSection #takeInput input:hover{
+    box-shadow: 0px 2px 5px #61C5FA;
+    border-width: 0px;
+}
+#inputSection #takeInput input:focus{
+    box-shadow: 0px 1px 5px #61C5FA;
+    border-width: 0px;
+}
+#inputSection #differentButtons{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#inputSection #differentButtons button{
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    margin-right: 20px;
+    border: 1px solid #f8f9fa;
+    border-radius: 7px;
+    background-color: rgba(245, 245, 245, 0.479);
+}
+#inputSection #differentButtons button:hover{
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.192);
+    background-color: rgba(136, 126, 126, 0.1);
+    transition: 0.1s;
+}
+#langSelect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#langSelect a{
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+#langSelect a:hover{
+    text-decoration: none;
+    padding-left: 15px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+#footer{
+    background-color: rgba(226, 226, 226, 0.5);
+    position: absolute;
+    bottom: 5px;
+    flex-shrink: 0;
+    margin-left: -8px;
+    width: 100%;
+   
+}
+#footer #upper{
+    padding-left: 2%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: rgb(68, 65, 65, 0.7);
+    font-size: 15px;
+}
+
+
+#footer #lower #leftside{
+    float: left;
+    padding-left: 3%;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+
+#footer #lower #leftside a{
+    text-decoration: none;
+    color: rgb(68, 65, 65, 0.7);
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+#footer #lower #leftside a:hover{
+    color: rgb(68, 65, 65, 1);
+    text-decoration: underline;
+    transition: 1s;
+    font-size: 20px;
+}
+
+#footer #lower #rightside{
+    float: right;
+    padding-right: 3%;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+#footer #lower #rightside a{
+    text-decoration: none;
+    color: rgb(68, 65, 65, 0.7);
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#footer #lower #rightside a:hover{
+    color: rgb(68, 65, 65, 1);
+    text-decoration: underline;
+    transition: 1s;
+    font-size: 20px;
+}
