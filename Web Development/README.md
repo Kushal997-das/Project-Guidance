@@ -22,7 +22,7 @@
   
   - [Tourist Places](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Tourist%20Places)<br>
 
-  - [Google Clone](https://github.com/SamarpanCoder2002/Google-Clone.git)<br>
+  - [Google Clone](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Web%20Development/Basic/Google%20Clone)<br>
   
 - <h1>Intermediate 🚀</h1>
   <h3>No Intermediate Projects to Display 🔜</h3>
