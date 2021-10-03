@@ -1,0 +1,37 @@
+*
+{
+background-color: black;
+color: orange;
+font-size: 40px;
+margin: 0px;
+font-family: arial;
+}
+#header
+{
+    font-size: 50px;
+    color: cyan;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    border: 5px solid gold;
+    background-color: lightsalmon
+}
+.form-table
+{
+    padding:10px;
+    width: 80%;
+}
+input
+{
+    background-color: rgb(206, 249, 255);
+    font-size: 25px;
+    height: 40px;
+    width: 400px;
+    color: black;
+}
+textarea
+{
+    background-color: rgb(206, 249, 255);
+    font-size: 25px;
+    color: black;
+}

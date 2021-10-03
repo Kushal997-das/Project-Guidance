@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ContactForm.css">
+    <script src="ContactForm.js"></script>
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1 id="header">Contact Form</h1>
+    <form action="mailto:example@gmail.com" method="post" enctype="multipart/form-data" onsubmit="return IsValid()">
+    <table class="form-table" cellspacing="40px">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="name" placeholder="Username" required></td>
+        </tr>
+        <tr>
+            <td>Email Address</td>
+            <td><input type="email" id="email" placeholder="Email address" required></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="tel" id="number" placeholder="Phone number" required></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
