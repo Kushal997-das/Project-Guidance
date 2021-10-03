@@ -7,9 +7,7 @@ It is desktop application developed using Java Swing. Here the librarian can mai
 - XAMPP to run database
 
 ## ScreenShots
-<p>
-  <img src="https://github.com/surbhi2408/Project-Guidance/blob/Surbhi/Desktop%20Application/Basic/Java/BookLibrary/ScreenShots/Login.png" alt="drawing" width="200" height="400"/>
-  <img src="https://github.com/surbhi2408/Project-Guidance/blob/Surbhi/Desktop%20Application/Basic/Java/BookLibrary/ScreenShots/Add%20book.png" alt="drawing" width="200" height="400"/>
-  <img src="https://github.com/surbhi2408/Project-Guidance/blob/Surbhi/Desktop%20Application/Basic/Java/BookLibrary/ScreenShots/Issue%20book.png" alt="drawing" width="200" height="400"/>
-  <img src="https://github.com/surbhi2408/Project-Guidance/blob/Surbhi/Desktop%20Application/Basic/Java/BookLibrary/ScreenShots/View%20Stock.png" alt="drawing" width="200" height="400"/>
-</p>
+![Image1](https://github.com/surbhi2408/Project-Guidance/blob/Surbhi/Desktop%20Application/Basic/Java/BookLibrary/ScreenShots/Login.png)
+![Image2](https://github.com/surbhi2408/Project-Guidance/blob/Surbhi/Desktop%20Application/Basic/Java/BookLibrary/ScreenShots/Add%20book.png)
+![Image3](https://github.com/surbhi2408/Project-Guidance/blob/Surbhi/Desktop%20Application/Basic/Java/BookLibrary/ScreenShots/Issue%20book.png)
+![Image4](https://github.com/surbhi2408/Project-Guidance/blob/Surbhi/Desktop%20Application/Basic/Java/BookLibrary/ScreenShots/View%20Stock.png)
