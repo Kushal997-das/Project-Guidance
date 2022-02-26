@@ -121,6 +121,10 @@ git push -u origin <your_branch_name>
 **9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://github.com/Kushal997-das/Project-Guidance). :v: :heart: 💥
 
 <br><br>
+<h2>Engaging and Collaborating with</h2>
+<img align="center" alt="Stargazers over time" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/wJP49tZ7_400x400.png"/>
+
+<br><br>
 
 ## Stargazers over time 🤗🚀
 
