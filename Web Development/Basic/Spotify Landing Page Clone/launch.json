@@ -5,7 +5,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Spotify-login-page\\index.html"
+            "file": "index.html" //Insert path to index.html
         }
     ]
 }
