@@ -9,6 +9,8 @@
 - Create a storyboard showing spread of Covid-19 cases in your country or any
 region (Asia, Europe, BRICS etc) using Tableau, Power BI or SAP <br>
 
+- Dataset : https://www.kaggle.com/shiv28/covidowid
+
 - Identify interesting patterns and possible reasons helping Covid-19 spread with
 basic as well as advanced charts 
 
