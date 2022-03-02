@@ -27,9 +27,9 @@ jobs:
           footer: 'We will review everything and get back to you, Please checkout our <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md">CONTRIBUTING RULES</a> and <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md">CODE OF CONDUCT</a>, Thanks :smiley:'
           
       - name: Congratulate on every PR merge
-        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request_target.merged == true
         uses: peter-evans/create-or-update-comment@v1
         with:
           issue-number: ${{tojson(github.event.number)}}
           body: |
-            @${{ github.event.pull_request.user.login }} Hurray, your PR got merged 🥳. Thanks a bunch. Feel free to take another Issue.💖
+            @${{ github.event.pull_request_target.user.login }} Hurray, your PR got merged 🥳. Thanks a bunch. Feel free to take another Issue.💖
