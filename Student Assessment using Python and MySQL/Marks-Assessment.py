@@ -1,5 +1,12 @@
+# change the port everywhere to the port of your MySQL.
+# change the password everywhere to your password
+
 import mysql.connector as driver
+#connector to link python with MySQL
+
 import sys
+
+# user driven menu to perform multiple tasks as prompted below
 def main_menu():
     loop="y"
     while loop=="y":
@@ -73,16 +80,21 @@ def main_menu():
     else:
         sys.exit()
 
+#function to create the database
 def create_database():
     con=driver.connect(host="localhost",user="root",passwd="pwd",port="3306",charset='utf8')
     if con.is_connected():
-        print("Successfully Connected")
-    cur=con.cursor()
-    cur.execute('create database if not exists test')
-    print()
-    print("Database Created")
-    con.close()
+        print("Successfully Connected") 
+        #to check if hte connection is successful
+        cur=con.cursor()
+        cur.execute('create database if not exists test')
+        print()
+        print("Database Created")
+        con.close()
+    else:
+        print("Connection not established")
 
+#function to print all the databases in your MySQL
 def show_databases():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',port="3306")
     if con.is_connected():
@@ -93,6 +105,8 @@ def show_databases():
         print(i)
     con.close()
 
+#function to create table named student
+#table consists of marks and roll number
 def create_stud_table():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     if con.is_connected():
@@ -110,6 +124,13 @@ def create_stud_table():
         print('|{0:12} | {1:12} | {2:10}|'.format(i[0],i[1].decode('UTF-8'),i[2]))
     print("+-------------|--------------|-----------+")
     con.close()
+
+# function to create a table to enter details of one subject, these parameters can be changed
+# the parameters of this function are:
+# marks in theory
+# marks in viva
+# professor who took viva
+# and the roll number
 
 def create_ap_table():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
@@ -129,6 +150,14 @@ def create_ap_table():
     print("+-------------|--------------|-----------+")
     con.close()
 
+# function to create a table to enter details of other subject, these parameters can be changed
+# the parameters of this function are:
+# marks in theory
+# marks in viva
+# professor who took viva
+# and the roll number
+# you can reduce the redundancy by using loop
+
 def create_dbms_table():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     if con.is_connected():
@@ -147,6 +176,7 @@ def create_dbms_table():
     print("+-------------|--------------|-----------+")
     con.close()
 
+# function to show tables in a database
 def show_tables():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     if con.is_connected():
@@ -157,6 +187,7 @@ def show_tables():
         print(i)
     con.close()
 
+#function to insert record in the student table created previously.
 def insert_stud_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     if con.is_connected():
@@ -173,6 +204,9 @@ def insert_stud_record():
     else:
         print("Error : Not Connected")
 
+# function to insert record in the one subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def insert_ap_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     if con.is_connected():
@@ -191,6 +225,9 @@ def insert_ap_record():
     else:
         print("Error : Not Connected")
 
+# function to insert record in the other subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def insert_dbms_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     if con.is_connected():
@@ -209,6 +246,10 @@ def insert_dbms_record():
     else:
         print("Error : Not Connected")
 
+
+# function to update record in the one subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def update_ap_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     cur=con.cursor()
@@ -224,6 +265,9 @@ def update_ap_record():
     print("Record Updated")
     con.close()
 
+# function to update record in the other subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def update_dbms_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     cur=con.cursor()
@@ -239,6 +283,9 @@ def update_dbms_record():
     print("Record Updated")
     con.close()
 
+# function to delete record in the one subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def delete_ap_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     cur=con.cursor()
@@ -249,6 +296,9 @@ def delete_ap_record():
     print("Record Deleted")
     con.close()
 
+# function to delete record in the other subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def delete_dbms_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     cur=con.cursor()
@@ -259,6 +309,10 @@ def delete_dbms_record():
     print("Record Deleted")
     con.close()
 
+
+# function to search record in the one subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def search_ap_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     cur=con.cursor()
@@ -292,6 +346,10 @@ def search_ap_record():
     print("Record Searched")
     con.close()
 
+
+# function to search record in the other subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def search_dbms_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     cur=con.cursor()
@@ -325,6 +383,9 @@ def search_dbms_record():
     print("Record Searched")
     con.close()
 
+
+# function to display record in the one subject table created previously.
+# run the query based on user input.
 def display_ap_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     if con.is_connected():
@@ -347,6 +408,9 @@ def display_ap_record():
     else:
         print("Error : Database Connection is not success")
 
+# function to display the entire record in the other subject table created previously.
+# take user inputs to do so.
+# run the query based on user input.
 def display_dbms_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     if con.is_connected():
@@ -370,12 +434,10 @@ def display_dbms_record():
         print("Error : Database Connection is not success")
 
 
-def display_ap_top_record():
-    con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
-    if con.is_connected():
-        print("Successfully Connected")
-        cur=con.cursor()
-        cur.execute('select name from tes1, rollno from AP where SUM(apth,apviva) is MAX')
+# function to displat the topper's record in the one subject table created previously.
+# take user input on according to which parameter does the user want to get the topper
+# the options are prompted in front of the user as listed below
+# run the query based on user input.
 
 def display_ap_top_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
@@ -414,6 +476,10 @@ def display_ap_top_record():
     print("+--------------------------------------------------+")
     con.close()
 
+# function to displat the topper's record in the other subject table created previously.
+# take user input on according to which parameter does the user want to get the topper
+# the options are prompted in front of the user as listed below
+# run the query based on user input.
 def display_dbms_top_record():
     con=driver.connect(host='localhost',user='root',passwd='pwd',charset='utf8',database='test',port="3306")
     cur=con.cursor()
@@ -450,8 +516,8 @@ def display_dbms_top_record():
     print("|              Total records are : ",count,"             |")
     print("+--------------------------------------------------+")
     con.close()
-    
 
 
+# main function
 if __name__ == "__main__":
     main_menu()
