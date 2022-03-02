@@ -7,4 +7,3 @@ addAssignees: false
 # A list of reviewers to be added to pull requests (GitHub user name)
 reviewers:
   - Kushal997-das
-  - SamarpanCoder2002
