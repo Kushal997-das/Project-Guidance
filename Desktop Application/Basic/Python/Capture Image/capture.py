@@ -1,3 +1,11 @@
+#If you are facing problem in running the program,this means remote libraries are missing...
+# Run the following commands in COMMAND PROMPT(CMD)::::
+# For cv2---    pip install opencv-python
+# For pyttsx3---    pip install pyttsx3
+# For speech_recognition---    pip install SpeechRecognition
+# For colored---    pip install colored --upgrade
+# For matplotlib.pyplot---    pip install matplotlib
+# For pyaudio---   pip install pipwin   then   pipwin install pyaudio
 import cv2 ,pyttsx3,speech_recognition as sr
 from colored import fg, attr
 import matplotlib.pyplot as plt

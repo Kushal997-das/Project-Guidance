@@ -1,3 +1,9 @@
+#If you are facing problem in running the program,this means remote libraries are missing...
+# Run the following commands in COMMAND PROMPT(CMD)::::
+# For pygame---   pip install pygame
+# For mutagen.mp3---   pip install mutagen
+# For PIL---    pip install Pillow
+
                                    # Generation Music Player #       
 from tkinter import *
 from tkinter import filedialog,messagebox,colorchooser

@@ -1,3 +1,7 @@
+#If you are facing problem in running the program,this means remote libraries are missing...
+# Run the following commands in COMMAND PROMPT(CMD)::::
+# For phonenumbers---    pip install phonenumbers
+# For pyttsx3---    pip install pyttsx3
 import phonenumbers ,pyttsx3
 from phonenumbers import geocoder, carrier
 engine = pyttsx3.init('sapi5')
