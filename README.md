@@ -65,7 +65,7 @@ Domain Names 🚀
 - [Web Development](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development)
   - [Basic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic)
   - [Intermediate](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate)
-  - [Advanced](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced)
+  - [Advanced](https://github.com/saiadityaviswanadham/Project-Guidance/tree/main/Web%20Development/Advanced)
   
 
 
