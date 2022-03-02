@@ -23,6 +23,7 @@ jobs:
           issue-message: '<h1>It''s great having you contribute to this project</h1> Thank you for raising an <strong>Issue</strong>, Welcome to <strong>Project Guidance</strong>'
           pr-message: '<h1>It''s great having you contribute to this project</h1> Thank you for opening a <strong>Pull Request</strong>, Welcome to <strong>Project Guidance</strong>'
           footer: 'We will review everything and get back to you, Please checkout our <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md">CONTRIBUTING RULES</a> and <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md">CODE OF CONDUCT</a>, Thanks :smiley:'
+          
       - name: Congratulate on every PR merge
         if: github.event_name == 'pull_request_target' && github.event.action == 'closed' && github.event.pull_request.merged == true
         uses: peter-evans/create-or-update-comment@v1
