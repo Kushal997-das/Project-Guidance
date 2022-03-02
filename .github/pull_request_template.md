@@ -22,7 +22,7 @@ Fixes #issue_no
 
 ### Checklist
 
-<!-- Please Check this with this `☑` -->
+
 
 - [ ] I've read the contribution guidelines.
 - [ ] I've checked the issue list before deciding what to submit.
