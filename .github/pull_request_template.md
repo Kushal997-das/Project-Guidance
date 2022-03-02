@@ -16,9 +16,9 @@ Happy Contributing!
 
 (Write your answer here.)
 
-Fixes #(issue_no)
+Fixes #issue_no
 
-Replace `issue_no` with the issue number which is fixed in this PR
+<!-- Replace `issue_no` with the issue number which is fixed in this PR -->
 
 ### Checklist
 
