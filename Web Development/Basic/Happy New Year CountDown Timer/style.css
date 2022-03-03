@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/flower-background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 60px;
+  margin: 50px 40px;
+  animation: newYearText 3s infinite;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+@keyframes newYearText {
+  0% {
+    color: yellow;
+  }
+  25% {
+    color: dodgerblue;
+  }
+  75% {
+    color: violet;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: crimson;
+  }
+}
+
+.countdown {
+  margin-top: 5rem;
+  display: flex;
+  transform: scale(2);
+}
+
+.time {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+.time h2 {
+  color: rgb(241, 47, 86);
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1;
+  margin: 0 0 5px;
+}
+
+.text {
+  box-shadow: 5px 5px 3px rgb(143, 143, 143);
+  padding: 0.5rem;
+  color: rgb(89, 0, 255);
+  font-weight: 560;
+  border-radius: 5px;
+}
+
+h3 {
+  font-family: "The Nautigal", cursive;
+  font-size: 50px;
+  width: 22ch;
+  animation: typing 2s steps(22);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 45px;
+  }
+  .time {
+    margin: 5px;
+    padding: 0.1rem;
+  }
+  .time h2 {
+    font-size: 12px;
+  }
+  .text {
+    font-size: 10px;
+    box-shadow: 5px 5px 3px rgb(143, 143, 143);
+    padding: 0.1rem;
+    border-radius: 1px;
+  }
+  h3 {
+    font-size: 25px;
+    width: 20ch;
+    animation: typing 1s steps(12);
+  }
+}
