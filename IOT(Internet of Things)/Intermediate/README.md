@@ -1,1 +1,1 @@
-[Gas Leakage Detection System](Intermediate/gas%20leakage%20detection/)
+[Gas Leakage Detection System](/gas%20leakage%20detection/)
