@@ -71,6 +71,10 @@ About: We are doing forecasting on India and taking train:test = 7:3.
 
 ![alt text](https://github.com/shivam-s16/Covid_Third_Wave_Forecasting/blob/main/results/lstm.png)
 
+>Compare of Linear Model ANN and LSTM:
+
+![alt text](https://github.com/shivam-s16/Covid_Third_Wave_Forecasting/blob/main/results/3-together.png)
+
 >ARIMA:
 
 ![alt text](https://github.com/shivam-s16/Covid_Third_Wave_Forecasting/blob/main/results/arima.png)
