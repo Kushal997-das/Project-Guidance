@@ -1,0 +1,218 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.password-generator-container {
+  /* background-color: #cc1133; */
+  background-color: #e94b3cff;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  padding: 3rem;
+  gap: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 3rem rgba(245, 245, 245, 0.3);
+}
+
+.password-generator-heading {
+  font-size: 5rem;
+  text-align: center;
+  background-image: url("images/digital.webp");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  /* box-shadow: 0.5rem 0.5rem 3rem purple; */
+}
+
+.password-area {
+  border: 2px solid purple;
+  padding: 2rem;
+  width: fit-content;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.password-area input {
+  border: 1px solid purple;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* width: 25rem; */
+}
+
+.password-area img {
+  width: 4rem;
+  cursor: pointer;
+}
+
+.password-property-area {
+  border: 2px solid purple;
+  padding: 2rem;
+  width: 50%;
+  border-radius: 1rem;
+  font-size: 3rem;
+  background-color: white;
+  color: black;
+}
+
+.password-length-div {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+  text-align: center;
+}
+
+.password-length-div input {
+  border: 1px solid purple;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 10rem;
+}
+
+.password-include-div {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  margin-top: 6rem;
+  gap: 3rem;
+}
+
+.password-include-div-p {
+  font-size: 2.5rem;
+}
+
+.uppercase-div label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 1rem;
+  border: 2px solid purple;
+}
+
+.lowercase-div label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  border: 2px solid purple;
+  border-radius: 1rem;
+}
+
+.special-character-div label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  border: 2px solid purple;
+  border-radius: 1rem;
+}
+
+.number-div label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 1rem;
+  border: 2px solid purple;
+}
+
+.generate-div button {
+  background-color: plum;
+  border: 0px;
+  padding: 2rem;
+  font-size: 3rem;
+  border-radius: 1rem;
+}
+
+.generate-div button:hover {
+  background-color: purple;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1250px) {
+  html {
+    font-size: 55%;
+  }
+  .password-generator-heading {
+    font-size: 6rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 45%;
+  }
+  .password-generator-heading {
+    font-size: 6rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 30%;
+  }
+  .password-generator-container {
+    width: 85%;
+  }
+  .password-area {
+    width: 100%;
+  }
+  .password-generator-heading {
+    font-size: 6rem;
+    text-align: center;
+  }
+  .password-property-area {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 30%;
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <section class="password-generator-container">
+      <div class="password-generator-heading">
+        <p>PASSWORD GENERATOR</p>
+      </div>
+      <div class="password-area">
+        <input type="text" id="passarea" placeholder="generated password" />
+      </div>
+      <section class="password-property-area">
+        <div class="password-length-div">
+          <label>
+            <input type="number" name="length-of-password" id="len-p" />
+          </label>
+        </div>
+        <div class="password-include-div">
+          <div class="uppercase-div">
+            <label
+              >UPPERCASE <input type="checkbox" name="uppercase" id="upper" />
+            </label>
+          </div>
+          <div class="lowercase-div">
+            <label
+              >LOWERCASE <input type="checkbox" name="uppercase" id="lower" />
+            </label>
+          </div>
+          <div class="special-character-div">
+            <label
+              >SPECIALCHARACTER
+              <input type="checkbox" name="special" id="special" />
+            </label>
+          </div>
+          <div class="number-div">
+            <label
+              >NUMBER <input type="checkbox" name="number" id="number" />
+            </label>
+          </div>
+        </div>
+      </section>
+      <div class="generate-div">
+        <button type="submit" id="gen">GENERATE PASSWORD</button>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
