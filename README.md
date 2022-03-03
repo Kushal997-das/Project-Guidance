@@ -2,7 +2,7 @@
 
 ### The Ultimate resources for beginner to advance level projects all place 😎 <br>
 
-<img align="center" alt="GIF"  width="600px" height='500px' src="/Documents/Project Guidance (2).gif" />
+<img align="center" alt="GIF"  width="602px" height='500px' src="/Documents/Project Guidance (2).gif" />
 
 
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a> <br>
@@ -65,7 +65,7 @@ Domain Names 🚀
 - [Web Development](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development)
   - [Basic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic)
   - [Intermediate](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate)
-  - [Advanced](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced)
+  - [Advanced](https://github.com/saiadityaviswanadham/Project-Guidance/tree/main/Web%20Development/Advanced)
   
 
 
@@ -125,7 +125,6 @@ git push -u origin <your_branch_name>
 <img align="center" height="120" alt="Stargazers over time" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/wJP49tZ7_400x400.png"/>
 
 <br><br>
-
 ## Stargazers over time 🤗🚀
 
 <img align="center" alt="Stargazers over time" src="https://starchart.cc/Kushal997-das/Project-Guidance.svg?raw=true&color=green" /><br><br>
