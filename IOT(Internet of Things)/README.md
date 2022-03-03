@@ -1,1 +1,0 @@
-[Gas Leakage Detection System](IOT(Internet%20of%20Things)/Intermediate/gas%20leakage%20detection)
