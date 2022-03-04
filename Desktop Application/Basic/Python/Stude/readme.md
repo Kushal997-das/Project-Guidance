@@ -10,14 +10,14 @@ This project is an amalgamation of database systems and programming.
 
 It mainly uses commands from TCL, DML and DCL under SQL.The code has started off by prompting the user to choose among the multiple options given to manipulate the students’ marks information. On choosing one of the criterions, they are taken to the function that handles that particular option. There are many sub-parts to each option, thus giving the user a variety of alternatives to work with. It allows the user to store, access, delete and manipulate students’ mark’s data, to retrieve the highest scorer in each subject, and the ranks according to a particular viva teacher
 
-##The outputs from the MySQL Terminal upon running the code are:
+## The outputs from the MySQL Terminal upon running the code are:
 
 ![image](https://user-images.githubusercontent.com/82095877/156430180-1a660f28-102f-4a58-8155-7c2df4660b58.png)
 
 ![image](https://user-images.githubusercontent.com/82095877/156430213-2bdc024a-2827-47e1-bb92-52dc8e0c6bb6.png)
 
 
-##The outputs from runnign the python code are:
+## The outputs from runnign the python code are:
 
 ![image](https://user-images.githubusercontent.com/82095877/156430336-c349f013-aef1-47f8-9a1f-cdb59a89557a.png)
 
