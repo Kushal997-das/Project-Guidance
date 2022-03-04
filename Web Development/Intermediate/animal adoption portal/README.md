@@ -15,8 +15,6 @@ Database:- Mysql
 ![image](https://user-images.githubusercontent.com/83746859/156769018-c212a3d7-4e67-4a31-ade6-c9091283d984.png)
 
 
-![image](https://user-images.githubusercontent.com/83746859/156768926-8ebb9070-e347-4636-b929-deb38714ba28.png)
-
 
 ![image](https://user-images.githubusercontent.com/83746859/156769057-d647fdd4-c3c6-4f6e-bb8a-739933761257.png)
 
