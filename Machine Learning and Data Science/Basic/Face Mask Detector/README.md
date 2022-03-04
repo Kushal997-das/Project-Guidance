@@ -2,6 +2,10 @@
 
 <hr>
 
+<img align=center width=100% src="img/demoimage.gif">
+
+<hr>
+
 ### Requirements
 - OpenCV
 - JSON
