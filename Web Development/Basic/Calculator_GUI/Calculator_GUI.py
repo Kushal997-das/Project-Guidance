@@ -5,7 +5,7 @@ from tkinter import *
 
 root = Tk()
 root.geometry("744x900")
-root.title("GROUP- 7 PROJECT - CALCULATOR CU (LAB MST ) A.I == PYTHON GUI")
+root.title("Calculator_GUI")
 
 # define all the click function
 def click(cal_1):
