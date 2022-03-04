@@ -25,7 +25,7 @@ This is a basic Object Detection project that uses ssd_mobilenet pretrained mode
 
 ## Example 1 : 
 - Input Image : 
- <img width="249" alt="image" src="https://user-images.githubusercontent.com/73430464/156656063-96b70957-fd38-4937-82ef-6aa9b272e715.png">
+ <img width="500" height = "300" alt="image" src="https://user-images.githubusercontent.com/73430464/156656063-96b70957-fd38-4937-82ef-6aa9b272e715.png">
 - Output Image : 
-  <img width="253" alt="image" src="https://user-images.githubusercontent.com/73430464/156656101-3832080b-7eae-4ec1-bdee-2a71b0e0e4a1.png">
+  <img width="500" height = "300" alt="image" src="https://user-images.githubusercontent.com/73430464/156656101-3832080b-7eae-4ec1-bdee-2a71b0e0e4a1.png">
   
