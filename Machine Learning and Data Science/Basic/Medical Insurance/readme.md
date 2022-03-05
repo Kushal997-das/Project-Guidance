@@ -25,17 +25,22 @@ This feature will help people to have an idea about the price of the medical ins
 
 ## Performing EDA
 ### Age
-![AGE](https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.39.14%20PM.png)
+<img src="https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.39.14%20PM.png" alt="AGE" width="350"/>
+
 ### Sex
-![Sex](https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.39.29%20PM.png)
+<img src="https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.39.29%20PM.png" alt="Sex" width="350"/>
+
 ### BMI
-![BMI](https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.39.42%20PM.png)
+<img src="https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.39.42%20PM.png" alt="BMI" width="350"/>
+
 ### Children
-![Children](https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.39.53%20PM.png)
+<img src="https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.39.53%20PM.png" alt="Children" width="350"/>
+
 ### Region
-![Region](https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.42.29%20PM.png)
+<img src="https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.42.29%20PM.png" alt="Region" width="350"/>
+
 ### Charges
-![Charges](https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.42.40%20PM.png)
+<img src="https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.42.40%20PM.png" alt="Charges" width="350"/>
 
 ## Predicting Using the Model
-![Prediction](https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.42.56%20PM.png)
+<img src="https://github.com/Binal02Singh/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Medical%20Insurance/Img/Screenshot%202022-03-04%20at%207.42.56%20PM.png" alt="Prediction" width="350"/>
