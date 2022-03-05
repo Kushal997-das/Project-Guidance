@@ -1,1 +1,0 @@
-[Gas Leakage Detection System](https://github.com/advaita-saha/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/gas%20leakage%20detection)
