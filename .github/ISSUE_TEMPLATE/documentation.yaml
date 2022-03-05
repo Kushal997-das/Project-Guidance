@@ -3,11 +3,10 @@ description: Report an issue related to documentation.
 title: "Title: "
 labels: "Documentation"
 body:
-
- - type: markdown
-   attributes:
-     value: |
-       Have you read the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) ?
+  - type: markdown
+    attributes:
+      value: |
+        Have you read the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) ?
 
   - type: textarea #description
     attributes:
