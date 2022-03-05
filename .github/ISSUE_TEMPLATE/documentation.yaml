@@ -6,8 +6,8 @@ body:
 
  - type: markdown
    attributes:
-      value: |
-        Have you read the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) ?
+     value: |
+       Have you read the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) ?
 
   - type: textarea #description
     attributes:
