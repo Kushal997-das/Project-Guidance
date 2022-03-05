@@ -121,8 +121,35 @@ git push -u origin <your_branch_name>
 **9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://github.com/Kushal997-das/Project-Guidance). :v: :heart: 💥
 
 <br><br>
-<h2>Engaging and Collaborating with</h2>
-<img align="center" height="120" alt="Stargazers over time" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/wJP49tZ7_400x400.png"/>
+
+<!-- <h1 align=center> Project Admin ❤️ </h1> 
+
+<td align="center"><a href="https://github.com/Kushal997-das"><img src="" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4>
+<a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+
+-->
+
+<h2>Engaging and Collaborating with </h2>
+<img align="center" height="80" alt="Stargazers over time" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/wJP49tZ7_400x400.png"/><h5 style="color:red;">GSSoC22</h5><br>
+
+<h1 align=center> Project Maintainers ❤️ </h1> 
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Kushal997-das"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/photo_2022-03-05_11-30-51.jpg" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4><h4 style="color:red;">Project-Admin</h4>
+<a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+
+<td align="center"><a href="https://github.com/photon149"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/SS.jpg" width=150px height=150px /></a></br> <h4 style="color:red;">Shiwansh Raj</h4><h4 style="color:red;">Mentor</h4>
+<a href="https://www.linkedin.com/in/shiwanshraj/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+
+<td align="center"><a href="https://github.com/prakhar3062"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/PP.png" width=150px height=150px /></a></br> <h4 style="color:red;">PRAKHAR MISHRA </h4><h4 style="color:red;">Mentor</h4>
+<a href="https://www.linkedin.com/in/prakhar-mishra-39880520a/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+
+<td align="center"><a href="https://github.com/vasu-1"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/1626705672624.jpg" width=150px height=150px /></a></br> <h4 style="color:red;">Vashishth Patel </h4><h4 style="color:red;">Mentor</h4>
+<a href="https://www.linkedin.com/in/vashishth-patel-312a52204/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+</tr>
+</table>
+
 
 <br><br>
 ## Stargazers over time 🤗🚀
