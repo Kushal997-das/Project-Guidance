@@ -15,20 +15,33 @@
 
   - [<h2> C </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
     - [<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
+
+    - [<h3>  School Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/School%20managment)
+
+    - [<h3>  Sudoku-Solver-C </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Sudoku-Solver-C)
     </br>
 
   - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
+
+    - [<h3 >  Calender </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Calender)
 
     - [<h3 >  Queue Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Queue%20Visualizer)
     
     - [<h3 >  Shopping List </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Shopping%20List)
     
-    - [<h3 >  Stack Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stack%20Visualizer)</br>
+    - [<h3 >  Stack Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stack%20Visualizer)
+
+    - [<h3 >  Stochastic Calculator </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stochastic%20Calculator)
+    </br>
 
   - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)
-      - [<h3 >  CPU Scheduler </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)
+    - [<h3 >  BookLibrary </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BookLibrary)
+
+    - [<h3 >  BrickBreaker </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BrickBreaker)
+
+    - [<h3 >  CPU Scheduler </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)
   
-      - [<h3 >  Ludo Game </h3>](https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif)
+    - [<h3 >  Ludo Game </h3>](https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif)
     </br>
 
   - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)
@@ -53,28 +66,53 @@
     - [<h3 >  Shivji Sketch Using Turtle </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Shivji%20Sketch%20Using%20Turtle)
     
     - [<h3 >  Stack Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe)
+
+    - [<h3 >  Story Generator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Story-Generator)
+
+    - [<h3 >  Student Assessment Card  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Student%20Assessment%20Card)
         
     - [<h3 >  Tic-Tac-Toe </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe)
     
     - [<h3 >  Track Phone Number Location </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Track%20Phone%20number%20location)
+
+    - [<h3 >  Vaccination Center Locator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Vaccination%20Center%20Locator)
+
+    - [<h3 >  Vector Calculator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Vector%20Calculator)
         
-    - [<h3 >  Story Generator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Story-Generator)
+    
+    </br>
+
+  - [<h2> SQL </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/SQL)
+    - [<h3 >  Recruitment System  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/SQL/Recruitment%20System)
+
     </br>
 
 
 - <h2>🚩 Intermediate</h2>
 
+  - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/C%2B%2B)
+
+    - [<h3 > B-Tree File Indexing </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/C%2B%2B/B-Tree%20File%20Indexing)
+
+    - [<h3 > Tic Tac Toe </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/C%2B%2B/Tic%20Tac%20Toe)
+    
+    - [<h3 > Tic Tac Toe AI Integrated </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/C%2B%2B/Tic-Tac-Toe-AI-Integrated)
+
+    - [<h3 > UG Typing Expert </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/C%2B%2B/UG%20Typing%20Expert)
+    </p>
+
   - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java)
 
-  - [<h3 >  CMD </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
-    </p>
+    - [<h3 >  CMD </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
+
+    - [<h3 >  Male API </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Mail%20API)
     
-  - [<h3 >  Router Synhronization </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization)
+    - [<h3 >  Router Synhronization </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization)
     </br>
 
   - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python)
 
-    - [<h3 >  Binry Serch Tree Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Binary-Search-Tree-Visualizer)
+    - [<h3 >  Binary Serch Tree Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Binary-Search-Tree-Visualizer)
     
     - [<h3 >  Ludo Game </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python/Ludo_Game)
     
@@ -98,6 +136,8 @@
     </br>
 
   - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python)
+
+    - [<h3 >  AI Integrated Ludo Game </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/AI%20Integrated%20Ludo%20Game)
 
     - [<h3 >  Sketch With Sam </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Sketch%20With%20Sam)
     
