@@ -14,7 +14,7 @@
 - <h2>🚩 Basic</h2>
 
   - [<h2> C </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
-  - [<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
+    - [<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
     </br>
 
   - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
@@ -26,14 +26,13 @@
     - [<h3 >  Stack Visualizer </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stack%20Visualizer)</br>
 
   - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)
-    - [<h3 >  CPU Scheduler </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)
+      - [<h3 >  CPU Scheduler </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)
   
-    - [<h3 >  Ludo Game </h3>](https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif)
+      - [<h3 >  Ludo Game </h3>](https://github.com/biptu123/Project-Guidance/raw/main/Desktop%20Application/Basic/Java/LudoGame/ludo.gif)
     </br>
 
   - [<h2> Python </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)
-  - [<h3 >  Capture Image </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Capture%20Image)
-    </p>
+    - [<h3 >  Capture Image </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Capture%20Image)
         
     - [<h3 >  Check Your Internet Connection </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Check%20your%20internet%20conncetion)
     
