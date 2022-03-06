@@ -17,7 +17,7 @@ jobs:
         if: github.event.action =='opened' && (github.event_name == 'pull_request' || github.event_name == 'issues')
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "@${{ github.actor }} <h1>It's great having you contribute to this project</h1> Thanks for opening this<strong>Issue 🙌</strong>, Welcome to <strong>Project Guidance 💖</strong> We will review everything and get back to you "
+          issue-message: "@${{ github.actor }} <h1>It's great having you contribute to this project</h1> Thanks for opening this<strong>Issue 🙌</strong>, Welcome to <strong>Project Guidance 💖</strong> We will review everything and get back to you .<br> Make sure your give star to this repo. before making fork ! Thank you :) "
           pr-message: "@${{ github.actor }} <h1>It's great having you contribute to this project</h1> Thank you for opening a <strong>Pull Request 🙌 </strong>, Welcome to <strong>Project Guidance 💖</strong> We will review everything and get back to you"
           
 
