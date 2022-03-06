@@ -56,8 +56,6 @@ int main()
         cout<<"INVALID";
         return 0;
 }
-
-
 int check_card(long long l)
 {
     int m=0,a,b,i,z;
@@ -74,8 +72,6 @@ int check_card(long long l)
     if (m%10==0)
         return 1;
 }
-
-
 int length_card(long long l)
 {
     int i=0;
@@ -86,8 +82,6 @@ int length_card(long long l)
     } while (l!=0);
         return i;
 }
-
-
 int last_two_digit_check(long long l)
 {
     do
