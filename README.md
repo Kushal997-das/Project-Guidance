@@ -20,7 +20,7 @@
 [![GitHub issues closed](https://img.shields.io/github/issues-closed/Kushal997-das/Project-Guidance.svg)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Kushal997-das/Project-Guidance.svg?color=yellow)](https://github.com/Kushal997-das/Project-Guidance/pulls)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/Kushal997-das/Project-Guidance.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
-<a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/Projects-71-blue.svg?color=5ac4bf"></a> <br>
+<a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/Projects-84-blue.svg?color=5ac4bf"></a> <br>
 
 📌 Introduction
 ------------------
