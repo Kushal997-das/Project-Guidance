@@ -77,7 +77,7 @@ Only thing required is to mention the location the location of the icon image:
 ### Installation
 
 
-1. Download main.py, and icon.ico file and keep them in the same folder.
+1. Clone main.py, and icon.ico file and keep them in the same folder.
 2. Use any Python text editor to change the parameters as per your needs. For example the time interval between each notification can be controlled by changing the value of the below mentioned command:
    ```sh
    time.sleep(60*60)
