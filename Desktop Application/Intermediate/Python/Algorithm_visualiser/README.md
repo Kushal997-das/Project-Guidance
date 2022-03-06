@@ -62,6 +62,32 @@ https://user-images.githubusercontent.com/55997552/156936968-40a0555e-ede1-4ffe-
 
 #
 
+# ➡️ How to play around
+
+## 1.R/r --> wil reset bars on the screen
+## 2. Space --> will start visualisation of the algorithm that's mentioned at the top of the screen
+
+## 3. A/a --> will set ascending as the sorting order
+## 4. D/d --> will set descending as the sorting order
+
+## 5. B/b --> will set the sorting algrithm as bubble sort (default algrithm when the app starts)
+## 6. S/s --> will set the sorting algo as selection sort
+
+## 7. I/i --> will set the sorting algo as the insertino sort
+## 8. M/m will set the sorting algo as merge sort
+
+## 9. Q/q --> will set the sorting algo as quick sort
+## 10. C/c --> will set the sorting algo as comb sort
+
+## 11. H/h --> will set the sorting algo as shell sort
+## 12. O/o --> will set the sorting algoa as cocktail sort
+
+<br>
+
+# *Note: U can change the number of bars that appear by changing the value of (n) in the main_loop function 
+#
+# So Select the Algorithm and hit the SPACE and enjoy!!
+
 
 # <p align="center">💡 ***_Links_*** 💡</p>
 ## [Connect with me 😀](https://www.linkedin.com/in/debayan-pradhan-b138641b4/)
