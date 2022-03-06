@@ -18,7 +18,7 @@
 
     - [<h3>  School Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/School%20managment)
 
-    - [<h3>  Sudoku-Solver-C </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Sudoku-Solver-C)
+    - [<h3>  Sudoku Solver C </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Sudoku-Solver-C)
     </br>
 
   - [<h2> C++ </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)
@@ -35,9 +35,9 @@
     </br>
 
   - [<h2> Java </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java)
-    - [<h3 >  BookLibrary </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BookLibrary)
+    - [<h3 >  Book Library </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BookLibrary)
 
-    - [<h3 >  BrickBreaker </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BrickBreaker)
+    - [<h3 >  Brick Breaker </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BrickBreaker)
 
     - [<h3 >  CPU Scheduler </h3>](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler)
   
@@ -71,7 +71,7 @@
 
     - [<h3 >  Student Assessment Card  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Student%20Assessment%20Card)
         
-    - [<h3 >  Tic-Tac-Toe </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe)
+    - [<h3 >  Tic Tac Toe </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Tic-Tac-Toe)
     
     - [<h3 >  Track Phone Number Location </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Track%20Phone%20number%20location)
 
@@ -140,7 +140,7 @@
 
     - [<h3 >  Sketch With Sam </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Sketch%20With%20Sam)
     
-    - [<h3 >  Tic-Tac-Toe-AI </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Tic-Tac-Toe-AI)
+    - [<h3 >  Tic Tac Toe AI </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python/Tic-Tac-Toe-AI)
     </br>
 
 ***
