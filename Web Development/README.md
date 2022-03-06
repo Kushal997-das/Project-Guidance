@@ -39,7 +39,9 @@
   - [To Do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/To%20Do%20App)<br>
 
 - <h1>Intermediate 🚀</h1>
-  <h3>No Intermediate Projects to Display 🔜</h3>
+
+    - [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Casio)<br>
+
   <br>
 
 - <h1>Advanced 🚀 </h1>
