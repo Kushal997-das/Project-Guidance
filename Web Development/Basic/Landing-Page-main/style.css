@@ -1,0 +1,141 @@
+#top
+{
+    height: 500px;
+    background-color: #1f2937;
+    padding: 3%;
+    padding-top: 3ch;
+    border: 5px;
+    margin: 5px;
+}
+.header
+{
+  
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+}
+.logo
+{
+    padding-left: 15%;
+    border: 5px;
+    margin-right: 550px;
+}
+a{
+    font-size: 28px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.nav1,.nav2,.nav3
+{
+    padding: 0%;
+    border: 5px;
+    margin: 10px;
+}
+.nav
+{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    padding-top: 7%;
+}
+.description,.button
+{
+    padding-top: 20px;
+    font-size: 20px;
+}
+h1{
+    font-size: 58px;
+}
+.website
+{
+    padding-left: 15%;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+.image
+{
+    padding-top: unset;
+    padding-top: 0%;
+}
+.name
+{
+    font-size: 10ch;
+}
+.info1,.info2,.info3,.info4
+{
+    padding: 1%;
+    border: 3px;
+    margin: 2ch;
+    font-size: 20px;
+    color:#1f2937;
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Quote
+{
+    display: flex;
+    background-color: #e5e7eb;
+    padding:3% ;
+    padding-left: 30%;
+    padding-right: 10%;
+    border: 5px;
+    margin: 0ch;
+   
+}
+.q
+{
+    font-size: 5ch;
+    font-style: italic;
+}
+.author
+{
+    font-style:initial;
+    font-size: 1ch;
+    font-weight: bold;
+    padding-bottom: 10ch;
+    padding-left: 40ch;
+}
+.last
+{
+    padding: 2%;
+    border: 5px;
+    margin: 15ch;
+    display: flex;
+    background-color: #2883f6;
+    color: white;
+    border-radius: 50px;
+}
+.h1
+{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.Call
+{
+    font-size: 5ch;
+}
+.sign-up
+{
+    padding-left: 3%;
+    padding-top: 5%;
+}
+#button1,#button2
+{
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 3% 8%;
+    font-size: 20px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
