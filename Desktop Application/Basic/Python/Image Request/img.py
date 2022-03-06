@@ -2,9 +2,9 @@ import requests
 from PIL import Image
 def img_requests(txt):
     response=requests.get("https://source.unsplash.com/random{0}".format(txt))
-    file=open(r'C:\Users\clash\Desktop\projectguidance\Desktop Application\Intermediate\Python\Image Request\container.jpg','wb')
+    file=open(r'Desktop Application\Basic\Python\Image Request\container.jpg','wb')
     file.write(response.content)
-    img=Image.open(r"C:\Users\clash\Desktop\projectguidance\Desktop Application\Intermediate\Python\Image Request\container.jpg")
+    img=Image.open(r"Desktop Application\Basic\Python\Image Request\container.jpg")
     img.show()
     file.close
 
