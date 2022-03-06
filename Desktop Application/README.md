@@ -79,10 +79,9 @@
 
     - [<h3 >  Vector Calculator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Vector%20Calculator)
         
-    
     </br>
-
   - [<h2> SQL </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/SQL)
+
     - [<h3 >  Recruitment System  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/SQL/Recruitment%20System)
 
     </br>
