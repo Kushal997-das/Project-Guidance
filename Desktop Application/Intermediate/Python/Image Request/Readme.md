@@ -2,8 +2,6 @@
 
 This feature helps the user to fetch images from the user provided keywords or random images from the unsplash library.
 
-Fixes #258 
-
 <!-- Replace `issue_no` with the issue number which is fixed in this PR -->
 ## Workflow:
 The script runs , and asks the user about the type of image. After entering the input the script fetches the desired image and stores it in the container file, and also opens it in default image viewer of that respective OS.
