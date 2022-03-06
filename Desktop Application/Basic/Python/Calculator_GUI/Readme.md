@@ -1,12 +1,12 @@
 <h4>A basic Calculator with the help of python created</h4>
-<img src="https://user-images.githubusercontent.com/85225156/156810782-16f729b6-787b-4e60-9270-ad011f9f861f.png" width="500" height="400">
+<img src="https://user-images.githubusercontent.com/85225156/156940376-fd7a8299-6457-49a6-8263-eac9d651fe79.jpeg" width="500" height="400">
+
 <br><br>
 <h4>When the button is pressed for the airthmatic operation the display view is :</h4>
 
-<img src="https://user-images.githubusercontent.com/85225156/156810762-4a67942d-8bdd-42e3-a6cf-bcdd79adb91d.png" width="500" height="400">
+<img src="https://user-images.githubusercontent.com/85225156/156940450-176cbcc0-8edf-4911-9486-2b02fc98bd97.jpeg" width="500" height="400">
 <hr>
 <h4>When the button is pressed for the Result especially "=" button :</h4>
 
-<img src="https://user-images.githubusercontent.com/85225156/156811717-36d3cdc1-8613-4c9f-a910-34c5314091f4.png" width="500" height="400">
-
+<img src="https://user-images.githubusercontent.com/85225156/156940472-dc6a9dac-1e64-47ac-90bd-72452fa39d63.jpeg" width="500" height="400">
 
