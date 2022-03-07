@@ -18,30 +18,30 @@
 
 - <h1>Intermediate 🚀</h1>
 
-- [ Covid Third Wave Forecasting ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Covid_Third_Wave_Forecasting)<br>
+  - [ Covid Third Wave Forecasting ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Covid_Third_Wave_Forecasting)<br>
 
-- [ Exploratory Data Analysis - Terrorism ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Explanatory%20Data%20Analysis%20-%20Terrorism)<br>
+  - [ Exploratory Data Analysis - Terrorism ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Exploratory%20Data%20Analysis%20-%20Terrorism)<br>
 
-- [ Iris Webapp ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Iriswebapp-main)<br>
+  - [ Iris Webapp ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Iriswebapp-main)<br>
 
-- [ Prediction using Decision Tree Algorithm ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Prediction%20using%20Decision%20Tree%20Algorithm)<br>
+  - [ Prediction using Decision Tree Algorithm ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Prediction%20using%20Decision%20Tree%20Algorithm)<br>
 
-- [ Explore Buisness Analytics ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/To%20Explore%20Buisness%20Analysis)<br>
+  - [ Explore Buisness Analytics ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/To%20Explore%20Buisness%20Analytics)<br>
 
-  <br>
+    <br>
 
 - <h1>Advanced 🚀 </h1>
 
-- [ Detox ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Detox)<br>
+  s- [ Detox ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Detox)<br>
 
-- [ EDA and Perform Modelling on Ionosphere dataset ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/EDA-and-Perform-Modelling-onIonosphere-Dataset-main)<br>
+  - [ EDA and Perform Modelling on Ionosphere dataset ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/EDA-and-Perform-Modelling-on-Ionosphere-Dataset-main)<br>
 
-- [ Exploratory Data Analysis(Sports) ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Exploratory%20Data%20Analysis(Sports))<br>
+  - [ Exploratory Data Analysis(Sports) ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/EXPLORATORY%20DATA%20ANALYSIS%20(Sports))<br>
 
-- [ Stock Market Prediction using Numerical and Textual analysis ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Stock%20Market%20Prediction%20using%20Numberical%20and%20Textual%20analysis)<br>
+  - [ Stock Market Prediction using Numerical and Textual analysis ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Stock%20Market%20Prediction%20using%20Numerical%20and%20Textual%20Analysis)<br>
 
-- [ Timeline Analysis Covid-19 ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Timeline%20Analysis%20Covid-19)<br>
-  
+  - [ Timeline Analysis Covid-19 ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Timeline%20Analysis%20Covid-19)<br>
+
 
 ---
 

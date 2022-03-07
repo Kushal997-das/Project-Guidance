@@ -12,7 +12,7 @@
 
     - [ Cowost Project ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Cowost%20Project)<br>
 
-    - [ My Pomodoro ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/My%20Pomodoro)<br>
+    - [ Mr Pomodoro ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Mr%20Pomodoro)<br>
 
     - [ Payment Gateway(Razorpay) Integration](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Payment%20Gateway(Razorpay)%20Integration)<br>
 

@@ -40,7 +40,7 @@
 
 - <h1>Intermediate 🚀</h1>
 
-    - [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Casio)<br>
+    - [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/animal%20adoption%20protal)<br>
 
   <br>
 

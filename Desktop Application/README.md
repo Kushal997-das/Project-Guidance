@@ -104,7 +104,7 @@
 
     - [<h3 >  CMD </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD)
 
-    - [<h3 >  Male API </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Mail%20API)
+    - [<h3 >  Mail API </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Mail%20API)
     
     - [<h3 >  Router Synhronization </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization)
     </br>
