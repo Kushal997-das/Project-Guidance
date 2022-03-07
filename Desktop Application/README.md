@@ -16,7 +16,7 @@
   - [<h2> C </h2>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)
     - [<h3>  Library Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Library%20managment)
 
-    - [<h3>  School Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/School%20managment)
+    - [<h3>  School Management </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/School%20management)
 
     - [<h3>  Sudoku Solver C </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Sudoku-Solver-C)
     </br>
