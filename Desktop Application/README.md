@@ -75,7 +75,7 @@
     
     - [<h3 >  Track Phone Number Location </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Track%20Phone%20number%20location)
 
-    - [<h3 >  Vaccination Center Locator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Vaccination%20Center%20Locator)
+    - [<h3 >  Vaccination Centre Locator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Vaccination%20Centre%20Locator)
 
     - [<h3 >  Vector Calculator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Vector%20Calculator)
         
