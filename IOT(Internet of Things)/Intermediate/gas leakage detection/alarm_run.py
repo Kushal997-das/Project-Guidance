@@ -1,5 +1,3 @@
-#created by Advaita Saha on 5/3/2020 7:49PM IST
-
 import pyfirmata
 import time
 import tkinter
