@@ -9,7 +9,7 @@
 # b->bias- bias is a constant value which is added to the dependent variable to make the model more accurate.
 # In this example we will use a simple dataset which contains the years of experience and salary.
 # Here, we predict the salary based on the years of experience
-#salary is the target variable that should be predicted
+#salary is the target variable that should be predicted 
 
 import numpy as np
 import pandas as pd
@@ -70,14 +70,16 @@ class Linear_Regression():
 salary_data = pd.read_csv(r'F:\OpenSource\Project-Guidance\Machine Learning and Data Science\Basic\Linear Regression from scratch\salary_Data.csv')
 
 # printing the first 5 columns of the dataframe
-salary_data.head()
+print("Head ")
+print(salary_data.head())
 
 # last 5 rows of the dataframe
-salary_data.tail()
+print("Tail")
+print(salary_data.tail())
 
 # number of rows & columns in the dataframe
-
-salary_data.shape 
+print("Number of rows and columns")
+print(salary_data.shape) 
 #it has 30 rows(datapoints) and 2 columns(years and salary) 
 
 # checking for missing values
