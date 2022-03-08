@@ -1,92 +1,107 @@
 #include <iostream>
 #include<stdio.h>
 #include<math.h>
-int check_card(long long l);
-int length_card(long long l);
-int last_two_digit_check(long long l);
+bool checkCard(long long cardNumber);
+int length_card(long long cardNumber);
+int last_two_digit_check(long long cardNumber, int cardLength);
+bool checkMasterCard(int lastTwoDigitOfCard);
+bool checkVisa(int lastTwoDigitOfCard);
+bool checkAmericanExpress(int lastTwoDigitOfCard);
 using namespace std;
+
 int main()
 {
-    long long l;
+    long long cardNumber=0;
     do
     {
-        cout<<"Enter the Card Number: ";
-        cin>>l;
-    } while (l<0);
-    int p=check_card(l);
-    int k=length_card(l);
-    int j=last_two_digit_check(l);
-        if (p==1)
-    {
-        if (k==13)
+        cout << "Enter the Card Number: ";
+        cin >> cardNumber;
+        bool isValidCard = checkCard(cardNumber);
+        int cardLength = length_card(cardNumber);
+        int lastTwoDigitOfCard = last_two_digit_check(cardNumber, cardLength);
+        if (isValidCard)
         {
-            if (j>=40&&j<50)
-            {
-                cout<<"VISA";
+            if (cardLength == 13 || cardLength == 16) {
+                if (checkVisa(lastTwoDigitOfCard)) {
+                    cout << "VISA" << endl;
+                }
+                else goto masterCardCheck;
             }
-            else
-            cout<<"INVALID";
+            else if (cardLength == 15) {
+                if (checkAmericanExpress(lastTwoDigitOfCard)) {
+                    cout << "AMERICAN EXPRESS" << endl;
+                }
+                else goto InValidCard;
+            }
+            else if (cardLength == 16) {
+            masterCardCheck:
+                if (checkMasterCard(lastTwoDigitOfCard)) {
+                    cout << "MASTERCARD" << endl;
+                }
+                else goto InValidCard;
+            }
         }
-        else if (k==15)
-        {
-            if (j==34||j==37)
-            {
-                cout<<"AMERICAN EXPRESS";
-            }
-            else
-            cout<<"INVALID";
+        else {
+        InValidCard:
+            cout << "INVALID" << endl;
         }
-        else if (k==16)
-        {
-            if (j==22||j==51||j==52||j==53||j==54||j==55)
-            {
-                cout<<"MASTERCARD";
-            }
-            else if (j>=40&&j<50)
-            {
-                cout<<"VISA";
-            }
-            else
-            cout<<"INVALID";
-        }
-        else
-        cout<<"INVALID";
-    }
-    else
-        cout<<"INVALID";
-        return 0;
+
+    } while (cardNumber > 0);
+
+    return 0;
 }
-int check_card(long long l)
+bool checkCard(long long cardNumber)
 {
-    int m=0,a,b,i,z;
+    int m = 0, a, b, i, z;
     do
     {
-        z=l%10;
-        l=l/10;
-        i=l%10;
-        l=l/10;
-        a=2*i/10;
-        b=2*i%10;
-        m=m+a+b+z;
-    } while (l!=0);
-    if (m%10==0)
+        z = cardNumber % 10;
+        cardNumber = cardNumber / 10;
+        i = cardNumber % 10;
+        cardNumber = cardNumber / 10;
+        a = 2 * i / 10;
+        b = 2 * i % 10;
+        m = m + a + b + z;
+    } while (cardNumber != 0);
+    if (m % 10 == 0) {
         return 1;
+    }
+    else return 0;
 }
-int length_card(long long l)
-{
-    int i=0;
-    do
-    {
-        l=l/10;
-        i++;
-    } while (l!=0);
-        return i;
+int length_card(long long cardNumber) {
+    return log10(cardNumber) + 1;
 }
-int last_two_digit_check(long long l)
-{
-    do
+int last_two_digit_check(long long cardNumber, int cardLength) {
+    return cardNumber / long long(pow(10, cardLength - 2));
+}
+
+bool checkMasterCard(int j) {
+    switch (j)
     {
-        l=l/10;
-    } while (l>=100);
-    return l;
+    case 22:
+    case 51:
+    case 52:
+    case 53:
+    case 54:
+    case 55:
+        return true;
+        break;
+    default:
+        return false;
+        break;
+    }
+}
+
+bool checkVisa(int j) {
+    if (j >= 40 && j < 50) {
+        return true;
+    }
+    else return false;
+}
+
+bool checkAmericanExpress(int j) {
+    if (j == 34 || j == 37) {
+        return true;
+    }
+    return false;
 }
