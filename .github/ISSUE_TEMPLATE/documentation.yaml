@@ -1,0 +1,17 @@
+name: Documentation
+description: Report an issue related to documentation.
+title: "Title: "
+labels: "Documentation"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have you read the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) ?
+
+  - type: textarea #description
+    attributes:
+      label: Explain what you want to add/change in documentation.
+      description: A clear and concise description of what the issue is.
+      placeholder: Ex. I'm always frustrated when [...]
+    validations:
+      required: true
