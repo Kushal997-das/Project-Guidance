@@ -32,7 +32,7 @@
 
 - <h1>Advanced 🚀 </h1>
 
-  s- [ Detox ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Detox)<br>
+  - [ Detox ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Detox)<br>
 
   - [ EDA and Perform Modelling on Ionosphere dataset ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/EDA-and-Perform-Modelling-on-Ionosphere-Dataset-main)<br>
 
