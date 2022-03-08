@@ -1,6 +1,7 @@
 ---
 name: 💥 Proposal
-about: Propose a non-trivial change to NeoAlgo
+about: Propose a non-trivial change to Project-Guidance
+
 labels: "proposal"
 ---
 
