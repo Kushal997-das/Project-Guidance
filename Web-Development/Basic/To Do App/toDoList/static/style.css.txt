@@ -1,0 +1,300 @@
+/* basic reset */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* app */
+html {
+    font-size: 100%;
+}
+body {
+    background: #b1f6cb;
+    font-family: 'Open Sans',sans-serif;
+}
+/* super basic grid structure */
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px 0;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.2);
+            box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+.row {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.half {
+    width: 50%;
+    float: left;
+}
+.content {
+    background: #fff;
+}
+/* logo */
+h1 {
+    font-family: 'Rokkitt', sans-serif;
+    color: #666;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+}
+.tagline {
+    margin-top: -10px;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #777; 
+}
+/* inputs */
+.inputContainer {
+    height: 60px;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    overflow: hidden;
+}
+.inputContainer.last {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.inputContainer.half.last.right {
+    border-left: 1px solid #efefef;
+}
+input[type="date"], input[type="text"], select {
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    border-radius: none;
+    font-size: 13px;
+    color: #777;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+}
+input[type="date"] {
+    cursor: pointer;
+}
+input[type="date"]:focus, input[type="text"]:focus, select:focus {
+    outline: none;
+    background: #ecf0f1;
+}
+::-webkit-input-placeholder {
+    color: lightgrey;
+    font-weight: normal;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+}
+::-moz-placeholder {
+    color: lightgrey;
+    font-weight: normal;
+    transition: all 0.3s;
+}
+::-ms-input-placeholder {
+    color: lightgrey;
+    font-weight: normal;
+    transition: all 0.3s;
+}
+input:-moz-placeholder {
+    color: lightgrey;
+    font-weight: normal;
+    transition: all 0.3s;
+}
+input:focus::-webkit-input-placeholder {
+    color: #95a5a6;
+    font-weight: bold;
+}
+input:focus::-moz-input-placeholder {
+    color: #95a5a6;
+    font-weight: bold;
+}
+.inputContainer label {
+    padding: 5px 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #777;
+    display: block;
+    position: absolute;
+}
+button {
+    font-family: 'Open Sans', sans-serif;
+    background: transparent;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.icon {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    font-size: 20px;
+}
+.taskAdd {
+    background: #444;
+    padding-left: 31px;
+}
+.taskAdd:hover {
+    background: #303030;
+}
+.taskDelete {
+    background: #e74c3c;
+    padding-left: 30px;
+}
+.taskDelete:hover {
+    background: #c0392b;
+}
+/* task styles */
+.taskList {
+    list-style: none;
+    padding: 0 20px;
+}
+.taskItem {
+    border-top: 1px solid #e5e5e5;
+    padding: 15px 0;
+    color: #777;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.taskList .taskItem:nth-child(even) {
+    background: #fcfcfc;
+}
+.taskCheckbox {
+    margin-right: 1em;
+}
+.complete-true {
+    text-decoration:  line-through;
+    color: #bebebe;
+}
+.taskList .taskDate {
+    color: #95a5a6;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 41px;
+}
+.fa-calendar {
+    margin-right: 10px;
+    font-size: 16px;
+}
+[class*='category-'] {
+    display: inline-block;
+    font-size: 10px;
+    background: #444;
+    vertical-align: middle;
+    color: #fff;
+    padding: 10px;
+    width: 75px;
+    text-align: center;
+    border-radius: 2px;
+    float: right;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.category- {
+    background: transparent;
+}
+.category-Personal {
+    background: #2980b9;
+}
+.category-Work {
+    background: #8e44ad;
+}
+.category-School {
+    background: #f39c12;
+}
+.category-Cleaning {
+    background: #16a085;
+}
+.category-Other {
+    background: #d35400;
+}
+footer {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #777;
+}
+footer a {
+    color: #f39c12;
+}
+/* custom checkboxes */
+.taskCheckbox {
+    -webkit-appearance: none;
+            appearance: none;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+    display: inline-block;
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+}
+.taskCheckbox:focus {
+    outline: none;
+}
+.taskCheckbox:before, .taskCheckbox:checked:before {
+    font-family: 'FontAwesome';
+    color: #444;
+    font-size: 20px;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.taskCheckbox:before {
+    content: '\f096';
+}
+.taskCheckbox:checked:before {
+    content: '\f14a';
+    color: #16a085;
+}
+/* custom select menu */
+.taskCategory {
+    -webkit-appearance: none;
+            appearance: none;
+    cursor: pointer;
+    padding-left: 16.5px; /*specific positioning due to difficult behavior of select element*/
+    background: #fff;
+}
+.selectArrow {
+    position: absolute;
+    z-index: 10;
+    top: 35%;
+    right: 0;
+    margin-right: 20px;
+    color: #777;
+    pointer-events: none;
+}
+.taskCategory option {
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 0 100px;
+}

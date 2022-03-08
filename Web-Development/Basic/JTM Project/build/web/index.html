@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!--Author: Tawfik Yasser | Sat, 23 Jan 2021 -->
+<html>
+    <head>
+        <title>JTMail</title>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <link rel="icon" href="mail-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleMail.css">
+        <script src="scriptMail.js"></script> 
+    </head>
+    <body>
+        <div class="container">
+            <img src="mail-icon.png" alt="JTMail" width="150" height="150" class="center">
+            <h3>Simple java mail library</h3>
+            <form action="sendMail" method="Post">     
+                <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="body" id="body" placeholder="Body" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="receiver" id="receiver" placeholder="Receiver" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="gusername" id="gusername" placeholder="Your gmail" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="gpassword" id="gpassword" placeholder="Your gmail Password" required>
+                </div>
+                <input type="submit" class="btn" value="SEND" onclick="sendMailAjax()">
+                <h4 id="status-text"></h4>
+            </form>
+
+        </div>
+    </body>
+</html>

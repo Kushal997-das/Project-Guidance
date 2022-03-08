@@ -1,0 +1,209 @@
+@media (max-width: 1024px) {
+  .tp-leftarrow, .tp-rightarrow {
+    width: 40px !important;
+    height: 40px !important; }
+
+  .tp-leftarrow {
+    left: -15px !important; }
+
+  .tp-rightarrow {
+    left: 101% !important; }
+
+  .tparrows:before {
+    line-height: 25px !important; } }
+@media (max-width: 992px) {
+  .navbar {
+    min-height: 60px; }
+
+  .navbar-brand > img {
+    width: 140px;
+    height: auto; }
+
+  .navbar.navbar-default .navbar-nav > li > a {
+    padding: 10px 8px; }
+
+  .navbar-collapse.collapse {
+    margin-top: 10px; } }
+@media (max-width: 767px) {
+  .pad100 {
+    padding: 50px 0; }
+
+  .pad80 {
+    padding: 40px 0; }
+
+  .pad-t100 {
+    padding-top: 50px; }
+
+  .pad-b70 {
+    padding-bottom: 25px; }
+
+  .topbar .social-icons {
+    display: none; }
+  .topbar .contact-info {
+    text-align: center; }
+
+  .navbar-header {
+    text-align: center; }
+
+  .navbar-brand {
+    float: none; }
+    .navbar-brand > img {
+      width: 110px;
+      height: auto;
+      display: inline-block; }
+
+  .navbar {
+    min-height: 70px; }
+
+  .navbar-toggle {
+    margin-top: 15px; }
+
+  .text-section {
+    text-align: center; }
+    .text-section .underline:after {
+      left: 41% !important; }
+
+  .max-tab .nav-tabs > li {
+    width: 22%; }
+
+  .image-content-img {
+    position: inherit !important;
+    width: 100% !important;
+    height: 300px !important; }
+
+  .image-content {
+    margin-top: 40px; }
+
+  .image-content-list li {
+    margin-bottom: 30px; }
+    .image-content-list li:last-child {
+      margin-bottom: 0; }
+
+  .sidebar-post li {
+    display: table; }
+
+  .switcher-box {
+    display: none; }
+
+  ul.filter {
+    margin-bottom: 30px; }
+
+  .portfolio-box.col-4 .portfolio-post {
+    width: 50%; }
+
+  .right-half, .left-half {
+    display: none; }
+
+  .breadcrumb-section {
+    text-align: center; }
+
+  .banner h1 {
+    font-size: 50px;
+    line-height: 50px; }
+
+  .mbl-mar-bottom {
+    margin-bottom: 30px; }
+
+  .mbl-mar-top {
+    margin-top: 30px; }
+
+  .feature-box li {
+    width: 50%; }
+
+  .br, .bt {
+    border: none; }
+
+  .call-to-action-2 {
+    text-align: center; }
+    .call-to-action-2 a {
+      float: none;
+      margin-top: 30px; }
+
+  .pricing-box.pricing-featured {
+    margin-top: 0; }
+
+  .max-tab-2 .nav-tabs > li {
+    display: inline-block;
+    width: 32.9%; }
+    .max-tab-2 .nav-tabs > li a:after {
+      display: none; }
+
+  .portfolio-box.width33 li {
+    width: 100%; }
+  .portfolio-box.width50 li {
+    width: 100%; }
+  .portfolio-box.width25 li {
+    width: 100%; }
+
+  ul.countdown li {
+    width: 100% !important;
+    margin-bottom: 50px;
+    border: 0; }
+    ul.countdown li:last-child {
+      border-right: none; }
+
+  .header-address {
+    display: none; }
+
+  .mb-text-center {
+    text-align: center; }
+
+  .blog-post .blog-post-content .post-format,
+  .single-blog-post .blog-post-content .post-format {
+    width: 10%; }
+
+  .client-logo {
+    text-align: center; } }
+@media (max-width: 480px) {
+  .navbar-default .navbar-brand img {
+    width: 110px;
+    margin-top: 11px; }
+
+  .parallax-slide-text-2 h1 {
+    font-size: 32px;
+    line-height: 55px; }
+
+  ul.filter li {
+    margin-bottom: 30px; }
+    ul.filter li a {
+      padding: 6px 15px; }
+
+  .portfolio-box.col-4 .portfolio-post {
+    width: 100%; }
+
+  .portfolio-post img {
+    width: 100% !important; }
+
+  .right-half, .left-half {
+    display: none; }
+
+  .call-to-action-btn {
+    float: none !important; }
+
+  .banner h1 {
+    font-size: 45px;
+    line-height: 50px; }
+
+  .pagination > li {
+    float: left;
+    padding-bottom: 5px; }
+
+  .mbl-mar-bottom-20 {
+    margin-bottom: 20px; }
+
+  .feature-box li {
+    width: 100% !important; }
+
+  .max-tab-2 .nav-tabs > li {
+    display: inline-block;
+    width: 49%; } }
+@media (max-width: 320px) {
+  .banner h1 {
+    font-size: 35px;
+    line-height: 40px; }
+
+  .mini-mar-top {
+    margin-top: 20px !important; }
+
+  .mini-mar-bottom {
+    margin-bottom: 20px !important; } }
