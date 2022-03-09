@@ -166,5 +166,14 @@ public class CurrencyConvertedController {
             onDesiredCurrencyAmountChanged();
         }catch (NullPointerException | NumberFormatException ignored){}
     }
+    @FXML
+    public void switchCurrency(){
+        String temp=comboBoxCurrency1.getSelectionModel().getSelectedItem();
+        System.out.println(temp);
+        comboBoxCurrency1.setValue(comboBoxCurrency2.getSelectionModel().getSelectedItem());
+        comboBoxCurrency2.setValue(temp);
+        onCurrency1TextChanged();
+        onCurrency2TextChanged();
+    }
 
 }
