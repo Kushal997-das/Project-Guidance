@@ -20,7 +20,7 @@
 [![GitHub issues closed](https://img.shields.io/github/issues-closed/Kushal997-das/Project-Guidance.svg)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Kushal997-das/Project-Guidance.svg?color=yellow)](https://github.com/Kushal997-das/Project-Guidance/pulls)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/Kushal997-das/Project-Guidance.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
-<a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/Projects-84-blue.svg?color=5ac4bf"></a> <br>
+<a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/Projects-100-blue.svg?color=5ac4bf"></a> <br>
 
 📌 Introduction
 ------------------
@@ -145,8 +145,6 @@ git push -u origin <your_branch_name>
 <td align="center"><a href="https://github.com/prakhar3062"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/PP.png" width=150px height=150px /></a></br> <h4 style="color:red;">PRAKHAR MISHRA </h4><h4 style="color:red;">Mentor</h4>
 <a href="https://www.linkedin.com/in/prakhar-mishra-39880520a/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
 
-<td align="center"><a href="https://github.com/vasu-1"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/1626705672624.jpg" width=150px height=150px /></a></br> <h4 style="color:red;">Vashishth Patel </h4><h4 style="color:red;">Mentor</h4>
-<a href="https://www.linkedin.com/in/vashishth-patel-312a52204/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
 </tr>
 </table>
 
