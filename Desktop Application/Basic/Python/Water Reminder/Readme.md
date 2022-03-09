@@ -19,37 +19,25 @@
 </details>
 
 ## About The Project
-
-
 The U.S. National Academies of Sciences, Engineering, and Medicine determined that an adequate daily fluid intake is:  **About 15.5 cups (3.7 liters) of fluids a day for men**  and  **About 11.5 cups (2.7 liters) of fluids a day for women**.
 
 We all know that water is extremely important for the proper functioning of the human body and the benefits of drinking water are countless, even after knowing all this we barely make it to about 2L of water per day.  
 We are so glued to our computer screen that we do not even get up to get a glass of water. Knowing all the heath hazard linked to not drinking enough water, I decided to create a simple yet effective program which can remind you to  **Take a break**  and  **encourage you to drink a glass of water**.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 <hr>
 
 ### Built With
 
 * [Python](https://www.python.org/)
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Getting Started
-
-
-
 ### Prerequisites
-
 Only thing required is to mention the location the location of the icon image:
 ```sh
    app_icon="<location of the icon.ico file>", timeout=12)
    ```
-
-
 ### Installation
 
 1. Download main.py, and icon.ico file and keep them in the same folder.
@@ -74,19 +62,8 @@ The program will terminate if the execution is stopped or the code editor is clo
    ```sh
    pythonw main.py
    ```
-
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
-
 Shubham Singh - [LinkedIn](https://www.linkedin.com/in/shubham-singh-519769220/) 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
-
-
