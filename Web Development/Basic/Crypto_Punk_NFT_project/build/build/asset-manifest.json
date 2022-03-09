@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react_nft_project/static/css/main.a66a20fa.css",
+    "main.js": "/react_nft_project/static/js/main.d7ea0768.js",
+    "static/js/787.cf37ffa0.chunk.js": "/react_nft_project/static/js/787.cf37ffa0.chunk.js",
+    "static/media/weth.png": "/react_nft_project/static/media/weth.4101f1dacb92484cfd3f.png",
+    "static/media/cryptopunk-logo.png": "/react_nft_project/static/media/cryptopunk-logo.8bee49d57faa44bb66f5.png",
+    "index.html": "/react_nft_project/index.html",
+    "main.a66a20fa.css.map": "/react_nft_project/static/css/main.a66a20fa.css.map",
+    "main.d7ea0768.js.map": "/react_nft_project/static/js/main.d7ea0768.js.map",
+    "787.cf37ffa0.chunk.js.map": "/react_nft_project/static/js/787.cf37ffa0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a66a20fa.css",
+    "static/js/main.d7ea0768.js"
+  ]
+}
