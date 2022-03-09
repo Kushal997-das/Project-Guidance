@@ -18,9 +18,6 @@
   </ol>
 </details>
 
-
-
-
 ## About The Project
 
 
@@ -41,9 +38,6 @@ We are so glued to our computer screen that we do not even get up to get a glass
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-
 ## Getting Started
 
 
@@ -58,18 +52,13 @@ Only thing required is to mention the location the location of the icon image:
 
 ### Installation
 
-
 1. Download main.py, and icon.ico file and keep them in the same folder.
 2. Use any Python text editor to change the parameters as per your needs. For example the time interval between each notification can be controlled by changing the value of the below mentioned command:
    ```sh
    time.sleep(60*60)
    ```
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 
 ## Usage
 <div align="center">
@@ -89,11 +78,6 @@ The program will terminate if the execution is stopped or the code editor is clo
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
-
 
 ## Contact
 
