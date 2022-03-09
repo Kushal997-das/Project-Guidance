@@ -60,7 +60,7 @@
             <Font name="Ubuntu" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="switchButton" layoutX="608.0" layoutY="222.0"  text="Fetching data..." />
-      <Button layoutX="455.0" layoutY="190.0" onMouseClicked="#switchCurrency" mnemonicParsing="false" text="Switch" />
+      <Label fx:id="switchButton" layoutX="608.0" layoutY="222.0" text="Fetching data..." />
+      <Button layoutX="554.0" layoutY="176.0" mnemonicParsing="false" onMouseClicked="#switchCurrency" text="Switch" />
    </children>
 </AnchorPane>

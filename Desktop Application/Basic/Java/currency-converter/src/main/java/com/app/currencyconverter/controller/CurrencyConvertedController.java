@@ -174,6 +174,7 @@ public class CurrencyConvertedController {
         comboBoxCurrency2.setValue(temp);
         onCurrency1TextChanged();
         onCurrency2TextChanged();
+
     }
 
 }
