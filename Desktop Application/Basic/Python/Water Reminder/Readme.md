@@ -1,21 +1,3 @@
-
-
-
-   
- 
-
-  <h3 align="center">Hydrate - Water Reminder</h3>
-
-  <p align="center">
-  A simple Python Program that will help you reach your daily water consumption goal
-  </div>
-   
-  
-
-
-
-
-
 <details>
   <summary><b>Table of Contents</summary>
   <ol>
@@ -77,7 +59,7 @@ Only thing required is to mention the location the location of the icon image:
 ### Installation
 
 
-1. Clone main.py, and icon.ico file and keep them in the same folder.
+1. Download main.py, and icon.ico file and keep them in the same folder.
 2. Use any Python text editor to change the parameters as per your needs. For example the time interval between each notification can be controlled by changing the value of the below mentioned command:
    ```sh
    time.sleep(60*60)
@@ -90,6 +72,10 @@ Only thing required is to mention the location the location of the icon image:
 
 
 ## Usage
+<div align="center">
+<img src="https://raw.githubusercontent.com/LiQuiD-404/Project-Guidance/main/Desktop%20Application/Basic/Python/Water%20Reminder/images/Snip.png" alt="screenshot" >
+
+</div>
 
 The program can be executed in two ways:
 * Direct execution : Just like any other python program, this program can be executed using the terminal and executing main.py or you can also you text editors for this purpose.
