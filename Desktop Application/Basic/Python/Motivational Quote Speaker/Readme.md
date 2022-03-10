@@ -1,4 +1,4 @@
-# Motivator
+# Motivational Quote Speaker
 
 A little python script that motivates you with the help of google voice API and zenquotes.
 
