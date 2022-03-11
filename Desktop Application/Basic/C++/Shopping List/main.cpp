@@ -142,9 +142,13 @@ void searchByName(int numberOfRecords, string name){
     Item item;
     int RRN;
     RRN = getRecordRRN(primaryIndexArray, numberOfRecords, name);
-    cout << RRN << endl;
-	item = getItem(RRN, dataFile);
-	cout << endl << "Quantity for : "<<name<<" is " << item.quanity << endl;
+    if (RRN != -1) {
+        item = getItem(RRN, dataFile);
+        cout << endl << "Quantity for : " << name << " is " << item.quanity << endl;
+    }
+    else {
+        cout << "Item name not exist" << endl;
+    }
 
 	dataFile.close();
 	primaryIndexFile.close();
