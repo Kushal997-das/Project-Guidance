@@ -13,6 +13,9 @@ represent it visually.<br>
 <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Prediction%20using%20Unsupervised%20ML/Iris.csv">Dataset.csv</a><br><br>
 > Solution:
 <a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Basic/Prediction%20using%20Unsupervised%20ML/Unsupervised%20Machine%20learning.ipynb"> Prediction using UnSupervised ML</a>
+<title>UNSUPERVISED LEARNING</title>
+<p>Unsupervised Learning is a machine learning technique in which the users do not need to supervise the model. Instead, it allows the model to work on its own to discover patterns and information that was previously undetected. It mainly deals with the unlabelled data. Unsupervised Learning Algorithms allow users to perform more complex processing tasks compared to supervised learning.</p>
+ 
 
 
 
