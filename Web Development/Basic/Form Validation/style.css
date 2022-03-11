@@ -57,7 +57,7 @@ body {
   border: 1px var(--vermilion);
   border-radius: 15px;
   box-shadow: 1px 15px 26px 0px rgba(0,0,0,0.75);
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(35px);
   display: flex;
   justify-content: center;
   place-items: center;

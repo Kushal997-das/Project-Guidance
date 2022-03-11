@@ -1,10 +1,10 @@
-const form = document.getElementById("form_id");
+const firstN = document.getElementById("fname");
+const lastN = document.getElementById("lname")
 const phone = document.getElementById("contact");
 const email = document.getElementById("email");
 const userID = document.getElementById("username");
 const password = document.getElementById("pswrd");
 const confirm_password = document.getElementById("confirm_pswrd");
-const button = document.getElementById("btn-submit")
 
 //VALIDATION WHILE TYPING IN THE INPUT FIELD
 //phone number validation
@@ -12,15 +12,15 @@ function ValidPhoneNumber() {
     var PhoneNo = /^\d{10}$/;
     if (phone.value == "") {
         document.getElementById("phone_message").style.color = "red";
-        document.getElementById("phone_message").innerHTML = "❌ Phone Number field cannot be blank.";
+        document.getElementById("phone_message").innerHTML = "❌ Contact Number field cannot be blank.";
     }
     else if (phone.value.match(PhoneNo)) {
         document.getElementById("phone_message").style.color = "green";
-        document.getElementById("phone_message").innerHTML = "✔ Valid Phone Number.";
+        document.getElementById("phone_message").innerHTML = "✔ Valid Contact Number.";
     }
     else {
         document.getElementById("phone_message").style.color = "red";
-        document.getElementById("phone_message").innerHTML = "❌ Phone Number should have 10 digits";
+        document.getElementById("phone_message").innerHTML = "❌ Contact Number should have 10 digits";
     }
 }
 
@@ -29,7 +29,7 @@ function ValidEmail() {
     var emailVal = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (email.value == ""){
         document.getElementById("email_message").style.color = "red";
-        document.getElementById("email_message").innerHTML = "❌ Email ID field cannot be blank.";
+        document.getElementById("email_message").innerHTML = "❌ Email Id field cannot be blank.";
     }
     else if (email.value.match(emailVal)) {
         document.getElementById("email_message").style.color = "green";
@@ -37,7 +37,7 @@ function ValidEmail() {
     }
     else {
         document.getElementById("email_message").style.color = "red";
-        document.getElementById("email_message").innerHTML = "❌ Email ID format is incorrect.";
+        document.getElementById("email_message").innerHTML = "❌ Email Id format is incorrect.";
     }
 }
 
@@ -45,15 +45,15 @@ function ValidEmail() {
 function ValidUsername() {
     if (userID.value == "") { 
         document.getElementById("userid_message").style.color = "red";
-        document.getElementById("userid_message").innerHTML = "❌ User ID field cannot be blank.";
+        document.getElementById("userid_message").innerHTML = "❌ Username field cannot be blank.";
     }
     else if (userID.value.length < 6){
         document.getElementById("userid_message").style.color = "red";
-        document.getElementById("userid_message").innerHTML = "❌ User ID must be aleast 6 characters long.";
+        document.getElementById("userid_message").innerHTML = "❌ Username must be aleast 6 characters long.";
     }
     else {
         document.getElementById("userid_message").style.color = "green";
-        document.getElementById("userid_message").innerHTML = "✔ Valid User Id";
+        document.getElementById("userid_message").innerHTML = "✔ Valid Username";
     }
 }
 
@@ -89,11 +89,14 @@ function matchPassword() {
     }
 }
 
-function FormSubmit() {
-    var firstN = document.getElementById("fname").value;
-    var lastN = document.getElementById("lname").value;
-    document.getElementById("form_id").submit(); //form submission
-    alert(" Name : " + firstN + " " + lastN + " \n Email : " + email.value + "\n\n Registered Successfully......");
+//VALIDATION AFTER CLICKING THE SUBMIT BUTTON (for fields empty)
+//form submitted only after all the fields are filled.
+function ValidateForm() {
+    if(firstN.value == "" || lastN.value == "" || email.value == "" || phone.value == "" || userID.value == "" || password.value =="" || confirm_password.value == "") {
+        alert("Registration form fields cannot be blank. \nKindly fill all the form fields!");
+    }
+    else {
+        document.getElementById("form_id").submit(); //form submission
+        alert("Registered Successfully...... \n\nCourses For ALL welcomes " + firstN.value + " " + lastN.value );
+    }
 }
-
-

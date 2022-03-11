@@ -60,16 +60,16 @@
         </div>
         <div class="col">
           <div class="form-container">
-            <form id="form_id" action="submit" method="post" class="row g-3">
+            <form id="form_id" class="row g-3" action="#" method="get" onsubmit="ValidateForm()">
               <!-- first name -->
               <div class="col-md-6">
                 <label for="fname" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="fname" name="fname" required>
+                <input type="text" class="form-control" id="fname" name="fname">
               </div>
               <!-- last name -->
               <div class="col-md-6">
                 <label for="lname" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lname" name="lname" required>
+                <input type="text" class="form-control" id="lname" name="lname">
               </div>
               <!-- email id --> 
               <div class="col-12">
@@ -111,7 +111,7 @@
               <!-- Confirm password -->   
               <div class="col-12">
                 <label for="confirm_pswrd" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="confirm_pswrd" name="confirm-pswrd" onkeyup="matchPassword();">
+                <input type="password" class="form-control" id="confirm_pswrd" name="confirm_pswrd" onkeyup="matchPassword();">
                 <small id="passwordHelpBlock" class="form-text">
                   Confirm Password field must <b>match</b> the above Password field.
                 </small><br/>
@@ -119,7 +119,7 @@
               </div>
               <!-- submit button -->
               <div class="submit-btn">
-                <button type="submit" id="btn-submit" class="btn btn-primary btn-lg" style="background-color: var(--oxford-blue);" onclick="FormSubmit();">Register</button>
+                <button type="submit" id="btn-submit" class="btn btn-primary btn-lg" style="background-color: var(--oxford-blue);">Register</button>
               </div>
             </form>
           </div>
