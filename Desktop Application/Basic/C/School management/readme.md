@@ -18,10 +18,10 @@
 `Developer:` | `Ujjwal Gupta`
 `App Version` | `1.00.00.1`
 <br/>
-<img src="https://github.com/UG-SEP/School-Management/blob/UG/School%20management/screenshots/1.jpg" alt="Image">
-<img src="https://github.com/UG-SEP/School-Management/blob/UG/School%20management/screenshots/2.jpg" alt="Image">
-<img src="https://github.com/UG-SEP/School-Management/blob/UG/School%20management/screenshots/3.jpg" alt="Image">
-<img src="https://github.com/UG-SEP/School-Management/blob/UG/School%20management/screenshots/4.jpg" alt="Image">
+<img src="./screenshots/1.jpg" alt="Image">
+<img src="./screenshots/2.jpg" alt="Image">
+<img src="./screenshots/3.jpg" alt="Image">
+<img src="./screenshots/4.jpg" alt="Image">
 
 
 ```javascript
