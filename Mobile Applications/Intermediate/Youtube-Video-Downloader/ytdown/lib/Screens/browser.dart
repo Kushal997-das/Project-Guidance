@@ -95,8 +95,7 @@ class _BrowseState extends State<Browse> {
               ),
             ),
             ListTile(
-              title:
-                  const Text('1080p Video only (for live wallpapers) [248] '),
+              title: const Text('1080p Video only'),
               leading: Radio<int>(
                 value: 248,
                 groupValue: _itag,
@@ -108,7 +107,7 @@ class _BrowseState extends State<Browse> {
               ),
             ),
             ListTile(
-              title: const Text('1080p Video only (for live wallpapers)[303]'),
+              title: const Text('1080p Video only'),
               leading: Radio<int>(
                 groupValue: _itag,
                 value: 303,
@@ -120,7 +119,7 @@ class _BrowseState extends State<Browse> {
               ),
             ),
             ListTile(
-              title: const Text('1080p Video only (for live wallpapers)[399]'),
+              title: const Text('1080p Video only'),
               leading: Radio<int>(
                 groupValue: _itag,
                 value: 399,

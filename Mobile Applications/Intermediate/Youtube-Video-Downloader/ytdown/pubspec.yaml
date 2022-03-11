@@ -35,7 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   webview_flutter: ^2.0.12
-  flutter_youtube_downloader: ^0.0.5
+  flutter_youtube_downloader: ^0.0.4
 
 dev_dependencies:
   flutter_test:
