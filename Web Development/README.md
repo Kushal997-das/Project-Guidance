@@ -34,6 +34,9 @@
 
   - [Google Clone](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Web%20Development/Basic/Google%20Clone)<br>
 
+
+  - [Snake Game](https://github.com/Rashmisingh-18/Project-Guidance/tree/main/Web%20Development/Basic/Snake%20Game)<br>
+
   - [Spotify Landing Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/my-patch/Web%20Development%2FBasic%2FSpotify%20Landing%20Page%20Clone)<br>
 
   - [To Do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/To%20Do%20App)<br>
