@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Lato:wght@400;700&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@400;700&family=Varela+Round&display=swap');
+
+:root {
+    --body-background-color: #efe5cd;
+    --font-color: #504E4E;
+    --form-background-color: #8D91AA;
+    --shadow-color: #8d91aa8f;
+    --header-font-family:  'Lato',  'Nunito',serif ,  sans-serif;
+    --font-font-family: 'Varela Round','Lato', sans-serif , 'Nunito';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--body-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-calc {
+    min-width: 25rem;
+    width: 50%;
+    height: 450px;
+    background-color: var(--form-background-color);
+    padding: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 13px 18px 25px var(--shadow-color);
+}
+
+.main-calc header {
+    color: var(--font-color);
+    border-bottom: 0.16rem dashed var(--font-color);
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: var(--header-font-family);
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.form {
+    margin: 2rem 0;
+}
+
+.form label {
+    font-family: var(--font-font-family);
+    color: var(--font-color);
+    display: block;
+    padding: 0.2rem;
+    font-weight: 300;
+}
+
+.form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #353434;
+    font-size: 1.2rem;
+    border-bottom: 0.1rem solid var(--font-color);
+}
+
+.form select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #353434;
+    font-size: 1rem;
+    border-bottom: 0.1rem solid var(--font-color);
+}
+
+.calculate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.btn {
+    background-color: var(--body-background-color);
+    color: var(--font-color);
+    border: none;
+    padding: 10px;
+    border-radius:1rem; 
+    opacity: .7;
+    cursor: pointer;
+    margin-right: 2rem;
+    width: 10rem;
+    font-size: medium;
+}
+
+.btn:hover{
+    opacity: .5;
+}
+
+.result{
+    margin-right: 4rem;
+    color: #353434;
+    font-size: larger;
+    font-weight: bold;
+    border-bottom:  0.16rem dashed var(--font-color);
+    line-height: 2rem;
+}
