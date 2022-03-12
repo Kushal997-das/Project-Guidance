@@ -172,7 +172,6 @@ public class CurrencyConvertedController {
         System.out.println(temp);
         comboBoxCurrency1.setValue(comboBoxCurrency2.getSelectionModel().getSelectedItem());
         comboBoxCurrency2.setValue(temp);
-
         onCurrency1TextChanged();
         onCurrency2TextChanged();
 

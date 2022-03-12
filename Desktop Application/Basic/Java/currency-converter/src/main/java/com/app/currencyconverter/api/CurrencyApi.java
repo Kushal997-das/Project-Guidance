@@ -39,6 +39,7 @@ public class CurrencyApi {
         symbols.keySet().forEach(symbol -> {
             symbolNames.put(symbol, symbols.getString(symbol));
         });
+
         return symbolNames;
     }
 
