@@ -8,7 +8,5 @@ This project is a small stack of image-filled sheets of paper that reveal an ani
 - [x] JavaScript
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/81038095/157731771-3b913baf-4331-4854-b872-dfc066cc39b4.png)
-![image](https://user-images.githubusercontent.com/81038095/157731834-89cb19ad-3d37-4eba-9b09-e710c72a3e29.png)
-![image](https://user-images.githubusercontent.com/81038095/157731892-10fc8f9f-148a-4914-8638-d5cd04d9c13e.png)
-![image](https://user-images.githubusercontent.com/81038095/157731950-81bfa7e8-7076-4f77-9029-298a6295da90.png)
+![image](https://user-images.githubusercontent.com/81038095/157507417-a710c60b-748e-40fe-8e33-9840e824291e.png)
+![image](https://user-images.githubusercontent.com/81038095/157507470-62bd7c21-da22-42d3-9204-a4fe79683271.png)
