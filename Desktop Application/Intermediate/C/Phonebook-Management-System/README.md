@@ -420,3 +420,18 @@ void delete_contact(){
 }
 ```
 
+## Output:
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/Op1.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/1_Create.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/Op2.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/2_DisplayDirectory.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/Op3.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/3_DisplayByTags.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/Op4.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/4_Modify.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/Op5.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/5_Search.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/Op6.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/6_Delete.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/Phonebook-Management-System/Output_images/Op7_exit.png)
+
