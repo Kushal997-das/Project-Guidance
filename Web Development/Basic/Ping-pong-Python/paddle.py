@@ -3,7 +3,7 @@ from turtle import Turtle
 
 class Paddle(Turtle):
     
-    def __init__(self, position):
+    def __init__(self, position):  #This function is creating  paddle for the game by giving properties like- color, shape, size and initial position to paddles
         super().__init__()
         self.shape("square")
         self.color("white")
@@ -12,7 +12,7 @@ class Paddle(Turtle):
         self.goto(position)
 
     def go_up(self):
-        new_y = self.ycor() + 20
+        new_y = self.ycor() + 20        # These two functions are responsible for coordinates cover by paddle in each step
         self.goto(self.xcor(), new_y)
 
     def go_down(self):
