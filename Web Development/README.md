@@ -14,20 +14,39 @@
 
 - <h1>Basic 🚀 </h1>
 
+  - [BaseX Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/BaseX_Calculator)<br>
+
   - [Basic Banking System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Basic%20Banking%20System)<br>
+
+  - [Casio](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Casio)<br>
+
+  - [Contact Form](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Contact%20Form)<br>
+
+  - [Drum Kit](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Drum%20Kit)<br>
 
   - [JTM Project](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/JTM%20Project)<br>
 
   - [Multiply JSP](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Multiply%20JSP)<br>
+
+  - [Quiz Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Quiz%20Website)<br>
   
   - [Tourist Places](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Tourist%20Places)<br>
 
   - [Google Clone](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Web%20Development/Basic/Google%20Clone)<br>
 
+
+  - [Snake Game](https://github.com/Rashmisingh-18/Project-Guidance/tree/main/Web%20Development/Basic/Snake%20Game)<br>
+
   - [Spotify Landing Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/my-patch/Web%20Development%2FBasic%2FSpotify%20Landing%20Page%20Clone)<br>
 
+  - [To Do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/To%20Do%20App)<br>
+
+  - [Tip Calculator](https://github.com/RiyaBhandari-2811/Project-Guidance/tree/TipForm/Web%20Development)<br>
+
 - <h1>Intermediate 🚀</h1>
-  <h3>No Intermediate Projects to Display 🔜</h3>
+
+    - [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/animal%20adoption%20protal)<br>
+
   <br>
 
 - <h1>Advanced 🚀 </h1>
