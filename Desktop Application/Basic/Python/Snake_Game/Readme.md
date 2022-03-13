@@ -6,13 +6,13 @@
 ![](https://img.shields.io/badge/Status-Complete-green.svg)
 
 
-## <p align="center">***_Introducing My New Project Snake_Game*** </p>
+## <p align="center">***Introducing My New Project Snake_Game*** </p>
 
 <p align="center"><img src="https://github.com/Anonymouscodes911/Project-Guidance/blob/main/Desktop%20Application/Basic/Python/Snake_Game/?Snake_Game_gif.gifraw=true" ></p>
-### *** #This Project uses PyGame.
-##This is the same Snake Game which we all once played growing up, To get the system up and running all you need 
+### <p align="center">***This Project uses PyGame *** </p>
+## ***This is the same Snake Game which we all once played growing up, To get the system up and running all you need 
 if to add the Pygame package on your system(if you dont have it), you can use the command: 
-``` pip install pygame ```  ***
+``` pip install pygame ``` *** 
 
 ***
 
