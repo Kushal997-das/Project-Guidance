@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: url("assets/img.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    background: linear-gradient(rgb(179, 209, 255), rgb(189, 243, 247) );
+    width: 90vmin;
+    height: 92vmin;
+    margin-left: 35rem;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+.head{
+    background: linear-gradient(rgb(131, 41, 5), rgb(155, 103, 69));
+    border: 2px gray;
+    border-radius: 30px;
+}
+.snake{
+    background-color: rgb(160, 131, 4);
+    border: 2px gray;
+    border-radius: 30px;
+}
+.food{
+    background-color: rgba(5, 102, 62, 0.726);
+}
+#highScore{
+    position: absolute;
+    top: 90px;
+    left: 340px;
+    font-size: 33px;
+    color: rgb(131, 5, 82);
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+#scoreBox{
+    position: absolute;
+    top: 40px;
+    left: 380px;
+    color: rgb(131, 5, 82);
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
