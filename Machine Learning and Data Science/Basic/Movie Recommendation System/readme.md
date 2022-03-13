@@ -1,5 +1,12 @@
 # In this project, we will be building a simple Movie Recommender System. 
 I have attached the csv file of the data set that contains the following features : index	,budget	,genres	,homepage	,id	keywords,original_language	,original_title	,overview,	popularity,	production_companies,production_countries,	release_date,	revenue	,runtime,	spoken_languages,	status,	tagline	,title,	vote_average,	vote_count,	cast,	crewdirector 
+
+Libraries used:
+- Pandas
+- Numpy
+- Difflib
+- Sklearn - feature extraction, TfidfVectorizer, Metrics, Cosine Similarity
+
 # STEP 1
 # FEATURE SELECTION:
 Feature selection is the process of selecting the features that are most relevant to the problem at hand.
