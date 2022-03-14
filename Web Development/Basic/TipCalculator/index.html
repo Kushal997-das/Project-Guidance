@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="main-calc">
+      <header>
+        <h2>TIP CALCULATOR</h2>
+      </header>
+      <section>
+        <div class="form">
+          <label> Enter Total amount of your bill ? </label>
+          <input type="number" id="totalBill" min="0" />
+        </div>
+        <div class="form">
+          <label> How was our service ? </label>
+          <select id="servicePer">
+            <option value="0">Choose an Options</option>
+            <option value="0.3">30% - Outstanding</option>
+            <option value="0.2">20% - Good</option>
+            <option value="0.15">15% - It was Okay</option>
+            <option value="0.1">10% - Bad</option>
+            <option value="0.5">5% - Terrible</option>
+          </select>
+        </div>
+        <div class="form">
+          <label> Number of people sharing the bill ? </label>
+          <input type="number" id="numPeople" min="0" value="1" />
+        </div>
+
+        <div class="calculate">
+          <button class="btn" id="calculateBtn">CALCULATE</button>
+          <span class="result">
+            Tip Amount : ₹ <span id="result"></span></span
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

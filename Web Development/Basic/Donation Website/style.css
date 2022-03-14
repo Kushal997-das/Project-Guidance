@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root{
+  --themeRed: #e43a47;
+  --gray: #efefef;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+button,body
+{
+  font-family: "Poppins", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.fullcontainer{
+  width: 100%;
+}
+
+.container{
+  width: 1140px;
+  margin:auto;
+}
+
+.SectionTitle{
+  width: 300px;
+  border-bottom: 3px solid var(--themeRed);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 auto 50px;
+  padding:10px 0;
+  text-transform: uppercase;
+}
+
+.SectionTitle::after{
+  display: inline-block;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background-color: var(--themeRed);
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(23% - 7px);
+  transform: rotate(45deg) translate(50%, 50%);
+  border: 3px solid white;
+}
+
+section{
+  padding: 100px 0;
+  position: relative;
+}
+/* Home styling */
+
+header{
+  width:100%;
+  background-color: black;
+  position: fixed;
+  z-index: 2;
+}
+ header .container{
+   display: flex;
+   justify-content: space-between;
+ }
+
+header .container .logo{
+  padding: 12px 0;
+  height: 75px;
+
+}
+
+header .container .logo img{
+  height: 90%;
+  border-radius: 30px;
+}
+
+header nal{
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  display: inline-block;
+  height: 75px;
+  line-height: 75px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: white;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover{
+  background-color: var(--themeRed);
+}
+
+.banner{
+  min-height: 100vh;
+  width:100%;
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner h1{
+  margin-top: 230px;
+  display: inline-block;
+  font-size: 3.5rem;
+  color:white;
+  text-shadow: 0 0 2px black;
+  width: 50%;
+  line-height: 4.2rem;
+  font-weight: 100;
+}
+
+.banner h1 span{
+  background-color: var(--themeRed);
+  display: inline-block;
+  line-height: 3.5rem;
+  padding: 0 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.banner p{
+  color: white;
+  width: 50%;
+  text-shadow: 0 0 2px black;
+  margin-top: 10px;
+}
+
+.banner button{
+  background-color: var(--themeRed);
+  border: 0;
+  outline: none;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.banner button:hover{
+  background-color: white;
+  border: 2px;
+  outline: none;
+  color: black;
+  padding: 10px 15px;
+  margin-top: 20px;
+  font-size: 19px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/*About Styling*/
+ #aboutSection .cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 50px;
+   position: relative;
+   height: 245px;
+ }
+
+ #aboutSection .cards > div{
+   width: 350px;
+   background-color: var(--gray);
+   padding: 35px;
+   color: #444;
+   text-align: center;
+   border-radius: 5px;
+   height: 290px;
+   border: 1px solid #ccc;
+   transition: 0.4s;
+ }
+
+#aboutSection .cards > div:hover{
+  width: 350px;
+  margin-top: -20px;
+  border-color: var(--themeRed);
+  padding: 55px;
+  height: 345px;
+}
+
+ #aboutSection .cards > div .title{
+   font-size: 18px;
+   font-weight: 600;
+   text-transform: uppercase;
+ }
+
+#aboutSection .cards > div p{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+#aboutSection .cards > div button{
+  margin-top: 8px;
+  border: 1px solid var(--themeRed);
+  outline: none;
+  padding: 7px 15px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#aboutSection .cards > div:hover button {
+  background-color: black;
+  color: white;
+}
+
+/*Donation page*/
+
+.donation{
+  min-height: 100vh;
+  width:100%;
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.donation h1{
+  display: inline-block;
+  font-size: 2.5rem;
+  color:white;
+  text-shadow: 0 0 2px black;
+  width: 50%;
+  line-height: 3.2rem;
+  font-weight: 100;
+}
+
+.donation h2{
+  font-size: 2.5rem;
+  color:white;
+  text-shadow: 0 0 2px black;
+  width: 50%;
+  line-height: 3.6rem;
+  font-weight: 500;
+}
+
+.donation h1 span{
+  background-color: var(--themeRed);
+  display: inline-block;
+  line-height: 2.5rem;
+  padding: 0 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.donation p{
+  color: white;
+  font-size: 1.2rem;
+  width: 50%;
+  text-shadow: 0 0 2px black;
+  margin-top: 10px;
+}
+
+.donation button{
+  background-color: var(--themeRed);
+  border: 0;
+  outline: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* Contact Styling */
+
+.contact{
+  background-color: var(--themeRed);
+  color: white;
+}
+
+.contact .contactTitle{
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.contact .contactTitle span{
+  font-weight: 800;
+}
+
+.contact button{
+  padding: 7px 15px;
+  margin-top: 20px;
+  border:0;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contact button.joinNow{
+  background-color: black;
+  margin-right: 10px;
+  color: white;
+}
+
+.contact button.adoptBtn{
+  background-color: var(--gray);
+}
+
+/* Footer Styling */
+
+footer{
+  background-color: black;
+  color:white;
+  padding:50px 0;
+  font-size: 14px;
+}
+
+footer .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+footer .title{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  margin-bottom: 30px;
+  padding-left: 0 0 5px 0;
+}
+
+footer p{
+  margin-bottom: 10px;
+}
+
+footer .linksContainer ul{
+  list-style-type: none;
+}
+
+footer .linksContainer ul li a{
+  text-decoration: none;
+  color: #747474;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+footer .newsLetterContainer img{
+  height: 40px;
+  margin-bottom: 11px;
+  border-radius: 30px;
+}
+
+footer .newsLetterContainer input{
+  background-color: var(--themeRed);
+  color: white;
+  border: 1.5px solid white;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.newsLetterContainer input[type=submit]{
+  background-color: gray;
+  border: 1px solid white;
+  outline: none;
+  color: black;
+  padding: 10px 15px;
+  width: 50%;
+  margin-top: 14px;
+  border-radius: 30px;
+  font-weight: 800;
+}
+
+footer .connectContainer p{
+  color: #747474;
+}
+
+footer .connectContainer a{
+  text-decoration: none;
+  color: white;
+}
+
+::placeholder{
+  color:white;
+}
