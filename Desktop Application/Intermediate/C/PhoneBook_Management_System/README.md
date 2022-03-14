@@ -421,16 +421,16 @@ void delete_contact(){
 ```
 
 ## Output:
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op1.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/1_Create.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op2.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/2_DisplayDirectory.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op3.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/3_DisplayByTags.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op4.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/4_Modify.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op5.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/5_Search.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op6.png)
-![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/6_Delete.png)
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op1.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/1_Create.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op2.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/2_DisplayDirectory.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op3.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/3_DisplayByTags.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op4.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/4_Modify.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op5.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/5_Search.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op6.png)<br>
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/6_Delete.png)<br>
 ![]((https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op7.png))
