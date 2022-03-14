@@ -8,12 +8,13 @@ int main()
     std::cin >> b;
     if (b<0 || b>1000000000)
     {
+        cout<<"ERROR::The input year is not in range range."<<endl<<"       EXIT";
         return 1;
     }
     //Month for which the calender is required
     do
     {
-        std::cout << "Enter the number of the month :";
+        std::cout << "Enter the number of the month(from 1 to 12) :";
         std::cin >> a;
     } while (a<1 || a>12);
     //Aplying Julian Calender Algorithm
