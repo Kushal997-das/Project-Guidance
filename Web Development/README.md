@@ -42,6 +42,8 @@
   - [To Do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/To%20Do%20App)<br>
 
   - [Tip Calculator](https://github.com/RiyaBhandari-2811/Project-Guidance/tree/TipForm/Web%20Development)<br>
+  
+  - [Instagram Login Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/main/Web%20Development%2FBasic%2FInstagram%20Login%20Page%20Clone)<br>
 
 - <h1>Intermediate 🚀</h1>
 
