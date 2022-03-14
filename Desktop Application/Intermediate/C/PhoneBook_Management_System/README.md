@@ -433,4 +433,4 @@ void delete_contact(){
 ![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/5_Search.png)<br>
 ![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op6.png)<br>
 ![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/6_Delete.png)<br>
-![]((https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op7.png))
+![](https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Intermediate/C/PhoneBook_Management_System/Output_images/Op7_exit.png)
