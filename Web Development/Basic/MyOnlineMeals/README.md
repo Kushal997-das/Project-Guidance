@@ -31,3 +31,17 @@ After opening the folder follow  these steps:
 
   find index.html
   and then if you use Vs Code then choose Go Live in the bottom.
+
+## Landing Page
+
+<img src="landing page.png">
+
+##Service page
+<img src="service.png" >
+
+## Contact Page
+<img src="contact page.png" >
+
+## Food items Page
+<img src="item page.png" >
+
