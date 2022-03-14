@@ -28,32 +28,32 @@ let track = document.createElement('audio');
 let All_song = [
    {
      name: "Wavin flag",
-     path: "../MixChill/audio/1.mp3",
-     img: "../MixChill/images/images.jpg",
+     path: "../MixChill(Music_Player)/audio/1.mp3",
+     img: "../MixChill(Music_Player)/images/images.jpg",
      singer: "K'NAAM"
    },
    {
      name: "Eenie Meenie",
-     path: "../MixChill/audio/2.mp3",
-     img: "../MixChill/images/images2.jpg",
+     path: "../MixChill(Music_Player)/audio/2.mp3",
+     img: "../MixChill(Music_Player)/images/images2.jpg",
      singer: "Sean Kingston, Justin Bieber"
    },
    {
      name: "La La la(Brazil 2014)",
-     path: "../MixChill/audio/3.mp3",
-     img: "../MixChill/images/images3.jpg",
+     path: "../MixChill(Music_Player)/audio/3.mp3",
+     img: "../MixChill(Music_Player)/images/images3.jpg",
      singer: "Shakira"
    },
    {
      name: "Waka Waka",
-     path: "../MixChill/audio/4.mp3",
-     img: "../MixChill/images/images4.jpg",
+     path: "../MixChill(Music_Player)/audio/4.mp3",
+     img: "../MixChill(Music_Player)/images/images4.jpg",
      singer: "Shakira"
    },
    {
      name: "Love story",
-     path: "../MixChill/audio/5.mp3",
-     img: "../MixChill/images/images6.jpg",
+     path: "../MixChill(Music_Player)/audio/5.mp3",
+     img: "../MixChill(Music_Player)/images/images6.jpg",
      singer: "Taylor Swift"
    }
 ];
