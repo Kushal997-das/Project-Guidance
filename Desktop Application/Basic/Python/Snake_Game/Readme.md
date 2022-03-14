@@ -8,13 +8,16 @@
 
 ## <p align="center">***Introducing My New Project Snake_Game*** </p>
 
-<p align="center"><img src="https://github.com/Anonymouscodes911/Project-Guidance/blob/main/Desktop%20Application/Basic/Python/Snake_Game/?Snake_Game_gif.gifraw=true" ></p>
-### <p align="center">***This Project uses PyGame *** </p>
-## ***This is the same Snake Game which we all once played growing up, To get the system up and running all you need 
-if to add the Pygame package on your system(if you dont have it), you can use the command: 
-``` pip install pygame ``` *** 
+<p align="center"><img src="..\Snake_Game\Snake_Game_gif.gif"/></p>
 
-***
+# <p align="center"> This Project uses PyGame </p>
+
+## This is the same Snake Game which we all once played growing up, To get the system up and running all you need 
+if to add the Pygame package on your system(if you dont have it), you can use the command: 
+
+```bash
+ pip install pygame 
+ ``` 
 
 ### <p align="center">***_Show Love by Starring this Repo_***</p>
 
