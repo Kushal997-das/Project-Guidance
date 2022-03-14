@@ -4,11 +4,21 @@ int main()
 {
     int a, c, s, i, x, b, l, r, y, m, p;
     //Year 
-    std::cout << "Enter the year ";
+    std::cout << "Enter the year (from 0 to 1000000000) :";
     std::cin >> b;
+    if (b<0 || b>1000000000)
+    {
+        std::cout<<"ERROR::The input year is not in range range.\n"<<"EXIT";
+        return 1;
+    }
     //Month for which the calender is required
-    std::cout << "Enter the number of the month ";
+    std::cout << "Enter the number of the month(from 1 to 12) :";
     std::cin >> a;
+    if (a<1 || a>12)
+    {
+        std::cout<<"ERROR::The input month is not in range range.\n"<<"EXIT";
+        return 2;
+    }
     //Aplying Julian Calender Algorithm
     r = b % 100;
     y = (r + (r / 4)) % 7;
