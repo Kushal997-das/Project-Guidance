@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="./assets/media/Tab_Icon.svg">
+    <title>Discord</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./scripts/bootstrap.bundle.js"></script>
+</head>
+
+<body class="min-vh-100 d-flex flex-column">
+    <section class="row flex-grow-1">
+        <div class="server_col">
+            <img class="server_icon discord_server_icon" src="./assets/media/ServersCol/discord_server_icon.png">
+            <hr>
+            <img class="server_icon" src="./assets/media/ServersCol/GSSoC_Server.webp" title="GSSoC_Server">
+            <img class="server_icon" src="./assets/media/ServersCol/Server0.webp" title="Server0">
+            <img class="server_icon" src="./assets/media/ServersCol/Server1.webp" title="Server1">
+        </div>
+
+
+        <div class="friends_col">
+            <div class="search_div">
+                <input class="search_input" type="text" placeholder="Find or start a conversation">
+            </div>  
+            <section style="height: 8px;"></section>
+            <section style="padding: 1px 8px">
+                <div class="record" style="background-color: #34373C;">
+                    <div class="friend" style="color: #DCDDDE;">
+                        <svg class="linkButtonIcon-7rsZcu" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" fill-rule="evenodd">
+                                <path fill="currentcolor" fill-rule="nonzero" d="M0.5,0 L0.5,1.5 C0.5,5.65 2.71,9.28 6,11.3 L6,16 L21,16 L21,14 C21,11.34 15.67,10 13,10 C13,10 12.83,10 12.75,10 C8,10 4,6 4,1.5 L4,0 L0.5,0 Z M13,0 C10.790861,0 9,1.790861 9,4 C9,6.209139 10.790861,8 13,8 C15.209139,8 17,6.209139 17,4 C17,1.790861 15.209139,0 13,0 Z" transform="translate(2 4)"></path>
+                                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z"></path>
+                            </g>
+                        </svg>
+                        <span>Friends</span>
+                    </div>
+                </div>
+            </section>
+            <section style="padding: 1px 8px">
+                <div class="record">
+                    <div class="friend">
+                        <svg class="linkButtonIcon-7rsZcu" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M2.98966977,9.35789159 C2.98966977,9.77582472 2.63442946,10.1240466 2.20807287,10.1240466 L1.78171628,10.1240466 C1.35535969,10.1240466 0.999948837,9.77582472 0.999948837,9.35789159 C0.999948837,8.93995846 1.35535969,8.59173658 1.78171628,8.59173658 L2.20807287,8.59173658 C2.63442946,8.59173658 2.98966977,8.93995846 2.98966977,9.35789159 Z M22.2467643,9.14892503 C24.0942527,12.9800344 22.3888264,17.5772989 18.3384388,19.3882867 C14.4302837,21.1297305 9.74036124,19.457998 7.9638186,15.6268886 C7.60857829,14.8607335 7.3954,14.0248673 7.32428372,13.189001 L5.76091938,13.189001 C5.33456279,13.189001 4.97932248,12.840612 4.97932248,12.4226788 C4.97932248,12.0047457 5.33456279,11.6565238 5.76091938,11.6565238 L8.03493488,11.6565238 C8.46129147,11.6565238 8.81653178,11.3083019 8.81653178,10.8903688 C8.81653178,10.4724357 8.46129147,10.1240466 8.03493488,10.1240466 L4.41090388,10.1240466 C3.98454729,10.1240466 3.62913643,9.77582472 3.62913643,9.35789159 C3.62913643,8.93995846 3.98454729,8.59173658 4.41090388,8.59173658 L9.45606667,8.59173658 C9.88242326,8.59173658 10.2376636,8.24334752 10.2376636,7.82541439 C10.2376636,7.40748126 9.88242326,7.05925937 9.45606667,7.05925937 L7.3954,7.05925937 C6.75586512,7.05925937 6.18727597,6.57161499 6.18727597,5.87517123 C6.18727597,5.24827153 6.68474884,4.69091591 7.3954,4.69091591 L15.4250589,4.69091591 C18.267493,4.8303384 20.9676946,6.43235968 22.2467643,9.14892503 Z M13.2662961,8.38056332 C11.0193969,9.3919615 10.0341721,11.9973566 11.065955,14.1998642 C12.097738,16.4023718 14.755645,17.3681317 17.0025442,16.3567335 C19.249614,15.3453354 20.2346682,12.7399402 19.2028853,10.5374326 C18.1711023,8.33492503 15.5131953,7.36916515 13.2662961,8.38056332 Z M16.8462589,9.84548582 L18.2673907,12.2138293 C18.338507,12.3530846 18.338507,12.4227958 18.2673907,12.5620512 L16.8462589,14.9303946 C16.7751426,15.0696499 16.6330806,15.0696499 16.5619643,15.0696499 L13.7906465,15.0696499 C13.6485845,15.0696499 13.5774682,14.9999387 13.5065225,14.9303946 L12.0852202,12.5620512 C12.0142744,12.4227958 12.0142744,12.3530846 12.0852202,12.2138293 L13.5065225,9.84548582 C13.5774682,9.7062305 13.7197008,9.7062305 13.7906465,9.7062305 L16.5619643,9.7062305 C16.7041969,9.63651925 16.7751426,9.7062305 16.8462589,9.84548582 Z"></path>
+                        </svg>
+                        <span>Nitro</span>
+                    </div>
+                </div>
+            </section>
+            <section class="direct_messages" style="padding: 18px 8px 4px 18px;">
+                <span>Direct Messages</span>
+                <div style="float: right;" role="button" aria-label="Create DM" tabindex="0"><svg x="0" y="0" class="privateChannelRecipientsInviteButtonIcon-1ObKXK icon-2xnN2Y" aria-hidden="false" width="16" height="16" viewBox="0 0 18 18"><polygon fill-rule="nonzero" fill="#DCDDDE" points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8"></polygon></svg></div>
+            </section>
+            <section style="padding: 1px 8px">
+                <div class="friend_card background_hover">
+                    <img src="./assets/media/FriendsImages/Avatar0.png" style="height: 100%; margin-right: 12px;">
+                    <span>Friend 1</span>
+                </div>
+            </section>
+            <section style="padding: 1px 8px">
+                <div class="friend_card background_hover">
+                    <img src="./assets/media/FriendsImages/Avatar1.png" style="height: 100%; margin-right: 12px;">
+                    <span>Friend 2</span>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="main_body" style="flex-grow: 1; flex-shrink: 1; flex-basis: 20px; overflow: hidden; clear: auto;">
+            <div class="search_div" style=" overflow: hidden; clear: auto;">
+                <section id="Friends" style="display: inline;">
+                    <svg x="0" y="0" class="icon-2xnN2Y" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" style="margin: 0 5px;">
+                        <g fill="none" fill-rule="evenodd"><path fill="currentColor" fill-rule="nonzero" d="M0.5,0 L0.5,1.5 C0.5,5.65 2.71,9.28 6,11.3 L6,16 L21,16 L21,14 C21,11.34 15.67,10 13,10 C13,10 12.83,10 12.75,10 C8,10 4,6 4,1.5 L4,0 L0.5,0 Z M13,0 C10.790861,0 9,1.790861 9,4 C9,6.209139 10.790861,8 13,8 C15.209139,8 17,6.209139 17,4 C17,1.790861 15.209139,0 13,0 Z" transform="translate(2 4)"></path><path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z"></path></g>
+                    </svg>
+                    <span style="color:#fff; font-weight: bold; font-size: medium;">Friends</span>
+                </section>
+                <div class="d-none d-lg-inline">
+                    <!-- seperators -->
+                    <div style="display: inline; margin-left: 13px; border-right: 1px solid hsla(0, 0%, 100%, 0.3) !important;"></div>
+                    <div style="display: inline; margin-left: 22px;"></div>
+                    <!-- seperators -->
+                    <section class="nav_bar_element nav_bar_element_active" style="display: inline;">Online</section>
+                    <section class="nav_bar_element" style="display: inline;">All</section>
+                    <section class="nav_bar_element" style="display: inline;">Pending</section>
+                    <section class="nav_bar_element" style="display: inline;">Blocked</section>
+                    <section class="add_friend" style="display: inline;">Add Freind</section>
+                </div>
+                <section style="display: inline; float: right;">
+                    <section class="nav_bar_element" style="display: inline; cursor: pointer; margin-right: 0px;">
+                        <svg x="0" y="0" style="margin-right: 0;" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20.998 0V3H23.998V5H20.998V8H18.998V5H15.998V3H18.998V0H20.998ZM2.99805 20V24L8.33205 20H14.998C16.102 20 16.998 19.103 16.998 18V9C16.998 7.896 16.102 7 14.998 7H1.99805C0.894047 7 -0.00195312 7.896 -0.00195312 9V18C-0.00195312 19.103 0.894047 20 1.99805 20H2.99805Z"></path></svg>
+                    </section>
+                    <!-- seperators -->
+                    <div style="display: inline;">
+                        <div style="display: inline; margin-left: 13px; border-right: 1px solid hsla(0, 0%, 100%, 0.3) !important;"></div>
+                        <div style="display: inline; margin-left: 22px;"></div>
+                    </div>
+                    <!-- seperators -->
+                    <section class="nav_bar_element" style="display: inline; cursor: pointer; margin: 0">
+                        <svg x="0" y="0" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19 3H4.99C3.88 3 3.01 3.89 3.01 5L3 19C3 20.1 3.88 21 4.99 21H19C20.1 21 21 20.1 21 19V5C21 3.89 20.1 3 19 3ZM19 15H15C15 16.66 13.65 18 12 18C10.35 18 9 16.66 9 15H4.99V5H19V15Z" fill="currentColor"></path></svg>
+                    </section>
+                    <section class="nav_bar_element" style="display: inline; cursor: pointer; margin-right: 8px;">
+                        <svg x="0" y="0" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 22 12C22 6.487 17.514 2 12 2ZM12 18.25C11.31 18.25 10.75 17.691 10.75 17C10.75 16.31 11.31 15.75 12 15.75C12.69 15.75 13.25 16.31 13.25 17C13.25 17.691 12.69 18.25 12 18.25ZM13 13.875V15H11V12H12C13.104 12 14 11.103 14 10C14 8.896 13.104 8 12 8C10.896 8 10 8.896 10 10H8C8 7.795 9.795 6 12 6C14.205 6 16 7.795 16 10C16 11.861 14.723 13.429 13 13.875Z"></path></svg>
+                    </section>
+                </section>
+            </div>
+
+            <div style="display: inline-flex; height: 100%; width: 100%;">
+                <section class="friends_col d_friends" style="border-right: 1px solid hsla(0, 0%, 100%, 0.1);">
+                    <div class="search_div" style="box-shadow: none;">
+                        <input type="text" class="search_input main_body_input" placeholder="Search">
+                    </div>
+
+                    <div class="online_text">ONLINE - X</div>
+
+                    <section style="margin-top: 15px">
+                            <div class="msgs_record">
+                                <img src="./assets/media/FriendsImages/Avatar0.png" style="height: 100%; margin-right: 12px;">
+                                <span class="msgs_text">Friend 1</span>
+                                <div class="msgs_button" style="margin-right: 10px;">
+                                    <svg aria-hidden="false" width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0z"></path><path fill="currentColor" d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm0-6c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm0-6c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2z"></path></g>
+                                    </svg>
+                                </div>
+                                <div class="msgs_button" style="margin-right: 12px;">
+                                    <svg aria-hidden="false" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path fill="currentColor" d="M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="msgs_record">
+                                <img src="./assets/media/FriendsImages/Avatar1.png" style="height: 100%; margin-right: 12px;">
+                                <span class="msgs_text">Friend 2</span>
+                                <div class="msgs_button" style="margin-right: 10px;">
+                                    <svg aria-hidden="false" width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0z"></path><path fill="currentColor" d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm0-6c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2zm0-6c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .8954305-2 2-2z"></path></g>
+                                    </svg>
+                                </div>
+                                <div class="msgs_button" style="margin-right: 12px;">
+                                    <svg aria-hidden="false" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path fill="currentColor" d="M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                    </section>
+                </section>
+
+                <section class="friends_col d-status">
+                    <h5 style="color: #fff">Active Now</h5>
+                    <br>
+                    <div style="text-align: center; word-wrap: break-word;">
+                        <span style="color: #efefef; font-weight: bold;">It's quiet for now...</span>
+                        <p style="font-weight: normal; font-size: small; padding-left: 35px; padding-right: 25px;">When a friend starts an activity-like playing a game or hanging out on voice-we'll show it here!</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+
+        
+    </section>
+    
+</body>
+
+</html>
