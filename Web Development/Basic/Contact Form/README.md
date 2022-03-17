@@ -4,11 +4,11 @@
 
 Contact form helps us to contact with anyone on Internet as form the source of medium. You can use this mini project in your high class projects.🙃
 
->  This project is only to enhance my skills in JavaScript💪
+>  This project is only to enhance my skills in UI design and JavaScript💪
 
 ## ScreenShots
 
-![Pic of the projects](ScreenShot.jpg)
+![Pic of the projects](ScreenShot.png)
 
  ### Open for Contribution👨‍💻
 
