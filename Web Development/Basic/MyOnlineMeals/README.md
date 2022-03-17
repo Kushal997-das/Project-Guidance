@@ -34,14 +34,17 @@ After opening the folder follow  these steps:
 
 ## Landing Page
 
-<img src="landingpage.png">
+<img align="center" width="400px" height='300px' src="landingpage.png" >
 
-##Service page
-<img src="service.png" >
+## Service page
+
+<img align="center" width="450px" height='350px' src="service.png" >
 
 ## Contact Page
-<img src="contact page.png" >
+
+<img align="center" width="500px" height='400px' src="contact page.png" >
 
 ## Food items Page
-<img src="item page.png" >
+
+<img align="center" width="490px" height='340px' src="item page.png">
 
