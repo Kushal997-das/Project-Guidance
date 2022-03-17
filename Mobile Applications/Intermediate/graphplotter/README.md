@@ -1,4 +1,5 @@
 ## Graph Plotter App
+- Graph Plotter app made in flutter which just simply plots the graph of the values you enter. This app can be used to plot the graphs of expenses vs time, investments vs time, grades vs time etc to get the overall idea of data.
 
 ### <p align="center">App Screenshots</p>
 
