@@ -34,7 +34,7 @@ After opening the folder follow  these steps:
 
 ## Landing Page
 
-<img src="landing page.png">
+<img src="landingpage.png">
 
 ##Service page
 <img src="service.png" >
