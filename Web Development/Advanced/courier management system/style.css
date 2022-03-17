@@ -1,0 +1,68 @@
+.navbar-custom {
+    color: #fff;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+}
+.nav-item {
+  margin-left: 19px;
+  margin-right: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+}
+.nav-item a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.nav-item .dropdown-toggle li a{
+    color: #fff;
+    
+}
+  
+    .navbar-nav {
+      margin-left: auto;
+      color: #000;
+  font-size: 20px;
+  font-weight: 550;
+    }
+    .navbar-brand h4{
+        margin-left: 50px;
+        font-size: 29px;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navbar ul button.btn{
+        margin-left: 29px;
+    }
+    .banner{
+        position: relative;
+        width: 100%;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(images/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        } 
+      .content{
+        max-width: 1250px;
+        margin: auto;
+        padding: 0 30px;
+        }
+      .banner .content{
+        max-width: 900px;
+        text-align: center;
+      }
+      .banner .content h2{
+        font-size: 3em;
+        color: #000;
+        margin-left:0%;
+      }
+     
