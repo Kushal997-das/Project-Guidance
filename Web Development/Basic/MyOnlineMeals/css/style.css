@@ -1,0 +1,227 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS variables */
+:root{
+    --navbar-height:59px;
+}
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* Logo and Image */
+#logo{
+    margin: 34px 45px;
+}
+/* list styling */
+
+#navbar ul{
+     display: flex;
+     font-family: 'Raleway', sans-serif;
+    
+}
+#navbar::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+}
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: rgb(185, 37, 37);
+}
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 558px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+#home::before{
+    content: "";
+    background:url(../back.jpg)no-repeat center center/cover;
+    position: absolute;
+    height: 820px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.69;
+    top: 0px;
+    left: 0px;
+}
+#home h1{
+    color: rgb(115 61 74);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+#home p{
+    color: #583737;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: bold;
+}
+/* Services station */
+.primarycenter{
+    /* padding: 100px 419px; */
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 192px;
+}
+#services-container::before{
+    content: "";
+    position: absolute;
+    top: 820px;
+    left: 0px;
+    width: 100%;
+    height: 691px;
+    background: url('..//backgro.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+#services{
+    margin: 54px;
+    display: flex;      
+}
+
+#services .box{
+   border: 2px solid brown;
+   margin: 5px 8px;
+   width: 600px;
+   text-align: center;
+   background-color: thistle;
+   
+}
+#services .box img {
+    height: 320px;
+    justify-content: center;
+}
+/* Client section */
+#client-section{
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('..//backgr.jpg') ;
+    width: 100%;
+    height: 500px;
+    opacity: 0.7;
+    z-index: -1;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    margin: 1px;
+    height: 124px;
+}
+.client-item{
+    padding: 84px;
+    
+}
+#client-section h1{
+    text-align: center;
+}
+/* Contact section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('..//contact.jpg');
+    z-index: -1;
+    opacity: 0.4;
+}
+#contact h1{
+    text-align: center;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 51px;
+    padding-top:10px ;
+    
+}
+#contact-box img{
+    height: 48px;
+}
+#contact-box form{
+    width: 50%;
+    
+}
+#contact-box label{
+    font-size: 1.2rem;
+    
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
+
+
+/* Utility class */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid rgb(248, 231, 231);
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}

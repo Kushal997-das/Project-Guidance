@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final order</title>
+    <a href="./final.html"></a>
+    <style>
+      .cont{
+        display: flex;
+        justify-content: center;
+         margin-left: -59px;
+          margin-top: 80px;
+      } 
+      .form-group{
+          padding: 24px 34px;
+          width: 600px;
+          font-size: 2rem;
+          height: 40px;
+      } 
+      .form-group input{
+          width: 350px;
+          height: 25px;
+      }
+      body::before{
+            content: "";
+    background:url(./contact.jpg)no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.69;
+    top: 0px;
+    left: 0px;
+    height: 1500px;
+        }
+     .form{
+         padding: 24px 34px;
+         width: 600px;
+         font-size: 2rem;
+         height: 40px;
+     }   
+     #btn{
+         margin-top: 490px;
+          width: 80px;
+         height: 40px;
+        margin-left:-363px;
+        border: 2px solid black;  
+        font-size: 20px;
+        cursor: pointer;
+     }
+     h1{
+         text-align: center;
+         margin-top: 100px;
+         font-family: 'Courier New', Courier, monospace;
+         color: rgb(41, 19, 19);
+         font-size: 4rem;
+     }
+    </style>
+</head>
+<body>
+    <h1>MyOnlineMeals.com</h1>
+    <div class="cont">
+    <form action="">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="name">Address</label>
+            <input type="text" name="name" id="name" placeholder="Enter your address">
+        </div>
+        
+        <div class="form-group">
+            <label for="name">Phone Number</label>
+            <input type="phone" name="name" id="name" placeholder="Enter your phone number">
+        </div>
+        <div class="form">
+            <label for="name">Choose</label>
+            <input type="radio" name="name" id="name" placeholder="">Cash on delivery
+            <input type="radio" name="name" id="name" placeholder="">Online payment
+        </div>
+        <div class="form-group">
+            <label for="name">Rate Us</label>
+            <input type="number" name="" id="" placeholder="Rate out of 5">
+        </div>
+        
+    </form>
+    <a href="/index.html" ><button id="btn">Submit</button></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body{
+            background-color: rgb(126, 53, 53);
+            color: white;
+            text-decoration-style: dotted;
+        }
+    #location{
+        height: 56px;
+        width: 649px;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-left: 473px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 40px;
+    }
+     body::before{
+    content: "";
+    background:url(./2.jpg)no-repeat center center/cover;
+    position: absolute;
+    height: 1620px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.69;
+    top: 0px;
+    left: 0px;
+        }
+        .s p{
+            font-size: 60px;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .s li{
+            font-size: 40px;
+            text-align: center;
+            margin: 110px;
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }
+        li:hover{
+            font-family: cursive;
+            color:white;
+            background-color: brown;
+        }
+        .map{
+            margin-top: 42px;
+            margin-left:664px;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    
+    
+    <div class="s">
+        <p>All type of Services related to food are present here.</p>
+        
+        <form action="">
+            <label for="location">
+                <input type="text" name="location" id="location" placeholder="Enter your location">
+            </label>
+        </form>
+        <div class="map">
+        <map name="order"><img src="./download - Copy.jpg" alt=""></map>
+        </div>
+        <a href="/pasta.html" style="text-decoration: none;"><li>Food Ordering</li></a>
+        <a href="/pasta.html" style="text-decoration: none;"><li>Food Catering</li></a>
+        <a href="/pasta.html" style="text-decoration: none;"><li>Bulk Ordering</li></a>
+    </div>
+</body>
+</html>
