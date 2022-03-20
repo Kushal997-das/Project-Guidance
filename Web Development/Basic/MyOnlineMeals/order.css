@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+    height: 100%;
+    background: url('backgr.jpg') no-repeat center center/cover;
+    opacity: 125;
+}
+li{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color:  rgb(57 6 20);
+    margin: 27px;
+    font-weight: bolder;
+}
+.menu{
+    font-family: cursive;
+    margin-top: 105px;
+}
+li:hover{
+    color: rgb(202, 66, 12);
+
+}
+.head{
+    margin-left: 506px;
+    margin-top: 132px;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(57 6 20);
+}
+.sechead{
+    margin-left: 186px;
+
+}
+.button{
+    background-color: chocolate;
+    color: black;
+    margin-left: 589px;
+     height: 40px;
+     width: 300px; 
+     font-size: 20px;
+    
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}

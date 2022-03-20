@@ -1,0 +1,263 @@
+html{
+	height: 100%;
+}
+body{
+	min-height: 100%;
+	background-color: #36393F;
+	overflow-x: hidden;
+}
+hr{
+	height: 2px;
+	border-radius: 1px;
+	background-color: hsla(0, 0%, 100%, 0.3);
+	margin-top: 3px;
+	margin-bottom: 9px;
+}
+/* I copied this part */
+*::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* just make scrollbar invisible */
+}
+
+
+
+/*****************/
+/* Guilds Column */
+/*****************/
+.server_col{
+	flex: 0 0 auto;
+	width: 85px;
+	background-color: #202225;
+	padding: 12px 0;
+	padding-left: 24px;
+	padding-right: 13px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.discord_server_icon{
+	border-radius: 15px !important;
+	padding-bottom: 0 !important;
+}
+
+.server_icon{
+	width: 100%;
+	border-radius: 50%;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+	margin-bottom: 5px;
+	background-size: 100% 100%
+}
+
+.server_icon:focus, .server_icon:hover{
+	border-radius: 10px !important;
+	transition: 0.2s ease-in-out;
+}
+/*****************/
+/* Guilds Column */
+/*****************/
+
+
+
+/******************/
+/* Friends Column */
+/******************/
+.friends_col{
+	flex: 0 0 auto;
+	width: 240px;
+	background-color: #2F3136;
+	padding: 0 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.search_div{
+	z-index: 2;
+	height: 48px;
+	box-shadow: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+	padding: 10px 10px;
+}
+.search_input{
+	width: 100%;
+	background-color: #202225;
+	color: hsla(0, 0%, 100%, 0.3);
+	border: none;
+	border-radius: 4px;
+	padding: 4px 5px;
+	font-size: small;
+}
+.record{
+	width: 100%;
+	border-radius: 5px;
+	color: hsla(0, 0%, 100%, 0.3);
+}
+.record:hover, .record:focus{
+	background-color: #34373C;
+	color: #DCDDDE;
+	cursor: pointer;
+}
+.friend{
+	display: table-cell;
+	vertical-align: middle;
+	justify-content: center;
+	align-content: center;
+	padding: 0 11px;
+	height: 42px;
+}
+svg{
+	margin-right: 12px;
+}
+.direct_messages{
+	height: 42px;
+	padding: 0px 16px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	color: hsla(0, 0%, 100%, 0.3);
+	font-size: small;
+	font-weight: bold;
+}
+.direct_messages:hover, .direct_messages:focus{
+	color: #DCDDDE;
+}
+.background_hover:hover{
+	background-color: #34373C;
+	color: #DCDDDE;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.friend_card{
+	height: 42px;
+	padding: 0px 8px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	color: hsla(0, 0%, 100%, 0.3);
+	font-size: medium;
+}
+/******************/
+/* Friends Column */
+/******************/
+
+
+
+/*************/
+/* Main Body */
+/*************/
+.main_body{
+	flex: 0 0 auto;
+	flex-grow: 1;
+	width: auto;
+	color: hsla(0, 0%, 100%, 0.3);
+	background-color: transparent;
+	padding: 0 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.nav_bar{
+	display: inline-block;
+	width: 100%;
+	background-color: #202225;
+	color: hsla(0, 0%, 100%, 0.3);
+	border: none;
+	border-radius: 4px;
+	margin: 16px 25px;
+	margin-right: 16px;
+	padding: 4px 8px;
+	font-size: medium;
+}
+.nav_bar_element{
+	margin-right: 25px;
+	font-size: medium;
+}
+.nav_bar_element_active{
+	background-color: rgba(79, 84, 92, 0.32);
+	color: #DCDDDE;
+}
+.nav_bar_element:hover{
+	background-color: rgba(79, 84, 92, 0.32);
+	color: #DCDDDE;
+}
+.add_friend{
+	background-color: #3BA55D;
+	color: #fff;
+	margin-right: 25px;
+	font-size: medium;
+}
+.main_body_input{
+	height: 34px;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+}
+.online_text{
+	font-size: small;
+	font-weight: bold;
+	margin-top: 18px;
+	color: hsla(0, 0%, 100%, 0.3);
+	padding-left: 10px;
+}
+.msgs_record{
+	border-top:  1px solid hsla(0, 0%, 100%, 0.1);
+	height: 65px;
+	padding-top: 12px;
+	padding-bottom: 18px;
+	padding-left: 8px;
+	padding-right: 16px;
+	cursor: pointer;
+}
+.msgs_text{
+	font-size: medium;
+	font-weight: bold;
+	color: #efefef;
+}
+.msgs_button{
+	display: inline;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	color: #b9bbbe;
+	background-color: #2f3136;
+	float: right;
+	text-align: center;
+}
+.msgs_button > svg{
+	margin-right: 0;
+	margin-top: 6px;
+}
+.msgs_button > svg:hover{
+	color: #DCDDDE;
+}
+.msgs_record:hover{
+	background-color: rgba(79,84,92,0.16);
+	
+	border-radius: 8px;
+}
+@media (min-width: 1100px){
+	.d-status{
+		display: block;
+		width: 360px;
+		background-color: transparent;
+		padding: 22px 8px;
+		padding-right: 8px;
+		font-weight: bolder;
+	}
+	.d_friends{
+		width: calc(100% - 360px);
+		background-color: transparent;
+		padding: 6px 20px;
+	}
+}
+
+@media (max-width: 1100px){
+	.d-status{
+		display: none;
+		width: 360px;
+		background-color: transparent;
+	}
+	.d_friends{
+		width: 100%;
+		background-color: transparent;
+		padding: 6px 20px;
+	}
+}
+/*************/
+/* Main Body */
+/*************/
