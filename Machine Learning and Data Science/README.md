@@ -13,6 +13,7 @@
   - [ Prediction using Supervised ML ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Prediction%20using%20Supervised%20ML)<br>
 
   - [ Prediction using Unsupervised ML ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Prediction%20using%20Unsupervised%20ML)<br>
+  - [ Word Cloud ](https://github.com/mohanadtalat91/Project-Guidance/tree/Add-word-cloud/Machine%20Learning%20and%20Data%20Science/Basic/Word-Cloud)<br>
 
   <br>
 
