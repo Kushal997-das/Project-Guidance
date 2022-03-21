@@ -16,7 +16,7 @@ _**Prefix: In prefix expression, an operator is written before its operands. Thi
 
 _**For example, The above expression can be written in the prefix form as / * A + B C D. This type of expression cannot be simply decoded as infix expressions...**_
 
-![Screenshot 2021-01-27 223853](https://user-images.githubusercontent.com/75884061/106029014-a914d900-60f2-11eb-8669-08abec17aef9.png)
+![Screenshot 2021-01-27 223853](infix.jpg)
 ```javascript
 if(Have Idea)
 {
