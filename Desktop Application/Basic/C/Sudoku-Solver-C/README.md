@@ -27,4 +27,4 @@ of mathematical skills caused people to have an enormous interest in accepting c
   * And if none of the number (1 to 9) leads to a solution, return false and print no solution exists.</i>
   
   # Output
-  <img src="https://github.com/Kranthi-Guribilli/Project-Guidance/blob/main/Desktop%20Application/Basic/C/Sudoku-Solver-C/Output.png">
+  <img src="./Output.png">

@@ -1,0 +1,59 @@
+{% block body %}
+
+<!DOCTYPE>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Post a Review</title>
+	</head>
+
+	<body>
+		<div style="background-color:#b0b0b0; width:50%; margin: 0 auto;">
+		<h2 style="text-align:center;  text-decoration: underline;"> Post a Review:</h2>
+
+		<form method="post" style="text-align: center;">
+			<span style="display:block; text-indent:-160px;">
+				{{ form.fname.label }} <br>
+			</span>
+			<span>
+				{{ form.fname(size=30)}}
+			</span>
+			<br><br>
+			<span style="display:block; text-indent:-140px;">
+				{{ form.pname.label }} <br>
+			</span>
+			<span>
+				{{ form.pname(size=30)}}
+			</span>
+			<br><br>
+			<span style="display:block; text-indent:-150px;">
+				{{ form.review.label }} <br>
+			</span>
+			<span>
+				{{ form.review(rows='7', cols='32')}}
+			</span>
+
+			<p>
+				{{ form.submit() }} <br>
+			</p>
+		</form>
+		</div>
+
+
+		<div style="background-color:#848ec4;">
+		<h1 style="text-decoration: underline;"> Reviews: </h1>
+		<table>
+			{% for row in rev %}
+			<h3> User: {{ row[0] }} <h3>
+			<h4> Product: {{ row[1] }}</h4>
+			<p> Review: {{ row[2] }} </p>
+			<p> ======================== </p>
+			{% endfor %}
+		</table>
+		</div>
+	</body>
+
+</html>
+
+{% endblock %}

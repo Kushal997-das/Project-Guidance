@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --oxford-blue: #132640ff;
+  --medium-turquoise: #60E0E5ff;
+  --chinese-red: #A63928ff;
+  --vermilion: #E53D18ff;
+  --dark-turquoise: #0CCAD2ff;
+}
+
+body {
+  margin: 25px 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  color: var(--vermilion);
+  font-size: 24px;
+}
+
+.nav-item  {
+  color: var(--oxford-blue);
+  font-weight: 500;
+}
+
+.btn-login {
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: var(--vermilion, rgb(255, 81, 0));
+}
+
+.main {
+  position: relative;
+  margin-top: 20px;
+  padding: 20px;
+  background: url("onlineCourses.jpg") bottom center no-repeat;
+  background-size: contain ;
+}
+
+.heading-greet {
+  color: var(--vermilion);
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.lead {
+  font-weight: 500;
+  color: var(--oxford-blue);
+  display: inline-block;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px var(--vermilion);
+  border-radius: 15px;
+  box-shadow: 1px 15px 26px 0px rgba(0,0,0,0.75);
+  backdrop-filter: blur(35px);
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.form-text {
+  color: var(--oxford-blue);
+  font-weight: lighter;
+}
+
+.submit-btn {
+  text-align: center;
+}
+
+span.message {
+  font-size: 14px;
+}
+
+

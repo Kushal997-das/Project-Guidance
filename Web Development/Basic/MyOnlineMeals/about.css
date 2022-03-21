@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(90 49 53);
+}
+.start{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.start p{
+    margin-top: 40px;
+}
+ .about p{
+    margin-top: 107px;
+    font-size: 20px;
+    padding: 100px 201px;
+    color: white;
+} 
+body::before{
+    content: "";
+    background:url(./chef.jpg)no-repeat center center/cover;
+    position: absolute;
+    height: 820px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.69;
+    top: 0px;
+    left: 0px;
+        }
