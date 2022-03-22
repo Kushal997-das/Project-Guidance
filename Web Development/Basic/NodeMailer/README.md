@@ -17,9 +17,7 @@
        
   Output Screenshots    
 
-![Screenshot 2022-03-10 212659](https://user-images.githubusercontent.com/82238106/158013570-f79d29b5-89f1-4839-bf1a-9f634ac4b296.png)
 
-Gmail recieved to the reciever
+![Gmail](https://user-images.githubusercontent.com/82238106/159414410-24848cbe-e8c1-4e27-aa2f-add53127bbdf.jpg)
 
-
-![Gmail](https://user-images.githubusercontent.com/82238106/158013610-f834af1c-5937-4657-aaa5-c49295321b16.png)
+![Screenshot 2022-03-10 212659](https://user-images.githubusercontent.com/82238106/159414446-808e24fb-d79b-41a3-9d73-ccba413f92b8.jpg)
