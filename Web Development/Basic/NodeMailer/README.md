@@ -17,8 +17,7 @@
        
   Output Screenshots    
 
+![Gmail_1_50](https://user-images.githubusercontent.com/82238106/159540101-e3f23a93-e694-429e-bed8-5a9337db8ab8.jpg)
 
-![Gmail](https://user-images.githubusercontent.com/82238106/159414410-24848cbe-e8c1-4e27-aa2f-add53127bbdf.jpg)
 
-![Screenshot 2022-03-10 212659](https://user-images.githubusercontent.com/82238106/159414446-808e24fb-d79b-41a3-9d73-ccba413f92b8.jpg)
-![Gmail](https://user-images.githubusercontent.com/82238106/159414755-b1c2909c-9090-4da8-ae0f-5fdc0dbdd5a3.jpg)
+![Screenshot_2022-03-10_212659_1_50](https://user-images.githubusercontent.com/82238106/159540212-0ea312f9-3c57-44ac-9f8b-2a929c381642.jpg)
