@@ -1,6 +1,6 @@
 # Contributing Guidelines  
 
-This documentation contains a set of guidelines to help you during the contribution process.   
+This documentation contains a set of guidelines to help you during the contribution processes.   
 We are happy to welcome all the contributions from anyone willing to improve/add new projects (doesn't matter which language) to this Repository.
 
 Code of Conduct
@@ -12,11 +12,11 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
 
 
 ## STEP-0 : Key Points to remember :
-  - Look at the previous projects and get some idea from them [Previous](https://github.com/Kushal997-das/Project-Guidance)
-  - Suppose you want to contribute one projet to one particular domain then first check is there any [Projects](https://github.com/Kushal997-das/Project-Guidance) exits with the same language or not.
-  - If Yes that your project is already exits with the same programming language then you can't be able to add your project to this repo. 
+  - Look at the previous projects and get some ideas from them [Previous](https://github.com/Kushal997-das/Project-Guidance)
+  - Suppose you want to contribute one project to one particular domain, then first check is there any [Project/s](https://github.com/Kushal997-das/Project-Guidance) that exist with the same language or not.
+  - If Yes that your project is already existing with the same programming language, then you can't add your project to this repo. 
   - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
-  - Please don't add any License under your project. This repo already under MIT License.
+  - Please don't add any License under your project. This repo is already under MIT License.
   
   
     ## **Flow** :
@@ -70,7 +70,7 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
  
 - Add your projects to a folder and the folder name should be your project .   
 - Add all the files/folders needed.  
-- After you've made changes or made your contribution to the project add changes to the branch you've just created by:
+- After you've made changes or made your own contributions to the project, add changes to the branch you've just created by:
  ```
  # To add only a few files to Branch_Name
  $ git add <some files>
@@ -82,15 +82,15 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
 ## Step 4 : Commit  
 - To commit give a descriptive message for the convenience of reviewer by:  
 - Please make an individual commit for each suggestion in a separate pull request.
-- Check your spelling and grammar.
-- Remove any trailing whitespace.
+- Check your spelling and grammars.
+- Remove any trailing whitespaces.
 ```
-# This message get associated with all files you have changed  
+# This message get associated with all the files you have changed  
 $ git commit -m "message"  
 ```  
 
 ## Step 5 : Work Remotely  
-- Now you are ready to your work to the remote repository.  
+- Now you are ready to work on the remote repository.  
 - When your work is ready and complies with the project conventions, upload your changes to your fork:  
   
  ```  
@@ -99,14 +99,14 @@ $ git commit -m "message"
  ```
  
  ## Step 6 : Pull Request  
-- Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.  
-- Make sure your PR easy to review. That means having a clear description and only touching code that's necessary for your change.
-- Check your spelling and grammar.
-- Remove any trailing whitespace.
+- Go to your repository in your browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.  
+- Make sure your PR is easy to review. That means having a clear description and only touching code that is necessary for your change.
+- Check your spelling and grammars.
+- Remove any trailing whitespaces.
 
 **Note** :
-  - New categories, or improvements to the existing categorisation, are always welcome.
-  - Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions. 🏆
+  - New categories, or improvements to the existing categorisations are always welcome.
+  - Being an open source contributor doesn't just mean writing code, You can either help out by writing documentations, tests, or even giving suggestions. 🏆
   
 ## Need more help?🤔  
 You can refer to the following articles on basics of Git and Github and also contact the Project [Mentor](https://github.com/Kushal997-das/), in case you are stuck:  
@@ -116,6 +116,6 @@ You can refer to the following articles on basics of Git and Github and also con
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)  
 - [Learn GitHub from Scratch](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLozRqGzj97d02YjR5JVqDwN2K0cAiT7VK)  
   
-Tip from us😇
+Tips from us😇
 -------------
 It always takes time to understand and learn. So, do not worry at all. We know you have got this!💪
