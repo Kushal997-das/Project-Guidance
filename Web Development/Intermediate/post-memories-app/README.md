@@ -1,4 +1,4 @@
-![1](https://badgen.net/badge/Programming-Language/javascrip/blue)
+![1](https://badgen.net/badge/Programming-Language/javascript/blue)
 ![5](https://badgen.net/badge/Application/Post-Memories/orange)
 ![2](https://badgen.net/badge/Frontend/React/red)
 ![3](https://badgen.net/badge/Backend/Node.js/yellow)
@@ -9,6 +9,10 @@
 
 
 ## [Click here to see preview](https://memoriez-mern.netlify.app)
+
+# Description -
+
+> ### This app which lets people from anywhere post their memories/experiences on a single platform where everyone can see each others posts.
 
 ### Requirements to run the app :-
 <br>
