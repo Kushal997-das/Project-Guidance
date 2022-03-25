@@ -1,6 +1,6 @@
 # Cubic Equation Calculator
 
-A Calculator used to calculate Third degree equations.
+A Calculator used to calculate Third degree equations and print out the 3 roots by providing a,b,c,d values (ax^3 + bx^2 + cx + d = 0)
 
 ## Functionalities :-
 
