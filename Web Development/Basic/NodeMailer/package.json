@@ -11,7 +11,7 @@
   "dependencies": {
     "body-parser": "^1.19.1",
     "express": "^4.17.2",
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^5.3.1",
     "nodemailer": "^6.6.1",
     "path": "^0.12.7"
   },
