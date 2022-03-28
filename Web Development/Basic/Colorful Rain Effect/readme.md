@@ -15,4 +15,4 @@ A Site that shows amazing colorful rain effect using HTML, CSS, JS.
 
 ## Screenshot
 
-![preview](https://user-images.githubusercontent.com/85401522/156910556-a22eecf1-4251-42ed-97ba-02c410b59456.png)
+<img src="https://i.ibb.co/n0dg9dz/rainimg.png" alt="rainimg" border="0">
