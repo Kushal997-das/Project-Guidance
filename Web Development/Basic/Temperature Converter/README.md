@@ -1,3 +1,7 @@
 # Temperature-Converter
 
-![task 3](https://user-images.githubusercontent.com/67187699/160329471-380cedd3-4f36-49d2-af85-aecb586562cd.png)
+I have created a simple website using javascript for converting temperatures.
+
+Link - https://atharvabhide.github.io/Temperature-Converter/
+
+![task 3 (1) (1)](https://user-images.githubusercontent.com/67187699/160671084-ccfbef92-99b3-4e64-ae07-c29580ed59b5.png)
