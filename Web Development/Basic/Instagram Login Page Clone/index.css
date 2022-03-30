@@ -1,0 +1,154 @@
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
+}
+
+  
+.insta{
+  margin: auto;
+  display: block;
+}
+ 
+header{
+  align-items: center;
+}
+
+.dropdown{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+select{
+  color: gray !important;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+footer{
+  text-align: center;
+  position: sticky;
+  height: 80px;
+  top: 0;
+  bottom: 0;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#download{
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 300px;
+}
+
+.btn {
+  width: 300px;
+  height: 30px;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+hr{
+  height: 1px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+  width: 300px;
+}
+
+.main-content {
+  width: 250px;
+  height: 40%;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  padding: 40px 50px;
+}
+
+
+.input-1,
+.input-2 {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.overlap-text {
+  position: relative;
+}
+
+.overlap-text a {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #003569;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+}
+
+.sub-content {
+  width: 250px;
+  height: 40%;
+  margin: 10px auto;
+  border: 1px solid #e6e6e6;
+  padding: 20px 50px;
+  background-color: #fff;
+}
+
+.s-part {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+}
+
+.s-part a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3897f0;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+.loginbtn{
+  width: 100%;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}

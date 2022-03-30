@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="252.0" prefWidth="724.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.currencyconverter.controller.CurrencyConvertedController">
+   <children>
+      <Label layoutX="47.0" layoutY="46.0" text="From:">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="112.0" text="To:">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBoxCurrency1" layoutX="107.0" layoutY="42.0" onAction="#onCurrency1Clicked" prefHeight="29.0" prefWidth="348.0" promptText="Select currency..." />
+      <ComboBox fx:id="comboBoxCurrency2" layoutX="107.0" layoutY="111.0" onAction="#onCurrency2Clicked" prefHeight="29.0" prefWidth="348.0" promptText="Select currency..." />
+      <TextField fx:id="txtCurrency1" layoutX="499.0" layoutY="42.0" onKeyTyped="#onCurrency1TextChanged" prefHeight="29.0" prefWidth="161.0" promptText="Amount" />
+      <TextField fx:id="txtCurrency2" layoutX="499.0" layoutY="111.0" onKeyTyped="#onCurrency2TextChanged" prefHeight="29.0" prefWidth="161.0" promptText="Amount" />
+      <Label fx:id="lblCurrency1" layoutX="670.0" layoutY="46.0" prefHeight="21.0" prefWidth="42.0">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCurrency2" layoutX="670.0" layoutY="115.0" prefHeight="21.0" prefWidth="42.0">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="189.0" text="Current exchange rate: ">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblStaticAmount" layoutX="276.0" layoutY="189.0" prefHeight="21.0" prefWidth="9.0" text="1">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblExcCurrency1" layoutX="299.0" layoutY="189.0" prefHeight="21.0" prefWidth="58.0">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblEqualsSign" layoutX="362.0" layoutY="189.0" prefHeight="21.0" prefWidth="26.0" text="=">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblExchangeAmount" layoutX="388.0" layoutY="189.0" prefHeight="21.0" prefWidth="48.0">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblExcCurrency2" layoutX="436.0" layoutY="189.0" prefHeight="21.0" prefWidth="58.0">
+         <font>
+            <Font name="Ubuntu" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="switchButton" layoutX="608.0" layoutY="222.0" text="Fetching data..." />
+      <Button layoutX="554.0" layoutY="176.0" mnemonicParsing="false" onMouseClicked="#switchCurrency" text="Switch" />
+   </children>
+</AnchorPane>

@@ -34,6 +34,7 @@
 
   - [Google Clone](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Web%20Development/Basic/Google%20Clone)<br>
 
+  - [Google Homepage Clone](https://github.com/rajprem4214/Project-Guidance/tree/gclone/Web%20Development/Basic/Google%20Homepage%20Clone)<br>
 
   - [Snake Game](https://github.com/Rashmisingh-18/Project-Guidance/tree/main/Web%20Development/Basic/Snake%20Game)<br>
 
@@ -42,6 +43,8 @@
   - [To Do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/To%20Do%20App)<br>
 
   - [Tip Calculator](https://github.com/RiyaBhandari-2811/Project-Guidance/tree/TipForm/Web%20Development)<br>
+  
+  - [Instagram Login Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/main/Web%20Development%2FBasic%2FInstagram%20Login%20Page%20Clone)<br>
 
 - <h1>Intermediate 🚀</h1>
 
