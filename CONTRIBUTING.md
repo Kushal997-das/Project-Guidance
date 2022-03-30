@@ -1,6 +1,6 @@
 # Contributing Guidelines  
 
-This documentation contains a set of guidelines to help you during the contribution processes.   
+This documentation contains a set of guidelines to help you during the contribution process.   
 We are happy to welcome all the contributions from anyone willing to improve/add new projects (doesn't matter which language) to this Repository.
 
 Code of Conduct
@@ -14,7 +14,7 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
 ## STEP-0 : Key Points to remember :
   - Look at the previous projects and get some ideas from them [Previous](https://github.com/Kushal997-das/Project-Guidance)
   - Suppose you want to contribute one project to one particular domain, then first check is there any [Project/s](https://github.com/Kushal997-das/Project-Guidance) that exist with the same language or not.
-  - If Yes that your project is already existing with the same programming language, then you can't add your project to this repo. 
+  - If that your project is already existing with the same programming language, then you can't add your project to this repo. 
   - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
   - Please don't add any License under your project. This repo is already under MIT License.
   
