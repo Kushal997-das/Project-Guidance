@@ -47,6 +47,8 @@
   - [Tip Calculator](https://github.com/RiyaBhandari-2811/Project-Guidance/tree/TipForm/Web%20Development)<br>
   
   - [Instagram Login Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/main/Web%20Development%2FBasic%2FInstagram%20Login%20Page%20Clone)<br>
+  
+  - [Budgeting App](https://kunal0220.github.io/Budget_App/)<br>
 
 - <h1>Intermediate 🚀</h1>
 
