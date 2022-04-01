@@ -17,4 +17,4 @@ Naive patterns checks for all the characters of the main string to the pattern.
 * This algorithm is used to search element in a given sorted array with more efficiency.
 * It could also be used for few other additional operations for example, to find the smallest element in the array or to find the largest element in the array.
 
-![Output Of Binary Search Algorithm](/C:/Users/Fati/Desktop.png) 
+![Output Of Binary Search Algorithm](/C:/Users/Fati/Desktop.png " this shows the result search and the timing both for the ouput and the binary and naive algorithms") 
