@@ -17,5 +17,6 @@ Naive patterns checks for all the characters of the main string to the pattern.
 * This algorithm is used to search elements in a given sorted array with more efficiency.
 * It could also be used for few other additional operations for example, to find the smallest element in the array or to find the largest element in the array.
 
-- ![Output Of Binary Search Algorithm](DesktopApplication\Basic\Python\Binarysearch\Binarysearchoutput.png)
+![output](https://github.com/FatimahAdwan/Project-Guidance/blob/main/Desktop%20Application/Basic/Python/Binary%20search/Binary%20search%20result.PNG)
+
 
