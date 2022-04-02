@@ -1,0 +1,1 @@
+This Repository contains the code of Currency Converter App which has been built using the Tech Stack - Java and IDE- Android Studio. Here In this App, The currency has been converted from Rupees to Pounds, Rupees to Dollars and Dollar to Rupees , Dollars to Pounds.
