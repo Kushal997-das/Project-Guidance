@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function rain() {
+            let amount = 300;
+            let body = document.querySelector('body');
+            let i = 0;
+            while (i < amount) {
+                let drop = document.createElement('i');
+                let size = Math.random() * 5;
+                let posx = Math.floor(Math.random() * window.innerWidth);
+                let delay = Math.random() * -20;
+                let duration = Math.random() * 5;
+
+                drop.style.width = 0.2 + size + "px";
+                drop.style.left = posx + 'px';
+                drop.style.animationDelay = delay+'s';
+                drop.style.animationDuration = 1 + duration+'s';
+                body.appendChild(drop);
+                i++
+            }
+        }
+        rain();
+    </script>
+     <div>
+         <a href="https://rajprem.me" style="text-decoration: none; color: white; display: flex; justify-content: flex-end;" target="blank">Author: Prem Raj</a>
+     </div>
+</body>
+
+</html>
