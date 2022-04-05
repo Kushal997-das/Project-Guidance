@@ -50,6 +50,8 @@
   
   - [Instagram Login Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/main/Web%20Development%2FBasic%2FInstagram%20Login%20Page%20Clone)<br>
 
+  -[Drinks Recipe Website](https://supriyakumari08.github.io/FruitNotBooze/)<br>
+
 - <h1>Intermediate 🚀</h1>
 
     - [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/animal%20adoption%20protal)<br>
