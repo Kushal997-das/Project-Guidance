@@ -1,5 +1,5 @@
 # Mini-calculator-using-Java-GUI
-A small non-scientific calculator built using Java AWT Package
+A small non-scientific calculator built using Java AWT Package. The program makes use of various object-oriented programming methodologies such as inheritance (inheriting the Frame class and implementing the ActionListener interface), anonymous class, polymorphism (method overriding and overloading), etc.
 
 ## Features
 
