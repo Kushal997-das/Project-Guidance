@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hospital Name"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/dist_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="District Name"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#C62828"/>
+
+                <TextView
+                    android:id="@+id/state_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="State Name"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/pin_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Pin Code"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"/>
+
+                <TextView
+                    android:id="@+id/fees_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fees : "
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/name_dose1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dose 01"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#283593"/>
+
+                <TextView
+                    android:id="@+id/name_dose2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dose 02"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#283593"/>
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/name_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avaible Capacity"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/name_age"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Min Age Limit"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#00838F"/>
+
+                <TextView
+                    android:id="@+id/name_vaccine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Vaccine type"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="#283593"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/name_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
