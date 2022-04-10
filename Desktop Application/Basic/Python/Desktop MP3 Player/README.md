@@ -1,6 +1,6 @@
-# mp3-player-using-python-modules
+# Desktop MP3 Player Application
 
-An mp3 player using tkinter, pygame and mutagen modules to work as an aid to play digital audio files
+An mp3 player using tkinter, pygame and mutagen modules to work as an aid to play digital audio files on your local machine. 
 
 ## About the project:
 
