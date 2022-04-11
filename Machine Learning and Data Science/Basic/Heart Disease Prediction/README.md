@@ -52,31 +52,12 @@ stored in database.
   - ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
   - ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
   
-## Model Training(Machine Learning)
-
-```javascript
-def prdict_heart_disease(list_data):
-    csv_file = Admin_Helath_CSV.objects.get(id=1)
-    df = pd.read_csv(csv_file.csv_file)
-
-    X = df[['age','sex','cp','trestbps','chol','fbs','restecg','thalach','exang','oldpeak','slope','ca','thal']]
-    y = df['target']
-    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, random_state=0)
-    nn_model = GradientBoostingClassifier(n_estimators=100,learning_rate=1.0,max_depth=1, random_state=0)
-    nn_model.fit(X_train, y_train)
-    pred = nn_model.predict([list_data])
-    print("Neural Network Accuracy: {:.2f}%".format(nn_model.score(X_test, y_test) * 100))
-    print("Prdicted Value is : ", format(pred))
-    dataframe = str(df.head())
-    return (nn_model.score(X_test, y_test) * 100),(pred)
-```
 
 ## Results of Project
-### Target Distribution
-<img src="./image/output.png" alt="OUTPUT">
+### Accuracy/R2 Score:
+#### Logistic Regression: 0.82
+#### CNN Algorithm: 0.84
+#### Multiple Linear Regression: 0.47
 
-### All Parameter Distribution
-<img src="./image/output-1.png" alt="OUTPUT">
 
-### Confusion Matrix: Result
-<img src="./image/confusionmatrix.png" alt="OUTPUT">
+## CONCLUSION: convolutional neural network(CNN) performs better on the given dataset
