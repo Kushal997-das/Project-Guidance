@@ -46,6 +46,8 @@ stored in database.
 
 - #### Machine-Learning Algorithms:
   - <a href="https://en.wikipedia.org/wiki/Logistic_regression">**LOGISTIC REGRESSION**</a>
+  - <a href="https://en.wikipedia.org/wiki/Linear_regression">MULIPLE LINEAR REGRESSION</a>
+  - <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">CONVOLUTIONAL NEURAL NETWORK(CNN)</a>
 
 - #### ML/DL:
   - ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
