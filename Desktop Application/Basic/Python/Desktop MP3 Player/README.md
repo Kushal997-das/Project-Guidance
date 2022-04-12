@@ -30,10 +30,10 @@ Go to Previous or Next song.
 
 ## Test Examples:
 
-![Screenshot (310)](https://user-images.githubusercontent.com/80174214/149654407-d9bdd55f-78cf-404f-b152-3085480b9c7e.png)
+<img src="https://user-images.githubusercontent.com/80174214/149654407-d9bdd55f-78cf-404f-b152-3085480b9c7e.png" alt="ss1" width="260" height="140">
 
-![Screenshot (311)](https://user-images.githubusercontent.com/80174214/149654409-9a109fb1-4845-4360-a320-8ef69852ee05.png)
+<img src="https://user-images.githubusercontent.com/80174214/149654409-9a109fb1-4845-4360-a320-8ef69852ee05.png" alt="ss2" width="260" height="140">
 
-![Screenshot (312)](https://user-images.githubusercontent.com/80174214/149654415-9cf532d7-b385-4893-95e3-5c7d2948e324.png)
+<img src="https://user-images.githubusercontent.com/80174214/149654415-9cf532d7-b385-4893-95e3-5c7d2948e324.png" alt="ss3" width="260" height="140">
 
-![Screenshot (313)](https://user-images.githubusercontent.com/80174214/149654419-c3742cc4-2b2e-46c2-8f18-292040807352.png)
+<img src="https://user-images.githubusercontent.com/80174214/149654419-c3742cc4-2b2e-46c2-8f18-292040807352.png" alt="ss4" width="260" height="140">
