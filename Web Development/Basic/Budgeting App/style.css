@@ -1,0 +1,53 @@
+body{
+    background-color: aliceblue;
+    padding: 2.5rem;
+}
+h1{
+    text-decoration: underline;
+
+}
+h1,p{
+    color: rgb(85, 82, 82);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.itemPercentageForm{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.add{
+    display: flex;
+    justify-content: center;
+}
+.ulli{
+    display: flex;
+    width: 12rem;
+}
+.moneyleft{
+    width: 22rem;
+}
+#myTable, td {
+    border: 1px solid black;
+  }
+
+.parent{
+    margin-top: 3rem;
+}
+  .personal{
+      background-color: rgb(15, 48, 48);
+      width: 35rem;
+      height: 18rem;
+      
+  }
+  .salary,.item,.percent{
+      color: aliceblue;
+  }
+.table{
+    margin: auto;
+    width: 3rem;
+}
+li{
+    list-style: none;
+}
