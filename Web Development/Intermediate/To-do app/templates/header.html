@@ -1,0 +1,32 @@
+<header class="app-header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-teal fixed-top">
+        <a class="navbar-brand mr-4" href="{{ url_for('index') }}">Todo App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          {% if current_user.is_authenticated %}
+              <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link" href="{{ url_for('index') }}">Home</a>
+                <a class="nav-item nav-link" href="{{ url_for('create_todo') }}">Add Todo</a>
+                <a class="nav-item nav-link" href="{{ url_for('uncompleted') }}">UnCompleted Tasks</a>
+                <a class="nav-item nav-link" href="{{ url_for('completed') }}">Completed Tasks</a>
+              </div>
+              <div class="navbar-nav mr-auto">
+                <!-- <form class="form-inline my-2 my-lg-0" method="GET">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" name="q">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+              </div>
+              <div><span id="mySpan">Welcome</span> <span id="login_user_name">{{login_username}}</span></div>
+              <a class="nav-item nav-link" href="{{ url_for('logout') }}">Logout</a>
+            {% else %}
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link" href="{{ url_for('register') }}">Register</a>
+              <a class="nav-item nav-link" href="{{ url_for('login') }}">Login</a>
+            </div>
+          {% endif %}
+          
+        </div>
+    </nav>
+  </header>

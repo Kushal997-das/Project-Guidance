@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block body %}
+    {% for todo in todos %}
+        <div class='todo-container'>
+            <article class="media content-section">
+                 <div class="media-body">
+                   <h2><a class="todo-title" href="{{ url_for('get_todo', id=todo.id) }}">{{ todo.title }}</a></h2>
+                   <p class="todo-content">{{ todo.description }}</p>
+                   {% if todo.is_done %}
+                   <button class = "btn-primary"><a class="todo-title" href="{{ url_for('toggle_status', id=todo.id) }}">Toggle Status</a></button>
+                   <button class = "btn-warning"><a class="todo-title" href="{{ url_for('edit_todo', id=todo.id) }}">edit</a></button>
+                   <button class = "btn-danger"><a class="todo-title" href="{{ url_for('delete_todo', id=todo.id) }}">delete</a></button>
+                   <h3>Completed: {{ todo.is_done}}</h3>
+                   {% else %}
+                   <button class = "btn-primary"><a class="todo-title" href="{{ url_for('toggle_status', id=todo.id) }}">Toggle Status</a></button>
+                   <button class = "btn-warning"><a class="todo-title" href="{{ url_for('edit_todo', id=todo.id) }}">edit</a></button>
+                   <button class = "btn-danger"><a class="todo-title" href="{{ url_for('delete_todo', id=todo.id) }}">delete</a></button>
+                   <h3>Completed: {{ todo.is_done}}</h3>
+                   {% endif %}
+                   <div class="todo-metadata d-flex justify-content-between">
+                       <small class="text-muted">Created at: {{ todo.created_at }}</small>
+                       <small style="color:#23a96e; text-align:left;">Created by: {{login_username}}</small>
+                     </div>
+                 </div>
+               </article>
+        </div>
+    {% endfor %}
+
+{% endblock %}
