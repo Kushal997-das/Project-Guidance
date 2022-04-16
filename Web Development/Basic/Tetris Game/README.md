@@ -17,11 +17,17 @@
 
 <hr>
 
+<h3> Screenshots : </h3>
 <p align="center">
-<img src="https://i.postimg.cc/nVkcLs0W/ss1.png" /> 
+<img src="https://i.postimg.cc/nVkcLs0W/ss1.png" width="600px"/> 
 <br>
 <br>
-<img src="https://i.postimg.cc/3NnKf6kh/ss2.png" /> 
+<img src="https://i.postimg.cc/3NnKf6kh/ss2.png" width="600px" /> 
+</p>
+
+<h3> Score Calculation : </h3>
+<p align="center">
+<img src="https://i.postimg.cc/SNbXMLKY/demo.gif" />
 </p>
 
 ### [<p align="center">🔗 Game Link </p>](https://somyaranjansahu.github.io/Tetris-Game/)
