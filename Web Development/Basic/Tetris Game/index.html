@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Tetris Game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+    <!-- Fontawesome Library -->
+    <script src="https://kit.fontawesome.com/75099a6928.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+    <div id="Tetris">
+        <ul id="Screen">
+            <li><canvas width="225" height="450" id="Main-screen">error</canvas></li>
+            <li>
+                <p>Next : </p>
+                <canvas width="60" height="60" id="Sub-screen">error</canvas>
+                <p>Score : </p>
+                <div id="Score">
+                </div>
+                <div id="play" class="btn">Play</div>
+            </li>
+        </ul>
+
+        <table style="margin-left:70px;">
+            <tr>
+                <td>← →</td>
+                <td class="info">&nbsp [Move]</td>
+            </tr>
+            <tr>
+                <td>↓</td>
+                <td class="info">&nbsp [Speed Down]</td>
+            </tr>
+            <tr>
+                <td>space or ↑</td>
+                <td class="info">&nbsp [Rotation]</td>
+            </tr>
+        </table>
+
+        <canvas width="250" height="40" id="Game_over">error</canvas>
+    </div>
+
+    <div id="profile">
+        <a href="https://somyasahu.netlify.app" target="_blank"><img class="profile_pic" src="images/somya.png" alt="somya_profile"></a>
+    </div>
+
+    <!-- jQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- JS Link -->
+    <script src="app.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>
