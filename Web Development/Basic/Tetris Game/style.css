@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 11pt;
+	font-family: 'Poppins';
+	color: #6a9bd8;
+  }
+  body {
+	background: #ebf5fc;
+	font-size: 50px;
+	font-family: 'Poppins';
+  }
+  #Tetris {
+	width: 450px;
+	height: 600px;
+	padding: 15px 0;
+	margin: 50px auto 0 auto;
+	background-color: #ebf5fc;
+	box-shadow:  -3px -3px 6px white,  5px 5px 7px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	position: relative;
+  }
+  #Screen {
+	list-style-type: none;
+	float: left;
+  }
+  #Screen li {
+	float: left;
+  }
+  #Main-screen {
+	background-color: #48466D;
+	margin: 20px 0 10px 50px;
+	border-radius: 5px;
+  }
+  #Sub-screen {
+	background-color: #48466D;
+	margin: 20px 25px;
+	border-radius: 10px;
+  }
+  #Screen p {
+	margin: 30px 0 0 25px;
+	font-size: 30px;
+  }
+  #Game_over {
+	font-family: 'Poppins';
+	position: absolute;
+	top: 230px;
+	left: 75px;
+	display: none;
+  }
+  #Score {
+	 text-align: center;
+	position: relative;
+	width: 103px;
+	height: 30px;
+	top: 0;
+	left: 26px;
+	overflow: hidden;
+	margin-top: 20px;
+	box-shadow: inset -2px -2px 5px white, inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+  }
+  #play {
+	text-align: center;
+	font-size: 17px;
+	margin: 30px;
+	width: 63px;
+	height: 23px;
+	padding: 10px;
+	cursor: pointer;
+	box-shadow:  -3px -3px 6px white,  5px 5px 7px rgba(0, 0, 0, 0.1);
+	border-radius: 40px;
+  }
+  .btn:hover {
+	  background-color: #6a9bd8;
+	  color:#ebf5fc;
+  }
+  td{
+	  font-size: 20px;
+  }
+  .info {
+	  font-weight: bold;
+  }
+  .profile_pic {
+	  display: flex;
+	  position: absolute;
+	  bottom: 25px;
+	  right: 30px;
+	  width: 60px;	  
+	  border-radius: 100%;
+	  box-shadow:  -3px -3px 6px white,  5px 5px 7px rgba(0, 0, 0, 0.1);
+  }
