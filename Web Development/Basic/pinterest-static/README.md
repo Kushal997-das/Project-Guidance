@@ -8,4 +8,4 @@ A static pinterest webpage which is completely responsive and will help you unde
 - Javascript
 
 ## 📷 Demo Screenshots <a name = "Screenshot"></a>
-![pint](https://user-images.githubusercontent.com/85568177/162967959-bd224466-9050-4c5e-b531-9936b40e694c.jpeg)
+![pint](https://user-images.githubusercontent.com/85568177/163708018-6989225a-7982-43de-94b3-5694e9e0f359.png)
