@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+</head>
+
+<body>
+
+  <h1 id="level-title">Press Any Key to Start</h1>
+
+  <div class="container">
+
+    <div lass="row">
+      <div type="button" id="green" class="btn green">
+      </div>
+      <div type="button" id="red" class="btn red">
+      </div>
+    </div>
+
+    <div class="row">
+      <div type="button" id="yellow" class="btn yellow">
+      </div>
+      <div type="button" id="blue" class="btn blue">
+      </div>
+    </div>
+
+  </div>
+
+  <div id="info">
+    <h3 id="info-title">How to play ?</h3>
+    <p id="info-text"> <span>></span> Firstly, the game shows the first colour in the sequence (example : <span
+        class="blue-span">blue</span>). The user clicks on the blue button.
+      <br> <span>></span> Next, the game shows the next colour (example : <span class="red-span">red</span>), the user
+      has to remember the sequence is blue, red and so on and so
+      forth.
+      <br> <span>></span> If the user messes up the sequence, then the game ends.
+    </p>
+  </div>
+
+
+  <!-- jQuery Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- JS Link -->
+  <script src="game.js" charset="utf-8"></script>
+
+</body>
+
+<footer>
+  Made with ❤️ by <a id="web-link" href="https://somyasahu.netlify.app/" target="_blank"><strong>Somya Sahu</strong></a>
+</footer>
+
+</html>

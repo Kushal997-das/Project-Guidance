@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 1%;
+}
+.nav > li:hover{
+    color: red;
+}
+.nav > li{
+    list-style: none;
+    cursor: pointer;
+    padding: 1%;
+}
+.nav > li:nth-child(2){
+    font-weight: 600;  
+}
+.nav > li:nth-child(3){
+    font-weight: 600;       
+}
+.nav > li:nth-child(6){
+    font-size: 20px;
+    color: gray; 
+}
+.nav > li:nth-child(6):hover{
+    color: red;
+}
+.search{   
+    width: 70%;
+    position: relative;
+    padding: 1%;
+    
+}
+.search > input{
+    
+    border: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: -5px;
+    padding: 1%;
+    background-color: rgba(128, 128, 128, 0.212);  
+}
+.search > input:focus{
+    outline: none;
+}
+.notification i{
+    font-size: 20px;
+    
+    color: gray;
+    margin-top: 5px;
+}
+.notification i:hover{
+    color: rgba(0, 17, 255, 0.733);
+}
+.profile img{
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,250px);
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 15px;
+}
+.container > div{
+    padding: 0;
+    margin: 15px 10px;
+    border-radius: 20px;
+
+}
+.card > iframe{
+    border-radius:25px ;
+}
+.container  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.card_small{
+    grid-row-end: span 26;
+}
+.card_midium{
+    grid-row-end: span 33;
+}
+.card_large{
+    grid-row-end: span 40;
+}
+@media all and(min-width: 421px) and (max-width: 768px){
+    .container{
+        grid-template-columns: repeat(auto-fill,200px);
+    }
+    .search{
+        display: none;
+    }
+    .nav > li:nth-child(2){
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+}
+@media all and (min-width:50px) and (max-width: 420px){
+    .container{
+        grid-template-columns: repeat(auto-fill,150px);
+    }
+    .container > div{
+        padding: 0;
+        margin: 8px 5px;
+        border-radius: 20px;  
+    }
+    .nav{
+        padding: 2%;
+    }
+    .search > input{
+        padding: 3%;
+    }
+    .nav > li>img{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .nav > li {
+        font-size: 12px;
+        
+    }
+    .nav > li i{
+        display: none;
+        
+    }
+    .nav > li:nth-child(2){
+        display: none;
+        
+    }
+    .nav > li:nth-child(3){
+        display: none;
+        
+    }
+    .card > iframe{
+        border-radius:25px ;
+    }
+}

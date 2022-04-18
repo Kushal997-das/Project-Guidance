@@ -14,6 +14,8 @@
 
   - [ Prediction using Unsupervised ML ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Prediction%20using%20Unsupervised%20ML)<br>
 
+  - [ Prediction using Logistic Regression ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Heart%20Disease%20Prediction)<br>
+
   <br>
 
 - <h1>Intermediate 🚀</h1>
