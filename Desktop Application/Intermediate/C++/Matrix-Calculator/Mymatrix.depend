@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1621260085 source:e:\c\data structures\assignments\solutions\oop assignment\mymatrix\main.cpp
+	<iostream>
+	"MatrixCalculator.h"
+	"Matrix.h"
+
+1621261264 e:\c\data structures\assignments\solutions\oop assignment\mymatrix\matrix.h
+	<iostream>
+	<cassert>
+
+1621260020 source:e:\c\data structures\assignments\solutions\oop assignment\mymatrix\matrix.cpp
+	<iostream>
+	<cassert>
+
+1621212930 e:\c\data structures\assignments\solutions\oop assignment\mymatrix\matrixcalculator.h
+	"Matrix.h"
+
+1621260647 source:e:\c\data structures\assignments\solutions\oop assignment\mymatrix\matrixcalculator.cpp
+	"Matrix.h"
+	"MatrixCalculator.h"
+	<iostream>
+
