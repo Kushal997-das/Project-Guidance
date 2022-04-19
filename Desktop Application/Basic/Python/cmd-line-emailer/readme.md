@@ -9,10 +9,10 @@
 
 ## Output
 
-![login](https://user-images.githubusercontent.com/99732684/163577129-cae3f648-c388-47d1-a053-e72966752734.jpeg)
+<img src="https://user-images.githubusercontent.com/99732684/163577129-cae3f648-c388-47d1-a053-e72966752734.jpeg" width="500">
 
 The login window will be populated with the sender's email address and password already
 
-![message](https://user-images.githubusercontent.com/99732684/163577135-f4c9d4da-e3e5-4c67-a533-8ad792aeb51c.jpeg)
+<img src="https://user-images.githubusercontent.com/99732684/163577135-f4c9d4da-e3e5-4c67-a533-8ad792aeb51c.jpeg" width="500">
 
 The email will already have the sender's address in recipient.
