@@ -3,12 +3,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
+/*--------------------------------------- Navbar1  -----------------------------------*/
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+/* Styles  */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 100px;
+    background-color: #000000  ;
+}
+.navs{
+    float: left;
+    justify-content: space-between;
+    margin-top: 1%;
+    color: white;
+
+}
+.topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/* Right section - top navbar */
+.topnav-right {
+    float: right;
+    overflow: hidden;
+ // background-color: #FFFFFF;
+}
+/*--------------------------------------- Navbar  -----------------------------------*/
 .nav{
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 60px;
     margin-top: 1%;
 }
 .nav > li:hover{
@@ -32,6 +66,8 @@
 .nav > li:nth-child(6):hover{
     color: red;
 }
+/*---------------------Search Bar in Navbar------------------------*/
+
 .search{   
     width: 70%;
     position: relative;
@@ -43,29 +79,33 @@
     border: 0;
     width: 100%;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 40px;
     margin-top: -5px;
-    padding: 1%;
+    padding: 2%;
     background-color: rgba(128, 128, 128, 0.212);  
 }
 .search > input:focus{
     outline: none;
 }
-.notification i{
+/*Notification Button*/
+.not i{
     font-size: 20px;
     
     color: gray;
     margin-top: 5px;
 }
-.notification i:hover{
+.not i:hover{
     color: rgba(0, 17, 255, 0.733);
 }
+/*Profile Picture*/
 .profile img{
     object-fit: cover;
 
     border-radius: 50%;
 }
-.container{
+
+/*-------------------------------CONTAINER--------------------------*/
+.container {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill,250px);
@@ -82,20 +122,22 @@
 .card > iframe{
     border-radius:25px ;
 }
+/*Container Image CSS*/
 .container  img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
 }
-.card_small{
-    grid-row-end: span 26;
+/*Container Cards Size*/
+.small{
+    grid-row-end: span 24;
 }
-.card_midium{
-    grid-row-end: span 33;
+.med{
+    grid-row-end: span 31;
 }
-.card_large{
-    grid-row-end: span 40;
+.large{
+    grid-row-end: span 43;
 }
 @media all and(min-width: 421px) and (max-width: 768px){
     .container{
@@ -140,11 +182,9 @@
     }
     .nav > li:nth-child(2){
         display: none;
-        
     }
     .nav > li:nth-child(3){
         display: none;
-        
     }
     .card > iframe{
         border-radius:25px ;
