@@ -42,7 +42,11 @@
  
   - [Snake Game](https://github.com/Rashmisingh-18/Project-Guidance/tree/main/Web%20Development/Basic/Snake%20Game)<br>
 
+  - [Simon Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Simon%20Game)<br>
+
   - [Spotify Landing Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/my-patch/Web%20Development%2FBasic%2FSpotify%20Landing%20Page%20Clone)<br>
+
+  - [Tetris Game](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Tetris%20Game)<br>
 
   - [To Do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/To%20Do%20App)<br>
 
