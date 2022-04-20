@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+:root {
+	--main-color: #eebab2;
+	--secondary-color: black;
+	--ternary-color: black;
+	--box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	--background-color: #f5f3e7;
+	--background-secondary-color: #f5e2e4;
+	--border-color: #80717f;
+	--border-secondary-color: #2755d4;
+	--plus-color: #2ecc71;
+	--minus-color: #c0392b;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--secondary-color);
+	font-family: "Noto Sans", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header img {
+	width: 5.5rem;
+}
+
+.balance-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper {
+	margin: 30px auto;
+	width: 450px;
+}
+
+h1 {
+	font-size: 1.45rem;
+}
+
+h2 {
+	font-size: 1.37rem;
+}
+
+.balance {
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 1.7rem;
+}
+
+h3 {
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 10px;
+	margin: 40px 0 10px;
+}
+
+h2,
+h4 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.inc-exp-wrapper {
+	background-color: var(--background-secondary-color);
+	box-shadow: var(--box-shadow);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	border-radius: 5px;
+}
+
+.inc-exp-wrapper > div {
+	flex: 1;
+	text-align: center;
+}
+
+.inc-exp-wrapper > div:first-of-type {
+	border-right: 1px solid var(--border-secondary-color);
+}
+
+.money {
+	font-size: 22px;
+	letter-spacing: 1px;
+	margin: 5px 0;
+}
+
+.money.plus {
+	color: var(--plus-color);
+}
+
+.money.minus {
+	color: var(--minus-color);
+}
+
+label {
+	display: inline-block;
+	margin: 10px 0;
+	width: 50%;
+}
+
+input[type="text"],
+input[type="number"] {
+	border: 1px solid var(--border-secondary-color);
+	border-radius: 5px;
+	display: block;
+	font-size: 16px;
+	padding: 15px;
+	width: 100%;
+}
+
+input[type="number"] {
+	width: 65%;
+	display: inline-block;
+	padding: 14px;
+}
+
+#in_ex {
+	width: 25%;
+	padding: 13px 0px;
+	padding-left: 5px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 6%;
+	border: solid 2px var(--border-secondary-color);
+}
+.btn {
+	cursor: pointer;
+	background-color: rgba(0, 0, 128, 0.692);
+	box-shadow: var(--box-shadow);
+	color: white;
+	border: 0;
+	display: block;
+	font-size: 18px;
+	margin: 15px 0 30px;
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	height: 45px;
+}
+
+.list {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 50px;
+}
+
+.list li {
+	background-color: var(--background-secondary-color);
+	box-shadow: var(--box-shadow);
+	color: var(--ternary-color);
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	padding: 12px;
+	margin: 10px 0;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 10px;
+}
+
+.list li.plus {
+	border-left: 5px solid var(--plus-color);
+}
+
+.list li.minus {
+	border-left: 5px solid var(--minus-color);
+}
+
+.delete-btn {
+	cursor: pointer;
+	background-color: var(--minus-color);
+	color: var(--background-secondary-color);
+	box-shadow: var(--box-shadow);
+	border: 0;
+	font-size: 22px;
+	padding: 2px;
+	margin: 10px 0px 0px 2px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(100%, -73%);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	border-radius: 2px;
+	border-top-right-radius: 7px;
+}
+
+.btn:focus,
+.delete-btn:focus {
+	outline: 0;
+}
+
+.list li:hover .delete-btn {
+	opacity: 1;
+}
+
+.notification-wrapper {
+	background-color: var(--minus-color);
+	color: var(--background-secondary-color);
+	border-radius: 5px 5px 0 0;
+	padding: 12px 15px;
+	position: fixed;
+	bottom: 50%;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.notification-wrapper.show {
+	opacity: 1;
+}
+
+.notification-wrapper p {
+	margin: 0;
+}

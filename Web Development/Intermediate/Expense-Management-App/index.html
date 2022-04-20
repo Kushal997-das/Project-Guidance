@@ -1,0 +1,73 @@
+ <html>
+
+ <head>
+
+    <link rel="stylesheet" href="styles.css">
+   
+ </head>
+
+ <body>
+ <h1 style="font-size: 32px;">Expense Management App</h1>
+    <div class="wrapper">
+      
+      <div class="header">
+        <img src="https://i.postimg.cc/BQvc5sns/icons8-calculator-64.png"
+          alt="Expense Tracker"
+        />
+        <div class="balance-wrapper">
+          <h2>Balance</h2>
+          <h2 id="balance" class="balance">$0.00</h2>
+        </div>
+      </div>
+      
+
+      <div class="inc-exp-wrapper">
+        <div>
+          <h4>Total Income</h4>
+          <p id="money-plus" class="money plus">+$0.00</p>
+        </div>
+        
+        <div>
+          <h4>Total Expense</h4>
+          <p id="money-minus" class="money minus">-$0.00</p>
+        </div>
+      </div>
+      
+      
+      <h3> Transaction History</h3>
+      <ul id="list" class="list"></ul>
+      <h3>Add new transaction</h3>
+      <form id="form">
+        
+        <div class="form-control">
+          <label for="text"><b>Description</b></label>
+          <input type="text" id="text" 
+                 placeholder="Enter description..." />
+        </div>
+        
+        <div class="form-control">
+          <label for="amount"> <b>Amount</b> <br /> 
+          </label>
+          <input type="number" id="amount" placeholder="Enter amount..."/>
+          <select id = "in_ex">
+            <option value = "inc">
+              Income
+            </option>
+            <option value = "exp" selected = "selected">
+              Expense
+            </option>
+          </select>
+          
+        </div>
+        
+        <button class="btn">Add transaction</button>
+      </form>
+    </div>
+    <!-- Notification -->
+    <div class="notif-wrapper" id="notification">
+      <p>Please add a description and amount</p>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
