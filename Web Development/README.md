@@ -39,6 +39,8 @@
   - [Google Homepage Clone](https://github.com/rajprem4214/Project-Guidance/tree/gclone/Web%20Development/Basic/Google%20Homepage%20Clone)<br>
   
   - [Parallex Web Design](https://github.com/rajprem4214/Project-Guidance/tree/pd/Web%20Development/Basic/Parallex-Web-Design)<br>
+
+  - [Quote Generator](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Quote%20Generator)<br>
  
   - [Snake Game](https://github.com/Rashmisingh-18/Project-Guidance/tree/main/Web%20Development/Basic/Snake%20Game)<br>
 
