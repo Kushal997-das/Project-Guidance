@@ -4,15 +4,15 @@
 
 ### 1. Login
 
-<img src="screenshots/login.png" alt="login" width="660" height="190">
+<img src="screenshots/Login.PNG" alt="login" width="660" height="190">
 
 ### 2. Sign up
 
-<img src="screenshots/register.png" alt="sign up" width="660" height="190">
+<img src="screenshots/Register.PNG" alt="sign up" width="660" height="190">
 
 ### 3. Home page
 
-<img src="screenshots/home.png" alt="home" width="660" height="190">
+<img src="screenshots/Home.PNG" alt="home" width="660" height="190">
 
 ### 4. Create New Task (Add Todo)
 
