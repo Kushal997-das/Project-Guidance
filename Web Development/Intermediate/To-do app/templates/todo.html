@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body %}
+  <article class="media content-section">
+    <div class="media-body">
+      <div class="article-metadata">
+      </div>
+      <h2 class="article-title">{{ todo.title }}</h2>
+      <p class="article-content">{{ todo.description }}</p>
+    </div>
+  </article>
+{% endblock body %}

@@ -1,0 +1,105 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #444444;
+  }
+  
+  .app-header .navbar-nav .nav-link {
+    color: #cbd5db;
+    transition: 0.3s color ease-in;
+  }
+  
+  .app-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .app-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .bg-teal {
+    background-color: teal;
+  }
+  
+  .todo-container {
+    background: #ffffff;
+    transition: 0.3s;
+  }
+  .todo-container:hover {
+    background-color: #f8f8f8;
+  }
+  
+  .content-section {
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px 1px rgba(200, 200, 200, 0.3);
+  }
+  
+  .todo-title {
+    color: #444444;
+  }
+  
+  a.todo-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .todo-content {
+    white-space: pre-line;
+  }
+  
+  .todo-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .todo-metadata {
+    padding-top: 1px;
+    margin-top: 4px;
+    border-top: 1px solid #e3e3e3;
+  }
+  
+  .todo-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .todo-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  #login_user_name{
+    color: #32fa7f;
+    margin-right: 25px;
+  }
+
+  #mySpan{
+    color:#fff;
+  }
+
+  

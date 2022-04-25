@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block body %}
+<div class="content-section">
+  <form method="POST" action="{{ url_for('login') }}">
+    <fieldset class="form-group">
+      <legend class="border-bottom mb-4">Log In</legend>
+      <div class="form-group">
+        <label class="form-control-label">Email</label>
+        <input type="email" name="email" class="form-control form-control-lg" />
+      </div>
+      <div class="form-group">
+        <label class="form-control-label">Password</label>
+        <input
+          type="password"
+          name="password"
+          class="form-control form-control-lg"
+        />
+      </div>
+    </fieldset>
+    <div class="form-group">
+      <input type="submit" name="Login" class="btn btn-outline-info" />
+    </div>
+    <small class="text-muted ml-2">
+      <a href="#">Forgot Password?</a>
+    </small>
+  </form>
+</div>
+<div class="border-top pt-3">
+  <small class="text-muted">
+    Need An Account?
+    <a class="ml-2" href="{{ url_for('register') }}">Sign Up Now</a>
+  </small>
+</div>
+{% endblock body %}
