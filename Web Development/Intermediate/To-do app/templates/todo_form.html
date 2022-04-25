@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% block body %}
+<form
+  method="POST"
+  action="
+            {% if todo %} 
+                {{ url_for('edit_todo', id=todo.id) }} 
+            {% else %} 
+                {{ url_for('create_todo') }} 
+            {% endif %}
+            
+    "
+>
+  <label>Title: </label>
+  {% if todo %}
+  <input name="title" type="text" value="{{ todo.title }}" required />
+  {% else %}
+  <input name="title" type="text" required />
+  {% endif %}
+  <br />
+  <label>Description: </label>
+  {% if todo %}
+  <input
+    name="description"
+    type="text"
+    value="{{ todo.description }}"
+    required
+  />
+  {% else %}
+  <input name="description" type="text" required />
+  {% endif %}
+  <br />
+  {% if todo %}
+  <input type="checkbox" name = "is_done" id="status"  {% if todo.is_done %} checked {% endif %}/>
+  <label for="status">Status</label>
+  {% else %}
+  <input type="checkbox" name = "is_done" id="status" />
+  <label for="status">Status</label>
+  {% endif %}
+  <br />
+  {% if todo %}
+    <input class ="btn-primary" type="submit" name="update" value="update">
+    {% else %}
+    <input class ="btn-success" type="submit" name="create" value="create">
+    {% endif %}
+</form>
+
+{% endblock %}
+
+
