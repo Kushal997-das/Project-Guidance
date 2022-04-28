@@ -1,0 +1,246 @@
+/* Start Main Rules */
+body {
+  background-color: #f3f3f3;
+  font-size: 16px;
+}
+/* End Main Rules */
+/* Start NavBar */
+.navbar .nav-link {
+  color: rgb(211, 209, 209) !important; 
+}
+.navbar .nav-link:hover {
+  color: rgb(255, 255, 255) !important; 
+}
+.dropdown-menu {
+  border-top: 2px solid #212529;
+  border-radius: 0 0 10px 10px;
+  padding: 0;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 110%;
+  left: auto;
+  right: 0;
+}
+.dropdown-item {
+  padding: 10px 15px;
+}
+/* End NavBar */
+
+/* Start Admins Page */
+.admin h1,
+.buyer h1,
+.seller h1,
+.category h1 {
+  margin: 60px 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.admin .add-btn,
+.buyer .add-btn,
+.category .add-btn {
+  display: block;
+  width: fit-content;
+  margin: 15px auto;
+}
+.admin thead .table-dark {
+  background-color: #3b3f42;
+  font-weight: 400;
+}
+.AdminsForm h1,
+.CategoriesForms h1,
+.Users h1 {
+  margin: 50px 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.AdminsForm .form-btn,
+.CategoriesForms .form-btn,
+.Users .form-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.AdminsForm .error,
+.CategoriesForms .error {
+  color: #962121;
+  margin-bottom: 8px;
+  margin-left: 50px;
+  display: block;
+}
+.AdminsForm .delete-box,
+.CategoriesForms .delete-box,
+.Users .delete-box,
+.ItemsForm .delete-box {
+  padding: 30px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.AdminsForm .delete-box h3,
+.CategoriesForms .delete-box h3,
+.Users .delete-box h3 {
+  margin-bottom: 30px;
+}
+/* Start Searching Area */
+.searching-area {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.search-form .name {
+  flex: 1;
+}
+.search-form .id {
+  flex: 0.5;
+}
+@media (max-width: 768px) {
+  .search-form {
+    flex-direction: column;
+  }
+}
+.search-form .name,
+.search-form .id {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin: 10px auto;
+}
+.search-form .name div,
+.search-form .id div {
+  margin-left: 12px;
+}
+.search-form .search-btns {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .search-form .search-btns .btn {
+    margin-top: 5px;
+  }
+}
+.search-form .name input {
+  max-width: 350px;
+  margin-left: 7px;
+}
+.search-form .id input {
+  max-width: 150px;  
+  margin-left: 7px;
+}
+/* End Searching Area */
+/* End Admins Page */
+
+/* Start Items */
+.items h1 {
+  margin: 60px 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.items thead .table-dark {
+  background-color: #3b3f42;
+  font-weight: 400;
+}
+.ItemsForm {
+  margin-top: 50px;
+}
+.ItemsForm h1 {
+  margin: 50px 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.ItemsForm .form-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.review-item {
+  padding: 70px;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  column-gap: 100px;
+}
+@media (max-width: 992px) {
+  .review-item {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .review-item {
+    grid-template-columns: 1fr;
+  }
+}
+.gallery div img {
+  width: 100%;
+  border-radius: 20px;
+}
+.gallery .thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+.gallery .thumbnails img {
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.gallery .thumbnails img:hover {
+  opacity: 0.8;
+}
+.product {
+  padding-top: 40px;
+}
+.product .seller-name {
+  color: #212529;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  font-size: 16px;
+}
+.product .date-of-item {
+  position: relative;
+  top: -17px;
+  font-size: 12px;
+  float: right;
+}
+.product .item-name {
+  font-weight: 700;
+  font-size: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+.product .description {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.product .price .new-price {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.product .price .discount {
+  background-color: hsl(25, 100%, 94%);
+  display: inline;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.product .price .old-price {
+  font-size: small;
+  text-decoration: line-through;
+}
+.product .loctaion {
+  font-size: 20px;
+  margin: 30px 0;
+}
+/* End Item */
