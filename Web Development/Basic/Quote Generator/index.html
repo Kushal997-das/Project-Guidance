@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Quotes App</title>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+</head>
+
+<body>
+
+    <section id="container">
+
+        <h1><img src="images/dark_open.png" alt=""> Quote of the Day <img src="images/dark_close.png" alt=""></h1>
+        <p class="info">Press the button below to recieve a random quote!</p>
+
+        <button onclick="generateQuote();">New Quote</button>
+
+        <div class="quote">
+            <p id="quoteOutput">"Success is the progressive realization of a worthy goal."</p>
+            <i>
+                <p class="author" id="authorOutput">--Earl Nightingale</p>
+            </i>
+        </div>
+
+        <footer>
+            <p>Made with 🖤 by <a href="https://somyasahu.netlify.app/" target="_blank"><span>Somya Sahu</span></p>
+        </footer>
+
+    </section>
+
+    <!-- JS Link Sheet -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>

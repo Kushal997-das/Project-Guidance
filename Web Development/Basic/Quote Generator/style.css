@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body
+{
+    margin: 50px;
+    font-family: 'Poppins' sans-serif;
+    background-color:#e0e0e0;
+}
+
+/* ------------------------------ Container ------------------------------ */
+
+#container {
+    background: #e0e0e0;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 32px 32px 0 32px;
+    box-shadow: 0 0 3px 3px #dddddd,
+                7px 7px 9px 5px rgba(136,136,136,0.7),
+                -7px -7px 9px 5px rgba(244,244,244,0.7);
+    text-align: center;
+}
+
+/* ------------------------------ Title ------------------------------ */
+
+h1 {
+    font-size: 70px;
+    font-family: 'Poppins';
+    color:#333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------ Paragraph ------------------------------ */
+
+p {
+    font-family: 'Poppins';
+}
+
+.quote {
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 3px #e0e0e0,
+                -6px -6px 8px 4px rgba(136,136,136,0.7),
+                6px 6px 8px 4px rgba(244,244,244,0.7);
+    margin: 30px 20px 60px 20px;
+}
+
+.info {
+    font-size: 20px;
+    color: #999999;
+}
+
+.author {
+    font-weight: bold;
+}
+
+#quoteOutput {
+    padding-top: 10px;
+    color: #868686;
+}
+
+#authorOutput {
+    padding-bottom: 10px;
+    color :#525252;
+}
+
+/* ------------------------------ Button ------------------------------ */
+
+button
+{
+    margin: 20px 0;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    color: 4C4C6D;
+    border: none;
+    border-radius: 30px;
+    background-color:#e0e0e0;
+    box-shadow: 0 0 3px 3px #e0e0e0,
+                4px 4px 6px 2px rgba(136,136,136,0.7),
+                -4px -4px 6px 2px rgba(244,244,244,0.7);
+
+}
+
+button:hover
+{
+    background: #4C4C6D;
+    color:#e0e0e0;
+}
+
+/* ------------------------------ Footer ------------------------------ */
+
+footer{
+    font-size: 25px;
+    color: #333333;
+}
+
+footer span {
+    font-weight: bold;
+    color: #4C4C6D;
+}
+
+footer span:hover {
+    color: #DA7F8F;
+}
+
+a{
+    text-decoration: none;
+}
