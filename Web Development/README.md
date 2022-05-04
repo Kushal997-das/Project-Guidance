@@ -59,6 +59,7 @@
   - [Budgeting App](https://kunal0220.github.io/Budget_App/)<br>
 
   -[Drinks Recipe Website](https://supriyakumari08.github.io/FruitNotBooze/)<br>
+  -[Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/)<br>
 
 - <h1>Intermediate 🚀</h1>
 
