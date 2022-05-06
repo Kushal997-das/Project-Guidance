@@ -1,0 +1,25 @@
+{
+  "name": "stock-market",
+  "version": "1.0.0",
+  "description": "stock-market-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "author": "Bhushan Thombre",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "express-handlebars": "^6.0.2"
+  },
+  "engines": {
+    "node": "16.13.2"
+  }
+}
