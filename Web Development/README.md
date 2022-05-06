@@ -18,6 +18,8 @@
 
   - [Basic Banking System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Basic%20Banking%20System)<br>
 
+   - [Burger Eye](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Burger%20Eye)<br>
+
   - [Casio](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Casio)<br>
 
   - [Contact Form](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Contact%20Form)<br>
