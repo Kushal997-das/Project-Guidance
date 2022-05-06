@@ -1,0 +1,35 @@
+<div class="mt-4 p-5 bg-dark text-white rounded">
+  <h1 class="display-4">{{ stock.companyName }} ({{ stock.symbol }})</h1>
+  </br></br>
+  <strong>Latest Price: </strong>{{ stock.latestPrice }}</br>
+  <strong>Previous Close: </strong>{{ stock.previousClose }}</br>
+  <strong>Percent Change: </strong>{{ stock.changePercent }}</br>
+  <strong>Market Cap: </strong>$ {{ stock.marketCap }}</br>
+  <strong>YTD Change: </strong>{{ stock.ytdChange }}</br>
+  <strong>52 Week High: </strong>{{ stock.week52High }}</br>
+  <strong>52 Week Low: </strong>{{ stock.week52Low }}</br>
+</div>
+
+
+
+
+
+
+
+
+
+{{!--
+<h1>{{ stock.companyName }} ({{ stock.symbol }})</h1>
+</br>
+<strong>Latest Price: </strong>{{ stock.latestPrice }}</br>
+<strong>Previous Close: </strong>{{ stock.previousClose }}</br>
+<strong>Percent Change: </strong>{{ stock.changePercent }}</br>
+<strong>Market Cap: </strong>$ {{ stock.marketCap }}</br>
+<strong>YTD Change: </strong>{{ stock.ytdChange }}</br>
+<strong>52 Week High: </strong>{{ stock.week52High }}</br>
+<strong>52 Week Low: </strong>{{ stock.week52Low }}</br> --}}
+
+{{!-- </br></br>
+{{#each stock}}
+{{@key}} | {{this}}</br>
+{{/each}} --}}
