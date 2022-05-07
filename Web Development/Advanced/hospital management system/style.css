@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-custom {
+    background-color: #002966;
+    color: #fff;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+}
+.nav-item a{
+    margin-left: 9px;
+    margin-right: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.nav-item button{
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+  .nav-item button:hover{
+      background: #fff;
+      color: #000;
+  }
+  .nav-item:hover{
+      background: #fff;
+      color: #000;
+      border-radius: 25px;
+  }
+    .navbar-nav {
+      margin-left: auto;
+      color: #000;
+  font-size: 20px;
+  font-weight: 550;
+    }
+    .navbar-brand h4{
+        margin-left: 50px;
+        font-size: 29px;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navbar ul button.btn{
+        margin-left: 6px;
+    }
+    .container {
+        width: 500px;
+        min-height: 450px;
+        background: #FFF;
+        border-radius: 5px;
+        border-color: blue;
+        box-shadow: 0 0 5px #000;
+        padding: 40px 30px;
+        margin-top: 60px;
+    }
+    
+    .container .login-text {
+        color: #111;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        text-transform: capitalize;
+    }
+    .login-register-text {
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+    }
+    .login-register-text a{
+        text-decoration: none;
+        color: #00b8e6;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container form h1{
+        text-align: center;
+        color: #000;
+        text-transform: uppercase;
+    }
+    .container form button{
+        background: #00b8e6;
+        font-size: 20px;
+        color: #000;
+    }
+    .container form button:hover{
+        background: #00b8e6;
+        font-size: 20px;
+        color: #000;
+    }
+    .container form input{
+        border-color: rgb(51, 50, 50);
+    }
+    .container .row .col .name p{
+        margin: 20px;
+        border: solid 3px #000
+    }
+    .row .col h4{
+        font-size: 15px;
+    }
+    .filters{
+        margin-left:3%;
+    }
+    #filters{
+        width:60%;
+        height:50px;
+    }
