@@ -1,0 +1,14 @@
+layout folder: 
+	css, js and images of the project (logo background images etc..)
+	fontawsome files
+
+includes folder:
+	- functions for the any function that will be needed in multiple files
+	- temps for php files like header, footer and navbar which will nearly
+	  be in every page
+
+data folder:
+	- uploads file which will contain images of the users and the items
+
+admin folder:
+	for the admin panel files (same as the main shop files)
