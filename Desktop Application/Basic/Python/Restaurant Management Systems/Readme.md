@@ -9,7 +9,7 @@ To run the file locally:
 
 1- Install Python version 3.7 along with the required modules.
 
-2- Fork this repository.
+2- Fork this repository -> https://github.com/Kushal997-das/Project-Guidance.git
 
 3- Choose a local folder for the cloned files.
 
