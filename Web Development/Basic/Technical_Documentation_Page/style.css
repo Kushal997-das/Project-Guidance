@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 300px;
+    background-color: #ffffff;
+    line-height: 30px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.main-section {
+    margin-bottom: 20px;
+}
+
+.main-section>header {
+    margin-bottom: 10px;
+}
+
+#navbar {
+    position: fixed;
+    z-index: 1;
+    flex: 40%;
+    flex-wrap: wrap;
+    background-color: #112;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding: 30px;
+    line-height: 60px;
+    height: 100%;
+}
+
+#main-doc header {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#navbar>header {
+    color: #eee;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#navbar>ul {
+    list-style-type: none;
+}
+
+#main-doc {
+    flex: 60%;
+    display: block;
+    margin-left: 20%;
+    padding: 2%;
+}
+
+.code {
+    border-radius: 5px;
+    color: #eee;
+    background-color: #112;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.nav-link {
+    color: #eee;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    #navbar {
+        flex-direction: row;
+        top: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        line-height: 35px;
+        max-height: 275px;
+        z-index: 1;
+        font-size: 15px;
+    }
+
+    #main-doc>header {
+        font-size: 20px;
+    }
+
+    #main-doc {
+        position: relative;
+        display: block;
+        margin: auto;
+        padding: 10%;
+        margin-top: 275px;
+        font-size: 15px;
+    }
+
+    .links:hover {
+        background: #eee;
+        width: 100%;
+        color: #112;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #navbar {
+        display: none;
+    }
+
+    #main-doc {
+        padding: 10%;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 828px) and (max-width: 1366px) {
+    #main-doc {
+        margin-left: 33%;
+    }
+
+}

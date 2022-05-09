@@ -59,6 +59,7 @@
   - [Budgeting App](https://kunal0220.github.io/Budget_App/)<br>
 
   -[Drinks Recipe Website](https://supriyakumari08.github.io/FruitNotBooze/)<br>
+  -[Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/)<br>
 
 - <h1>Intermediate 🚀</h1>
 
@@ -69,6 +70,8 @@
 - <h1>Advanced 🚀 </h1>
 
    - [Hotel Reservation System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/Hotel%20Reservation%20System) <br>
+
+   - [E-Commerce Fashion Website](https://ecommerce-internship-studio.tridibbag.repl.co/)<br>
   
 
 ---
