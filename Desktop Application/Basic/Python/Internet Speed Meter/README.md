@@ -7,7 +7,12 @@
 
 ## Output
 
-![ss1](./img/Screenshot%202022-05-04%20131349.png)
+![spedd](https://user-images.githubusercontent.com/49890655/167545311-f2d77f5a-f431-4be5-a7b6-201138386d80.png)
+
 
 ## Demo
+
+
+
+https://user-images.githubusercontent.com/49890655/167545320-d1b5edd6-0778-4023-a602-6e7877ce406f.mp4
 
