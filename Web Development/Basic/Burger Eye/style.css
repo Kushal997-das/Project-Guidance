@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E3B7A0;
+  cursor: url(burger.png), url("burger.cur"), default;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Wrapper */
+.eyes {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 5px;
+  background: #FDF6EC;
+  box-shadow: 0 0 3px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #d1aa94;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 30px -18px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/* Eye parts*/
+.eye-retina {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  background: #151D3B;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.eye-pupil {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(187, 198, 209, 0.2) 0px 8px 24px;
+}
+
+.eye-glow {
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+/* lashes */
+.eye-lash {
+  position: absolute;
+  height: 50%;
+  background: #d1aa94;
+  width: 100%;
+  z-index: 1;
+}
+
+.up {
+  top: -50%;
+  animation: blinkbottom 10s linear infinite;
+}
+
+.down {
+  bottom: -50%;
+  animation: blinktop 10s linear infinite;
+}
+
+/* Animation */
+@keyframes blinkbottom {
+  0% {
+    top: -50%;
+  }
+  5% {
+    top: 0;
+  }
+  10% {
+    top: -50%;
+  }
+}
+
+@keyframes blinktop {
+  0% {
+    bottom: -50%;
+  }
+  5% {
+    bottom: 0;
+  }
+  10% {
+    bottom: -50%;
+  }
+}
