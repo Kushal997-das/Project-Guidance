@@ -8,7 +8,7 @@
 
 ## Packages Used:
 
-##### * ***Numpy***
+* ***Numpy***
 * ***Pandas***
 * ***Matplotlib***
 * ***Seaborn***
