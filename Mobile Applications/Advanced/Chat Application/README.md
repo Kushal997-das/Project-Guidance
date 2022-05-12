@@ -1,16 +1,17 @@
-# mychatapp
+## Chat App
+- Chatting application made in flutter used to send messages to other person. It is full fledged applicaiton front-end and back-end (google cloud firestore) integrated.
 
-A new Flutter project.
+### <p align="center">App Screenshots</p>
 
-## Getting Started
+<p align="center">
+  <img src="screenshots\1.jpg" width=190/>
+  <img src="screenshots\2.jpg" width=190/>
+  <img src="screenshots\3.jpg" width=190/>
+  <img src="screenshots\4.jpg" width=190/>
+  <img src="screenshots\5.jpg" width=190/>
+</p>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Steps to use app
+- Firstly, create your account if you don't have, on sign up page or if you already have account log in to your account to sign in page.
+- Click on the search button (floating button in bottom right) and search the name of the person you want to message.
+- Now you can send messages to that person.
