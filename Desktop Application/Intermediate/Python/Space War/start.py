@@ -32,9 +32,9 @@ def set_s_position(idx, pos):
         c_positions[idx] += 5  
 
 
-background = load('space_open_space_planets_135213_360x640.jpg')
-kill = load('meteorBrown_med1.png')
-user = load('playerShip1_orange.png')
+background = load('./img/space_open_space_planets_135213_360x640.jpg')
+kill = load('./img/meteorBrown_med1.png')
+user = load('./img/playerShip1_orange.png')
 user_x = 160
 c_positions = [0-get_rand_offset(), 0-get_rand_offset(), 0]
 
