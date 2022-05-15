@@ -1,0 +1,71 @@
+body{
+    background-color: #1A1A1D;
+color:antiquewhite;
+    font-family: 'Acme', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Shippori Antique', sans-serif;
+}
+.navbar-dark{
+     background: rgb(26,26,29);
+background: linear-gradient(90deg, rgba(26,26,29,1) 0%, rgba(149,7,64,1) 100%);
+}
+
+
+#first{
+    background: rgb(26,26,29);
+background: linear-gradient(90deg, rgba(26,26,29,1) 0%, rgba(149,7,64,1) 100%); 
+    padding-top:180px;
+    height:500px;
+
+}
+#one{
+    font-size: 70px;
+}
+#p1{
+    font-size:30px;
+    
+}
+img{
+    
+    width:100%;
+}
+#main2{
+    background-image:url("i1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 570px;
+    margin-bottom:30px;
+    
+}
+#p2,#p3{
+    font-size: 50px;
+}
+#p3{
+    padding:15% 0;
+}
+#text{
+    background-color:#1A1A1D;
+   
+}
+#text section{
+    background-color: #950740;
+    padding: 2% ;
+    margin: 0 1%;
+    text-align:center;
+  
+    border-radius: 5px;
+}
+
+#carouselExampleCaptions{
+    margin: 0 15%  ;
+    
+}
+#foot{
+   background: rgb(26,26,29);
+background: linear-gradient(90deg, rgba(26,26,29,1) 0%, rgba(149,7,64,1) 100%);
+}
+#footlist{
+    
+    list-style: none;
+}
