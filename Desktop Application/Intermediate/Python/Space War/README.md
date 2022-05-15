@@ -2,7 +2,7 @@
     <img alt="" height="80" src="">
   </a>
 </p>
-<h1 align="center">Space war </h1>
+<h1 align="center">Space war Game </h1>
 
 <div align="center">
 Fight in space 
