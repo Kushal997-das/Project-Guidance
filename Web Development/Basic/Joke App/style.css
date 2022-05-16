@@ -56,5 +56,5 @@ h2 {
 }
 
 .btn:focus {
-    outline: none;
+    outline: 0;
 }

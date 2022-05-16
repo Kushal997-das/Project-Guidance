@@ -63,6 +63,8 @@
   -[Drinks Recipe Website](https://supriyakumari08.github.io/FruitNotBooze/)<br>
   -[Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/)<br>
 
+  -[joke App](https://50projects50days.com/projects/dad-jokes/)
+
 - <h1>Intermediate 🚀</h1>
 
     - [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/animal%20adoption%20protal)<br>
