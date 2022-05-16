@@ -60,10 +60,11 @@
   
   - [Budgeting App](https://kunal0220.github.io/Budget_App/)<br>
 
-  -[Drinks Recipe Website](https://supriyakumari08.github.io/FruitNotBooze/)<br>
-  -[Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/)<br>
+  - [Drinks Recipe Website](https://supriyakumari08.github.io/FruitNotBooze/)<br>
+  
+  - [Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/)<br>
 
-  -[joke App](https://50projects50days.com/projects/dad-jokes/)
+  - [joke App](https://50projects50days.com/projects/dad-jokes/)
 
 - <h1>Intermediate 🚀</h1>
 
