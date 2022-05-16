@@ -1,7 +1,3 @@
-// Himanshu Parganiha
-// 2020MMB1346
-// Assignment 2
-
 #include<Wire.h>
 
 int it=0;
