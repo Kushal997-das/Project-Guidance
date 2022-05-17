@@ -1,4 +1,4 @@
-Anime refers to the very famous japanese Animations for which many people are crazy. This website has some of the most favourite anime shows of typical anime watchers.
+Anime refers to the very famous japanese Animations for which many people are crazy. This website has some of the most favourite anime shows of typical anime watchers. It contains a static navbar with 3 working buttons and search bar.
 
 <h2>TechStack</h2>
 <li>html</li>
