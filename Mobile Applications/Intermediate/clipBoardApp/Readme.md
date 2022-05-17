@@ -1,4 +1,4 @@
-## Text to speech converter
+## clipboard application
 
 ##this mobile application is used to copy and paste the texts using buttons
 
