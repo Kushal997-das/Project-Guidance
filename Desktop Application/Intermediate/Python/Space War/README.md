@@ -28,4 +28,4 @@ Move right or left to be save from metroid
   - Further Install this all Libraries using terminal : <br>
     ```pip install pygame```
 
-![ss1]()
+![ss1](./img/space.png)
