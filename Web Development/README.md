@@ -64,7 +64,7 @@
   
   - [Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/)<br>
 
-  - [joke App](https://50projects50days.com/projects/dad-jokes/)
+  - [Random Joke Generator](https://50projects50days.com/projects/dad-jokes/)
 
 - <h1>Intermediate 🚀</h1>
 
