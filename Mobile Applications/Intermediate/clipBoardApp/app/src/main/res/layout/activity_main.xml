@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="paste"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="621dp"
+        android:text="Clip board"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="130dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="171dp"
+        android:onClick="copy"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="COPY" />
+
+    <Button
+        android:id="@+id/paste"
+        android:layout_width="143dp"
+        android:layout_height="78dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="69dp"
+        android:onClick="paste"
+        android:text="PASTE"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="339dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="314dp"
+        android:ems="10"
+        android:hint="copied text"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="331dp"
+        android:layout_height="72dp"
+android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/editTextTextPersonName2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="457dp"
+        android:ems="10"
+
+        android:hint="enter text here"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+
+</RelativeLayout>
