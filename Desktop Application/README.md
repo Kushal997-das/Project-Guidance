@@ -88,6 +88,8 @@
     - [<h3 >  Vector Calculator  </h3>](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Vector%20Calculator)
         
     - [<h3 > Desktop MP3 Player </h3>](./Basic/Python/Desktop%20MP3%20Player)
+    
+    - [<h3 > GUI Calendar </h3>](./Basic/Python/GUI%20Calendar)
    
    </br>
     
