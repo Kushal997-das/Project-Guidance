@@ -8,7 +8,7 @@
 ## Requirement
 - XAMPP
 
-Store the file _*Travel Management System*_ in [HTDocs under where the Xampp is Stored](https://stackoverflow.com/questions/47027347/opening-a-php-file-with-xampp)
+Store the file _*Travel Management System*_ in [HTDocs under where the Xampp is Stored](https://stackoverflow.com/questions/47027347/opening-a-php-file-with-xampp)   
 Go To : ```http://localhost/Travel Management System/index.html```
 
 # Datebase :
