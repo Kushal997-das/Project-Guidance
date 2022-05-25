@@ -1,0 +1,37 @@
+
+.aside{
+	float:left;
+	width:15%;
+	/*background-color:#ffb900;*/
+	background-color:#6484b7;
+	height:700px;
+	margin-right:1%;
+	margin-left:1%;
+	margin-bottom:1%;
+	
+}
+.aside ul li {
+padding-top:5px;
+color:#f2f2f2;
+list-style-type:none;
+width:100%
+}
+.aside ul li a{
+	color:#ffffff;
+}
+.aside ul li  a:hover {
+    background-color: #F8F8F8;
+    color:#000000;
+    width:100%
+    
+}
+.section{
+	float:left;
+	width:82%;
+	background-color:#ffffff;
+	height:700px;
+	margin-bottom:1%;
+}
+.sectiondev{
+	margin:50px;
+}
