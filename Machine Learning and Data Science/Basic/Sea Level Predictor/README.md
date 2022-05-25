@@ -11,4 +11,5 @@ Use the data to complete the following tasks:
  - Make the line also go through the year 2050 to predict the sea level rise in 2050 if the rate of rise continues as it has since the year 2000.
  - The x label should be "Year", the y label should be "Sea Level (inches)", and the title should be "Rise in Sea Level".
 
- 
+### Output:
+ ![sea_level_plot](https://user-images.githubusercontent.com/57979852/170196941-191cccd8-42b8-44a9-b934-57411a1487a3.png)
