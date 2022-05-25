@@ -12,6 +12,8 @@ cosine similarity - #checking for similarities
 movies_dataset=pd.read_csv('F:\OpenSource\Project-Guidance\Machine Learning and Data Science\Basic\Movie Recommendation System\movies.csv')
 movies_dataset.head()
 
+movies_dataset['tagline'][9]
+
 movies_dataset.shape
 
 #feature selection
