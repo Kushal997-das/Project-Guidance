@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: #f3ca20;
+    padding: 25px;
+}
+header > h1{
+    color: #25272E;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.round{
+    color: #f3ca20;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.scoreboard{
+    border: 5px solid #f3ca20;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 45px;
+    padding: 15px 20px;
+    color: #f3ca20;
+    width: 250px;
+    margin: 25px auto;
+    position: relative;
+}
+.badge{
+    background-color: #f3ca20;
+    color: #000000;
+    font-size: 15px;
+    padding: 2px 10px;
+}
+#user-label{
+    position: absolute;
+    top: 35px;
+    left: -20px;
+}
+#computer-label{
+    position: absolute;
+    top:35px;
+    right: -20px;
+}
+.reset{
+    background-color: #f3ca20;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    width: 150px;
+    border-style: none;
+    border-radius: 5px;
+}
+.result{
+    font-size: 25px;
+    color: #f3ca20;
+    padding: 20px 25px;
+}
+.result > p{
+    text-align: center;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inner{
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+    font-size: 40px;
+    margin: 15px;
+    border: 5px solid #f3ca20;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.inner > p{
+    font-size: 25px;
+    margin: 50px auto;
+    color: #f3ca20;
+}
+.inner:hover{
+    background-color: cornsilk;
+    cursor:pointer;
+}
+#action-message{
+    text-align: center;
+    font-size: 20px;
+    color: #f3ca20;
+    margin: 70px;
+}
+.green-glow{
+    border: 5px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+.red-glow{
+    border: 5px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+.gray-glow{
+    border: 5px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+@media only screen and (max-width: 768px)
+{
+    header{
+    background-color: #f3ca20;
+    padding: 20px;
+}
+header > h1{
+    color: #25272E;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.round{
+    color: #f3ca20;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.scoreboard{
+    border: 5px solid #f3ca20;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 15px;
+    color: #f3ca20;
+    width: 250px;
+    margin: 20px auto;
+    position: relative;
+}
+.badge{
+    background-color: #f3ca20;
+    color: #000000;
+    font-size: 20px;
+    padding: 2px 5px;
+}
+#user-label{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+#computer-label{
+    position: absolute;
+    top: 20px;
+    right: -20px;
+}
+.reset{
+    background-color: #f3ca20;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+    width: 125px;
+    border-style: none;
+    border-radius: 5px;
+}
+.result{
+    color: #f3ca20;
+    height: 100px;
+    padding: 20px 25px;
+}
+.result > p{
+    font-size: 20px;
+    text-align: center;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    font-size: 25px;
+    margin: 18px;
+    border: 5px solid #f3ca20;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.inner > p{
+    font-size: 15px;
+    margin: 15px auto;
+    color: #f3ca20;
+}
+#action-message{
+    text-align: center;
+    font-size: 18px;
+    color: #f3ca20;
+    margin: 50px;
+}
+}
+
+@media only screen and (min-width: 1024px)
+{
+    header{
+    background-color: #f3ca20;
+    padding: 30px;
+}
+header > h1{
+    color: #25272E;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+.round{
+    color: #f3ca20;
+    font-size: 30px;
+    margin-top: 15px;
+    }
+.scoreboard{
+    border: 5px solid #f3ca20;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+    padding: 15px 25px;
+    color: #f3ca20;
+    width: 300px;
+    margin: 25px auto;
+    position: relative;
+}
+.badge{
+    background-color: #f3ca20;
+    color: #000000;
+    font-size: 25px;
+    padding: 2px 5px;
+}
+#user-label{
+    position: absolute;
+    top: 35px;
+    left: -30px;
+}
+#computer-label{
+    position: absolute;
+    top: 35px;
+    right: -30px;
+}
+.reset{
+    background-color: #f3ca20;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 25px;
+    width: 250px;
+    border-style: none;
+    border-radius: 5px;
+}
+.result{
+    color: #f3ca20;
+    padding: 25px 30px;
+}
+.result > p{
+    font-size: 35px;
+    text-align: center;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inner{
+    height: 225px;
+    width: 225px;
+    padding: 25px;
+    font-size: 55px;
+    margin: 25px;
+    border: 5px solid #f3ca20;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.inner > p{
+    font-size: 30px;
+    margin: 50px auto;
+    color: #f3ca20;
+}
+#action-message{
+    text-align: center;
+    font-size: 35px;
+    color: #f3ca20;
+    margin: 50px;
+}
+}
