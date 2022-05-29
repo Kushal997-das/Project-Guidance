@@ -1,0 +1,52 @@
+
+#### You can also specify the url in the with -u or --url argument directly
+```sh
+$ python download_reloaded.py -u https://www.jiosaavn.com/album/tum-hi-aana-from-marjaavaan/j9bfphC2728_
+```
+
+#### If you have more than 1 url and no time to wait use the -f or --file argument to specify the absolute path to txt file with urls pasted line by line
+```sh
+$ python download_reloaded.py -f /home/user/Desktop/urls.txt
+```
+
+#### Choose output folder path with the -o or --outFolder argument (The output path must be absolute path and not relative)
+```
+$ python download_reloaded.py -o /home/user/Desktop/
+```
+
+#### Download All Albums of an Artist
+```sh
+$ python download_reloaded.py -album
+$ Paste the URL of Artist Profile: https://www.jiosaavn.com/artist/babbal-rai-albums/pRd5ZTGrLv8_
+```   
+
+#### Download All Songs of an Artist
+```sh
+$ python download_reloaded.py -song
+$ Paste the URL of Artist Profile: https://www.jiosaavn.com/artist/babbal-rai-albums/pRd5ZTGrLv8_
+```
+
+#### Download All Playlist from your profile
+```sh
+$ python download_reloaded.py -user -p
+$ Enter your Email: your_saavn_email
+$ Enter your Password: your_saavn_password
+```
+
+#### You can also specify the username and password in the arguments using -e or --email, -pw or --password
+```sh
+$ python download_reloaded.py -user -e YOUR_EMAIL -pw YOUR_PASSWORD -p
+```
+#### Download All Albums from your profile
+```sh
+$ python download_reloaded.py -user -a
+$ Enter your Email: your_saavn_email
+$ Enter your Password: your_saavn_password
+```
+
+#### Create new account
+```sh
+$ python download_reloaded.py -user -create
+$ Enter the email: email_you_want_to_use
+$ Enter the password: password_you_want_to_use
+```
