@@ -1,0 +1,62 @@
+{% extends 'core/base.html' %}
+
+{% block title %}{{ room.name }} | {% endblock %}
+
+{% block content %}
+<div class="p-10 lg:p-20 text-center">
+    <h1 class="text-3xl lg:text-6xl text-white">{{ room.name }}</h1>
+</div>
+
+<div class="lg:w-2/4 mx-4 lg:mx-auto p-4 bg-white rounded-xl">
+    <div class="chat-messages space-y-3" id="chat-messages">
+        <div class="p-4 bg-gray-200 rounded-xl">
+            <p class="font-semibold">Username</p>
+            <p>The message lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="p-4 bg-gray-200 rounded-xl">
+            <p class="font-semibold">Username</p>
+            <p>The message lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="p-4 bg-gray-200 rounded-xl">
+            <p class="font-semibold">Username</p>
+            <p>The message lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</div>
+
+<div class="lg:w-2/4 mt-6 mx-4 lg:mx-auto p-4 bg-white rounded-xl">
+    <form method="post" action="." class="flex">
+        <input type="text" name="content" class="flex-1 mr-3" placeholder="Your message..." id="chat-message-input">
+
+        <button 
+            class="px-5 py-3 rounded-xl text-white bg-teal-600 hover:bg-teal-700"
+            id="chat-message-submit"
+        >Submit</button>
+    </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ room.slug|json_script:"json-roomname" }}
+
+<script>
+    const roomName = JSON.parse(document.getElementById('json-roomname').textContent);
+    const chatSocket = new WebSocket(
+        'ws://'
+        + window.location.host
+        + '/ws/'
+        + roomName
+        + '/'
+    );
+
+    chatSocket.onmessage = function(e) {
+        console.log('onmessage')
+    }
+
+    chatSocket.onclose = function(e) {
+        console.log('onclose')
+    }
+</script>
+{% endblock %}
