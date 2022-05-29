@@ -21,8 +21,6 @@ function validateForm() {var y = document.forms["form"]["name"].value;	var lette
 var dotpos = x.lastIndexOf(".");if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {alert("Not a valid e-mail address.");return false;}var a = document.forms["form"]["password"].value;if(a == null || a == ""){alert("Password must be filled out");return false;}if(a.length<5 || a.length>25){alert("Passwords must be 5 to 25 characters long.");return false;}
 var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords must match.");return false;}}
 </script>
-
-
 </head>
 
 <body>
