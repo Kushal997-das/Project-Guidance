@@ -9,11 +9,14 @@ Sign-in and Sign-up for the Student. Feedback Page.
 
 # Demo :
 
+https://user-images.githubusercontent.com/72241207/170858240-eae69f50-0f4f-412b-94ea-918da26058ce.mp4
 
 ##  Installation Steps
 1. Download zip file and Unzip file on your local server.
 2. Put this file inside "c:/xampp/htdocs/" .
 3. Database Configuration
+- Goto XAMPP and Make A Database Name `project` And go to the database folder and import that in your Database.
+
 ### Open phpmyadmin
  Create Database named project.
 - Import database project.sql from downloaded folder(inside database)
@@ -25,3 +28,5 @@ Sign-in and Sign-up for the Student. Feedback Page.
 
 Clone Project :
 ``git clone https://github.com/DragonUncaged/Project-Guidance.git ``
+
+``cd Project-Guidance/Web Development/Advanced/Examination Management System``
