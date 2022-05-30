@@ -13,6 +13,7 @@
   - [BMI Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/BMI%20Calculator)<br>
   - [Simple Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/Simple%20Calculator)<br>
   - [TicTacToe Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/TicTacToe%20Game)<br>
+  - [Voice to text](https://github.com/utkarsh006/Project-Guidance/tree/VoiceApp/Mobile%20Applications/Basic/Voicetotext)<br>
  
 
 - <h1>Intermediate 🚀</h1>

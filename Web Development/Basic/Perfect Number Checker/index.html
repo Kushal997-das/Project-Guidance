@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Number Checker</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container"> 
+        <p id="title">Perfect Number Checker</p>
+        <p id="Perfect">If the Sum of all the Factors of a number comes out to be the number itself then the number is said to be a Perfect Number.</p>
+        
+            <input type="text" id="userinput">
+            <label for="userinput">Enter a Number :</label>
+
+            <input type="text" id="result" readonly value=" ">
+            <label for="result">Result :</label>
+
+            <button onclick="getInputValue(this)">Submit</button>
+            <button id="reset" onclick="reset(this)">Reset</button>
+    </div>
+
+
+</body>
+<script src="script/script.js"></script>
+
+</html>

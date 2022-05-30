@@ -1,0 +1,152 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    background-color: #e8f0f7;
+    scroll-behavior:smooth;
+}
+.def{
+    background-color: #dae2ed;
+    padding-left:4%;
+    padding-right:4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.navbar .navbar-brand{
+    font-size: larger;
+    font-weight: 900;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color:black;
+    font-size: large;
+    font-weight: 800;
+}
+#navbarSupportedContent > ul > li > a:hover{
+    color:#6bd3ff;
+    border-bottom: black 2px solid;
+    border-radius: 4%;
+}
+
+#navbarSupportedContent > form > button{
+    background-color:#6bd3ff;
+    color:black;
+    border-radius: 10%;
+}
+
+#navbarSupportedContent > form > button:hover{
+    color:#6bd3ff;
+    background-color:black;
+    border-radius: 10%;
+}
+
+.mid{
+    width:100%;
+    height:100vh;
+    padding:0;
+    margin:0;
+}
+body > header > div.mid.d-sm-none.d-md-block > img{
+    width:100%;
+    height:90%;
+    overflow: hidden;
+    display: flex;
+    opacity: 0.72;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position:absolute;
+}
+
+.over{
+    text-align: center;
+    padding-top: 15%;
+    position: relative;
+}
+
+h2{
+    font-weight: 400;
+}
+
+.hello
+{
+    background-color:#6bd3ff;
+    color:black;
+    border-radius: 5%;
+}
+
+.hello:hover{
+    color:#6bd3ff;
+    background-color:black;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:#6bd3ff;
+}
+.newButton{
+    background-color:#6bd3ff;
+    color:black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+.newButton:hover{
+    color:#6bd3ff;
+    background-color:black;
+}
+.heading{
+    color:#6bd3ff;
+    font-weight: 900;
+    font-size: medium;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.heading1{
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+.customers{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.name{
+    color:white;
+    font-weight: 900;
+    font-size: medium;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.review{
+    background-color: black;
+    border-radius: 10%;
+    color:#6bd3ff;
+    margin-top:4%;
+}
+
+.review:hover{
+    color: black;
+    border-radius: 10%;
+    background-color:#6bd3ff;
+}
+
+.footer{
+    background-color: black;
+    color:#6bd3ff;
+    margin:0;
+}

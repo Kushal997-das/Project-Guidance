@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Management System</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS Files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="port" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.js"></script>
+</head>
+<body data-spy="scroll">
+    <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light def fixed-top">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="index.html"><i class="fa fa-plane" aria-hidden="true"></i>Wanderlust</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="#aboutus">About us</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="#services">Our services</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="#customers">Our customers</a>
+              </li>
+              </ul>
+              <form class="d-flex">
+                <button class="btn" type="submit">Sign in</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <!-- End of Navbar -->
+
+      <div class="mid d-sm-none d-md-block">
+		  <img src='travel1.jpg' class="img-fluid defined" />
+          <div class="over">
+              <h2 class="text-dark display-2 typewrite" data-period=2000 data-type='["Travel Made Easy", "Plan your vacation","At your own comfort" ]'></h2>
+              <p>Ensuring the best services forever and always.</p>
+              <button class="btn hello" type="submit"><a href="#services">Get Started</a></button>
+          </div>
+      </div>
+      <!-- End of Video Part -->
+
+      <!-- About Us Section -->
+      <div class="container pt-5 py-5" id="aboutus">
+          <div class="row text-sm-center text-md-start">
+              <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-lg-5 py-5">
+                <h5 class="heading">PREMIUM TRAVEL WEBSITE</h5>
+                <h2 class="display-4 heading1">Why Choose Us?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusantium voluptatibus 
+                  est ducimus incidunt fuga nobis et ad, nihil sapiente animi molestias laudantium officia? Sapiente ex quam veniam nisi quasi.</p>
+                  <button class="btn newButton" type="submit"><a href="#services">Learn More</a></button>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 pt-5 d-sm-none d-md-block">
+                <img src="t1.svg" class="img-fluid"/>
+              </div>
+          </div>
+      </div>
+      <!-- End of About Us-->
+      <!-- Our Services -->
+      <div class="container py-5" id="services">
+        <div class="row text-sm-center text-md-start">
+          <div class="col-sm-12 col-md-6 col-lg-6 py-5 d-sm-none d-md-block">
+            <img src="t2.svg" class="img-fluid"/>
+          </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 mx-auto my-lg-5">
+              <h5 class="heading">Our Services</h5>
+              <h2 class="display-4 heading1">The best service providers</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusantium voluptatibus 
+                est ducimus incidunt fuga nobis et ad, nihil sapiente animi molestias laudantium officia? Sapiente ex quam veniam nisi quasi.</p>
+                <button class="btn newButton" type="submit"><a href="#">Try our services</a></button>
+              </div>
+        </div>
+        </div>
+		<div class="col sm-12 text-center py-3">
+			<h3 class='py-3'> ADD NEW ENTERIES</h3>
+			<button type='button' class="newButton pt-1"><i class="fa fa-plus" aria-hidden="true"></i><a href='insert.php'>NEW BUS</a></button>
+			<button type='button' class="newButton pt-1"><i class="fa fa-plus" aria-hidden="true"></i> <a href='inserta.php'>NEW AGENT</a></button>
+			<button type='button' class="newButton pt-1"><i class="fa fa-plus" aria-hidden="true"></i> <a href='insertp.php'>NEW PASSENGER</a> </button>
+			<button type='button' class="newButton pt-1"><i class="fa fa-plus" aria-hidden="true"></i> <a href='insertg.php'>NEW GOVERNMENT DEPARTMENT</a></button>
+			<button type='button' class="newButton pt-1"><i class="fa fa-plus" aria-hidden="true"></i> <a href='inserto.php'>NEW OWNER</a></button>
+		</div>
+
+    <div class="col sm-12 text-center py-3">
+			<h3 class='py-3'>VIEW/UPDATE ENTERIES</h3>
+			<button type='button' class="newButton pt-1"><i class="fa fa-eye" aria-hidden="true"></i> <a href='display.php'>BUSES</a></button>
+			<button type='button' class="newButton pt-1"><i class="fa fa-eye" aria-hidden="true"></i> <a href='displaya.php'>AGENTS</a> </button>
+			<button type='button' class="newButton pt-1"><i class="fa fa-eye" aria-hidden="true"></i>  <a href='displayp.php'>PASSENGERS</a></button>
+			<button type='button' class="newButton pt-1"><i class="fa fa-eye" aria-hidden="true"></i>  <a href='displayg.php'>GOVERNMENT DEPARTMENT</a></button>
+			<button type='button' class="newButton pt-1"><i class="fa fa-eye" aria-hidden="true"></i>  <a href='displayo.php'>OWNER</a></button>
+		</div>
+
+    <div class="col sm-12 text-center py-3">
+			<h3 class='py-3'> SPECIAL FUNCTIONS </h3>
+			<button type='button' class="newButton pt-1"><a href='count.php'>DATABASE COUNT</a></button>
+			<button type='button' class="newButton pt-1"><a href='join.php'>BUS AGENT RELATION</a> </button>
+			<button type='button' class="newButton pt-1"><a href='union.php'>GOVERNMENT BUS UNION</a></button>
+      <button type='button' class="newButton pt-1"><a href='inbuilt.php'>SHOW BUS ON ROUTES STARTING WITH LETTER A</a></button>
+		</div>
+    </div>
+	
+     <!-- End of Our Services -->
+     <!-- Our Customers -->
+     <div class="container  cont py-5" id="customers">
+		<h2 class="customers text-center">Our Customers</h2>
+		<div class="row py-5 mx-auto justify-content-center align-items-center text-center">
+		 <div class="col-sm-8 col-md-3 review py-5 mx-1">
+			<img src="female.svg" class="img-fluid" width="150"/>
+			<h4 class="name pt-3">Naina</h4>
+			<h3 class="blockquote">Lorem ipsum dolor sit, amet consectetur adipisicing</h3>
+		  </div>
+		  <div class="col-sm-8 col-md-3 review py-5 mx-1">
+		   <img src="male.svg" class="img-fluid" width="150"/>
+		   <h4 class="name pt-3">Rohit</h4>
+		   <h3 class="blockquote">Lorem ipsum dolor sit, amet consectetur adipisicing</h3>
+		 </div>
+		  <div class="col-sm-8 col-md-3 review py-5 mx-1">
+			<img src="male.svg" class="img-fluid" width="150"/>
+			<h4 class="name pt-3">Virat</h4>
+			<h3 class="blockquote">Lorem ipsum dolor sit, amet consectetur adipisicing</h3>
+		  </div>
+	  </div>
+	  </div>
+	  </header>
+    <!-- Bootstrap JS Files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+<!-- <body background="red-yellow-lines-wave-shape-beautiful-background-web-texture-use-website-ui-ux-designs-best-mobile-application-145059904.jpg">
+	<center>
+	<h1 align="center">
+		<b>TRAVEL MANAGEMENT SYSTEM</b>
+	</h1>
+	<br>
+	<h1 align="center">
+		<b><i class="fa fa-plus" aria-hidden="true"></i>  NEW ENTRIES INTO THE SYSTEM</b>
+	</h1>
+	<br>
+	<tr>
+	<td><a href="insert.php"><input type="submit" name="<i class="fa fa-plus" aria-hidden="true"></i> bus" value="(+)<i class="fa fa-plus" aria-hidden="true"></i>  NEW BUS"></a></td>
+	<td><a href="inserta.php"><input type="submit" name="<i class="fa fa-plus" aria-hidden="true"></i> agent" value="(+)<i class="fa fa-plus" aria-hidden="true"></i>  NEW AGENT"></a></td>
+	<td><a href="inserto.php"><input type="submit" name="<i class="fa fa-plus" aria-hidden="true"></i> owner" value="(+)<i class="fa fa-plus" aria-hidden="true"></i>  NEW OWNER"></a></td>
+	<td><a href="insertg.php"><input type="submit" name="<i class="fa fa-plus" aria-hidden="true"></i> government" value="(+)<i class="fa fa-plus" aria-hidden="true"></i>  NEW GOV DEPARTMENT"></a></td>
+	<td><a href="insertp.php"><input type="submit" name="<i class="fa fa-plus" aria-hidden="true"></i> passenger" value="(+)<i class="fa fa-plus" aria-hidden="true"></i>  NEW PASSENGER"></a><br></td>
+    </tr>
+    <h1 align="center">
+		<b>UPDATE OR  EXISTING ENTRIES IN THE SYSTEM</b>
+	</h1>
+	<br>
+    <tr>
+	<td><a href="display.php"><input type="submit" name="bus" value=" / UPDATE BUSES"></a></td>
+	<td><a href="displaya.php"><input type="submit" name="agent" value=" / UPDATE AGENTS"></a></td>
+	<td><a href="displayo.php"><input type="submit" name="owner" value=" / UPDATE OWNERS"></a></td>
+	<td><a href="displayg.php"><input type="submit" name="government" value=" / UPDATE GOV DEPTS"></a></td>
+	<td><a href="displayp.php"><input type="submit" name="passenger" value=" / UPDATE PASSENGERS"></a></td>
+	</tr>
+	<h1 align="center">
+		<b>SPECIAL FUNCTIONS</b>
+	</h1>
+	<br>
+    <tr>
+	<td><a href="count.php"><input type="submit" name="countbus" value="DATABASE COUNT"></a></td>
+	<td><a href="join.php"><input type="submit" name="agent" value="BUS AGENT RELATION"></a></td>
+	<td><a href="union.php"><input type="submit" name="owner" value="GOVERNMENT BUS UNION"></a></td>
+	<td><a href="subquery.php"><input type="submit" name="government" value="SHOW BUSES HAVING PLATE NO. MORE THAN 2000"></a></td>
+	<td><a href="inbuilt.php"><input type="submit" name="passenger" value="SHOW BUS ON ROUTES STARTING WITH LETTER A"></a></td>
+	</tr>
+</center> -->
+</html>
