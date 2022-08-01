@@ -19,7 +19,7 @@
 	"homepage": "https://github.com/piyusha2001/ChatApp#readme",
 	"dependencies": {
 		"express": "^4.17.2",
-		"moment": "^2.29.2",
+		"moment": "^2.29.4",
 		"socket.io": "^4.4.1"
 	},
 	"devDependencies": {
