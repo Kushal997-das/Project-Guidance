@@ -122,16 +122,17 @@ git push -u origin <your_branch_name>
 
 <br><br>
 
-<!-- <h1 align=center> Project Admin ❤️ </h1> 
+<h1 align=center> Project Admin ❤️ </h1> 
 
-<td align="center"><a href="https://github.com/Kushal997-das"><img src="" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4>
+<!-- <td align="center"><a href="https://github.com/Kushal997-das"><img src="" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4>
+<a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td> -->
+
+<td align="center"><a href="https://github.com/Kushal997-das"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/photo_2022-03-05_11-30-51.jpg" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4><h4 style="color:red;">  </h4>
 <a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
-
--->
 
 <h2>Engaging and Collaborating with </h2>
 <img align="center" height="80" alt="Stargazers over time" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/wJP49tZ7_400x400.png"/><h5 style="color:red;">GSSoC22</h5><br>
-
+<!--
 <h1 align=center> Project Maintainers ❤️ </h1> 
 
 <table>
@@ -147,7 +148,7 @@ git push -u origin <your_branch_name>
 
 </tr>
 </table>
-
+-->
 
 <br><br>
 ## Stargazers over time 🤗🚀
