@@ -13,7 +13,7 @@
   "devDependencies": {
     "body-parser": "^1.19.1",
     "express": "^4.17.2",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.20",
     "request": "^2.88.2"
   },
   "dependencies": {
