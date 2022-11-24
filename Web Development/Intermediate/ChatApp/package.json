@@ -20,7 +20,7 @@
 	"dependencies": {
 		"express": "^4.17.2",
 		"moment": "^2.29.4",
-		"socket.io": "^4.4.1"
+		"socket.io": "^4.5.4"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.20"
