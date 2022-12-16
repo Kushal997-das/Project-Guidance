@@ -7,6 +7,8 @@
 
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a> <br>
 
+![GitHub watchers](https://img.shields.io/github/watchers/Kushal997-das/Project-Guidance?style=social) <br>
+
 <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a> <br>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![GitHub last commit](https://img.shields.io/github/last-commit/Kushal997-das/Project-Guidance?logo=git&logoColor=white)](https://github.com/Kushal997-das/Project-Guidance/commits/master)
@@ -20,6 +22,7 @@
 [![GitHub issues closed](https://img.shields.io/github/issues-closed/Kushal997-das/Project-Guidance.svg)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Kushal997-das/Project-Guidance.svg?color=yellow)](https://github.com/Kushal997-das/Project-Guidance/pulls)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/Kushal997-das/Project-Guidance.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance/issues?q=is%3Aissue+is%3Aclosed)
+
 <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/Projects-100 +-blue.svg?color=5ac4bf"></a> <br>
 
 📌 Introduction
