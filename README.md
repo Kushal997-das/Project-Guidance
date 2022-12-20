@@ -130,12 +130,13 @@ git push -u origin <your_branch_name>
 <!-- <td align="center"><a href="https://github.com/Kushal997-das"><img src="" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4>
 <a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td> -->
 
-<td align="center"><a href="https://github.com/Kushal997-das"><img src="https://lh3.googleusercontent.com/qMfzfck9zYXCKnEKJo0QGl1lzryXO0GngGpErr78yLUqXX4KWGSrmLb5h13J60bMmUnixUFqpRdtVsSt4hdMLJFFo_9y1zjz45A3PFENrmuy73m3LEZLQMjBIaT6uk_yN-Dda30QiBs6v_jq9Wq8BQsbTE_X9yVPONkTLkW-iYaPTmuAC2thlRrcG2U-R7NUchz0pxjvX909aeQRJ5Vw2_5Vdscj7cSt03Xos307juGrodbXKxZKo35K2Qn_3dYdUrfLWiLMKd5aOQ5VQ4b6uqJdrJznCs1FpU0OOqBNA3O3d3_o7IIKB7yEqID1fTg9NmhjQ_bC8Ro3yfhyhDlJQE7q2mPtX1gZFHUat18A1ESUSBJQCiE6k9tZn0pck2u3QI5XPffV3G_z-RP4dxofu3aQcpaDCq2alNiIcUsaigEL3NFxi_2jqqOUUNrFDsLCZOoKp8FnrOawlMvU-xgpbZ8LlafbejTZ14VrNt5DjvQ0t1yZculhC7fWJJSO8AOZajX7ZmaMYlYo2t7xooPb2V8n3t0s28wy6VVyLzt_O_fCMB1xL1wkH4-YsD5rf7pMGqIqfUi3OfUKi_YlTjagVtSipz5SRK7_1slpbNgZdtgxMCifRUDH3VsK0_ODxj0hzHXrmrpmUnaBbMcScD95BHd1-uPVmDvNctVHKy79F8rR3aISqzPtX3P7mgDs5Tr2Bm1ueWoaWw3whLO7dk93qZQHQ4OPcNuTMDFQT2x6qcAhvOsMSQbf5rk99CSgvlAKeOW__iY7DyWzSlIx1XR3g-71p-FXO0gQh2tXz2ng5Um9-0JA97pUKS0-4pFKQy1nSeYDpUSGieVJDRo4rhSl-BLdqqjDXEYh3TVFU6pSeGr4fWxq0LqEoSMBXEG09DwU0KFvVv9PV2qkhsv6DApiVYHXgLKeJUZgapFdSID8ZgVhoaXZcckkw-dsiDn3-iGh-m85m0xMzPbm9-Eic5idpUkrhJ3sA3nP9KriIib8iwIdS2xLfTVrKsTmZ7u4wxJJt7fCL9g3QGq2RPfklo9QK-csZw=s200-no?authuser=0" width=150px height=150px /></a><h4>Kushal Das</h4><a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://img.icons8.com/color/512/linkedin-2--v2.png" width="32px" height="32px"></a>
+<td align="center"><a href="https://github.com/Kushal997-das"><img src="https://user-images.githubusercontent.com/61356005/208653305-10842164-36d6-4951-98f1-9bb59739f348.png" width=150px height=150px /></a><h4>Kushal Das</h4><a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://img.icons8.com/color/512/linkedin-2--v2.png" width="32px" height="32px"></a>
 <a href="https://kushaldas.hashnode.dev/"><img src="https://img.icons8.com/color/512/hashnode.png" width="32px" height="32px"></a>
 </td>
 
 <h2>Engaging and Collaborating with </h2>
-<img align="center" height="80" alt="Stargazers over time" src="https://lh3.googleusercontent.com/jLooqB8FXJ1PuRaXqCGm5gF82YeZqG37XgVucLUdJZ0B4mStFdAvcmdOvtMkA8PUzhW28Dk3ZugUWzIf1pQr0VOaRkE7EQuCihkAMWuHT2pTjnSbxokxSWiWNxqUsE81S7XNUWqTgbMwVPBlLXeb9qtp4r34BKzmcFXE7Gk-yM_GUCrKw6d_mwRnY8PYL_PeMDsBklkfPrumbqO2a1d-ZY4Fom9NSg_3qUmfDqkhkj2AXYDMH5EE6rRhCMSWAwGu_ZqNENvQXwEBlSd_WUV5waDrnVR46KVZpq8mpuXMQpCJzXoJbOZly_8rJelk2heFfZ5ZBiUlqDJobVEpBOwmfCPoB00Hs3Jm34VZqLW_2_AZHxhbuIWnQ_ZBS0ms5VITdP4wmJMk3MuuTdlt22rohHOuFDJTvOnQxfbwxcS84onVqtnSsjR1QWxGC-c6hm9AKbQBLDI1C2226ykysFRqJNFIT0Q-iLxJKBl6hrbci6fR1age8L9iQES3lLrd_czm_cdZFj3jTBSp3yWoICSIG0QDQFRHsqV995kMYqJJ16fqbKEx-oNveEa-YMZ-icFojJuAtgw5zNw963JJBJNZGYU_emqB_4lZG2gjbZmmzea5DPECLwvW_r0sMS8eUSAta9X-mDJh7K9zawsiSAehXjFNewlo7YOo9c7c00URtLPvehKFGdQ_Unjj5zET4An5GsFnxe917ucFZOuRYG670eKjKBwwZ4d5G2W2VmJ87ifWUEQs-iwCsIIzwx3pCJeBVPm5dAdkTsVTdDrYZZdVpQ2yDWmRvxZGP1Ekbv3KGclAnfsuqd2E3u2qtJW1TBhClfhpVVYJ1EHPG3BVT_TCJWtgE-2nrRn5TidA1X4b-2p_zAaZgJJwZoMnmeMAwWdoHToveFkzq3fFYl4NwdUB8CgVhSB2Bqk2FDmaa-B-O0u3FP4AuzOK91KeNhqvDrM2zwpQ2rGezKDeqfpf6ywve-Fw7-s28dims2mBTTMuICc8kH1SU-MDBqarQ-V7e2jwD_5vNEsuXaZDdle43xn9_AYVIg=s261-no?authuser=0"/><h5>GSSoC22</h5><br>
+<img align="center" height="80" alt="Engaging and Collaborating" src="https://user-images.githubusercontent.com/61356005/208653712-a0f28fe3-a5fc-4f53-ae3c-9cdfa560bb41.png")
+"/><h5>GSSoC22</h5><br>
 <!--
 <h1 align=center> Project Maintainers ❤️ </h1> 
 
@@ -178,3 +179,7 @@ git push -u origin <your_branch_name>
 </a> <br><br>
 
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+
+
+
+
