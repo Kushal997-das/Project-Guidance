@@ -21,7 +21,7 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
   
     ## **Flow** :
       - Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request.
-  <img align="center" alt="png" height='450px' width="950px" src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/official%20sructure%20tree.png" />   
+  <img align="center" alt="png" height='450px' width="950px" src="https://user-images.githubusercontent.com/61356005/208656751-f4f12ff9-78fc-4688-b7d2-899716500865.png"/>   
        
  
 ## STEP-1 : Find an issue
@@ -30,19 +30,26 @@ Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/P
   - Wait for the Issue to be assigned to you after which you can start working on it.
   
   
-> See the following image:
+- See the following images:
  
- > Fork the repository by clicking on `Fork` button:
+<strong>Fork the repository by clicking on `Fork` button 👇 </strong>
  
- ![Fork-Image](https://github.com/TawfikYasser/Project-Guidance/blob/main/Documents/Fork-Image.png)
+ 
+ ![Fork-image-new](https://user-images.githubusercontent.com/61356005/208658491-baab2333-ff58-4858-88e8-d54a0e3e05b9.jpg)
+
+ <hr>
+ <br><br>
+
   
- > Clone the repository by clicking on `Code` button:
+<strong>Clone the repository by clicking on `Code` button 👇</strong> 
  
- ![Clone-Image](https://github.com/TawfikYasser/Project-Guidance/blob/main/Documents/Clone-Image.png)
+![Clone-Link-Image](https://user-images.githubusercontent.com/61356005/208659143-c56f280b-efd1-4db8-a525-ba40ae72a04e.png)
+
+<hr>
+
+<b>"Then click on the `clipboard` icon and follow the below commands"</b>
  
- > Then click on the `clipboard` icon and follow the below commands: 
  
- ![Clone-Image-2](https://github.com/TawfikYasser/Project-Guidance/blob/main/Documents/Clone-Link-Image.png)
  
   
 ## Step 2 : Fork the Project  
