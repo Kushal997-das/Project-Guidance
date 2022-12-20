@@ -2,7 +2,7 @@
 
 ### The Ultimate resources for beginner to advance level projects all place 😎 <br>
 
-<img align="center" alt="GIF"  width="602px" height='500px' src="/Documents/Project Guidance (2).gif" />
+<img align="center" alt="Project-Guidance-official-logo"  width="602px" height='500px' src="https://user-images.githubusercontent.com/61356005/208656065-d81784e0-c739-49da-99f9-e9a5f2781cb5.gif"/>
 
 
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a> <br>
@@ -136,10 +136,13 @@ git push -u origin <your_branch_name>
 
 <h2>Engaging and Collaborating with </h2>
 <img align="center" height="80" alt="Engaging and Collaborating" src="https://user-images.githubusercontent.com/61356005/208653712-a0f28fe3-a5fc-4f53-ae3c-9cdfa560bb41.png")
-"/><h5>GSSoC22</h5><br>
+"/><h5>GSSoC22</h5>
+<br>
+
+
+
 <!--
 <h1 align=center> Project Maintainers ❤️ </h1> 
-
 <table>
 <tr>
 <td align="center"><a href="https://github.com/Kushal997-das"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/photo_2022-03-05_11-30-51.jpg" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4><h4 style="color:red;">Project-Admin</h4>
@@ -150,13 +153,12 @@ git push -u origin <your_branch_name>
 
 <td align="center"><a href="https://github.com/prakhar3062"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/PP.png" width=150px height=150px /></a></br> <h4 style="color:red;">PRAKHAR MISHRA </h4><h4 style="color:red;">Mentor</h4>
 <a href="https://www.linkedin.com/in/prakhar-mishra-39880520a/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
-
 </tr>
 </table>
 -->
 
-<br>
 
+<br>
 ## Stargazers over time 🤗🚀
 
 <img align="center" alt="Stargazers over time" src="https://starchart.cc/Kushal997-das/Project-Guidance.svg?raw=true&color=green" /><br><br>
