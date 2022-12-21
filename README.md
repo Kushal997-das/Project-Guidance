@@ -27,10 +27,9 @@
 
 📌 Introduction
 ------------------
-**Project-Guidance** Contains amazing projects written in multiple programming languages. Here you can easily find beginner to advance level projects.
-The main reason behind creating this repository is so that people can find their projects all at one place with the source code. Most of the programmer (beginner 🔰) are 
-unable to find the project so we took the initiative to help them . Consider this repository as your personal space to find or add any new project to this repository .
+**Project-Guidance** Contains amazing projects written in multiple programming languages. Here you can easily find beginner to advanced level projects. The main reason behind creating this repository is so that people can find their projects all at one place with the source code. Most of the programmers (beginners 🔰 ) are unable to find the project so we took the initiative to help them. Consider this repository as your personal space to find or add any new project to this repository .
 Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions. 🌟🏆
+
 
 
 Domain Names 🚀
