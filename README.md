@@ -134,12 +134,19 @@ git push -u origin <your_branch_name>
 </td>
 
 <h2>Engaging and Collaborating with </h2>
-<img align="center" height="80" alt="Engaging and Collaborating" src="https://user-images.githubusercontent.com/61356005/208653712-a0f28fe3-a5fc-4f53-ae3c-9cdfa560bb41.png")
-"/><h5>GSSoC22</h5>
-<br>
+
+<table>
+<tr>
+<td align="center"> <img height="80" alt="GSSOC" src="https://user-images.githubusercontent.com/61356005/208653712-a0f28fe3-a5fc-4f53-ae3c-9cdfa560bb41.png" /> </td>
+<td align="center"> <img align="center" height="85" width="85" alt="Hacktoberfest_icon" src="https://user-images.githubusercontent.com/61356005/208831424-aec2774d-f3a9-4aed-8399-9a85802e1650.svg" /> </td> 
+
+</tr>
+</table>
 
 
 
+ 
+ 
 <!--
 <h1 align=center> Project Maintainers ❤️ </h1> 
 <table>
@@ -158,6 +165,7 @@ git push -u origin <your_branch_name>
 
 
 <br>
+
 ## Stargazers over time 🤗🚀
 
 <img align="center" alt="Stargazers over time" src="https://starchart.cc/Kushal997-das/Project-Guidance.svg?raw=true&color=green" /><br><br>
