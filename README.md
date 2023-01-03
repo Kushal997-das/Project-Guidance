@@ -138,7 +138,9 @@ git push -u origin <your_branch_name>
 <table>
 <tr>
 <td align="center"> <img height="80" alt="GSSOC" src="https://user-images.githubusercontent.com/61356005/208653712-a0f28fe3-a5fc-4f53-ae3c-9cdfa560bb41.png" /> </td>
-<td align="center"> <img align="center" height="85" width="85" alt="Hacktoberfest_icon" src="https://user-images.githubusercontent.com/61356005/208831424-aec2774d-f3a9-4aed-8399-9a85802e1650.svg" /> </td> 
+<td align="center"> <img align="center" height="85" width="85" alt="Hacktoberfest_icon" src="https://user-images.githubusercontent.com/61356005/208831424-aec2774d-f3a9-4aed-8399-9a85802e1650.svg" />  </td> 
+<td align="center"> <img align="center" height="85" width="85" alt= "SOWC3.0" src="https://user-images.githubusercontent.com/61356005/210384287-49e5ceab-71a6-410b-89a0-ee9ba553bc1e.png" /> </td>
+
 
 </tr>
 </table>
