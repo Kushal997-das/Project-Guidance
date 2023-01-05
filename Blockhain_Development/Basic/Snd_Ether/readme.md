@@ -1,0 +1,1 @@
+This is a basic project wherein ether is being transfered into the the smart contract, we may use this ETH for further applications in the execution of the smart contract 
