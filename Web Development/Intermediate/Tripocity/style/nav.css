@@ -1,0 +1,25 @@
+ 
+html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+background-color:aliceblue;
+font-family:'Nunito',sans-serif;
+}
+ 
+.login_signup{
+    font-weight: 500;
+    width: 150px;
+    height: 37px;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+.p-3{
+
+    background-color:blanchedalmond ;
+}
+   
+ 
+   

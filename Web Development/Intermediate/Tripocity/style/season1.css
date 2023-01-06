@@ -1,0 +1,87 @@
+html{ 
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(174, 253, 241);
+}
+.login_signup{
+    font-weight: 500;
+    width: 150px;
+    height: 37px;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+.p-3{
+
+    background-color:blanchedalmond ;
+}
+   
+h1{ display: flex;
+    justify-content: flex-start;    
+    border-bottom: 2px solid black;
+    color: #44040b;
+    text-transform: uppercase;
+    font-family: 'eb_garamondsemibold';
+    font-weight: 600;
+    font-size: 35px; 
+    text-shadow: #44040b;
+}
+h2 {  
+    text-align: center;
+    margin-top: 3px;
+    border-bottom: 4px solid black;
+    margin-bottom: 60px;
+    color: #44040b;
+    text-transform: uppercase;
+letter-spacing: 6px;
+font-family: 'eb_garamondsemibold';
+font-weight: bold;
+font-size: 35px;
+padding-top: 2px; text-shadow: #44040b;
+}
+h5{
+    font-display: center;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 40%;
+}
+/* .carouselcarousel-darkslideposition-relative{
+    width: 100px;
+    height: 100px;
+} */
+
+.clearfix{
+
+    width: 100%;
+   padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* image hover */
+.clearfix .card{padding: 25px;
+    background-color:rgb(42, 45, 71);
+
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+   transition: 1s;
+   overflow: hidden;
+}
+.card image{
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+
+}
+.card-body{
+    background-color: gray;
+
+}
+.card:hover{
+  transform: scale(1.1);
+z-index: 2;
+}
+/* image hover */

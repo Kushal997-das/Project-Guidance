@@ -1,0 +1,461 @@
+html{
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Jost', sans-serif;
+}
+
+body{
+    background: aliceblue; 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+ 
+ 
+.navbar{
+	background: TRA;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	margin-top: 5px;
+	
+}
+
+.navbar .nav_right ul li.nr_li{
+    line-height: inline;
+	margin-left: 25px;
+	margin-right: 70%;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+ 
+}
+
+ 
+
+.navbar .nav_right ul li img{
+	width: 35px;
+	vertical-align: middle;
+}
+
+.navbar .dd_menu {
+    position: absolute;
+    right: 25px;
+    top: 47px;
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.25);
+    display: none;
+}
+
+ 
+
+.navbar .dd_menu .dd_left li{
+	color: #fff;
+    text-overflow: none;
+}
+
+.navbar .dd_menu .dd_right{
+    text-align: center;
+	padding: 15px 20px;
+}
+
+.navbar .dd_menu li{
+	margin-bottom: 10px;
+	color: #868686;
+}
+
+.navbar .dd_menu:before{
+	content: "";
+	position: absolute;
+	top: -20px;
+	right: 30px;
+	border: 10px solid;
+	border-color: transparent transparent #fff transparent;
+}
+
+.navbar .dd_main.active .dd_menu{
+	display: flex;
+}
+.p-3{
+   
+    background-color: blanchedalmond;
+  
+}
+
+
+
+
+
+
+
+
+.main{
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(135,206,250,0.4);
+    top: 0;
+    width: 100vw;
+    height: 8vh;
+    max-width: 1550px;
+  }
+  .hero .hero_container{
+    background: rgba(0, 0, 0,1) url("https://th.bing.com/th/id/R.376011a8b4e3fdda2088fcd3b34093ff?rik=92IIfz1QRhxlqg&riu=http%3a%2f%2fstatic6.businessinsider.com%2fimage%2f5613e1589dd7cc15008bfa0a%2f15-photos-that-will-make-you-want-to-travel-to-indonesia.jpg&ehk=xc1ZGIMrL5uJhSWe6sTj%2b3PCiL6JrxlfloCnZmBFYyk%3d&risl=&pid=ImgRaw&r=0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    background-position-x: 100%;
+}
+.main_form{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_form form{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_content{
+    width:40%;
+    height:450px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form_content .search_content{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.form_content .search_content .search_box{
+    width: 70%;
+    height: 37px;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+.form_content .search_content .search_btn{
+    width:100px;
+    height:37px;
+    border:2px solid grey;
+    border-radius: 20px;
+}
+.form_content .or_btn{
+    margin-top:20px;
+}
+.form_content .search_btn_season{
+    width: 150px;
+    height: 37px;
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color:white;
+    color:purple;
+}
+.login_signup{
+    width: 150px;
+    height: 37px;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+.col-md-6 .row{
+    height: 500px;
+}
+.blog-footer .text-center{
+    -ms-flex-item-align: start;
+    font-weight: 500;
+    font-style: italic;
+    background-color: cornflowerblue;
+}
+ h3{
+     font-style: italic;
+     font-weight: 600;
+     color: darkred;
+     font-family: Arial, Helvetica, sans-serif;
+     
+
+ }
+  
+ .contact.card.text-center{
+     border-color: aliceblue;
+     border-style: hidden;
+ }
+ .Heading h3{ 
+        text-align: center;
+        position: relative;
+        border-bottom: 2px solid #000;
+        top: 17px;
+    }
+ .container{
+     margin-top: 30px;
+     margin-left: 1cm;
+     overflow: hidden;
+     
+ }
+ .container.row{
+    
+    margin-left: 0%;
+ }
+ .container-fluid.content.Contentleft{
+background-color: #000;
+     
+ }
+ .container-fluid .r .col .row{
+     background-color: #000;
+ }
+ .col .card{display: flex;
+    justify-content: center;
+     position: relative;
+ }
+ .card image{display: flex;
+    justify-content: center;
+     position: absolute;
+
+ }
+
+ .readme {
+    color: #fff;
+    margin: 0 auto;
+    width: 80%; 
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+
+
+ 
+
+  .covidSection_heading { margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    
+    line-height: 30px !important;
+    font-weight: bold !important;
+    margin: 0 0 8px !important;
+    color: #3e3e3e !important;
+  }
+
+  .covidSection_description {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    margin: 0 0 16px !important;
+    padding: 0 !important;
+    color: #b2b2b2 !important;
+  }
+
+  .covidSection_cardList {
+    display: flex !important;
+    overflow-x: auto !important;
+    position: relative !important;
+  }
+
+  .covidCard {
+    min-width: 238px !important;
+    max-width: 238px !important;
+  }
+
+  .covidCard_img {
+    max-height: 120px !important;
+    width: 100% !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+    margin: 0 0 16px !important;
+  }
+
+  .covidCard_img img {
+    padding: 0 !important;
+  }
+
+  .covidCard_title {
+    font-size: 14px !important;
+    line-height: 22px !important;
+    font-weight: 900 !important;
+    margin: 0 0 4px !important;
+    color: #3e3e3e !important;
+  }
+
+  .covidCard_description {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    color: #3e3e3e !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .covidCard_wrapper {
+    margin-right: 16px !important;
+  }
+
+  .covidCard_wrapper:last-child {
+    margin-right: 0 !important;
+  }
+
+  .covidSection.page_home {
+    margin: 0 auto !important;
+  }
+
+  .covidSection.page_PLP {
+    margin: 0 auto !important;
+  }
+
+  .covidSection.page_RLP {
+    margin: 0 -15px !important;
+    background: transparent !important;
+    padding: 0 0 24px !important;
+  }
+
+  .covidSection.page_RLP .covidWrapper_RLP {
+    background: #fff !important;
+    padding: 16px;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .covidSection.page_RLP .covidWrapper_RLP .covidSection_description {
+    color: #3e3e3e !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    font-weight: 900 !important;
+  }
+
+  .covidSection.page_RLP .covidCard_wrapper {
+    flex: 1;
+  }
+
+  .covidSection.page_RLP .covidCard_wrapper .covidCard {
+    min-width: 100% !important;
+  }
+
+  .covidSection.page_RLP .covidCard_wrapper .covidCard .covidCard_img {
+    max-height: 116px !important;
+  }
+
+  .covidSection.page_DLP {
+    margin: 0 auto !important;
+  }
+
+  .covidSection.page_blogHome {
+    clear: both !important;
+  }
+
+  .covidSection.page_blogDetail {
+    margin-left: -4px !important;
+    margin-right: -4px !important;
+    padding: 24px 0 24px !important;
+    border-top: 1px solid #efefef !important;
+    border-bottom: 1px solid #efefef !important;
+    clear: both !important;
+  }
+
+  .covidSection.page_blogDetail .covidSection_heading,
+  .covidSection.page_blogDetail .covidSection_description {
+    padding: 0 24px !important;
+  }
+
+  covidSection.page_blogDetail .covidCard_wrapper:first-child {
+    margin-left: 24px !important;
+  }
+
+  .covidSection.page_blogDetail .covidCard_wrapper {
+    margin-right: 0 !important;
+    padding-right: 16px !important;
+  }
+
+  .covidSection.page_blogDetail .covidCard_wrapper:first-child {
+    margin-left: 24px !important;
+  }
+
+  .covidSection.page_blogHome .covidCard_wrapper {
+    flex: 1;
+  }
+
+  .covidSection.page_blogHome .covidCard_wrapper .covidCard {
+    min-width: 100% !important;
+  }
+
+  .covidSection .covidNav_enable {
+    padding-bottom: 0 !important;
+    overflow: hidden;
+  }
+
+  .covidSection .covidNav_enable .covidSection_cardList {
+    margin-bottom: -16px !important;
+  }
+
+  .covidSection .covidSlideNavWrapper {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    -webkit-transform: translateY(-50%) !important;
+    -moz-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    height: 32px !important;
+  }
+
+  .covidSection .covidSlideNavWrapper img.covidSlideNav_btn {
+    padding: 0 !important;
+    cursor: pointer !important;
+    right: -16px !important;
+    height: 32px !important;
+    width: 32px !important;
+    position: absolute !important;
+  }
+
+  .covidSection .covidSlideNavWrapper img.covidSlideNav_btn.covidSlideNav_Left {
+    left: -16px !important;
+    right: auto !important;
+  }
+
+  .covidSection .covidNav_enable .covidSection_cardList::-webkit-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: none;
+  }
