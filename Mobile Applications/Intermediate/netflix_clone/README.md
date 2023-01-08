@@ -1,16 +1,9 @@
-# netflix_clone
+# Netflix Clone
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p>
+<img src = "screenshots/img (1).jpg" height=500 style="margin: 0px 10px 0px 10px;">
+<img src = "screenshots/img (2).jpg" height=500 style="margin: 0px 10px 0px 10px;">
+<img src = "screenshots/img (3).jpg" height=500 style="margin: 0px 10px 0px 10px;">
+<img src = "screenshots/img (4).jpg" height=500 style="margin: 0px 10px 0px 10px;">
+<img src = "screenshots/img (5).jpg" height=500 style="margin: 0px 10px 0px 10px;">
+</p>
