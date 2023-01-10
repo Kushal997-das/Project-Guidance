@@ -28,6 +28,7 @@
     - [ Youtube Video Downloader ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Youtube-Video-Downloader)<br>
     - [ Graph Plotter ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/graphplotter)<br>
     - [ Poke Book ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/poke_book)<br>   
+    - [ Netflix Clone ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/netflix_clone)<br>   
     
 
 - <h1>Advanced 🚀 </h1>
