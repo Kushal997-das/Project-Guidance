@@ -1,0 +1,112 @@
+@keyframes bean-eater-inner-1 {
+
+    0%,
+    to {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes bean-eater-inner-2 {
+
+    0%,
+    to {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(225deg);
+    }
+}
+
+@keyframes bean-eater-inner-3 {
+    0% {
+        transform: translate(190px, 0);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    to {
+        transform: translate(70px, 0);
+        opacity: 1;
+    }
+}
+
+.bean-eater-inner>div:nth-child(2) {
+    transform: translate(-15px, 0);
+}
+
+.bean-eater-inner>div:nth-child(2) div {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 120px;
+    height: 60px;
+    border-radius: 120px 120px 0 0;
+    background: #f8b26a;
+    animation: 1s linear infinite bean-eater-inner-1;
+    transform-origin: 60px 60px;
+}
+
+.bean-eater-inner>div:nth-child(2) div:nth-child(2) {
+    animation: 1s linear infinite bean-eater-inner-2;
+}
+
+.bean-eater-inner>div:nth-child(2) div:nth-child(3) {
+    transform: rotate(-90deg);
+    animation: none;
+}
+
+.bean-eater-inner>div:first-child div {
+    position: absolute;
+    top: 92px;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #e15b64;
+    animation: 1s linear infinite bean-eater-inner-3;
+}
+
+.bean-eater-inner>div:first-child div:nth-child(1) {
+    animation-delay: -.67s;
+}
+
+.bean-eater-inner>div:first-child div:nth-child(2) {
+    animation-delay: -.33s;
+}
+
+.bean-eater-inner>div:first-child div:nth-child(3) {
+    animation-delay: 0s;
+}
+
+.bean-eater-outer {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -8em;
+    /*set to a negative number 1/2 of your height*/
+    margin-left: -5em;
+    /*set to a negative number 1/2 of your width*/
+}
+
+.bean-eater-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+}
+
+.bean-eater-inner div {
+    box-sizing: content-box;
+}
