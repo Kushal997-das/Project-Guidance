@@ -4,7 +4,7 @@
 
 ### <p align="center">App Screenshots</p>
 
-![Image1](screenshots/1.jpg)
+![Image1](screenshots/1.jpg | width=100)
 <!-- <p align="center">
 <img src="" width=200/>
 <img src="screenshots/2.jpg" width=200/>
