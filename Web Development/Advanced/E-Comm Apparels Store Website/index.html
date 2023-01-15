@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Store - Stylin</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+</head>
+
+<body>
+
+    <div id="navbar-div">
+        <!-- loadNavAndFooter() -->
+    </div>
+
+    <!-- Slider -->
+    <section id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner" id="carousel-items">
+            <!-- loadSliderItems() -->
+        </div>
+    </section>
+
+    <!-- Brands -->
+    <section class="container" id="brands">
+        <div class="row align-items-center">
+            <div class="col">
+                <img src="assets/brands/adidas.png" class="w-100" alt="adidas">
+            </div>
+            <div class="col">
+                <img src="assets/brands/louis philippe.png" class="w-100" alt="louis-philippe">
+            </div>
+            <div class="col">
+                <img src="assets/brands/levis.png" class="w-100" alt="levis">
+            </div>
+            <div class="col">
+                <img src="assets/brands/Calvin Klein.png" class="w-100" alt="calvin-klein">
+            </div>
+            <div class="col">
+                <img src="assets/brands/nike.png" class="w-100" alt="nike">
+            </div>
+            <div class="col">
+                <img src="assets/brands/puma.png" class="w-100" alt="puma">
+            </div>
+            <div class="col">
+                <img src="assets/brands/H&M.png" class="w-100" alt="h&m">
+            </div>
+            <div class="col">
+                <img src="assets/brands/chanel.png" class="w-100" alt="chanel">
+            </div>
+            <div class="col">
+                <img src="assets/brands/pepe.png" class="w-100" alt="pepe-jeans">
+            </div>
+            <div class="col">
+                <img src="assets/brands/flying machine.png" class="w-100" alt="flying-machine">
+            </div>
+        </div>
+    </section>
+
+    <!-- Topdeals -->
+    <section id="topdeals">
+        <div class="container">
+            <h2 class="text-light text-center">TOP DEALS</h2>
+            <div class="slider d-flex" id="slick-slider">
+                <!-- loadTopDeals() -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured -->
+    <section id="featured" class="container">
+        <h2 class="text-center">FEATURED</h2>
+        <div class="row gx-0">
+            <div class="col-lg-4 col-md-6">
+                <div class="f-box">
+                    <img src="assets/product images/tshirt.jpg" class="w-100" alt="black-tshirt">
+                    <div class="featured-details">
+                        <span class="category">Mens</span>
+                        <h4>T-shirts Collection</h4>
+                        <h6>Starting at Rs.299</h6>
+                        <a href="user/products_page/index.html">Shop Now <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="f-box">
+                    <img src="assets/product images/white shoes.png" class="w-100" alt="white-shoes">
+                    <div class="featured-details">
+                        <span class="category">Footwear</span>
+                        <h4>Shoes Collection</h4>
+                        <h6>Starting at Rs.999</h6>
+                        <a href="user/products_page/index.html">Shop Now <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="f-box">
+                    <img src="assets/product images/whitetop.png" class="w-100" alt="white-top">
+                    <div class="featured-details">
+                        <span class="category">Womens</span>
+                        <h4>Western Collection</h4>
+                        <h6>Starting at Rs.299</h6>
+                        <a href="user/products_page/index.html">Shop Now <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dealofday -->
+    <section id="dealofday">
+        <div class="container">
+            <div class="row" id="deal-of-the-day">
+                <!-- loadDealOfTheDay() -->
+            </div>
+        </div>
+    </section>
+
+    <!-- products -->
+    <section id="products" class="container">
+        <h2 class="text-center">POPULAR</h2>
+        <div class="row gx-0" id="popular-products">
+            <!-- loadPopularProducts() -->
+        </div>
+        <div class="text-center">
+            <a href="user/products_page/index.html" class="btn btn-secondary">View More</a>
+        </div>
+    </section>
+
+    <div id="footer-div">
+        <!-- loadNavAndFooter() -->
+    </div>
+
+    <script src="js/nav_footer.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/loadProducts.js"></script>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slickslider.js"></script>
+
+    <script>
+        loadproducts()
+        loadNavAndFooter("user")
+        // jquery for search box
+        $(document).ready(function () {
+            $(".search-btn").click(function () {
+                $("#search-box").slideToggle();
+                $('#searchproduct').trigger("focus");
+            });
+        });
+    </script>
+</body>
+
+</html>

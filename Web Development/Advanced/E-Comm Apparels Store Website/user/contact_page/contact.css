@@ -1,0 +1,34 @@
+.contact{
+    padding: 4rem 0;
+}
+.contact .col-md-6{
+    padding: 32px;
+}
+.contact .btn-outline-danger{
+    padding: 8px 64px;
+}
+.contact input:focus,.contact textarea:focus{
+    box-shadow: none;
+}
+.contact input::placeholder,.contact textarea::placeholder{
+    font-size: 14px;
+}
+.contact ul{
+    border-left: 2px solid crimson;
+}
+.contact li{
+    margin-top: 20px;
+}
+.contact li i{
+    margin-right: 8px;
+    padding: 8px;
+    position: relative;
+}
+@media (max-width: 425px) {
+    .contact {
+        padding: 2rem 1rem;
+    }
+    .contact .col-md-6{
+        padding: 1rem;
+    }
+}

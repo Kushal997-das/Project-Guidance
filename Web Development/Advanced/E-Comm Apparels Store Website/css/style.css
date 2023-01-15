@@ -1,0 +1,339 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Oswald:wght@400;500;600;700&display=swap');
+
+:root{
+    --head: 'Oswald', sans-serif;
+    --body: 'Open Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--body);
+}
+
+/* navbar */
+nav{
+    padding: 8px 0;
+    border-bottom: 1px solid gainsboro;
+}
+nav a.menu{
+    font-size: 20px;
+}
+nav a.menu:focus{
+    box-shadow: none;
+}
+nav form{
+    position: relative;
+}
+nav .form-control{
+    min-width: 300px;
+    border-radius: 100px;
+    padding-left: 16px;
+}
+nav .form-control:focus{
+    box-shadow: none;
+}
+nav .form-control::placeholder {
+    font-size: 14px;
+  }
+nav form .btn{
+    position: absolute;
+    right: 0;
+}
+nav .signup{
+    background-color: crimson;
+    color: white;
+}
+nav .signup:hover{
+    background-color: rgb(187, 15, 50);
+    color: white;
+}
+nav .login, nav .logout{
+    border: 1px solid crimson;
+    color: crimson;
+}
+nav .login:hover, nav .logout:hover{
+    border: 1px solid crimson;
+    color: crimson;
+}
+nav .brand span{
+    font-weight: lighter;
+}
+.nav_btns{
+    clip-path: circle(40%);
+}
+.nav_btns:hover{
+    background: gainsboro;
+}
+nav .brand, nav .offcanvas-title{
+    font-size: 16px;
+}
+
+#search-box input, #search-box .btn{
+    padding: 12px;
+    margin: 16px 0 4px 0;
+    box-shadow: none;
+}
+#search-box input{
+    border-right: none;
+}
+#search-box .btn{
+    border-color: gainsboro;
+    border-left: none;
+}
+#search-box input::placeholder{
+    font-size: 14px;
+}
+#search-box{
+    display: none;
+}
+
+
+nav.breadnav{
+    border: none;
+    background: whitesmoke;
+    padding: 16px;
+    font-size: 12px;
+}
+.breadcrumb{
+    margin: 0;
+}
+
+/* footer */
+footer{
+    background-color: #212529;
+    padding: 2rem 0 1rem 0;
+    color: white;
+}
+footer h6{
+    margin-bottom: 16px;
+    font-weight: bolder;
+}
+footer p{
+    line-height: 24px;
+}
+footer p,footer li{
+    font-size: 14px;
+    color: rgb(199, 199, 199);
+}
+footer a{
+    color: rgb(199, 199, 199);
+    line-height: 34px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer a:hover{
+    color: white;
+}
+footer .social-links a{
+    font-size: 18px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+@media (max-width: 425px) {
+    footer{
+        padding: 2rem 0.5rem;
+    }
+}
+
+/* utility classes */
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+h2.text-center{
+    font-family: var(--head);
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.category{
+    color: crimson;
+    text-transform: capitalize;
+}
+.card{
+    border: none;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+.user-rating{
+    background: crimson;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    font-size: 12px;
+}
+.offer{
+    font-weight: lighter;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn-dark{
+    padding: 0.7rem 4rem;
+}
+.btn-dark:hover{
+    color: #212529;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #212529;
+}
+
+/* slider */
+.carousel-item{
+    position: relative;
+}
+.carousel-item img{
+    height: 450px; /* height of container */
+    object-fit: cover;
+}
+.details{
+    position: absolute;
+    top: 50%; left: 15%;
+    transform: translate(0,-50%);
+}
+.carousel-item h1{
+    font-family: var(--head);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.carousel-item h4{
+    font-weight: semi-bold;
+}
+
+/* brands */
+#brands{
+    padding-top: 2rem;
+}
+#brands .col{
+    padding: 1rem;
+}
+
+/* topdeals */
+#topdeals{
+    background-color: #212529;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+#topdeals .card{
+    width: 300px;
+    margin: 1rem;
+}
+.slick-slide{
+    height: auto !important;
+}
+#topdeals h5{
+    margin: 12px 0 8px 0;
+    font-size: 16px;
+}
+#topdeals h6{
+    font-weight: bold;
+    font-size: 14px;
+}
+#topdeals .offer{
+    font-size: 12px;
+}
+
+/* featured */
+#featured{
+    padding: 2rem 0 4rem 0;
+}
+#featured .col-md-6{
+    padding: 0;
+    position: relative;
+}
+#featured .f-box{
+    padding: 1rem;
+}
+#featured .category{
+    font-size: 14px;
+}
+.featured-details{
+    position: absolute;
+    bottom: 0; right: 0;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+.featured-details h6{
+    font-size: 16px;
+}
+.featured-details a{
+    font-size: 14px;
+    transition: all .3s ease;
+}
+.featured-details a:hover{
+    letter-spacing: 1px;
+}
+
+/* dealofday */
+#dealofday{
+    padding: 2rem 0;
+    background-color: whitesmoke;
+}
+#dealofday h3{
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    position: relative;
+}
+#dealofday h3::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 150px;
+    background-color: crimson;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,150%);
+}
+#dealofday h2{
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+#dealofday h4{
+    margin-bottom: 54px;
+}
+#dealofday del{
+    font-weight: lighter;
+    margin-left: 8px;
+}
+#dealofday h5{
+    color: crimson;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+/* bestsellers */
+#products{
+    padding: 4rem 0 2rem 0;
+}
+#products h2{
+    margin: 0 16px 48px 16px;
+    font-family: var(--head);
+}
+#products .col-md-4{
+    padding: 1.5rem;
+}
+#products .card-body{
+    padding-left: 0;
+}
+#products h5{
+    font-size: 16px;
+    margin: 16px 0 8px 0;
+}
+#products h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+@media (max-width: 425px) {
+    #products .col-md-4 {
+        padding: 0.75rem;
+    }
+}
