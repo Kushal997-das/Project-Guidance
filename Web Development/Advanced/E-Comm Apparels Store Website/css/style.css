@@ -214,6 +214,10 @@ h2.text-center{
 #brands .col{
     padding: 1rem;
 }
+#brands img{
+    height: 100px;
+    object-fit: contain;
+}
 
 /* topdeals */
 #topdeals{

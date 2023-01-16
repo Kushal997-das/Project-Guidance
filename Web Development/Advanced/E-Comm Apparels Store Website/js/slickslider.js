@@ -3,6 +3,8 @@ $(document).ready(function(){
         dots: true,
         infinite: false,
         speed: 300,
+        prevArrow: null,
+        nextArrow: null,
         slidesToShow: 4,
         slidesToScroll: 4,
         responsive: [{

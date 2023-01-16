@@ -40,7 +40,7 @@
 
     <!-- Brands -->
     <section class="container" id="brands">
-        <div class="row align-items-center">
+        <div class="row brands-row">
             <div class="col">
                 <img src="assets/brands/adidas.png" class="w-100" alt="adidas">
             </div>
@@ -163,6 +163,41 @@
             $(".search-btn").click(function () {
                 $("#search-box").slideToggle();
                 $('#searchproduct').trigger("focus");
+            });
+        });
+
+        $(document).ready(function () {
+            $('.brands-row').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 8,
+                slidesToScroll: 4,
+                prevArrow: null,
+                nextArrow: null,
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 6,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 6,
+                        slidesToScroll: 4
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 4
+                    }
+                }]
             });
         });
     </script>
