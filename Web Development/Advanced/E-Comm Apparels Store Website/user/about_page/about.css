@@ -1,0 +1,35 @@
+#about{
+    padding: 4rem 0;
+}
+#about .row{
+    padding: 2rem 0;
+}
+#about h6{
+    font-weight: bold;
+    margin: 16px 0;
+}
+#about p{
+    font-weight: lighter;
+}
+#about blockquote{
+    border-left: 3px solid crimson;
+    padding-left: 16px;
+}
+#about img{
+    border-radius: 5px;
+}
+#about blockquote{
+    font-style: italic;
+}
+@media (max-width:425px) {
+    #about .row {
+        padding: 1rem;
+        padding-top: 0;
+    }
+    #about {
+        padding: 2rem 1rem;
+    }
+    #about .col-md-6{
+        padding: 0;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+
+    <div id="navbar-div">
+        <!-- loadNavAndFooter() -->
+    </div>
+
+    <div class="container" id="cart">
+        <h2 class="text-center">MY CART</h2>
+        <div class="row" id="products-in-cart">
+            <div class="col-md-8" id="main-col">
+                <div class="text-center">
+                    <h2>Your Cart is Empty :)</h2>
+                    <img src="../../assets/empty cart.svg" style="height: 150px; margin: 2rem 0;" alt="empty cart">
+                    <p>You don't have any items added to cart.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="order-summary">
+                    <div class="card">
+                        <div class="card-title">
+                            Total 0 item(s)
+                        </div>
+                        <div class="card-body">
+                            <div class="price">Total : Rs.0</div>
+                            <div class="price">Shipping : NIL</div>
+                            <div class="price">Taxes : NIL</div>
+                        </div>
+                    </div>
+                    <a class="form-control btn" href="#">Proceed to Pay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="footer-div">
+        <!-- loadNavAndFooter() -->
+    </div>
+    <script src="../../js/nav_footer.js"></script>
+
+    <script>
+        loadNavAndFooter("..")
+        // jquery for search box
+    $(document).ready(function () {
+        $(".search-btn").click(function () {
+            $("#search-box").slideToggle();
+            $('#searchproduct').trigger("focus");
+        });
+    });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+.tab{
+    padding-top: 2rem;
+}
+.tab-links{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.tab-links a{
+    color: gray;
+    margin-right: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+.tab-links a:hover{
+    color: black !important;
+    border-bottom: 1px solid crimson;
+}
+.active-tab-link{
+    color: black !important;
+    border-bottom: 1px solid crimson;
+}
+.filter .bi-filter{
+    color: black;
+    transition: all 0.3s ease;
+}
+.filter{
+    color: gray;
+    border: 1px solid gainsboro;
+    transition: all 0.3s ease;
+}
+.filter:focus{
+    box-shadow: none;
+}
+.filter:hover{
+    background: crimson;
+    border-color: crimson;
+    color: white;
+}
+.filter:hover .bi-filter{
+    color: white;
+}
+#filters{
+    display: none;
+    background: whitesmoke;
+    border-radius: 5px;
+    margin-top: 24px;
+    padding: 48px 48px 16px 48px;
+}
+#filters h6{
+    font-weight: bolder;
+}
+#filters ul{
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 31px;
+}
+#filters a{
+    color: gray;
+    transition: all 0.5s ease;
+}
+#filters a:hover{
+    letter-spacing: 1px;
+}
+#filters .col-6{
+    font-size: 14px;
+}
+  
+#all-products{
+    padding: 3rem 0;
+}
+#all-products .card-body{
+    padding-left: 0;
+}
+#all-products .col-md-4{
+    padding: 1.5rem;
+}
+#all-products h5{
+    font-size: 16px;
+    margin: 16px 0 8px 0;
+}
+#all-products h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+#all-products .btn-secondary{
+    margin-top: 24px;
+}
+.no-results-found{
+    padding: 5rem;
+}
+@media (max-width: 425px) {
+    #all-products .col-md-4 {
+        padding: 0.75rem;
+    }
+    .tab .col-md-6{
+        display: none;
+    }
+    #all-products{
+        padding-top: 1rem;
+    }
+    .tab{
+        padding-top: 1rem;
+    }
+    #filters{
+        padding: 2rem 1rem;
+    }
+}

@@ -1,0 +1,92 @@
+#cart{
+    padding: 2rem 0;
+}
+#products-in-cart{
+    padding-bottom: 4rem;
+}
+.category{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+#products-in-cart h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+#products-in-cart h6{
+    font-size: 15px;
+}
+#products-in-cart .details{
+    font-size: 14px;
+}
+.btn-min, .btn-add{
+    background: gainsboro;
+}
+.btn-min, .btn-add, .details .btn{
+    border: 1px gainsboro solid;
+    border-radius: 0;
+    margin: 16px 0;
+}
+.details .btn{
+    font-size: 12px;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.order-summary .card-title{
+    padding: 16px;
+    background: gainsboro;
+}
+.order-summary .card{
+    background: rgb(235, 235, 235);
+}
+.order-summary .price{
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.order-summary .form-control{
+    background: #dc143c;
+    color: white;
+}
+.order-summary h6{
+    font-weight: bold;
+}
+.order-summary strong{
+    font-size: 12px;
+}
+#main-col{
+    border:1px solid gainsboro;
+    padding: 32px 16px;
+}
+@media (max-width: 425px) {
+    #cart {
+        padding: 2rem 1rem;
+    }
+    #main-col{
+        border: none;
+        padding-top: 0;
+    }
+    #main-col .col-md-8{
+        padding: 0;
+        margin-top: -8px;
+    }
+    .category {
+        font-size: 9px;
+    }
+    #products-in-cart h5 {
+        font-size: 14px;
+    }
+    #products-in-cart h6 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    #products-in-cart .details {
+        font-size: 10px;
+    }
+    #products-in-cart .qty,.btn-remove{
+        font-size: 12px;
+    }
+    #products-in-cart {
+        padding-bottom: 0;
+    }
+}
