@@ -1,18 +1,15 @@
-##Internet Speed Meter
+## GRAVITY SIMULATOR
 
 ## How to use
 
-1. run `python3 age.py`
-2. See your internet speed
+1. run `python gravity.py`
+2. set values of g of planets you want to compare
 
 ## Output
-
-![spedd](https://user-images.githubusercontent.com/49890655/167545311-f2d77f5a-f431-4be5-a7b6-201138386d80.png)
-
-
-## Demo
+1. Default weight on earth is taken 80
+2. Comparing Moon and Earth<br/>
+![op](https://raw.githubusercontent.com/programmingninjas/Project-Guidance/main/Desktop%20Application/Basic/Python/Gravity/demo.png)
 
 
 
-https://user-images.githubusercontent.com/49890655/167545320-d1b5edd6-0778-4023-a602-6e7877ce406f.mp4
 
