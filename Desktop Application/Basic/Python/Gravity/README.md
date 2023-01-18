@@ -8,7 +8,7 @@
 ## Output
 1. Default weight on earth is taken 80
 2. Comparing Moon and Earth<br/>
-![op](https://raw.githubusercontent.com/programmingninjas/Project-Guidance/main/Desktop%20Application/Basic/Python/Gravity/demo.png)
+![op](https://raw.githubusercontent.com/kushal997-das/Project-Guidance/main/Desktop%20Application/Basic/Python/Gravity/demo.png)
 
 
 
