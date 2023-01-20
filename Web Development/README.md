@@ -40,51 +40,21 @@
 
 -   <h1>Intermediate 🚀</h1>
 
-    -   [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/animal%20adoption%20portal)<br>
-    
-    -   [Anime](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Anime)<br>
-    
-    -   [Authentication System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Authentication%20System)<br>
-    
-    -   [ChatApp](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/ChatApp)<br>
-    
-    -   [Customer Review Webapp](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Customer%20Review%20Webapp)<br>
-    
-    -   [Esports Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Esports%20Website)<br>
-    
-    -   [Expense Tracker App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Expense%20Tracker%20App)<br>
-    
-    -   [Hotel Reservation System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Hotel%20Reservation%20System)<br>
-    
-    -   [Naruto](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Naruto)<br>
-    
-    -   [Online Gaming Portal Template](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Online%20Gaming%20Portal%20Template)<br>
-    -   [Post Memories App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/post-memories-app)<br>
-
-    -   [Stock Market](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Stock%20Market)<br>
-    
-    -   [To-do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/To-do%20app)<br>
-    
-    -   [Tourism Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/TourismManagementSystem)<br>
-            
+| S-No. | Projects | S-No. | Projects | S-No. | Projects |
+|:--|:--|:--|:--|:--|:--|
+| 01. | [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/animal%20adoption%20portal) | 02. | [Anime](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Anime) | 03. | [Authentication System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Authentication%20System) |
+| 04. | [ChatApp](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/ChatApp) | 05. | [Customer Review Webapp](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Customer%20Review%20Webapp) | 06. | [Esports Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Esports%20Website) |
+| 07. | [Expense Tracker App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Expense%20Tracker%20App) | 08. | [Hotel Reservation System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Hotel%20Reservation%20System) | 09. | [Naruto](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Naruto) |
+| 10. | [Online Gaming Portal Template](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Online%20Gaming%20Portal%20Template) | 11. | [Post Memories App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/post-memories-app) | 12. | [Stock Market](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Stock%20Market) |
+| 13. | [To-do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/To-do%20app) | 14. | [Tourism Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/TourismManagementSystem)      
 
 -   <h1>Advanced 🚀 </h1>
-    
-    -   [Dawrha Shop](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/Dawrha%20Shop)<br>
-    
-    -   [E-Comm Apparels Store Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/E-Comm%20Apparels%20Store%20Website)<br>
-    
-    -   [E-Commerce Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/E-Commerce%20Website)<br>
-    
-    -   [Travel Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/Travel%20Management%20System)<br>
-    
-    -   [Coffee Shop](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/coffee%20shop)<br>
-    
-    -   [Courier Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/courier%20management%20system)<br>
-    
-    -   [Event Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/event%20management%20system)<br>
-    
-    -   [Hospital Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/hospital%20management%20system)<br>
+
+| S-No. | Projects | S-No. | Projects | S-No. | Projects |
+|:--|:--|:--|:--|:--|:--|
+| 01. | [Dawrha Shop](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/Dawrha%20Shop) | 02. | [E-Commerce Apparels Store Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/E-Comm%20Apparels%20Store%20Website) | 03. | [E-Commerce Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/E-Commerce%20Website)
+| 04. | [Travel Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/Travel%20Management%20System) | 05. | [Coffee Shop](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/coffee%20shop) | 06. | [Courier Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/courier%20management%20system) |
+| 07. | [Event Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/event%20management%20system) | 08. | [Hospital Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced/hospital%20management%20system) |
 
 ---
 
