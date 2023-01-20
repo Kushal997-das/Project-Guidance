@@ -14,9 +14,10 @@
 
 -   <h1>Basic 🚀 </h1>
 
-    -   [BaseX Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/BaseX_Calculator)<br>
-
-    -   [Basic Banking System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Basic%20Banking%20System)<br>
+| S-No. | Projects | S-No. | Projects | S-No. | Projects |
+|:--|:--|:--|:--|:--|:--|
+| 01. | [Atom Animated](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Atom%20animated) | 02. | [BaseX Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/BaseX_Calculator) | 03. | [Basic Banking System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Basic%20Banking%20System) |
+| 04. | [Basic Calculator App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Basic%20Calculator%20App) | 05. | [Bean Eater Loader](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Bean%20Eater%20Loader) | 06. | [Blinking Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Blinking%20Game) |
 
     -   [Burger Eye](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Burger%20Eye)<br>
 
