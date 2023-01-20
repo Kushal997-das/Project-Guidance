@@ -9,9 +9,9 @@
 
 </br>
 
-<h2> Explore <i>Web Development 🎯</i> With Three Level:-</h2>
+# Explore <i>Web Development 🎯</i> With Three Level:-
 
--   <h1>Basic 🚀 </h1>
+## Basic 🚀
 
 | S-No. | Projects | S-No. | Projects | S-No. | Projects |
 |:--|:--|:--|:--|:--|:--|
@@ -37,7 +37,7 @@
 | 58. | [Flipbook](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/flipbook) | 59. | [Pinterest Static](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/pinterest-static)
 <br>
 
--   <h1>Intermediate 🚀</h1>
+## Intermediate 🚀
 
 | S-No. | Projects | S-No. | Projects | S-No. | Projects |
 |:--|:--|:--|:--|:--|:--|
@@ -48,7 +48,7 @@
 | 13. | [To-do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/To-do%20app) | 14. | [Tourism Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/TourismManagementSystem)      
 <br>
 
--   <h1>Advanced 🚀 </h1>
+## Advanced 🚀
 
 | S-No. | Projects | S-No. | Projects | S-No. | Projects |
 |:--|:--|:--|:--|:--|:--|
@@ -58,7 +58,7 @@
 
 ---
 
-<h3> <p align="center">Show ❤️ by Starring this Repo</p> </h3> <br>
+<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3> <br>
 
 <h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3> <br>
 
