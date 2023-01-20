@@ -21,48 +21,25 @@
 | 07. | [Block Retro Mario Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Block%20Retro%20Mario%20Game) | 08. | [Budgeting App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Budgeting%20App) | 09. | [Burger Eye](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Burger%20Eye) |
 | 10. | [Casio](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Casio) | 11. | [Claymorphic profile card](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Claymorphic%20profile%20card) | 12. | [Colour Code Convertor](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Color_Code_Converter) |
 | 13. | [Colorful Rain Effect](https://github.com/rajprem4214/Project-Guidance/tree/rain/Web%20Development/Basic/Colorful%20Rain%20Effect) | 14. | [Contact Form](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Contact%20Form) | 15. | [Cubic Equation Solver](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Cubic_Equation_Solver)
-| 16. | [Discord App Clone](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Discord_App_Clone) | 17. | [Donation Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Donation%20Website) | 18. |
-
-    -   [Drum Kit](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Drum%20Kit)<br>
-
-    -   [JTM Project](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/JTM%20Project)<br>
-
-    -   [Multiply JSP](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Multiply%20JSP)<br>
-
-    -   [Quiz Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Quiz%20Website)<br>
-
-    -   [Tourist Places](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Tourist%20Places)<br>
-
-    -   [Google Clone](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Web%20Development/Basic/Google%20Clone)<br>
-    
-
-    -   [Google Homepage Clone](https://github.com/rajprem4214/Project-Guidance/tree/gclone/Web%20Development/Basic/Google%20Homepage%20Clone)<br>
-
-    -   [Parallex Web Design](https://github.com/rajprem4214/Project-Guidance/tree/pd/Web%20Development/Basic/Parallex-Web-Design)<br>
-
-    -   [Quote Generator](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Quote%20Generator)<br>
-
-    -   [Snake Game](https://github.com/Rashmisingh-18/Project-Guidance/tree/main/Web%20Development/Basic/Snake%20Game)<br>
-
-    -   [Simon Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Simon%20Game)<br>
-
-    -   [Spotify Landing Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/my-patch/Web%20Development%2FBasic%2FSpotify%20Landing%20Page%20Clone)<br>
-
-    -   [Tetris Game](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Tetris%20Game)<br>
-
-    -   [To Do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/To%20Do%20App)<br>
-
-    -   [Tip Calculator](https://github.com/RiyaBhandari-2811/Project-Guidance/tree/TipForm/Web%20Development)<br>
-
-    -   [Instagram Login Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/main/Web%20Development%2FBasic%2FInstagram%20Login%20Page%20Clone)<br>
-
-    -   [Budgeting App](https://kunal0220.github.io/Budget_App/)<br>
-
-    -   [Drinks Recipe Website](https://supriyakumari08.github.io/FruitNotBooze/)<br>
-
-    -   [Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/)<br>
-
-    -   [Random Joke Generator](https://50projects50days.com/projects/dad-jokes/)<br>
+| 16. | [Discord App Clone](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Discord_App_Clone) | 17. | [Donation Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Donation%20Website) | 18. | [Drinks Recipe Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Drinks%20Recipe%20Website(FruitNotBooze)) |
+| 19. | [Drum Kit](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Drum%20Kit) | 20. | [Form Validation](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Form%20Validation) | 21. | [Glowing icons with hover](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Glowing%20icons%20with%20hover) |
+| 22. | [Google Clone](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Web%20Development/Basic/Google%20Clone) | 23. | [Google Homepage Clone](https://github.com/rajprem4214/Project-Guidance/tree/gclone/Web%20Development/Basic/Google%20Homepage%20Clone) | 24. | [Instagram Login Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/main/Web%20Development%2FBasic%2FInstagram%20Login%20Page%20Clone) |
+| 25. | [JTM Project](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/JTM%20Project) | 26. | [Meme Generator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Meme-Generator) | 27. | [MixChill(Music_Player)](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/MixChill(Music_Player)) |
+| 28. | [Multiply JSP](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Multiply%20JSP) | 29. | [MyOnlineMeals](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/MyOnlineMeals) | 30. | [Node Mailer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/NodeMailer) |
+| 31. | [Notes Taking App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Notes%20Taking%20App) | 32. | [Parallex Web Design](https://github.com/rajprem4214/Project-Guidance/tree/pd/Web%20Development/Basic/Parallex-Web-Design) | 33. | [Perfect Number Checker](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Perfect%20Number%20Checker) |
+| 34. | [Ping-pong-Python](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Ping-pong-Python) | 35. | [Quiz Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Quiz%20Website) | 36. | [Quote Generator](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Quote%20Generator) |
+| 37. | [Random Joke Generator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Random%20Joke%20Generator) | 38. | [Reach To The End Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Reach%20To%20The%20End%20Game) | 39. | [Rock Paper Scissors](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/RockPaperScissors) |
+| 40. | [Roll Dice](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Roll%20Dice) | 41. | [Simon Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Simon%20Game) | 42. | [Slide And Collect Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Slide%20And%20Collect%20Game) |
+| 43. | [Snake Game](https://github.com/Rashmisingh-18/Project-Guidance/tree/main/Web%20Development/Basic/Snake%20Game) | 44. | [Spotify Landing Page Clone](https://github.com/abhilipsasahoo03/Project-Guidance/tree/my-patch/Web%20Development%2FBasic%2FSpotify%20Landing%20Page%20Clone) | 45. | [Sticky Notes
+](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Sticky%20Notes) |
+| 46. | [Teams Clone](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Teams%20Clone) | 47. | [Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/) | 48. | [Temperature Converter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Temperature%20Converter) |
+| 49. | [Tetris Game](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Tetris%20Game) | 50. | [Tip Calculator](https://github.com/RiyaBhandari-2811/Project-Guidance/tree/TipForm/Web%20Development) | 51. | [To Do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/To%20Do%20App) |
+| 52. | [Tourist Places](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Tourist%20Places) | 53. | [Trimorphic Number Checker
+](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Trimorphic%20Number%20Checker) | 54. | [Type Writer Effect](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Type%20Writer%20Effect) |
+| 55. | [Weather App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Weather%20App) | 56. | [White Board
+](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/White%20Board) | 57. | [Blurry Loading](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/blurry_loading) |
+| 58. | [Flipbook](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/flipbook) | 59. | [Pinterest Static](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/pinterest-static)
+<br>
 
 -   <h1>Intermediate 🚀</h1>
 
