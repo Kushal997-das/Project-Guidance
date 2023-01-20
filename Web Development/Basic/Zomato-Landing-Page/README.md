@@ -8,6 +8,10 @@ A Zomato Landing Page Made using HTML and CSS
 
 **Languages:** HTML and CSS
 
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/61407386/213761189-e9d98fc9-f688-4524-a610-b6ce4427edcb.png)
+
 
 
 
