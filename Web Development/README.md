@@ -18,14 +18,10 @@
 |:--|:--|:--|:--|:--|:--|
 | 01. | [Atom Animated](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Atom%20animated) | 02. | [BaseX Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/BaseX_Calculator) | 03. | [Basic Banking System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Basic%20Banking%20System) |
 | 04. | [Basic Calculator App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Basic%20Calculator%20App) | 05. | [Bean Eater Loader](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Bean%20Eater%20Loader) | 06. | [Blinking Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Blinking%20Game) |
-
-    -   [Burger Eye](https://github.com/SomyaRanjanSahu/Project-Guidance/tree/somya/Web%20Development/Basic/Burger%20Eye)<br>
-
-    -   [Casio](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Casio)<br>
-
-    -   [Contact Form](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Contact%20Form)<br>
-
-    -   [Colorful Rain Effect](https://github.com/rajprem4214/Project-Guidance/tree/rain/Web%20Development/Basic/Colorful%20Rain%20Effect)<br>
+| 07. | [Block Retro Mario Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Block%20Retro%20Mario%20Game) | 08. | [Budgeting App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Budgeting%20App) | 09. | [Burger Eye](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Burger%20Eye) |
+| 10. | [Casio](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Casio) | 11. | [Claymorphic profile card](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Claymorphic%20profile%20card) | 12. | [Colour Code Convertor](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Color_Code_Converter) |
+| 13. | [Colorful Rain Effect](https://github.com/rajprem4214/Project-Guidance/tree/rain/Web%20Development/Basic/Colorful%20Rain%20Effect) | 14. | [Contact Form](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Contact%20Form) | 15. | [Cubic Equation Solver](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Cubic_Equation_Solver)
+| 16. | [Discord App Clone](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Discord_App_Clone) | 17. | [Donation Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Donation%20Website) | 18. |
 
     -   [Drum Kit](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Drum%20Kit)<br>
 
@@ -38,6 +34,7 @@
     -   [Tourist Places](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Tourist%20Places)<br>
 
     -   [Google Clone](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Web%20Development/Basic/Google%20Clone)<br>
+    
 
     -   [Google Homepage Clone](https://github.com/rajprem4214/Project-Guidance/tree/gclone/Web%20Development/Basic/Google%20Homepage%20Clone)<br>
 
