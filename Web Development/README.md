@@ -64,15 +64,37 @@
 
     -   [Technical Documentation Page](https://adhetya.github.io/Technical_Documentation_Page/)<br>
 
-    -   [Random Joke Generator](https://50projects50days.com/projects/dad-jokes/)
+    -   [Random Joke Generator](https://50projects50days.com/projects/dad-jokes/)<br>
 
 -   <h1>Intermediate 🚀</h1>
 
-    -   [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/animal%20adoption%20protal)<br>
+    -   [Animal Adoption Portal](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/animal%20adoption%20portal)<br>
+    
+    -   [Anime](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Anime)<br>
+    
+    -   [Authentication System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Authentication%20System)<br>
+    
+    -   [ChatApp](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/ChatApp)<br>
+    
+    -   [Customer Review Webapp](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Customer%20Review%20Webapp)<br>
+    
+    -   [Esports Website](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Esports%20Website)<br>
+    
+    -   [Expense Tracker App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Expense%20Tracker%20App)<br>
+    
+    -   [Hotel Reservation System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Hotel%20Reservation%20System)<br>
+    
+    -   [Naruto](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Naruto)<br>
+    
+    -   [Online Gaming Portal Template](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Online%20Gaming%20Portal%20Template)<br>
+    -   [Post Memories App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/post-memories-app)<br>
 
-    -- [Chat Application](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/ChatApp)<br>
-
-    <br>
+    -   [Stock Market](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Stock%20Market)<br>
+    
+    -   [To-do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/To-do%20app)<br>
+    
+    -   [Tourism Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/TourismManagementSystem)<br>
+            
 
 -   <h1>Advanced 🚀 </h1>
 
