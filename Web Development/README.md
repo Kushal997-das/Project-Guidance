@@ -57,7 +57,7 @@
 
 ---
 
-<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3> 
+<h3> <p align="center">Show some ❤️ by starring⭐ this Repository! </h3> 
 
 <h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3>
 
