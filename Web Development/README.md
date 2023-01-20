@@ -4,8 +4,7 @@
    <h3><p align="center"><strong>Welcome Developers to Web Development Domain of Project Guidance </strong></p>
 </p></h3>
 
-
-<h4>In this directory you will find an awesome web development projects from different levels and programming languages, Our projects developed from a passionate developers to help beginners with their way in learning programming and practice in effective way by builing a great projects. </h4>
+><h4>In this directory you will find an awesome web development projects from different levels and programming languages, Our projects developed from a passionate developers to help beginners with their way in learning programming and practice in effective way by builing a great projects. </h4>
 
 </br>
 
@@ -58,11 +57,11 @@
 
 ---
 
-<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3> <br>
+<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3> 
 
-<h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3> <br>
+<h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3>
 
-### <p align="center"> 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉 <br> <br>
+### <p align="center"> 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
