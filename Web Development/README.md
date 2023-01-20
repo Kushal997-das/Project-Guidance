@@ -47,6 +47,7 @@
 | 07. | [Expense Tracker App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Expense%20Tracker%20App) | 08. | [Hotel Reservation System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Hotel%20Reservation%20System) | 09. | [Naruto](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Naruto) |
 | 10. | [Online Gaming Portal Template](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Online%20Gaming%20Portal%20Template) | 11. | [Post Memories App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/post-memories-app) | 12. | [Stock Market](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Stock%20Market) |
 | 13. | [To-do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/To-do%20app) | 14. | [Tourism Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/TourismManagementSystem)      
+<br>
 
 -   <h1>Advanced 🚀 </h1>
 
