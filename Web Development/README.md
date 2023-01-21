@@ -57,11 +57,11 @@
 
 ---
 
-<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3> 
+<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3> <br>
 
-<h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3>
+<h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3> <br>
 
-### <p align="center"> 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉</p>
+### <p align="center"> 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉<br> <br>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
