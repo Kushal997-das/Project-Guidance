@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="placeorder.css">
+</head>
+
+<body>
+
+    <div id="navbar-div">
+        <!-- loadNavAndFooter() -->
+    </div>
+
+    <h2 class="text-center" style="padding-top: 2rem">ORDERS</h2>
+
+    <div class="container text-center" id="orderplaced">
+        <h4>Currently You don't have any orders :)</h4>
+        <img src="../../assets/no orders.svg" style="margin:2rem 0;height:150px;" alt="">
+    </div>
+
+    <div id="footer-div">
+        <!-- loadNavAndFooter() -->
+    </div>
+    <script src="../../js/nav_footer.js"></script>
+
+    <script>
+        loadNavAndFooter("..")
+        // jquery for search box
+    $(document).ready(function () {
+        $(".search-btn").click(function () {
+            $("#search-box").slideToggle();
+            $('#searchproduct').trigger("focus");
+        });
+    });
+    </script>
+
+</body>
+
+</html>

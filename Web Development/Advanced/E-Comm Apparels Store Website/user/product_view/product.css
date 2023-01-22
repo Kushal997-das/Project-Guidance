@@ -1,0 +1,161 @@
+#product{
+    padding: 4rem 0;
+}
+#product .buttons{
+    margin-top: 32px;
+}
+#product h4{
+    margin: 16px 0;
+}
+#product .category{
+    font-size: 14px;
+}
+#product h4{
+    font-size: 20px;
+}
+#product .product-summary{
+    margin: 32px 0;
+}
+.product-size select{
+    font-size: 14px;
+    padding: 0rem 16px;
+}
+.star-reviews{
+    margin: 16px 0;
+    color: gold;
+    font-size: 20px;
+}
+#product del{
+    font-weight: lighter;
+}
+
+#product-description{
+    padding-top: 5rem;
+}
+#product-description .card-title{
+    padding-top: 32px;
+    padding-left: 32px;
+    font-size: 18px;
+    color: #212529;
+    text-decoration: none;
+    cursor: pointer;
+}
+#details span{
+    line-height: 32px;
+}
+#details span, #description p{
+    font-size: 14px;
+}
+#product-description  .card-title-active::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: crimson;
+}
+#product-description .card-inside{
+    padding: 32px;
+}
+#product-summary-details{
+    padding: 1rem;
+}
+#reviews-by-buyers img{
+    border-radius: 1000px;
+}
+#reviews-by-buyers h5{
+    font-size: 18px;
+    display: inline;
+}
+#reviews-by-buyers .col-12{
+    margin: 16px 0;
+}
+#reviews-by-buyers p{
+    margin-top: 8px;
+    font-size: 14px;
+}
+.add-a-review label{
+    font-size: 14px;
+    margin: 12px 0;
+    margin-right: 16px;
+}
+.add-a-review form div{
+    margin-bottom: -8px;
+}
+.add-a-review textarea:focus{
+    box-shadow: none;
+}
+.add-a-review .btn{
+    margin-top: 16px;
+    font-size: 14px;
+}
+.checked{
+    color: gold;
+}
+span.bi-star{
+    cursor: pointer;
+}
+
+#related-items{
+    padding-top: 5rem;
+}
+#related-items .card-body{
+    padding-left: 0;
+}
+#related-items .card{
+    padding: 16px;
+}
+.btn-primary{
+    padding: 6px 12px;
+    background: #212529 !important;
+    border-color: #212529;
+}
+.btn-primary:focus{
+    box-shadow: none;
+}
+@media (max-width: 425px) {
+    #product {
+        padding: 0 0 2rem 0;
+    }
+    #product .category {
+        font-size: 12px;
+    }
+    #product h4 {
+        margin: 8px 0;
+    }
+    .star-reviews{
+        margin: 8px 0;
+    }
+    #product .product-summary {
+        margin: 16px 0;
+    }
+    #product-description {
+        padding-top: 2rem;
+    }
+    #product-description .card-title {
+        padding-top: 16px;
+        padding-left: 18px;
+        font-size: 16px;
+    }
+    #product-description .card-inside {
+        padding: 16px 8px;
+    }
+    #product-description .card-body{
+        padding: 0;
+    }
+    #reviews-by-buyers p {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .add-a-review {
+        margin-top: 32px;
+    }
+    .add-a-review .btn{
+        font-size: 14px;
+    }
+    #related-items {
+        padding-top: 2rem 0;
+    }
+    #related-items .card-body {
+        padding-right: 0;
+    }
+}

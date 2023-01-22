@@ -1,0 +1,17 @@
+#orderplaced{
+    padding: 2rem 0;
+}
+#p-info{
+    padding: 0 1rem;
+}
+@media (max-width: 425px) {
+    #orderplaced{
+        padding: 0rem 1rem;
+    }
+    #p-info h4{
+        font-size: 18px;
+    }
+    #p-info h6{
+        line-height: 15px;
+    }
+}
