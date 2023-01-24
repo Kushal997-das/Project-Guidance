@@ -17,7 +17,7 @@ Input variables (based on physicochemical tests):
 Output variable (based on sensory data):
 12 - quality (score between 0 and 10)
 
-### -OVJECTIVE:
+### -OBJECTIVE:
 * Understand the Dataset & cleanup (if required).
 * Build classification models to predict the wine quality.
 * Also fine-tune the hyperparameters & compare the evaluation metrics of various classification algorithms.
