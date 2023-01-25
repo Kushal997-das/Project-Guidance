@@ -10,16 +10,14 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    { songName: "sukidara", filePath: "song/1.mp3", coverPath: "cover/cover.webp" },
+    { songName: "Black Catcher", filePath: "song/2.mp3", coverPath: "cover/black catcher.jpg" },
+    { songName: "Dynamite", filePath: "song/3.mp3", coverPath: "cover/dynamite.jpg" },
+    { songName: "Gurege", filePath: "song/4.mp3", coverPath: "cover/gurege.jpg" },
+    { songName: "Ice cream", filePath: "song/5.mp3", coverPath: "cover/ice cream.jpg" },
+    { songName: "Mic drop", filePath: "song/6.mp3", coverPath: "cover/mic drop.jpeg" },
+    { songName: "Money", filePath: "song/7.mp3", coverPath: "cover/money.webp" },
+    { songName: "Wannabe", filePath: "song/8.mp3", coverPath: "cover/wannabe.jpg" },
 ]
 
 songItems.forEach((element, i)=>{ 
