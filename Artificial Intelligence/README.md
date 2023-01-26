@@ -5,7 +5,7 @@
   
 <h2 align="center">🚦 Welcome Developers to Artificial Intelligence Domain of Project Guidance</p></h2>
 
-> <h3>🏰 In this directory you will find awesome Artificial Intelligence projects of different levels. Our projects developed from a passionate developers to help beginners with their way in learning programming and practice in effective way by building great projects.</h3>
+> <h3>🏰 In this directory, you will find awesome Artificial Intelligence projects of different levels. Passionate developers develop our projects to help beginners learn to program and practice effectively by building great projects.</h3>
 </br>
 <p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" /></a></p>
 
