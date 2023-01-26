@@ -5,8 +5,6 @@
   
 <h2 align="center">🚦 Welcome Developers to Artificial Intelligence Domain of Project Guidance</p></h2>
 
-<h1></h1>
-
 > <h3>🏰 In this directory you will find awesome Artificial Intelligence projects of different levels. Our projects developed from a passionate developers to help beginners with their way in learning programming and practice in effective way by building great projects.</h3>
 </br>
 <p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" /></a></p>
@@ -23,21 +21,21 @@
 
 <h2>🚩 Intermediate</h2> 
 
+<i>Nothing to showcase here!</i>
+
 <h2>🚩 Advanced</h2> 
 
-***
-<h2 align="center">All Contributor of <i>Artificial Intelligence<i> Domain 👨‍💻👩‍💻</h2> 
+<i>Nothing to showcase here!</i>
 
-<!-- <a href="https://github.com/olistic/warriorjs/graphs/contributors"><img src="https://opencollective.com/warriorjs/contributors.svg?width=890&button=false" /></a> -->
+---
 
-***
 <p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" /></a></p>
 
-<h3 align="center"> Show some ❤️ by Starring this Repository</p> </h3>
+<h3 align="center"> Show some ❤️ by Starring this Repository</p> </h3><br>
 
-<h3 align="center"> 💌 More projects will be added consecutively 💌 </h3>
+<h3 align="center"> 💌 More projects will be added consecutively 💌 </h3><br>
 
-### <p > 👉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 
+### <p align="center"> 👉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). <br><br>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
