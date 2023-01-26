@@ -23,10 +23,12 @@ The target audience for this system is not limited to hearing impaired individua
 - Werkzeug
 - gunicorn
 
-## To Run locally<br>
+## To Run locally
+
 Run `python app.py` in terminal
 
 ## Result:
 
 ![i](https://user-images.githubusercontent.com/65494453/214914500-0fa3965b-4912-495e-bb56-28ffacaac62e.png)
+
 ![1](https://user-images.githubusercontent.com/65494453/214914527-37491192-11c0-42d1-9182-63808601066b.png)
