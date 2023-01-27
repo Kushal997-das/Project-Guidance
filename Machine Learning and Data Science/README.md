@@ -29,6 +29,8 @@
   - [ Prediction using Decision Tree Algorithm ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Prediction%20using%20Decision%20Tree%20Algorithm)<br>
 
   - [ Explore Buisness Analytics ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/To%20Explore%20Buisness%20Analytics)<br>
+  
+  -[ Red Wne Quality Prediction ](https://github.com/Garvit414/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Red_Wine_Quality_Prediction)<br>
 
     <br>
 
