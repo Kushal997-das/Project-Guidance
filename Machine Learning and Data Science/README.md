@@ -30,7 +30,7 @@
 
   - [ Explore Buisness Analytics ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/To%20Explore%20Buisness%20Analytics)<br>
   
-  -[ Red Wne Quality Prediction ](https://github.com/Garvit414/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Red_Wine_Quality_Prediction)<br>
+  - [ Red Wne Quality Prediction ](https://github.com/Garvit414/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Red_Wine_Quality_Prediction)<br>
 
     <br>
 
