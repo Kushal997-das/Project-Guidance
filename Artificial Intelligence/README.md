@@ -9,9 +9,7 @@
 
 </br>
 
-<p align="right"><a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" /></a></p>
-
-<h1> 🎯 Explore <i>Artificial Intelligence</i> With Three Level:-</h1>
+<h1> 🎯 Explore <i>Artificial Intelligence</i> With Three Level:-<a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" align="right"/></a></h1>
 
 <h2>🚩 Basic</h2>    
 
