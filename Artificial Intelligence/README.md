@@ -1,6 +1,6 @@
 <h1 align="center">Artificial Intelligence 🤖</h1>
 
-<p align="center"><img src="https://www.srimax.com/wp-content/uploads/2020/01/Importance-of-Artificial-Intelligence.jpeg" alt="Artificial Intelligence Image" width=800px />
+<p align="center"><img src="https://www.srimax.com/wp-content/uploads/2020/01/Importance-of-Artificial-Intelligence.jpeg" alt="Artificial Intelligence Image" width=600px />
 <div id="top"></div>
   
 <h2 align="center">🚦 Welcome Developers to Artificial Intelligence Domain of Project Guidance</p></h2>
