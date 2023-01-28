@@ -31,4 +31,5 @@ Run `python app.py` in terminal
 
 ![i](https://user-images.githubusercontent.com/65494453/214914500-0fa3965b-4912-495e-bb56-28ffacaac62e.png)
 
-![1](https://user-images.githubusercontent.com/65494453/214914527-37491192-11c0-42d1-9182-63808601066b.png)
+![Screenshot (12)](https://user-images.githubusercontent.com/65494453/215285315-b991770d-1f15-4151-9634-5304608c27db.png)
+![Screenshot (13)](https://user-images.githubusercontent.com/65494453/215285357-e9466e1e-2596-4781-92fb-61f912ae35a5.png)
