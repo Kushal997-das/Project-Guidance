@@ -12,11 +12,11 @@ grams, pounds and ounces.
 
 a. When we don't enter any value or the value is less than or equal to zero then an alert appears.
 
-![](./screenshots/when_no_value_passed.png)
+![](when_no_value_passed.png)
 
 b. When we enter a valid value then it gets converted on clicking convert button.
 
-![](./screenshots/smooth_functioning.png)
+![](smooth_functioning.png)
 
 c. On clicking Reset button, the fields will get cleared.
 
