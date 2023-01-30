@@ -1,6 +1,6 @@
 # Audio to Indian Sign Language(ISL) Translator
 
-Sign language is a visual language that is the native language of deaf people. In contrast to sound patterns, sign language combines body language and manual communication to transmit a person's thoughts in a fluid manner. Due of the length of time required to learn Sign Language, it is difficult for people to connect with those with special needs, resulting in a communication gap. Thus, we suggest an application that accepts live speech or audio recordings as input, transforms them to text, and displays the corresponding clips in <b>Indian Sign Language</b>.
+Sign language is a visual language that is the native language of deaf people. In contrast to sound patterns, sign language combines body language and manual communication to transmit a person's thoughts in a fluid manner. Due of the length of time required to learn Sign Language, it is difficult for people to connect with those with special needs, resulting in a communication gap. Thus, this application accepts live speech or audio recordings as input, transforms them to text, and displays the corresponding clips in <b>Indian Sign Language</b>.
 
 
 In this project, I have tried to develop a software that would be helpful for the disabled people having communication difficulties by developing a system that would help them in expressing themselves clearly and easily.
