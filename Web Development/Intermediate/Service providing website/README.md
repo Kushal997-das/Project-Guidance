@@ -1,6 +1,8 @@
 #Service providing website (YOUR-INSIGHTS)
 
 This is a website provideing services in different domains such as creating portfolios and making admin panel . 
+[Click here to view the website](https://your-insightsinfo.netlify.app/)
+
 
 
 
