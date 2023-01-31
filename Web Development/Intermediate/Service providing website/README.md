@@ -2,8 +2,8 @@
 
 This is a website provideing services in different domains such as creating portfolios and making admin panel . 
 [Click here to view the website](https://your-insightsinfo.netlify.app/)
-
-
+<img src="https://github.com/charu1603/Project-Guidance/blob/main/Web%20Development/Intermediate/Service%20providing%20website/Screenshot%20(228).png">
+<img src="https://github.com/charu1603/Project-Guidance/blob/main/Web%20Development/Intermediate/Service%20providing%20website/Screenshot%20(225).png">
 
 
 # Getting Started with Create React App
