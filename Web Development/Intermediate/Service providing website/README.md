@@ -1,12 +1,14 @@
 
+
 # Service providing website (YOUR-INSIGHTS)
 
 This is a website provideing services in different domains such as creating portfolios and making admin panel . 
+
 [Click here to view the website](https://your-insightsinfo.netlify.app/)
 
 # Screenshots
-![Screenshot (225)](https://user-images.githubusercontent.com/96014425/216022524-0ce3ee29-cc2b-4812-865d-4958f63d6393.png)
-
+1) ![Screenshot (225)](https://user-images.githubusercontent.com/96014425/216022524-0ce3ee29-cc2b-4812-865d-4958f63d6393.png)
+2) ![Screenshot (228)](https://user-images.githubusercontent.com/96014425/216023075-c4a731b6-2749-4d80-bfd7-351ae37fc8e8.png)
 
 # Getting Started with Create React App
 
