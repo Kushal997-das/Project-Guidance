@@ -9,7 +9,7 @@ A simple one-page food menu cart website built using HTML, CSS, JavaScript, and 
 
 
 ## Demo
-Link to the live page: https://js-jq-shopping-cart.netlify.app/
+Link to the live page: https://js-food-menu-app.netlify.app/
 
 
 ## Tech Stack
@@ -20,9 +20,9 @@ Link to the live page: https://js-jq-shopping-cart.netlify.app/
 
 
 ## Desktop View
+![Screenshot (79)](https://user-images.githubusercontent.com/109059571/216829931-18a4ac22-e80d-416c-bbf4-2ff1fd79ec37.png)
+![Screenshot (80)](https://user-images.githubusercontent.com/109059571/216829944-2830b6d4-0ab2-4727-9208-a3844d675946.png)
 
-![sc1](https://user-images.githubusercontent.com/109059571/216806357-acaa5bf9-66f4-42f1-8542-5753bf780125.png)
-![sc2](https://user-images.githubusercontent.com/109059571/216806360-49026fec-d735-47dc-b628-d8ccec7a6afe.png)
 
 
 
