@@ -21,7 +21,9 @@ Link to the live page: https://js-jq-shopping-cart.netlify.app/
 
 ## Desktop View
 
-![App Screenshot](https://freeimage.host/i/H1PCbpe)
+![sc1](https://user-images.githubusercontent.com/109059571/216806357-acaa5bf9-66f4-42f1-8542-5753bf780125.png)
+![sc2](https://user-images.githubusercontent.com/109059571/216806360-49026fec-d735-47dc-b628-d8ccec7a6afe.png)
+
 
 
 ## Contributing
