@@ -1,7 +1,7 @@
 
-# JS Shopping Cart
+# Food Menu Cart
 
-A simple one-page shopping cart website built using HTML, CSS, JavaScript, and jQuery. The website features a user-friendly interface for adding items to the cart. As items are added, the total cost is automatically calculated and displayed on the page. The website uses JavaScript and jQuery to dynamically update the cart and calculate the total cost.
+A simple one-page food menu cart website built using HTML, CSS, JavaScript, and jQuery. The website features a user-friendly interface for adding menu items to the cart. As menu items are added, the total cost is automatically calculated and displayed on the page. The website uses JavaScript and jQuery to dynamically update the cart and calculate the total cost.
 
 
 
