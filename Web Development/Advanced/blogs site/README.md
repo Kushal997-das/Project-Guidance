@@ -1,3 +1,6 @@
+## Deployed Site
+[https://blogerrr.vercel.app/](https://blogerrr.vercel.app/)
+
 ## Getting Started
 
 First, install dependency:
@@ -33,7 +36,6 @@ You will have to setup an project using sanity cli:
 
 1. Login to your sanity account.
 2. Install sanity cli on your computer. You can refer to [this](https://www.sanity.io/docs/getting-started-with-sanity-cli).
-3. Once installed you should see something like this on running command
 4. Create a new sanity project with clean template. Leave the project output path blank and rest of the configuration defalt.
 5. Update your project id and api version in env file.
 6. Head over to your sanity.io project dasboard and in API section create and API tocken to get you API key.
@@ -52,39 +54,19 @@ Initialize the project:
 sanity init
 ```
 
-![image](https://user-images.githubusercontent.com/63797338/216545870-9b50d4c7-4d93-4590-8689-34813f8fe25c.png)
-
 Select default configurations and select clean schema in schema selection. Also leave the output path empty and name your project whatever you like. Enter y on using typescript. After that select a package manager of your choice (preffered yarn).
-
-![image](https://user-images.githubusercontent.com/63797338/216552476-c94a0ca6-259c-4e67-abac-cc33d093a6b3.png)
 
 Once the project is created you can head on to your sanity.io [Dashboard](https://www.sanity.io/manage) Login to your account and you will be able to see your project listed on the Manage section.
 
-![image](https://user-images.githubusercontent.com/63797338/216553186-a97abb6a-e2ce-40c5-bd98-a79dbb353a82.png)
-
 Copy the project id and move to the api section and add cors origin for http://localhost:3000 and if you deploy then deployed URL link. **Make sure to click on allow credentials.**:
-
-![image](https://user-images.githubusercontent.com/63797338/216554057-20e35c36-8b1b-43a1-8297-6945a0a84a8f.png)
-
-![image](https://user-images.githubusercontent.com/63797338/216553762-b93489a0-abae-45a1-9ee5-7d2f1130e34b.png)
-
-![image](https://user-images.githubusercontent.com/63797338/216553904-d9f7d49b-7343-44d5-ba2c-bdc3816a9832.png)
 
 Now you can delete your sanity project folder on vs code or from project directory:
 
-![image](https://user-images.githubusercontent.com/63797338/216554531-894dbe98-e01f-4548-b8bb-2661c6deb48a.png)
-
 Create a new api token **with editor permissions** and copy it:
 
-![image](https://user-images.githubusercontent.com/63797338/216555212-ab2d0c33-8d26-4de2-ae54-ae54acab22fa.png)
-
-Copy the token and keep it secret from everyone for demonstration purpose i am showing it.
-
-![image](https://user-images.githubusercontent.com/63797338/216555444-cffd67ed-4df5-4ece-b349-2664abd832e3.png)
+Copy the token and keep it secret from everyone.
 
 Open the env.local.template file and paste the required things from sanity.io and rename it to **.env.local**
-
-![image](https://user-images.githubusercontent.com/63797338/216555842-8d66d424-3d4e-40f6-a69e-b3c105bc8fa2.png)
 
 **Make sure you dont expose this file anywhere.**
 
@@ -102,8 +84,6 @@ Yarn:
 yarn dev
 ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
@@ -118,19 +98,13 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-![image](https://user-images.githubusercontent.com/63797338/216556667-413bf056-b6fb-4aa5-8570-b536c4d04faf.png)
+![image](https://user-images.githubusercontent.com/63797338/217027239-2795e15c-b180-48f2-ba5e-8c6bd48903a8.png)
 
 Go to [http://localhost:3000/studio](http://localhost:3000/studio) and login with your sanity account to access the studio.
 
-![image](https://user-images.githubusercontent.com/63797338/216557158-7b481a6f-e77a-456a-853a-537a60763958.png)
-
 Add a blog or edit a blog using sanity studio and publish it to see them on site.
 
-![image](https://user-images.githubusercontent.com/63797338/216558734-f7a914d0-2ef4-4e6d-adb4-307c4c54efcd.png)
-
-After adding/ updating.
-
-![image](https://user-images.githubusercontent.com/63797338/216558956-5c1ae6aa-a361-47e8-88fa-5ba8bfb0cfad.png)
+![image](https://user-images.githubusercontent.com/63797338/217027799-4e7e15ab-a4cd-4b6f-aef5-2a27b2b2f749.png)
 
 ## Learn More
 
