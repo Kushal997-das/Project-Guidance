@@ -19,9 +19,11 @@ Link to the live page: https://js-food-menu-app.netlify.app/
 
 
 
-## Desktop View
-![Screenshot (79)](https://user-images.githubusercontent.com/109059571/216829931-18a4ac22-e80d-416c-bbf4-2ff1fd79ec37.png)
-![Screenshot (80)](https://user-images.githubusercontent.com/109059571/216829944-2830b6d4-0ab2-4727-9208-a3844d675946.png)
+## Site View
+![Screenshot (81)](https://user-images.githubusercontent.com/109059571/216901428-9c1ef9c4-b691-4194-b169-8d02babbec68.png)
+![Screenshot (82)](https://user-images.githubusercontent.com/109059571/216901451-e216fcaa-6c29-44eb-b6a8-d892f1350058.png)
+
+
 
 
 
