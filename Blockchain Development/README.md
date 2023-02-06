@@ -6,9 +6,8 @@
 
 
 > 🏰 **Curated list of project for the development and applications of block chain. Our projects developed from a passionate developers to help beginners with their way in learning programming and practice in effective way by builing a great projects.** 
-<img src="https://user-images.githubusercontent.com/65494453/216833725-42306661-364b-4c41-9bf3-7dee737f954c.png">
 
-# Explore <i>Web Development 🎯</i> With Three Level:-
+# Explore <i>Blockchain Development 🎯</i> With Three Level:-
 
 ## Basic 🚀
 
@@ -25,9 +24,9 @@
 
 ---
 
-<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3> <br>
+<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3>
 
-<h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3> <br>
+<h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3>
 
 ### <p align="center"> 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉<br> <br>
 
