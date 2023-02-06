@@ -1,4 +1,4 @@
-<h1 align="center">Blockchain Development</h1>
+<h1 align="center">Blockchain Development 🔗</h1>
 
 <div id="top" align="center"><img src="https://user-images.githubusercontent.com/65494453/217033121-1c09172a-aad1-472d-b894-07c9a1d5de1a.png">
 </div>
@@ -6,20 +6,23 @@
 <h2 align="center">🚦 Welcome Developers to Blockchain Development Domain of Project Guidance</p></h2>
 
 
->  <h3>🏰Curated list of project for the development and applications of block chain. Our projects developed from a passionate developers to help beginners with their way in learning programming and practice in effective way by builing a great projects.</h3> 
+>  <h3>🏰 Curated list of project for the development and applications of blockchain. Our projects are developed by passionate developers to help beginners with their way in learning programming and practice in effective way by building great projects.</h3> 
+
+<br>
 
 <h1> 🎯 Explore <i>Blockchain Development</i> With Three Level:-</h1>
 
-## Basic 🚀
+## Level 1: Basic 🚀
 
 - [Arithmetic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Basic/Arithmetic)<br>
+
 - [Snd_Ether](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Basic/Snd_Ether)<br>
 
-## Intermediate 🚀
+## Level 2: Intermediate 🚀
 
 <i>Nothing to showcase here!</i>
 
-## Advanced 🚀
+## Level 3: Advanced 🚀
 
 <i>Nothing to showcase here!</i>
 
