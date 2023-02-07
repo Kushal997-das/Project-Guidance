@@ -5,7 +5,6 @@
 
 <h2 align="center">🚦 Welcome Developers to Blockchain Development Domain of Project Guidance</p></h2>
 
-
 >  <h3>🏰 Curated list of project for the development and applications of blockchain. Our projects are developed by passionate developers to help beginners with their way in learning programming and practice in effective way by building great projects.</h3> 
 
 <br>
