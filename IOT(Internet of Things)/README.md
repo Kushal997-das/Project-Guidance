@@ -14,72 +14,50 @@
 ## Level 1: Basic 🚀
 
 - [Arduino Analog Input](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Analog_Input)
-Added Arduino_Analog_Input files
-last year
-Arduino_Car_Game
-Added Arduino_Car_Game files
-9 months ago
-Arduino_Crocodile_Dentist
-Update README.md
-9 months ago
-Arduino_DiceRoll_Simulator
-Added Arduino_DiceRoll_Simulator files
-9 months ago
-Arduino_Drone
-Added Arduino Clone files
-10 months ago
-Arduino_Gas_Sensor
-Added ArduinoGasSensor files
-9 months ago
-Arduino_IR_Sensor
-Added Arduino_IR_Sensor files
-10 months ago
-Arduino_Inclination_Sensor
-Added Arduino_Inclination_Sensor files
-10 months ago
-Arduino_LCD_Display
-Added Arduino LCD files
-10 months ago
-Arduino_Light_Sensor
-Added Arduino Light Sensor Files
-10 months ago
-Arduino_Logic_IC_Tester
-Added Arduino_Logic_IC_Tester files
-9 months ago
-Arduino_Moisture_Sensor
-Added Arduino_Moisture_Sensor files
-10 months ago
-Arduino_PIR_Motion_Sensor
-Added Arduino Motion Detector files
-10 months ago
-Arduino_RGB_Mixing
-Added Arduino Color Mix Files
-10 months ago
-Arduino_Serial_Monitor
-Added Arduino Serial Monitor files
-10 months ago
-Arduino_Servo_Motor
-Added Arduino_Servo_Motor files
-10 months ago
-Arduino_Stress_Sensor
-Added ArduinoStressSensor files
-9 months ago
-Arduino_Temperature_Sensor
-Added Arduino Temp Sensor files
-10 months ago
-Arduino_TrafficLight_Simulator
-Added Arduino_TrafficLight_Simulator files
-9 months ago
-Arduino_UltraSonic_Sensor
-Added Arduino UltraSonic Sensor files
-10 months ago
-Multi Arduino Knight Rider Lights
+
+- [Arduino Car Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Car_Game)
+
+- [Arduino Crocodile Dentist](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Crocodile_Dentist)
+
+- [Arduino DiceRoll Simulator](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_DiceRoll_Simulator)
+
+- [Arduino Drone](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Drone)
+
+- [Arduino Gas Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Gas_Sensor)
+
+- [Arduino IR Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_IR_Sensor)
+
+- [Arduino Inclination Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Inclination_Sensor)
+
+- [Arduino LCD Display](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_LCD_Display)
+
+- [Arduino Light Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Light_Sensor)
+
+- [Arduino Logic IC Tester](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Logic_IC_Tester)
+
+- [Arduino Moisture Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Moisture_Sensor)
+
+- [Arduino PIR Motion Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_PIR_Motion_Sensor)
+
+- [Arduino RGB Mixing](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_RGB_Mixing)
+
+- [Arduino Serial Monitor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Serial_Monitor)
+
+- [Arduino Servo Motor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Servo_Motor)
+
+- [Arduino Stress Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Stress_Sensor)
+
+- [Arduino Temperature Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Temperature_Sensor)
+
+- [Arduino Traffic Light Simulator](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_TrafficLight_Simulator)
+
+- [Arduino UltraSonic Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_UltraSonic_Sensor)
+
+- [Multi Arduino Knight Rider Lights](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Multi%20Arduino%20Knight%20Rider%20Lights)
 
 ## Level 2: Intermediate 🚀
 
 - [Gas leakage detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/gas%20leakage%20detection)
-
-<i>Nothing to showcase here!</i>
 
 ## Level 3: Advanced 🚀
 
