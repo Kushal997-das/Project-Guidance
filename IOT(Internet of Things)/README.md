@@ -1,6 +1,6 @@
-<h1 align="center">IoT Development 🔗</h1>
+<h1 align="center">IoT Development</h1>
 
-<div id="top" align="center"><img src="https://user-images.githubusercontent.com/65494453/217033121-1c09172a-aad1-472d-b894-07c9a1d5de1a.png">
+<div id="top" align="center"><img src="https://user-images.githubusercontent.com/65494453/219663430-9f8ff8d8-bdc2-4ac7-854a-3892be4aa26e.png">
 </div>
 
 <h2 align="center">🚦 Welcome Developers to IoT Development Domain of Project Guidance</p></h2>
