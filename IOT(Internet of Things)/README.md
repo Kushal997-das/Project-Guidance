@@ -1,11 +1,13 @@
-<h1 align="center">IoT Development</h1>
-
-<div id="top" align="center"><img src="https://user-images.githubusercontent.com/65494453/219663430-9f8ff8d8-bdc2-4ac7-854a-3892be4aa26e.png">
+<div align="center">
+<img src="https://user-images.githubusercontent.com/65494453/219756513-4397543d-bc29-4b6b-9625-12721846dc89.png">
+</div>
+<br/>
+<div id="top" align="center"><img width="60%" src="https://user-images.githubusercontent.com/65494453/219663430-9f8ff8d8-bdc2-4ac7-854a-3892be4aa26e.png">
 </div>
 
 <h2 align="center">🚦 Welcome Developers to IoT Development Domain of Project Guidance</p></h2>
 
->  <h3>🏰 Curated list of project for the development and applications of blockchain. Our projects are developed by passionate developers to help beginners with their way in learning programming and practice in effective way by building great projects.</h3> 
+>  <h3>🏰 Curated list of project for the development and applications of IoT. Our projects are developed by passionate developers to help beginners with their way in learning programming and practice in effective way by building great projects.</h3> 
 
 <br>
 
@@ -65,6 +67,7 @@
 
 ---
 
+<br/>
 <h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3>
 
 <h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3>
@@ -80,6 +83,9 @@
   
 </div>
 
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/65494453/219738669-478cf8c5-5cfc-4d8f-a7cb-7e9811de6ee6.gif" width="300px"/>
+</p>
 <div align="right">
-    <b><a href="#top">↥ Back To Top</a></b>
+  <b><a href="#top">↥ Back To Top</a></b>
 </div>
