@@ -18,7 +18,12 @@ HTML, CSS, JavaScript
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+#### Desktop View
+![netflix](https://user-images.githubusercontent.com/109059571/219909440-f7023df8-5f3c-43b0-bd69-5d75ec0f1d26.png)
+
+#### Mobile View
+![Screenshot (111)](https://user-images.githubusercontent.com/109059571/219909553-911bbf69-ca38-414c-bce6-2fa6b16ed7a2.png)
+![Screenshot (112)](https://user-images.githubusercontent.com/109059571/219909556-7b98449a-7511-43d6-a7c3-52584b731818.png)
 
 
 ## Authors
