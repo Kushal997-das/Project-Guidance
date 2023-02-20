@@ -9,6 +9,7 @@
 </br>
 
 <h1> Explore <i>Mobile Application Domain 🎯</i> with Three Levels:-</h1>
+</br>
 
 ## Level 1: Basic 🚀
 
@@ -16,7 +17,7 @@
 |:--|:--|:--|:--|:--|:--|
 | 01. | [BMI Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/BMI%20Calculator) | 02. | [Simple Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/Simple%20Calculator) | 03. | [TicTacToe Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/TicTacToe%20Game) |
 | 04. | [Voice to text](https://github.com/utkarsh006/Project-Guidance/tree/VoiceApp/Mobile%20Applications/Basic/Voicetotext) |
- 
+</br>
 
 ## Level 2: Intermediate 🚀
 
@@ -25,12 +26,15 @@
 | 01. | [ Basic Banking App ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Basic%20Banking%20App) | 02. | [ Catalog App ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Catalog%20App) | 03. | [ Cowost Project ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Cowost%20Project) |
 | 04. | [ Mr Pomodoro ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Mr%20Pomodoro) | 05. | [ Payment Gateway(Razorpay) Integration](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Payment%20Gateway(Razorpay)%20Integration) | 06. | [ Pocket Dictionary ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Pocket%20Dictionary) |
 | 07. | [ Social Media Integration ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Social%20Media%20Integration) | 08. | [ Youtube Video Downloader ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Youtube-Video-Downloader) | 09. | [ Graph Plotter ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/graphplotter) |
-| 10. | [ Poke Book ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/poke_book) | 11. | [ Netflix Clone ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/netflix_clone) |  
-    
+| 10. | [ Poke Book ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/poke_book) | 11. | [ Netflix Clone ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/netflix_clone) | 12. | [Covid 19 Vaccine Slot Find in India](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Covid%2019%20Vaccine%20Slot%20Find%20in%20India) |
+| 13. | [Quizzing App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/Quizzing%20App) | 14. | [Text To Speech Application](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/TextToSpeechApplication) | 15. | [clipBoardApp](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Intermediate/clipBoardApp) |
+<br/>    
 
 ## Level 3: Advanced 🚀
 
-<i>Nothing to showcase here!</i>  
+| S-No. | Projects |
+|:--|:--|
+| 01. | [Chat Application](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Advanced/Chat%20Application) |
 
 ---
 
