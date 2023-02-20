@@ -21,6 +21,7 @@
 | 03. | [Railway Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Railway%20Management%20System) |
 | 04. | [School Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/School%20management) |
 | 05. | [Sudoku Solver](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Sudoku-Solver-C) |
+<br>
 
 ## [C++ Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)  🚀
 
@@ -33,6 +34,7 @@
 | 05. | [Stochastic Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Stochastic%20Calculator) |
 | 06. | [Credit Card Checker](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Credit%20Card%20Checker) |
 | 07. | [Scrabble](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Scrabble) |
+</br>
 
 ## [Python](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)  🚀
 
@@ -66,6 +68,7 @@
 | 26. | [Image Request](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Image%20Request) |
 | 27. | [Internet Speed Meter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Internet%20Speed%20Meter) |
 | 28. | [Live News App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Live%20News%20App) |
+</br>
 
 ## [Java](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java) 🚀
 
@@ -83,7 +86,7 @@
 | 10. | [Temperature Convertor Tool](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/Temperature%20Convertor%20Tool) |
 | 11. | [Tic Tac Toe](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/TicTacToe) |
 | 12. | [Currency Converter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/currency-converter) |
-
+</br>
 
 ## [SQL](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/SQL)  🚀
 
