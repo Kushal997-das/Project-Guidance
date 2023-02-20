@@ -103,6 +103,7 @@
 <td align="center"><a href="https://github.com/shrutijain0"><img src="https://avatars.githubusercontent.com/shrutijain0" width="100px;" alt="Avatar"/><br /><sub><b>Shruti</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Contributor">👩‍💻</a></td>
 <td align="center"><a href="https://github.com/UG-SEP"><img src="https://avatars.githubusercontent.com/UG-SEP" width="100px;" alt="Avatar"/><br /><sub><b>Ujjwal</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Contributor">👨‍💻</a></td>
 <td align="center"><a href="https://github.com/SamarpanCoder2002"><img src="https://avatars.githubusercontent.com/SamarpanCoder2002" width="100px;" alt="Avatar"/><br /><sub><b>Samarpan Dasgupta</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Partner of Author">👨‍💻</a></td>
+<td align="center"><a href="https://github.com/abhilipsasahoo03"><img src="https://avatars.githubusercontent.com/abhilipsasahoo03" width="100px;" alt="Avatar"/><br /><sub><b>Abhilipsa Sahoo</b></sub></a><br /><a href="https://github.com/Kushal997-das/Project-Guidance" title="Contributor">👨‍💻</a></td>
   </tr>
 </table>
 
