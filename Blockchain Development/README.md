@@ -1,6 +1,6 @@
-<h1 align="center">Blockchain Development 🔗</h1>
+<h1 id="top" align="center">Blockchain Development 🔗</h1>
 
-<div id="top" align="center"><img src="https://user-images.githubusercontent.com/65494453/217033121-1c09172a-aad1-472d-b894-07c9a1d5de1a.png">
+<div align="center"><img src="https://user-images.githubusercontent.com/65494453/217033121-1c09172a-aad1-472d-b894-07c9a1d5de1a.png">
 </div>
 
 <h2 align="center">🚦 Welcome Developers to Blockchain Development Domain of Project Guidance</p></h2>
@@ -13,9 +13,9 @@
 
 ## Level 1: Basic 🚀
 
-- [Arithmetic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Basic/Arithmetic)<br>
-
-- [Snd_Ether](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Basic/Snd_Ether)<br>
+| S-No. | Projects | S-No. | Projects | S-No. | Projects |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| 01. | [Arithmetic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Basic/Arithmetic) | 02. | [Snd_Ether](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Basic/Snd_Ether) |
 
 ## Level 2: Intermediate 🚀
 
@@ -27,6 +27,7 @@
 
 ---
 
+<br/>
 <h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3>
 
 <h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3>
