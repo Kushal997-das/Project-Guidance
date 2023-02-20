@@ -13,8 +13,8 @@
 
 ## Level 1: Basic 🚀
 
-| S-No. | Projects | S-No. | Projects | S-No. | Projects |
-|:--:|:--:|:--:|:--:|:--:|:--:|
+| S-No. | Projects | S-No. | Projects |
+|:--:|:--:|:--:|:--:|
 | 01. | [Arithmetic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Basic/Arithmetic) | 02. | [Snd_Ether](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Basic/Snd_Ether) |
 
 ## Level 2: Intermediate 🚀
