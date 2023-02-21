@@ -12,7 +12,7 @@
 
 <h1> 🎯 Explore <i>Desktop Application</i> With Three Level:-</h1>
 
-## [C Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C)  🚀
+## C Language  🚀
 
 | S-No. | [Basic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C) | S-No. | [Intermediate](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/C) | S-No. | [Advanced](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C) |
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -23,7 +23,7 @@
 | 05. | [Sudoku Solver](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C/Sudoku-Solver-C) |
 <br>
 
-## [C++ Language](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B)  🚀
+## C++ Language 🚀
 
 | S-No. | [Basic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B) | S-No. | [Intermediate](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/C%2B%2B) | S-No. | [Advanced](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/C%2B%2B) |
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -36,7 +36,7 @@
 | 07. | [Scrabble](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/C%2B%2B/Scrabble) |
 </br>
 
-## [Python](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python)  🚀
+## Python  🚀
 
 | S-No. | [Basic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python) | S-No. | [Intermediate](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Python) | S-No. | [Advanced](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Python) |
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -70,7 +70,7 @@
 | 28. | [Live News App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Live%20News%20App) |
 </br>
 
-## [Java](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java) 🚀
+## Java 🚀
 
 | S-No. | [Basic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java) | S-No. | [Intermediate](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java) | S-No. | [Advanced](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java) |
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -88,7 +88,7 @@
 | 12. | [Currency Converter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/currency-converter) |
 </br>
 
-## [SQL](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/SQL)  🚀
+## SQL 🚀
 
 | S-No. | [Basic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/SQL) | S-No. | Intermediate | S-No. | Advanced |
 |:--:|:--:|:--:|:--:|:--:|:--:|
