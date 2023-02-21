@@ -1,8 +1,10 @@
 <h1 id="top" align="center">💙 Desktop Applications 💙</h1>
 
-<p align="center"><img src="https://github.com/SamarpanCoder2002/Project-Guidance/blob/main/Documents/Desktop-Image.png?raw=true" alt="Desktop Application Image" width=800px />
+<p align="center"><img src="https://user-images.githubusercontent.com/61356005/220252571-09d0a941-70e4-4b6f-af2f-ac92ca53684c.png" alt="Desktop Application Image" width=600px />
    <h2><p align="center"><strong>😮 Welcome Developers to Desktop Application Domain of Project Guidance 😮</strong></p>
 </p></h2>
+
+
 
 <h1></h1>
 
