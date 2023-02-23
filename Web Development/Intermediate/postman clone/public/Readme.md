@@ -12,10 +12,9 @@ This project is done using HML,CSS,JS,Bootstrap.
 
 4. The output will be displayed in the ouput box.
 
-![Screenshot (334)](https://user-images.githubusercontent.com/80022302/220861839-2908ef0e-4912-4d63-8a2a-09b7cc6511df.png)
+![Screenshot (334)](https://user-images.githubusercontent.com/80022302/217041066-f42a7bfd-d554-488b-abb2-64f1317a6c0d.png)
 
-![Screenshot (335)](https://user-images.githubusercontent.com/80022302/220862142-2c05fefb-d329-4112-a3de-8ffceda0250a.png)
-
+![Screenshot (335)](https://user-images.githubusercontent.com/80022302/217041303-204fa9e5-e37b-470c-b958-fa4b67edc003.png)
 
 ## Example 
 Here we use JSON Placeholder Fake Rest API.
@@ -31,23 +30,16 @@ Request JSON
 
 ### When request type is GET and content type is JSON
 
-![Screenshot (336)](https://user-images.githubusercontent.com/80022302/220862576-d85f756d-1199-47b5-aae8-7a6e94cda53e.png)
+![Screenshot (336)](https://user-images.githubusercontent.com/80022302/217043416-31504077-7fcf-4a97-89eb-a33306ab3af3.png)
 
 ### When request type is GET and content type is custom parameters
 
-![Screenshot (337)](https://user-images.githubusercontent.com/80022302/220862717-5e47566d-a6fa-4708-b0e0-3c58faf840a1.png)
+![Screenshot (337)](https://user-images.githubusercontent.com/80022302/217044140-f61f8978-b087-48df-b0ce-ef7e1631375c.png)
 
 ### When request type is POST and content type is JSON
 
-![Screenshot (339)](https://user-images.githubusercontent.com/80022302/220862891-762eee44-0923-427b-baea-304a849ea8f4.png)
-
+![Screenshot (339)](https://user-images.githubusercontent.com/80022302/217044856-597fc6e1-e5eb-4828-a439-9d4cd702ef19.png)
 
 ### when request type is POST and content type is custom parameters
 
-![Screenshot (338)](https://user-images.githubusercontent.com/80022302/220863065-8fc83f96-7f80-4ff3-9eec-742f6fd3c732.png)
-
-
-# DEPLOY LINK 👍
-
-https://postman-clone-using-js.web.app/
-
+![Screenshot (338)](https://user-images.githubusercontent.com/80022302/217044913-03dd3fad-cedc-4133-8aa6-817ebb8b1220.png)
