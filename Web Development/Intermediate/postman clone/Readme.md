@@ -12,9 +12,9 @@ This project is done using HML,CSS,JS,Bootstrap.
 
 4. The output will be displayed in the ouput box.
 
-![Screenshot (334)](https://user-images.githubusercontent.com/80022302/220861839-2908ef0e-4912-4d63-8a2a-09b7cc6511df.png)
+<img src= "https://user-images.githubusercontent.com/80022302/220861839-2908ef0e-4912-4d63-8a2a-09b7cc6511df.png" width="300" height="300">
 
-![Screenshot (335)](https://user-images.githubusercontent.com/80022302/220862142-2c05fefb-d329-4112-a3de-8ffceda0250a.png)
+<img src= "https://user-images.githubusercontent.com/80022302/220862142-2c05fefb-d329-4112-a3de-8ffceda0250a.png" width="300" height="300">
 
 
 ## Example 
@@ -31,20 +31,22 @@ Request JSON
 
 ### When request type is GET and content type is JSON
 
-![Screenshot (336)](https://user-images.githubusercontent.com/80022302/220862576-d85f756d-1199-47b5-aae8-7a6e94cda53e.png)
+<img src= "https://user-images.githubusercontent.com/80022302/220862576-d85f756d-1199-47b5-aae8-7a6e94cda53e.png" width="500" height="300">
+
 
 ### When request type is GET and content type is custom parameters
 
-![Screenshot (337)](https://user-images.githubusercontent.com/80022302/220862717-5e47566d-a6fa-4708-b0e0-3c58faf840a1.png)
+<img src= "https://user-images.githubusercontent.com/80022302/220862717-5e47566d-a6fa-4708-b0e0-3c58faf840a1.png" width="300" height="300">
+
 
 ### When request type is POST and content type is JSON
 
-![Screenshot (339)](https://user-images.githubusercontent.com/80022302/220862891-762eee44-0923-427b-baea-304a849ea8f4.png)
+<img src= "https://user-images.githubusercontent.com/80022302/220862891-762eee44-0923-427b-baea-304a849ea8f4.png" width="300" height="300">
 
 
 ### when request type is POST and content type is custom parameters
 
-![Screenshot (338)](https://user-images.githubusercontent.com/80022302/220863065-8fc83f96-7f80-4ff3-9eec-742f6fd3c732.png)
+<img src= "https://user-images.githubusercontent.com/80022302/220863065-8fc83f96-7f80-4ff3-9eec-742f6fd3c732.png" width="300" height="300">
 
 
 # DEPLOY LINK 👍
