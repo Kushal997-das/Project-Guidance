@@ -6,7 +6,7 @@ A basic web development project. This clone site features a sleek and modern des
 
 ## Demo
 
-Link to demo site: https://netflixx-landing-clone.netlify.app/
+Link to demo site: https://lambent-hamster-ebe7f6.netlify.app/
 
 
 ## Tech Stack
