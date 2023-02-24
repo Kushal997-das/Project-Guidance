@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icons/bot.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arch Bot</title>
+  </head>
+  <body class="bg-white">
+    <div
+      id="app"
+      class="w-[100vw] h-[100vh] bg-gradient-to-b from-[#023059] via-[#035AA6] to-[#035AA6] flex flex-col items-center justify-between"
+    >
+      <div class="text-6xl text-[#e68693] font-bold m-5 mb-2">Arch Bot</div>
+      <div class="text-lg text-white mb-2">
+        Empowering you with AI-powered answers, anytime, anywhere.
+      </div>
+      <div
+        id="chat-text"
+        class="flex flex-1 w-3/4 h-full overflow-y-scroll flex-col gap-3 pb-5 scroll-smooth border-white border-2 mb-2 rounded-md p-3"
+      ></div>
+      <form
+        class="w-1/2 max-w-screen-xl my-0 mx-auto bg-[#010A26] flex flex-row gap-3 p-3 rounded-md"
+      >
+        <textarea
+          name="prompt"
+          cols="1"
+          rows="1"
+          placeholder="Ask..."
+          class="w-full text-white text-lg p-3 bg-transparent rounded-md border-none outline-none resize-none"
+        ></textarea>
+        <button
+          type="submit"
+          class="outline-none border-none cursor-pointer bg-transparent"
+        >
+          <img src="/icons/right-arrow.png" alt="send" class="w-8 h-8" />
+        </button>
+      </form>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
