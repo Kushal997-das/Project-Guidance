@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Live Character Counter</h2>
+      <textarea
+        name="textarea"
+        id="textarea"
+        cols="30"
+        rows="10"
+        placeholder="Write your text here so that it can be counted. Note that the space will also be counted😅"
+        onkeyup="countingCharacter();"
+      ></textarea>
+      <p>Total Characters you typed including space: <span class="counter">0</span></p>
+    </div>
+    <script src="./js/app.js" async defer></script>
+  </body>
+</html>
