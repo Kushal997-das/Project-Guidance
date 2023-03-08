@@ -17,8 +17,14 @@ HTML, CSS, JavaScript
 
 
 ## Screenshots
+#### Light Mode
+![Screenshot (127)](https://user-images.githubusercontent.com/109059571/223773152-98dc51a3-1d14-487c-821f-957ddbe18244.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+#### Dark Mode
+![Screenshot (126)](https://user-images.githubusercontent.com/109059571/223773181-1580efd9-b765-410c-991a-19c648639bcf.png)
+
+
+
 
 
 ## Features
