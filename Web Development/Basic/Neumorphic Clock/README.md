@@ -16,7 +16,7 @@ HTML, CSS, JavaScript
 
 
 
-## Screenshots
+## Images
 #### Light Mode
 ![Screenshot (127)](https://user-images.githubusercontent.com/109059571/223773152-98dc51a3-1d14-487c-821f-957ddbe18244.png)
 
