@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b2aab57.css",
+    "main.js": "/static/js/main.5647f6b2.js",
+    "static/media/to-do-app.png": "/static/media/to-do-app.eaf1dc0a18f186724061.png",
+    "static/media/social-app.png": "/static/media/social-app.3f432ef84edb03da263a.png",
+    "static/media/source hub.png": "/static/media/source hub.110c50bd9a5d05aa1e66.png",
+    "static/media/dashboard.png": "/static/media/dashboard.9400979f15f1286de109.png",
+    "static/media/kri.jpg": "/static/media/kri.fdf329aaebb02f60cb0d.jpg",
+    "static/media/sh.jpg": "/static/media/sh.f1debd12b8a43318ad80.jpg",
+    "static/media/logo (3).png": "/static/media/logo (3).b84a765c7dbe3b9cd5db.png",
+    "static/media/dhee.jpg": "/static/media/dhee.a928b2e9cb17f6a22087.jpg",
+    "static/media/charu.jpg": "/static/media/charu.04e3a964e2c7344a61b2.jpg",
+    "static/media/financial-calculator.jfif": "/static/media/financial-calculator.86e19a3716eb4ebcd921.jfif",
+    "static/media/Open source-cuate.svg": "/static/media/Open source-cuate.3508b9d510bac5174703ba628e7025f6.svg",
+    "static/media/why-us.png": "/static/media/why-us.0b38b56dc7642af4e0af.png",
+    "static/media/sa.jpg": "/static/media/sa.5c57fea1652542d8667f.jpg",
+    "static/media/msg-app.png": "/static/media/msg-app.cadf1cd82d24b5a9b379.png",
+    "static/media/Dark analytics-bro.svg": "/static/media/Dark analytics-bro.58fbe2beadaeb9a2e32fe3bb053bd25f.svg",
+    "static/media/ha.jpg": "/static/media/ha.073d02fe4e40c8df22f8.jpg",
+    "index.html": "/index.html",
+    "main.1b2aab57.css.map": "/static/css/main.1b2aab57.css.map",
+    "main.5647f6b2.js.map": "/static/js/main.5647f6b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b2aab57.css",
+    "static/js/main.5647f6b2.js"
+  ]
+}

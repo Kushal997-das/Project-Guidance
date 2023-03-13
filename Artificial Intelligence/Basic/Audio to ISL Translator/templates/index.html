@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Final Year Project Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!--    <link rel="stylesheet" type="text/css" href="style.css">-->
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css')}}">
+        <style>
+          .iframe-container{
+              position: relative;
+              width: 100%;
+              padding-bottom: 56.25%;
+              height: 0;
+            }
+            .iframe-container iframe{
+              position: absolute;
+              top:0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Indian Sign Language Generator</h1>
+        <p>
+        This demo uses <a href="https://github.com/mattdiamond/Recorderjs" target="_blank">Recorder.js</a> to record wav/PCM audio directly in the browser, Google speech recognizer module for converting audio to text.
+      </p>
+      <div id="controls">
+        <button id="recordButton">Record</button>
+        <button id="pauseButton" disabled>Pause</button>
+        <button id="stopButton" disabled>Stop</button>
+      </div>
+      <div id="formats">Format: start recording to see sample rate</div>
+      <p>
+        <strong>Recordings:</strong>
+      </p>
+      <ol id="recordingsList">
+      </ol>
+      <input type="text" name="speechToText" id="speechToText" placeholder="Text">
+      <input type="text" name="textToISL" id="textToISL" placeholder="ISL GLOSS">
+      <br><br><br>
+    <!--    <iframe width="420" height="315" id = 'youtubePlayer'-->
+    <!--        src="http://www.youtube.com/embed/1f6OchgCQrE?start=0&end=3?enablejsapi=1&autoplay=1&playlist=1f6OchgCQrE,Zux-Hazhhqo,7Vn_Dto8Vq4">-->
+    <!--    </iframe>-->
+      <div class = 'iframe-container'>
+        <div id="player"></div>
+      </div>
+    <script>
+        var videos = ['gVRqPhuDkaQ'];
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      var i = 0;
+      //var videos = ['Zux-Hazhhqo','922S3GXI7eI','7Vn_Dto8Vq4'];
+
+      //var videos = test();
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+            height: '390',
+            width: '640',
+            videoId: videos[0],
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+            });
+      }
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+
+      function onPlayerStateChange(event) {
+        // if (event.data == YT.PlayerState.PLAYING && !done) {
+        //   setTimeout(stopVideo, 6000);
+        //   done = true;
+        // }
+        if (event.data == YT.PlayerState.ENDED) {
+            if (i<videos.length){
+              if (videos[i].includes('?')){
+                var temp_videos = videos[i].split('?');
+                var s = parseInt(temp_videos[1][6]);
+                var e =  parseInt(temp_videos[1][12]);
+                player.loadVideoById({videoId: temp_videos[0],
+                            startSeconds:s,
+                            endSeconds:e})
+              }
+              else {
+                player.loadVideoById({videoId: videos[i],
+                            startSeconds:0,
+                            endSeconds:10})
+                        }
+            i++;
+            console.log(i);
+            }
+            }
+        //}
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+
+      function getVideoData() {
+          videos = localStorage.getItem("links").split(',');
+          console.log('in html');
+          console.log(videos);
+      }
+    </script>
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <!--  	<script src="js/app.js"></script>-->
+    <script src="{{url_for('static', filename = 'app.js')}}"></script>
+</body>
+</html>
+if (event.data == YT.PlayerState.PLAYING && !done) {
+  setTimeout(stopVideo, 6000);
+  done = true;
+}
+if (event.data == YT.PlayerState.ENDED) {
+  player.loadVideoById({videoId:'Zux-Hazhhqo', startSeconds:0, endSeconds:6})
+}

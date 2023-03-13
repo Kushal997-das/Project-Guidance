@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pomodoro Timer
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <progress id="js-progress" value="0"></progress>
+      <div class="progress-bar"></div>
+      <div class="timer">
+        <div class="button-group mode-buttons" id="js-mode-buttons">
+          <span><button
+            data-mode="pomodoro"
+            class="button1 active mode-button"
+            id="js-pomodoro"
+          >
+            Pomodoro
+          </button></span>
+          <span><button
+            data-mode="shortBreak"
+            class="button2 mode-button"
+            id="js-short-break"
+          >
+            Short break
+          </button></span>
+          <span><button
+            data-mode="longBreak"
+            class="button3 mode-button"
+            id="js-long-break"
+          >
+            Long break
+          </button></span>
+        </div>
+        <div class="clock" id="js-clock">
+          <span id="js-minutes">25</span>
+          <span class="separator">:</span>
+          <span id="js-seconds">00</span>
+        </div>
+        <button class="main-button" data-action="start" id="js-btn">
+          Start
+        </button>
+      </div>
+    </main>
+    <div class="hidden">
+      <audio src="WorkTime.mp3" data-sound="pomodoro"></audio>
+      <audio src="Break.mp3" data-sound="shortBreak"></audio>
+      <audio src="Break.mp3" data-sound="longBreak"></audio>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

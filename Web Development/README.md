@@ -37,6 +37,8 @@
 | 61. | [Type Writer Effect](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Type%20Writer%20Effect) | 62. | [Weather App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Weather%20App) | 63. | [White Board](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/White%20Board) | 
 | 64. | [Blurry Loading](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/blurry_loading) | 65. | [Flipbook](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/flipbook) | 66. | [Pinterest Static](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/pinterest-static) | 
 | 67. | [Food Menu Cart](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Food%20Menu%20Cart) |  68. | [Weight Converter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Weight-Converter) | 69. | [Zomato Landing Page](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Zomato-Landing-Page) | 
+
+
 <br>
 
 ## Level 2: Intermediate 🚀
