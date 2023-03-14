@@ -1,7 +1,7 @@
-##Project Name: Etch-A-Sketch
-###Description: Allows you to your use cursor to draw on the canvas.
+## Project Name: Etch-A-Sketch
+### Description: Allows you to your use cursor to draw on the canvas.
 
-###Directions:
+### Directions:
 Set the canvas size to any size with (maximum 100)
 Click on the canvas to start drawing
 Click again on the canvas to stop drawing
