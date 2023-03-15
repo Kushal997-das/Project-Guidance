@@ -1,0 +1,55 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(238, 74, 74);
+}
+.content .title {
+  font-size: 4rem;
+  font-family: "Acme", sans-serif;
+  text-align: center;
+}
+.content h4 {
+  font-family: "Acme", sans-serif;
+}
+.content .board {
+  width: 60%;
+  height: 60%;
+  display: grid;
+  border: 2px solid black;
+  margin-bottom: 2rem;
+}
+.content button {
+  font-size: 1.3rem;
+  background-color: aqua;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.content .buttons {
+  margin-bottom: 1rem;
+}
+.content input {
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 545px) {
+  .content {
+    background-color: aquamarine;
+  }
+  .content button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .content input {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.8rem;
+  }
+}/*# sourceMappingURL=style.css.map */
