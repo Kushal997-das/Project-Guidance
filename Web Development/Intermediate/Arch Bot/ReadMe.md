@@ -41,6 +41,7 @@ npm run dev
 ![Screenshot2](./client/public/screenshots/s2.png)
 ![Screenshot3](./client/public/screenshots/s3.png)
 ![Screenshot4](./client/public/screenshots/s4.png)
+![image](https://user-images.githubusercontent.com/84083897/225266290-5b7e8f88-5958-456f-88bb-d34f286ea4d9.png)
 ## Technologies Used
 
 1. NodeJS and ExpressJS
