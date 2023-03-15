@@ -52,6 +52,6 @@ npm run dev
 
 Add this environment variable to your .env to run locally
 
-> OPENAI_API_KEY
+> OPENAI_API_KEY and OPENAI_ORGANIZATION
 
-[To get the key visit this website](https://beta.openai.com/examples)
+[To get the keys visit this website](https://beta.openai.com/examples)
