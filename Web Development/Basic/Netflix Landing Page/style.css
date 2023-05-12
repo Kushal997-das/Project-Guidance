@@ -82,6 +82,24 @@ img {
 	right: 0;
 	transform: translate(-50%, -50%);
 }
+.showcase .right{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+.showcase .right .lang{
+    margin: auto;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
 
 .showcase-content {
 	position: relative;
