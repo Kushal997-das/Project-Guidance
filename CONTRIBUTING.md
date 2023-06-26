@@ -8,19 +8,19 @@ Code of Conduct
 
 Please read and follow our [Code of Conduct.](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md)
 
-### Before contributing please ensure your **pull request** adheres to the following guidelines:
+### Before contributing, please ensure that your pull request adheres to the following guidelines:
 
 
-## STEP-0 : Key Points to remember :
+## STEP-0: Key Points to remember :
   - Look at the previous projects and get some idea from them [Previous](https://github.com/Kushal997-das/Project-Guidance)
-  - Suppose you want to contribute one projet to one particular domain then first check is there any [Projects](https://github.com/Kushal997-das/Project-Guidance) exits with the same language or not.
-  - If Yes that your project is already exits with the same programming language then you can't be able to add your project to this repo. 
-  - If there is no such project then make sure you enter your particular domain and create one folder and folder name should be **your project name** .
-  - Please don't add any License under your project. This repo already under MIT License.
+  - Suppose you want to contribute one project to one particular domain then first check if there are any [Projects](https://github.com/Kushal997-das/Project-Guidance) exits with the same language or not.
+  - If Yes that your project already exists with the same programming language then you can't be able to add your project to this repo. 
+  - If there is no such project then make sure you enter your particular domain and create one folder and the folder name should be **your project name**.
+  - Please don't add any Licenses to your project. This repo is already under MIT License.
   
   
     ## **Flow** :
-      - Project-Guidance --> Choose your domain --> Choose your project level (basic,Intermediate,Advance) --> Create a folder with your project name --> Send a pull request.
+      - Project-Guidance --> Choose your domain --> Choose your project level (basic, Intermediate, advanced) --> Create a folder with your project name --> Send a pull request.
   <img align="center" alt="png" height='450px' width="950px" src="https://user-images.githubusercontent.com/61356005/208656751-f4f12ff9-78fc-4688-b7d2-899716500865.png"/>   
        
  
