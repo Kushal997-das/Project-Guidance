@@ -6,7 +6,7 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 24px;
-  background-color: rgb(174, 246, 248, 0.5);
+  background-color: rgba(12, 159, 164, 0.5);
 }
 .btn {
   margin-top: 40vh;

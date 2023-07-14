@@ -63,6 +63,7 @@ img {
 
 .showcase-top {
 	position: relative;
+	/* display: inline; */
 	z-index: 2;
 	height: 90px;
 }
@@ -83,21 +84,24 @@ img {
 	transform: translate(-50%, -50%);
 }
 .showcase .right{
-    display: flex;
+    
+	margin-top: 28px;
+	margin-right: 150px;
     height: 100px;
     float: right;
-    position: absolute;
-    right: 50px;
+  
 }
 .showcase .right .lang{
     margin: auto;
-    justify-content: center;
-    font-size: 18px;
+    justify-content: space-between;
+    font-size: 15px;
     padding: 7px 10px;
     color: white;
     background: none;
     cursor: pointer;
     margin-right: 15px;
+	border-radius: 5px;
+
 }
 
 
