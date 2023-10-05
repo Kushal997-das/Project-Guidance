@@ -1,6 +1,22 @@
-## Library Management Website
 
-This is a basic frontend project called library management system done using the following tech stacks - HTML, CSS, Javascript, Jquery. The outputs are as follows.
+# Library-Management-Website
+
+A basic web development project which showcases the various books in a library. It has a scroll view as well as a search column which can be used to search for particular books.
+
+
+## Demo
+
+Link to demo site: https://nitish36.github.io/Library-Management/
+
+
+## Tech Stack
+
+HTML, CSS, JavaScript, JQuery
+
+
+
+
+## Screenshots
 
 ![Output 1](https://github.com/Nitish36/Project-Guidance/assets/91598274/0dd93642-0d3f-43a5-a07f-5c5185d44a13)
 
@@ -28,4 +44,13 @@ The fifth output shows the search bar where we can search books based on subject
 The sixth output shows the search bar where we can search books based on dates
 
 
-The website is deployed on this link : https://nitish36.github.io/Library-Management/
+
+## Authors
+
+- [@Nitish36](https://github.com/Nitish36)
+
+
+## Contributing
+
+Contributions are always welcome!
+
