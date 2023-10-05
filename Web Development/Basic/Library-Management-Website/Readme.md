@@ -23,8 +23,9 @@ The fourth output shows the search bar where we can search books based on book n
 The fifth output shows the search bar where we can search books based on subject
 
 
-The website is deployed on this link : https://nitish36.github.io/Library-Management/
-
 ![Output 6](https://github.com/Nitish36/Project-Guidance/assets/91598274/fc7a81bd-98be-4cd3-9b0c-48320e3986ff)
 
 The sixth output shows the search bar where we can search books based on dates
+
+
+The website is deployed on this link : https://nitish36.github.io/Library-Management/
