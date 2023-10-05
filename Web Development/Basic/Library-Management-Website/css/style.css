@@ -1,0 +1,98 @@
+body
+{
+    
+    background: url(galaxy.jpg),no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#mySearch
+{
+    outline: none;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #4b0084;
+    color: #ddd;
+}
+.outer
+{
+    margin: 50px;
+    background-color: rgb(27,7,35);
+    padding: 20px;
+}
+.outer p
+{
+    position: absolute;
+    right: 90px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+.middle
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #192638;
+    color : #f9966b;
+    
+}
+.middle .content
+{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.middle .search
+{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.inner
+{
+    background-color: #342056;
+    color: white;
+
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #192638 0%, #708ad4 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+#books {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #books td, #books th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #books tr:nth-child(even){background-color: #220e24;}
+  
+  #books tr:hover {background-color: transparent; }
+  
+  #books th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(180deg, #192638 0%, #151B8D 99%);
+    color: white;
+  }
+  
