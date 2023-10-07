@@ -8,6 +8,8 @@
     <title>Google Clone</title>
 </head>
 <body>
+    <div id="google_translate_element"></div>
+
     <div class="header">
         <div id="gmail"><a href="#">Gmail</a></div>
         <div id="images"><a href="#">Images</a></div>
@@ -73,6 +75,39 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //query or javascript
+            $('.sidenav').sidenav({
+                edge: 'right'
+            });
+
+            $('.parallax').parallax();
+
+            $('.collapsible').collapsible();
+
+
+
+        });
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+
+        function translateText() {
+            var textToTranslate = document.getElementById("textToTranslate").textContent;
+            var translatedTextElement = document.getElementById("translatedText");
+            translatedTextElement.textContent = textToTranslate; // Replace with API call or custom translation logic
+        }
+    
+    
+
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
  
 </body>
 </html>
