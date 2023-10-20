@@ -1,0 +1,13 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Breadboard        |  1            |
+| Connecting Wires  | 22            |
+| LCD               |  1            |
+| Potentiometer     |  1            |
+| Ultrasonic Sensor |  1            |
+| Servo Motor       |  1            |
+| Buzzer            |  1            |
+| Red LED           |  1            | 
+| Green LED         |  1            |
+| Resistors        |  2            |
