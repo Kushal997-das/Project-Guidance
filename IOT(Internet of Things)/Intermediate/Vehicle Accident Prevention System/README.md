@@ -58,6 +58,8 @@ The project deals with prevention of accident by sending alarm and a warning mes
 
 ![image](https://user-images.githubusercontent.com/76259897/156437565-964db7e8-67b6-432a-8e26-f1da12d26c31.png)
 
+[Simulation Video](https://github.com/rittikadeb/Project-Guidance/blob/vehicle-accident-prevention/IOT(Internet%20of%20Things)/Intermediate/Vehicle%20Accident%20Prevention%20System/Images/vehicle_accident_prevention_system.mp4)
+
 
 
 
