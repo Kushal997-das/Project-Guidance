@@ -30,7 +30,7 @@
 
 | S-No. | Projects | S-No. | Projects | S-No. | Projects |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| 01. | [Gas leakage detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/gas%20leakage%20detection) | 02. |  [Vehicle Accident Prevention System](https://github.com/rittikadeb/Project-Guidance/tree/vehicle-accident-prevention/IOT(Internet%20of%20Things)/Intermediate/Vehicle%20Accident%20Prevention%20System)
+| 01. | [Gas leakage detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/gas%20leakage%20detection) | 02. |  [Vehicle Accident Prevention System](https://github.com/rittikadeb/Project-Guidance/tree/vehicle-accident-prevention/IOT(Internet%20of%20Things)/Intermediate/Vehicle%20Accident%20Prevention%20System) | 03. |  [Home Security System](./Intermediate/Home%20Security%20System)
 
 ## Level 3: Advanced 🚀
 
