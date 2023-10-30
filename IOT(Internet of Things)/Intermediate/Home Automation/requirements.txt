@@ -1,0 +1,14 @@
+| Component         | Quantity      |
+| ------------------| ------------- |
+| Arduino UNO       |  1            |
+| Breadboard        |  1            |
+| Connecting Wires  | 51            |
+| LCD               |  1            |
+| Potentiometer     |  1            |
+| Relays            |  2            |
+| Power Supply      |  1            |
+| DC Motors         |  2            |
+| Bulbs             |  2            |
+| Photoresistors    |  1            | 
+| Temperature Sesor |  1            |
+| Resistors         |  2            |
