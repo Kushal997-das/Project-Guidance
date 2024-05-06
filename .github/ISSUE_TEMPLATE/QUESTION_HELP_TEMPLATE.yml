@@ -1,15 +1,14 @@
----
 name: ❓ Questions and Help
-about: If you have questions, please check the below links
-title: ""
+description: If you have questions, please check the below links.
+title: "Questions or Help"
 labels: question
-assignees: ""
+assignees: []
 body:
   - type: markdown
     attributes:
-      value: >
-        Have you read the Contributing Guidelines? [Contributing
-        Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
+      value: |
+        Have you read the Contributing Guidelines? [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
+
   - type: dropdown
     attributes:
       label: Initiative (Required)
@@ -24,7 +23,11 @@ body:
         - "Other (please specify): _______________ ✏️"
     validations:
       required: true
-contact_info:
-  email: daskushal980@gmail.com
-  github: https://github.com/Kushal997-das
-  linkedin: https://www.linkedin.com/in/kushal-das-7337421a9/
+
+  - type: textarea
+    attributes:
+      label: Additional Info
+      description: "Please provide any additional information or questions you may have."
+      placeholder: Type here...
+    validations:
+      required: false
