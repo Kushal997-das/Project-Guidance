@@ -5,7 +5,7 @@ key3 = now.month
 d1 = datetime.date.today()
 num = 0
 try:
-    birthday = input("When is your birthday?")
+    birthday = input("When is your birthday?(dd/mm/yyyy)")
     birthday = datetime.datetime.strptime(birthday,"%d/%m/%Y",).date()
     key2 = birthday.year+18
     age = now.year - birthday.year
