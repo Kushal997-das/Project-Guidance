@@ -10,10 +10,11 @@
 - A time-efficient and accessible ASD screening tool is essential to aid healthcare professionals and guide individuals toward pursuing formal clinical diagnosis. The goal is to develop machine learning techniques to make this screening process faster and more effective. <br>
 - You can choose any of the tool of your choice
 (Python/R/Tableau/PowerBI/Excel/SAP/SAS)<br>
+- Algorithm Used - Logistic Regression, Support Vector Machine and Random Forest Classifier
 - Here is the dataset :
-<a href="https://bit.ly/34SRn3b">Dataset.csv</a><br>
+<a href="Machine Learning and Data Science/Intermediate/Autism Identification System/Data.csv">Dataset.csv</a><br>
 > Solution:
-<a href="https://github.com/Kushal997-das/Project-Guidance/blob/main/Machine%20Learning%20and%20Data%20Science/Advanced/EXPLORATORY%20DATA%20ANALYSIS%20(SPORTS)/Sports.ipynb">Exploratory Data Analysis - Sports</a>
+<a href="Machine Learning and Data Science/Intermediate/Autism Identification System/autism_identification_notebook.ipynb">Autism Identification System </a>
 
 
 If you have any Queries or Suggestions, feel free to reach out to me.
@@ -22,7 +23,7 @@ If you have any Queries or Suggestions, feel free to reach out to me.
 [<img height="30" src="https://img.shields.io/badge/github-black.svg?&style=for-the-badge&logo=github&logoColor=white" />][Github]
 <br />
 
-[linkedin]: https://www.linkedin.com/in/kushal-das-7337421a9/
-[github]: https://github.com/Kushal997-das/
+[linkedin]: https://www.linkedin.com/in/sasidharan-vairavasamy-576474219/
+[github]: https://github.com/Thewhitewolfsasi/
 
 <h3 align="center">Show some &nbsp;❤️&nbsp; by starring this repo! </h3>
