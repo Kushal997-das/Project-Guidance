@@ -41,7 +41,7 @@
 | S-No. | Projects | S-No. | Projects | S-No. | Projects |
 |:--:|:--:|:--:|:--:|:--:|:--:| 
 | 01. | [ Detox ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Detox) | 02. | [Timeline Analysis Covid-19](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Timeline%20Analysis%20Covid-19) | 03. | [ Exploratory Data Analysis (Sports) ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/EXPLORATORY%20DATA%20ANALYSIS%20(Sports)) |
-| 04. | [ Stock Market Prediction using Numerical and Textual analysis ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Stock%20Market%20Prediction%20using%20Numerical%20and%20Textual%20Analysis) | 05. | [ EDA and Perform Modelling on Ionosphere dataset ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/EDA-and-Perform-Modelling-on-Ionosphere-Dataset-main) |
+| 04. | [ Stock Market Prediction using Numerical and Textual analysis ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Stock%20Market%20Prediction%20using%20Numerical%20and%20Textual%20Analysis) | 05. | [ EDA and Perform Modelling on Ionosphere dataset ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/EDA-and-Perform-Modelling-on-Ionosphere-Dataset-main) | 06. | [ Resume Parser ](https://github.com/sujanrupu/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Resume%20Parser%20) | 
 
 
 ---
