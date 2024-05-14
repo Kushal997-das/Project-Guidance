@@ -3,7 +3,22 @@ description: Request/Suggest any feature you think is missing
 title: "Title: "
 labels: "Feature Request"
 body:
-  - type: textarea #description
+  - type: dropdown # Initiative
+    attributes:
+      label: Initiative (Required)
+      description: "Please choose the initiative you are contributing to:"
+      options:
+        - GSSoC (Girl Script Summer of Code) 🌸
+        - GSSoC 2024 Extd 🚀
+        - Hacktoberfest 2024 🎃
+        - Script Winter of Code (SWoC) ❄️
+        - Winter of Blockchain (WoB) ⛄
+        - Personal 🧑‍💻
+        - "Other (please specify): _______________ ✏️"
+    validations:
+      required: true
+
+  - type: textarea # Problem Description
     attributes:
       label: Is your feature request related to a problem? Please describe.
       description: A clear and concise description of what the problem is.
@@ -11,7 +26,7 @@ body:
     validations:
       required: true
 
-  - type: textarea #solution
+  - type: textarea # Solution
     attributes:
       label: Describe the solution you'd like.
       description: A clear and concise description of what you want to happen.
@@ -19,15 +34,8 @@ body:
     validations:
       required: true
 
-  - type: textarea #alternatives
-    attributes:
-      label: Describe alternatives you've considered.
-      description: A clear and concise description of any alternative solutions or features you've considered.
-      placeholder: Type here.
-    validations:
-      required: true
-
-  - type: textarea #Additional Context
+  - type: textarea # Additional Context
     attributes:
       label: Add any other context or screenshots about the feature request here.
       description: Any miscellaneous suggestions you'd like to give.
+      placeholder: Type here.
