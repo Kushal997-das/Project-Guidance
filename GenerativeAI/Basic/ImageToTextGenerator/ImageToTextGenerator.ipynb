@@ -1,0 +1,210 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "gpuType": "T4"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "accelerator": "GPU",
+    "gpuClass": "standard"
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 16,
+      "metadata": {
+        "id": "SeT-a9Byby1n"
+      },
+      "outputs": [],
+      "source": [
+        "\n",
+        "from transformers import VisionEncoderDecoderModel, ViTImageProcessor, AutoTokenizer\n",
+        "import torch\n",
+        "from PIL import Image"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "model = VisionEncoderDecoderModel.from_pretrained(\"nlpconnect/vit-gpt2-image-captioning\")\n",
+        "feature_extractor = ViTImageProcessor.from_pretrained(\"nlpconnect/vit-gpt2-image-captioning\")\n",
+        "tokenizer = AutoTokenizer.from_pretrained(\"nlpconnect/vit-gpt2-image-captioning\")\n",
+        "\n",
+        "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n",
+        "model.to(device)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Gh2jscQnot8g",
+        "outputId": "fe64ca40-7f91-4cd4-8967-5c00bb0ce857"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "VisionEncoderDecoderModel(\n",
+              "  (encoder): ViTModel(\n",
+              "    (embeddings): ViTEmbeddings(\n",
+              "      (patch_embeddings): ViTPatchEmbeddings(\n",
+              "        (projection): Conv2d(3, 768, kernel_size=(16, 16), stride=(16, 16))\n",
+              "      )\n",
+              "      (dropout): Dropout(p=0.0, inplace=False)\n",
+              "    )\n",
+              "    (encoder): ViTEncoder(\n",
+              "      (layer): ModuleList(\n",
+              "        (0-11): 12 x ViTLayer(\n",
+              "          (attention): ViTAttention(\n",
+              "            (attention): ViTSelfAttention(\n",
+              "              (query): Linear(in_features=768, out_features=768, bias=True)\n",
+              "              (key): Linear(in_features=768, out_features=768, bias=True)\n",
+              "              (value): Linear(in_features=768, out_features=768, bias=True)\n",
+              "              (dropout): Dropout(p=0.0, inplace=False)\n",
+              "            )\n",
+              "            (output): ViTSelfOutput(\n",
+              "              (dense): Linear(in_features=768, out_features=768, bias=True)\n",
+              "              (dropout): Dropout(p=0.0, inplace=False)\n",
+              "            )\n",
+              "          )\n",
+              "          (intermediate): ViTIntermediate(\n",
+              "            (dense): Linear(in_features=768, out_features=3072, bias=True)\n",
+              "            (intermediate_act_fn): GELUActivation()\n",
+              "          )\n",
+              "          (output): ViTOutput(\n",
+              "            (dense): Linear(in_features=3072, out_features=768, bias=True)\n",
+              "            (dropout): Dropout(p=0.0, inplace=False)\n",
+              "          )\n",
+              "          (layernorm_before): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+              "          (layernorm_after): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+              "        )\n",
+              "      )\n",
+              "    )\n",
+              "    (layernorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+              "    (pooler): ViTPooler(\n",
+              "      (dense): Linear(in_features=768, out_features=768, bias=True)\n",
+              "      (activation): Tanh()\n",
+              "    )\n",
+              "  )\n",
+              "  (decoder): GPT2LMHeadModel(\n",
+              "    (transformer): GPT2Model(\n",
+              "      (wte): Embedding(50257, 768)\n",
+              "      (wpe): Embedding(1024, 768)\n",
+              "      (drop): Dropout(p=0.1, inplace=False)\n",
+              "      (h): ModuleList(\n",
+              "        (0-11): 12 x GPT2Block(\n",
+              "          (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)\n",
+              "          (attn): GPT2Attention(\n",
+              "            (c_attn): Conv1D()\n",
+              "            (c_proj): Conv1D()\n",
+              "            (attn_dropout): Dropout(p=0.1, inplace=False)\n",
+              "            (resid_dropout): Dropout(p=0.1, inplace=False)\n",
+              "          )\n",
+              "          (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)\n",
+              "          (crossattention): GPT2Attention(\n",
+              "            (c_attn): Conv1D()\n",
+              "            (q_attn): Conv1D()\n",
+              "            (c_proj): Conv1D()\n",
+              "            (attn_dropout): Dropout(p=0.1, inplace=False)\n",
+              "            (resid_dropout): Dropout(p=0.1, inplace=False)\n",
+              "          )\n",
+              "          (ln_cross_attn): LayerNorm((768,), eps=1e-05, elementwise_affine=True)\n",
+              "          (mlp): GPT2MLP(\n",
+              "            (c_fc): Conv1D()\n",
+              "            (c_proj): Conv1D()\n",
+              "            (act): NewGELUActivation()\n",
+              "            (dropout): Dropout(p=0.1, inplace=False)\n",
+              "          )\n",
+              "        )\n",
+              "      )\n",
+              "      (ln_f): LayerNorm((768,), eps=1e-05, elementwise_affine=True)\n",
+              "    )\n",
+              "    (lm_head): Linear(in_features=768, out_features=50257, bias=False)\n",
+              "  )\n",
+              ")"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "max_length = 16\n",
+        "num_beams = 4\n",
+        "gen_kwargs = {\"max_length\": max_length, \"num_beams\": num_beams}"
+      ],
+      "metadata": {
+        "id": "hm6EtiPoot27"
+      },
+      "execution_count": 18,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def predict_step(image_paths):\n",
+        "  images = []\n",
+        "  for image_path in image_paths:\n",
+        "    i_image = Image.open(image_path)\n",
+        "    if i_image.mode != \"RGB\":\n",
+        "      i_image = i_image.convert(mode=\"RGB\")\n",
+        "\n",
+        "    images.append(i_image)\n",
+        "\n",
+        "  pixel_values = feature_extractor(images=images, return_tensors=\"pt\").pixel_values\n",
+        "  pixel_values = pixel_values.to(device)\n",
+        "\n",
+        "  output_ids = model.generate(pixel_values, **gen_kwargs)\n",
+        "\n",
+        "  preds = tokenizer.batch_decode(output_ids, skip_special_tokens=True)\n",
+        "  preds = [pred.strip() for pred in preds]\n",
+        "  return preds"
+      ],
+      "metadata": {
+        "id": "FQ298E4gotu-"
+      },
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "predict_step(['/content/drive/MyDrive/images/Plane-flying-on-earth-atmosphere.jpg']) "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u5ajgeTho6G_",
+        "outputId": "e6f62aa7-b0b7-4eff-947f-85a3a84e87ce"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['a large jetliner flying through a blue sky']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 22
+        }
+      ]
+    }
+  ]
+}
