@@ -5,7 +5,6 @@ title: "Title: "
 labels: "General"
 ---
 
-
 # Project-Guidance! 🎊🎈
 
 ### Welcome! 🎉
@@ -36,7 +35,7 @@ Thank you for opening an issue! Your contributions help us improve the project. 
 - [ ] 🙋‍♂️ Personal
 - [ ] 📌 Other (please specify): _______________
 
-### 💬 Next Steps :
+### 💬 Next Steps:
 
 You can expect a response within [X days].
 <!-- Please replace X with the exact number -->
