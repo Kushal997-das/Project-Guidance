@@ -23,7 +23,7 @@
 | 16. | [Movie Recommendation System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Movie%20Recommendation%20System) | 17. | [Page View Time Series Visualizer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Page%20View%20Time%20Series%20Visualizer) | 18. | [Sea Level Predictor](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Sea%20Level%20Predictor) |
 | 19. | [Single Neural Network](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Single%20Neural%20Network) | 20. | [Titanic Survival Prediction](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Titanic_Survival_Prediction) | 21. | [Uber Analysis](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Uber%20Analysis) |
 | 22. | [Walmart Analysis](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Walmart%20Analysis) | 23. | [Wine Quality Prediction](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Wine%20Quality%20Prediction) |
-
+| 24. | [screen-time analysis](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/screen-time%)
 <br>
 
 ## Level 2: Intermediate 🚀
