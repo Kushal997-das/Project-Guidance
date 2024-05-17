@@ -7,7 +7,7 @@
 
 
 
-### Python Screen Recorder with GUI
+## Python Screen Recorder with GUI
 
 This project demonstrates how to create a screen recording application using Python. The application features a graphical user interface (GUI) built with `customtkinter`, which allows users to start and stop screen recordings easily. The recorded video is saved in the specified format, making this tool useful for creating tutorials, capturing gameplay, or recording presentations.
 
@@ -29,8 +29,16 @@ This project is suitable for those looking to enhance their Python skills by wor
 
 ### Example Usage:
 1. **Enter File Name**: Specify the output file name in the provided entry box.
-2. **Custom Stop Key**: Optionally, enter a custom key to stop the recording (defaults to 'q' if left empty).
-3. **Start Recording**: Click the "Start Recording" button to begin capturing the screen.
-4. **Stop Recording**: Use the specified key or the default 'q' to stop recording. The status label will update to indicate the recording has stopped.
+   ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/cc8fca2f-53e3-4ccc-a806-d90339f75a4a)
+
+2. **Custom Stop Key**: `Optionally`, enter a custom key to stop the recording (defaults to 'q' if left empty).
+   ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/bfef4f1f-7a68-4f53-af95-bc6564887e43)
+
+4. **Start Recording**: Click the "Start Recording" button to begin capturing the screen.
+  ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/5fb72a7b-db8f-4259-ba0f-33844d2cf49f)
+
+5. **Stop Recording**: Use the specified key or the default 'q' ON the output screen to stop recording `or` click on button provided. The status label will update to indicate the recording has stopped.
+  ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/8029d7f2-2fd5-4733-b60a-e03169db0953)
+
 
 This project combines practical Python programming with useful real-world application, making it a valuable addition to any developer's portfolio.
