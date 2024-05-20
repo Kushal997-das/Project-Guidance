@@ -17,12 +17,12 @@
 
 ### Example Data Visualizations:-
 
-![alt text](image.png)
+<img src="./images/image.png"  width="400" height="200">
 
-![alt text](image-1.png)
+<img src="./images/image-1.png"  width="400" height="200">
 
-![alt text](image-2.png)
+<img src="./images/image-2.png"  width="400" height="300">
 
-![alt text](image-3.png)
+<img src="./images/image-3.png"  width="400" height="200">
 
-![alt text](image-4.png)
+<img src="./images/image-4.png"  width="400" height="200">
