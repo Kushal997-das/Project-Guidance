@@ -52,8 +52,8 @@
 | 07. | [Expense Tracker App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Expense%20Tracker%20App) | 08. | [Hotel Reservation System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Hotel%20Reservation%20System) | 09. | [Naruto](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Naruto) |
 | 10. | [Online Gaming Portal Template](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Online%20Gaming%20Portal%20Template) | 11. | [PostMan clone](https://github.com/Kushal997-das/Project-Guidance/tree/postman/Web%20Development) | 12. | [Post Memories App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/post-memories-app)
 | 13. | [Stock Market](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/Stock%20Market) | 14. | [To-do App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/To-do%20app) | 15. | [Tourism Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate/TourismManagementSystem) 
+| 16. | [Passwrod Generator](Password-Generator) 
 <br>
-
 ## Level 3: Advanced 🚀
 
 | S-No. | Projects | S-No. | Projects | S-No. | Projects |
