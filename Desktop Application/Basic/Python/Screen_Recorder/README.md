@@ -29,16 +29,19 @@ This project is suitable for those looking to enhance their Python skills by wor
 
 ### Example Usage:
 1. **Enter File Name**: Specify the output file name in the provided entry box.
-   ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/cc8fca2f-53e3-4ccc-a806-d90339f75a4a)
+   ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/b6da3508-078f-467b-b328-5242be6993a6)
 
 2. **Custom Stop Key**: `Optionally`, enter a custom key to stop the recording (defaults to 'q' if left empty).
-   ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/bfef4f1f-7a68-4f53-af95-bc6564887e43)
+   ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/c5888912-77f3-48af-84fe-e9fbfc8adbf6)
+
 
 4. **Start Recording**: Click the "Start Recording" button to begin capturing the screen.
-  ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/5fb72a7b-db8f-4259-ba0f-33844d2cf49f)
+ ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/45b026b2-d2bb-4870-bd3d-17121980e2cf)
+
 
 5. **Stop Recording**: Use the specified key or the default 'q' ON the output screen to stop recording `or` click on button provided. The status label will update to indicate the recording has stopped.
-  ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/8029d7f2-2fd5-4733-b60a-e03169db0953)
+  ![image](https://github.com/jindalpriyanshu101/Project-Guidance/assets/52918255/2e28954b-62fd-4dae-8342-2badccd56114)
+
 
 
 This project combines practical Python programming with useful real-world application, making it a valuable addition to any developer's portfolio.
