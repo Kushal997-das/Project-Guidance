@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 from pathlib import Path
+import matplotlib.pyplot as plt
 
 
 if __name__ == '__main__':
@@ -43,7 +44,7 @@ if __name__ == '__main__':
     )
 
     # Train model
-    model.fit(
+    history = model.fit(
         x_train,
         y_train,
         epochs=100,
@@ -57,3 +58,22 @@ if __name__ == '__main__':
 
     # Saves the model
     model.save(model_save, include_optimizer=False)
+
+    # Plots
+    figure, axes = plt.subplots(2)
+
+    axes[0].plot(history.history['accuracy'], label='accuracy')
+    axes[0].plot(history.history['val_accuracy'], label = 'val_accuracy')
+
+    axes[0].legend(loc='lower right')
+    axes[0].set_title('Model Accuracy')
+
+    axes[1].plot(history.history['loss'], label='loss')
+    axes[1].plot(history.history['val_loss'], label='val_loss')
+
+    axes[1].legend(loc='lower right')
+    axes[1].set_title('Model Loss')
+
+    plt.subplots_adjust(hspace=0.4)
+
+    plt.show()
