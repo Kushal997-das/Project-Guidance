@@ -8,8 +8,8 @@ from pathlib import Path
 
 if __name__ == '__main__':
     # Save paths
-    dataset = str(Path(__file__).resolve().parent / 'Training_Data.csv')
-    model_save = str(Path(__file__).resolve().parent / 'Model.h5')
+    dataset = str(Path(__file__).resolve().parent / 'Dataset/Training_Data.csv')
+    model_save = str(Path(__file__).resolve().parent / 'Model_Data/Model.keras')
 
     # Dataset
     x_dataset = np.loadtxt(dataset, delimiter=',', dtype='float32', usecols=list(range(1, (21 * 2) + 1)))
