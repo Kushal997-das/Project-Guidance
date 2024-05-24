@@ -1,6 +1,4 @@
 # Hand Gesture
-## Contents
-
 ## About
 Hand Gesture aims to clone the Tiktok's hand gesture filter which would take images upon detecting certain hand gestures on the screen.
 
