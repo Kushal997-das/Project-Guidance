@@ -14,6 +14,8 @@ Hand Gesture aims to clone the Tiktok's hand gesture filter which would take ima
 
 ## Model
 ### Setup
+Pre-trained model from `mediapipe` to detect hand landmarks is used. The custom trained model is for categorizing the detected landmarks with one of the four categories mentioned below.
+
 The [Model](Hand_Gesture/Model) directory contains the trained model in [Model_Data](Hand_Gesture/Model/Model_Data) and the dataset for training is included in 
 [Dataset](Hand_Gesture/Model/Dataset) directory. [Train_Model.py](Hand_Gesture/Model/Train_Model.py) contains the code for training the data.
 
