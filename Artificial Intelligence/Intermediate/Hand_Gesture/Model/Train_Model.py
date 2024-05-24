@@ -71,7 +71,7 @@ if __name__ == '__main__':
     axes[1].plot(history.history['loss'], label='loss')
     axes[1].plot(history.history['val_loss'], label='val_loss')
 
-    axes[1].legend(loc='lower right')
+    axes[1].legend(loc='upper right')
     axes[1].set_title('Model Loss')
 
     plt.subplots_adjust(hspace=0.4)
