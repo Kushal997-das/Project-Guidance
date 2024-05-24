@@ -16,7 +16,7 @@ class VideoConverter:
                 if time.perf_counter() - self.last > 0.5:
                     self.count += 1
                     img_name = f"{str(uuid.uuid4())}.png"
-                    cv2.imwrite(f'/home//rossilodataset/{img_name}', frame)
+                    cv2.imwrite(f'loc/{img_name}', frame)
                     self.last = time.perf_counter()
             else:
                 break
