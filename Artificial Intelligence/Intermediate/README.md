@@ -1,4 +1,5 @@
 # Hand Gesture
+## Contents
 
 ## About
 Hand Gesture aims to clone the Tiktok's hand gesture filter which would take images upon detecting certain hand gestures on the screen.
@@ -46,4 +47,24 @@ The trained model is saved as [Model.keras](Hand_Gesture/Model/Model_Data/Model.
 
 <p align=center><img src="https://github.com/SAM-DEV007/Project-Guidance/assets/60264918/f2206faf-9425-4c3a-a3d6-c05c1de16cb3" alt="Training Results" height=500 />
 
-During evaluation, the validation accuracy and loss are `0.9138` and `0.2414` respectively.
+During evaluation, the validation accuracy and loss are `0.9138` (91.38%) and `0.2414` (24.14%) respectively.
+
+### Implementation
+The model is integrated in [HandGesture.py](Hand_Gesture/HandGesture.py) for detecting. To prevent lag and perform optimized detection, a debounce of `1.5` seconds has been kept, i.e., the prediction will happen every `1.5` seconds.
+
+If `Other` gesture is detected, then no action will be taken. If the prediction lies in the range from `0` to `2`, then, an image would be taken and will be overlapped by the detected hand gesture.
+
+## Result
+The camera resolution is fixed at `640 x 480` pixels, as the dimensions for the frame and the overlay gestures are absolute. Furthermore, the script can be modified to support variable resolution.
+
+<div align="center">
+  
+| Initial | Final |
+| :-: | :-:
+| <img src="https://github.com/SAM-DEV007/Project-Guidance/assets/60264918/812d0808-59ac-4ecd-92f9-eacaf47a148b" alt="Initial" height=400 width=400 /> | <img src="https://github.com/SAM-DEV007/Project-Guidance/assets/60264918/366c830d-9994-4614-92b4-3a23cd0d9e11" alt="Final" height=400 width=400 /> |
+
+</div>
+
+- One of the three gestures is detected.
+- Upon detection, a smaller frame in the middle of the screen gets captured and is being shown as a larger frame (original size).
+- The captured frame is, then, resized to a smaller frame and overlapped to one of the detected gesture.
