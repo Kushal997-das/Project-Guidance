@@ -1,3 +1,0 @@
-streamlit==1.31.0
-scikit-learn==1.2.2
-streamlit_option_menu== 0.3.12
