@@ -3,6 +3,7 @@
 The project involves creating an automated billing system using ESP32 and MFRC522 RFID Reader and Tag.
 
 ## Components used -
+
 1. ESP32 Microcontroller 
 2. MFRC522 RFID Tag and Reader
 3. Push Button
@@ -15,6 +16,9 @@ The project involves creating an automated billing system using ESP32 and MFRC52
 ## The circuit diagram is as shown
 [Image](Images/circuit.png)
 
+## The implementation diagram is as shown
+[Image](Images/setup.png)
+
 ## Working of the System
 
 The tag stores the name and price of the product. When powered on, the ESP32 connects to Wi-Fi and starts a web server to display the current items in the cart. Initially the product cost and quantity are set to zero.  
@@ -24,8 +28,11 @@ The code includes predefined products (e.g., NesCafe, Oreo) with specific RFID t
 If the tag is scanned and product is added to the cart the yellow LED glows and if the push button is pressed and a tag is scanned then the product is removed from the cart and the red LED glows. The buzzer buzzes while addition as well as removal.
 After the ESP32 connects to the Wi-Fi it generates a local IP address which needs to be copied and pasted in the browser to open the web server. 
 
-## Video 
+## Implementation Video
+[Video](Images/implementation.mp4)
 
 ## Requirements
+
 Make sure to change the SSID and Password before uploading the code to the Arduino IDE.
+
 Ensure that the baud rate is 115200.
