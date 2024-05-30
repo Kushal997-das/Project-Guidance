@@ -2,6 +2,40 @@
 ## About
 Hand Gesture aims to clone the Tiktok's hand gesture filter which would take images upon detecting certain hand gestures on the screen.
 
+## Navigation
+### Directory Tree
+```
+Data/
+├─ Ok.png
+├─ Palm.png
+├─ Peace.png
+Model/
+├─ Dataset/
+│  ├─ Training_Data.csv
+├─ Model_Data/
+│  ├─ Model.keras
+├─ Train_Model.py
+HandGesture.py
+requirements.txt
+.gitignore
+README.md
+```
+
+### Directory Information
+#### main
+- `HandGesture.py` is the main file to execute to start the program.
+- `requirements.txt` contains the libraries and packages for the functioning of the program.
+- `.gitignore` can be ignored. It contains the files to be ignored by Github on upload.
+- `README.md` is the file you are currently reading.
+#### Data
+- `Ok.png`, `Palm.png` and `Peace.png` contains the images for the placeholder of actions.
+#### Model
+- `Train_Model.py` can be used to train the model.
+##### Dataset
+- `Training_Data.csv` is the dataset for training the model to recognize the hand gestures.
+##### Model_Data
+- `Model.keras` is the saved model.
+
 ## Requirements
 - Python 3.x or greater.
 - `pip install -r requirements.txt`
@@ -68,3 +102,8 @@ The camera resolution is fixed at `640 x 480` pixels, as the dimensions for the 
 - One of the three gestures is detected.
 - Upon detection, a smaller frame in the middle of the screen gets captured and is being shown as a larger frame (original size).
 - The captured frame is, then, resized to a smaller frame and overlapped to one of the detected gesture.
+
+The below depicts the sample working of the project:
+<p align=center>
+<img src="https://github.com/SAM-DEV007/Project-Guidance/assets/60264918/d7a44a41-3f13-4b6d-9fc1-1e6c38a05028" alt="Working" height=400 />
+</p>
