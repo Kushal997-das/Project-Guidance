@@ -17,7 +17,7 @@ jobs:
       run: |
         COMMENT=$(cat <<EOF
         {
-          "body": "Thank you for submitting your pull request! We'll review it as soon as possible. For further communication, join our discord server https://discord.gg/tSqtvHUJzE."
+          "body": "Thank you for submitting your pull request! We'll review it as soon as possible."
         }
         EOF
         )
