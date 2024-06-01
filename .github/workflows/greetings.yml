@@ -9,15 +9,22 @@ on:
     types: [closed]
 
 jobs:
-  greeting:
+  greet:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Greet New Contributors for Creating New PR/Issues
-        if: github.event_name == 'issues' || github.event_name == 'pull_request'
+      - name: Greet New Issue Contributors
+        if: github.event_name == 'issues'
         uses: actions/first-interaction@v1.1.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "@${{ github.actor }} <h1>It's great having you contribute to this project</h1> Thanks for opening this<strong>Issue 🙌</strong>, Welcome to <strong>Project Guidance 💖</strong> We will review everything and get back to you.<br> Make sure to give a star to this repo before making a fork! Thank you :)"
+
+      - name: Greet New PR Contributors
+        if: github.event_name == 'pull_request'
+        uses: actions/first-interaction@v1.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: "@${{ github.actor }} <h1>It's great having you contribute to this project</h1> Thank you for opening a <strong>Pull Request 🙌</strong>, Welcome to <strong>Project Guidance 💖</strong> We will review everything and get back to you."
 
   congratulate:
