@@ -30,3 +30,5 @@ The tag stores the name and price of the product. When powered on, the ESP32 con
 ## Requirements
 
 Make sure to change the SSID and Password before uploading the code to the Arduino IDE.
+
+Ensure that the baud rate is 115200.
