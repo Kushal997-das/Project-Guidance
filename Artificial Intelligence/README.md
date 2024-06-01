@@ -28,7 +28,9 @@
 
 ## Level 2: Intermediate 🚀
 
-<i>Nothing to showcase here!</i>
+| S-No. | Projects |
+|:--|:--
+| 01. | [Tiktok Hand-Gesture Filter Clone](https://github.com/SAM-DEV007/Project-Guidance/tree/Tiktok-HandGesture-Clone/Artificial%20Intelligence/Intermediate/Hand_Gesture) |
 
 ## Level 3: Advanced 🚀
 
