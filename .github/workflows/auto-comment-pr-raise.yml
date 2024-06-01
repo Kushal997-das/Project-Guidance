@@ -17,7 +17,7 @@ jobs:
       run: |
         COMMENT=$(cat <<EOF
         {
-          "body": "Thank you for submitting your pull request! We'll review it as soon as possible."
+          "body": "<h1>It's great having you contribute to this project</h1> Thank you for opening a <strong>Pull Request 🙌</strong>, Welcome to <strong>Project Guidance 💖</strong> We will review everything and get back to you."
         }
         EOF
         )
