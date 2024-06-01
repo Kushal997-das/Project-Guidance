@@ -14,7 +14,7 @@ The project involves creating an automated billing system using ESP32 and MFRC52
 8. Arduino IDE - Software
 
 ## The circuit diagram is as shown
-![circuit](https://github.com/Vrisha213/Project-Guidance/assets/74671946/cadfe1e1-0a9a-4178-b9cf-28ce008be874)
+![circuit](https://github.com/Vrisha213/Project-Guidance/assets/74671946/5ad2ac2d-8202-4d4f-935e-20bfb2dd2aea)
 
 ## The implementation diagram is as shown
 ![setup (1) (1) (1)](https://github.com/Vrisha213/Project-Guidance/assets/74671946/1e68a67f-29c2-41cd-b2be-e6bf6be39241)
