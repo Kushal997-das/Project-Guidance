@@ -18,7 +18,8 @@ The project involves creating an automated billing system using ESP32 and MFRC52
 
 
 ## The implementation diagram is as shown
-![setup](https://github.com/Vrisha213/Project-Guidance/assets/74671946/6b035668-3bc1-4c49-b6d9-f0a6d9be3714)
+![setup (1)](https://github.com/Vrisha213/Project-Guidance/assets/74671946/3b3c8f40-2ee7-4661-a316-9907c5149484)
+
 
 ## Working of the System
 
