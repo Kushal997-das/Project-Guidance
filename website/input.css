@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    scroll-behavior: smooth;
+   
+}
+
+nav{
+    z-index:1000;
+}
+body {
+    background-color: #000000;
+    color: #e2e8f0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+h1{
+    overflow: hidden;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+  
+ 
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+.neon-text {
+    text-shadow: 0px -5px 10px rgba(0,209,255,0.63);
+}
+
+.neon-border {
+    border: 2px solid;
+    border-color: #ffa500;
+    animation: neon 1.5s infinite alternate;
+}
+
+@keyframes neon {
+    to {
+        border-color: #ff4500;
+    }
+}
+.hover-effect {
+    transition: all 0.3s ease-in;
+}
+
+.hover-effect:hover {
+    text-shadow: 0 0 5px #00aaff, 0 0 10px #00aaff, 0 0 15px #00aaff, 0 0 20px #00aaff, 0 0 25px #00aaff, 0 0 30px #00aaff, 0 0 35px #00aaff;
+
+   
+}
+
+
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .nav-item:hover {
+    text-shadow: 0 0 5px #00aaff, 0 0 10px #00aaff, 0 0 15px #00aaff, 0 0 20px #00aaff, 0 0 25px #00aaff, 0 0 30px #00aaff, 0 0 35px #00aaff;
+} */
+.list-disc{
+    z-index: 10;
+}
+
+/* Custom scrollbar styles */
+body::-webkit-scrollbar {
+    width: 12px; /* Adjust the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #000000; /* Background of the scrollbar track */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00aaff; /* Color of the scrollbar thumb */
+    border-radius: 20px; /* Rounded corners for the scrollbar thumb */
+    border: 3px solid #000000; /* Border around the scrollbar thumb */
+}
+
+/* 
+.domains{
+   
+    align-items: center;
+    justify-content: space-around;
+} */
+
+
+.backdrop-blur-lg {
+    -webkit-backdrop-filter: blur(20px);
+     backdrop-filter: blur(20px);
+  }
+  .navcontainer {
+    background-color: rgba(55, 65, 81, 0.9); 
+  }
+    @media (min-width: 1024px) {
+        .top-navbar {
+          display: inline-flex !important;
+        }
+    }
