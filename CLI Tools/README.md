@@ -1,4 +1,4 @@
-<p align="center" id="top"><img height="37" src="https://img.shields.io/badge/ Mobile Applications- 📱-yellow.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></p> <br>
+<p align="center" id="top"><img height="37" src="https://img.shields.io/badge/ CLI Tools - 📱-yellow.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></p> <br>
 
 <p align="center"><img src="https://i.postimg.cc/gjPGxCzx/dev2.gif" alt="Mobile Application Image" width="500px" />
    <h2><p align="center"><strong>🚦 Welcome Developers to CLI Tools Domain of Project Guidance </strong></p>
