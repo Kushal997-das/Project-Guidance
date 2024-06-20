@@ -6,5 +6,5 @@ Markdown Previewer renders the HTML content based on the markdown code entered b
 
 Here, you can view my project 
 
-Link - [MarkdownPreviewer](https://markdown-kohl.vercel.app/)
+Link - [MarkdownPreviewer](https://markdown-ftmo.vercel.app/)
 
