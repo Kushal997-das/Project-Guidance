@@ -48,6 +48,10 @@ npm install
 npm run dev
 ```
 
-## Demonstration video
+## Screeanshots 
 
-<video src="./assets/todo.mp4" width="400"></video>
+![image](https://github.com/DharshiBalasubramaniyam/Project-Guidance/assets/139672976/5ac007d3-3259-490e-b740-09b2f0d0cb68)
+
+![image](https://github.com/DharshiBalasubramaniyam/Project-Guidance/assets/139672976/f38b0309-0d4e-4e47-9847-c7d9d0c588e7)
+
+![image](https://github.com/DharshiBalasubramaniyam/Project-Guidance/assets/139672976/09121f07-49ca-4bc7-afba-7f878c35802d)
