@@ -18,3 +18,8 @@ Setup:
 * Download and install the appropriate WebDriver for your browser (e.g., ChromeDriver which is compativle with your Chrome version from her: https://googlechromelabs.github.io/chrome-for-testing/)
 
 * Place the WebDriver in a directory accessible to your Python script or add it to your path variables (Recommended).
+
+
+
+https://github.com/PiyushBagde/Project-Guidance/assets/100503136/f26114bb-7419-4ca1-aaa6-6262c0db3519
+
