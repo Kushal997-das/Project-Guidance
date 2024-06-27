@@ -1,6 +1,15 @@
 # Todo app - MERN stack
 
-- This is a simple todo app, demonstrates CRUD operations in MERN stack
+This is a simple todo app, demonstrates CRUD operations in MERN stack.
+
+| Task | HTTP Method | Route Path |
+|----------|----------|----------|
+| Get all tasks  | ![GET](https://img.shields.io/badge/GET-blue)     | `/todo/all`   |
+| Get task by id | ![GET](https://img.shields.io/badge/GET-blue)     | `/todo/{id}`   |
+| Create a task  | ![POST](https://img.shields.io/badge/POST-green)  | `/todo/new`   |
+| Edit a task    | ![PUT](https://img.shields.io/badge/PUT-yellow)   | `/todo/{id}`   |
+| Delete a task  | ![DELETE](https://img.shields.io/badge/DELETE-red)| `/todo/{id}`   |
+   
 
 ## How to run the app?
 
