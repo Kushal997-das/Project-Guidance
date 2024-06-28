@@ -16,5 +16,6 @@
 - **CSS**
 - **JavaScript**
 
+## 📷  Screenshots <a name = "Screenshots"></a>
 
 ![TrignometricCalculator](https://github.com/Kushal997-das/Project-Guidance/assets/168436423/88121edc-6e71-48bf-a402-a9ff28b2b736)
