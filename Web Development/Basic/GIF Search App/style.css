@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-image: linear-gradient(to right,rgb(253, 123, 214), rgb(111, 22, 129));
+  }
+  header{
+    background-color: #271d61;
+    text-align: center;
+    height: 7.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #eff0f7;
+    text-shadow: 5px 5px rgb(156, 144, 144);
+  } 
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:  #573e68;
+    color:  #eff0f7;
+    border-radius: 0.5em;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  button:hover{
+    background-color: #3d6dd4 ;
+    color: aliceblue;
+  }
+  .search-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    width: 100%;
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 0.1em;
+  }
+  .search-container input {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container {
+    background-color: #2b304d;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.5em;
+    border-radius: 0.5em;
+    box-shadow: 15px 8px 8px #353a53;
+  }
+  .container:hover{
+    background-color: #1c286d;
+  }
+  .container img {
+    width: 100%;
+  }
+  .container button {
+    margin-top: 1em;
+    padding: 1em 0;
+  }
+  .loader {
+    display: none;
+    height: 15em;
+    width: 15em;
+    border: 3em solid #2b304d;
+    border-radius: 50%;
+    border-top-color: #fc23cd;;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    animation: spin 3s infinite;
+  }
+
+  @keyframes spin {
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+      margin: 0.7em;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
