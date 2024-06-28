@@ -7,7 +7,8 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
-    background-image: url(./Icons/pine-watt-2Hzmz15wGik-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
     font-size: 120%;
   }
   
