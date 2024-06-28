@@ -11,5 +11,7 @@ A dataset of restaurants is loaded from a CSV file named "food1.csv" using panda
 **Function Definitions:**
 
 1.fav(lko_rest1): This function takes a DataFrame as input and performs content-based filtering for restaurant recommendations based on restaurant highlights. It returns a DataFrame containing recommended restaurants. 
+
 2.rest_rec(cost, people=2, min_cost=0, cuisine=[], Locality=[], fav_rest="", lko_rest=lko_rest): This function takes user preferences (budget, number of people, cuisine, locality, and a favorite restaurant) and filters the dataset to recommend restaurants that match these preferences. It returns a DataFrame with restaurant recommendations. 
+
 3.calc(max_Price, people, min_Price, cuisine, locality): This function calls rest_rec to get restaurant recommendations and prepares the recommendations in a suitable format.
