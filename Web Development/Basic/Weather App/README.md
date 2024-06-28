@@ -1,7 +1,7 @@
 ___
 ### Weather App - JS, HTML, CSS
 A simple weather app created using HTML, CSS and JavaScript. 
-you can View a demo [here](https://admiralanne-js-weather.netlify.app/).
+you can View a demo [here](https://candid-chaja-3edac3.netlify.app/).
 
 ___
 ### Screenshot ~
