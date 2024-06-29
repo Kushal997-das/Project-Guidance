@@ -1352,6 +1352,17 @@ body::-webkit-scrollbar-thumb {
   background-color: rgba(55, 65, 81, 0.9);
 }
 
+.dot {
+  width: 30px;
+  height: 30px;
+  background: rgb(194, 194, 194);
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
 @media (min-width: 1024px) {
   .top-navbar {
     display: inline-flex !important;
@@ -1414,6 +1425,8 @@ body::-webkit-scrollbar-thumb {
 .group:hover .group-hover\:opacity-75 {
   opacity: 0.75;
 }
+
+
 
 @media (min-width: 640px) {
   .sm\:col-span-2 {
