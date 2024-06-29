@@ -1,4 +1,12 @@
-# Todo app - MERN stack
+# Todo CRUD app - MERN stack
+
+The full form of CRUD is Create, Read, Update, and Delete. These are the four basic operations that can be performed on data in a database or any persistent storage system.
+
+- **Create**: This operation adds new data to the database. For example, adding a new record in a table.
+- **Read**: This operation retrieves data from the database. For example, fetching records from a table.
+- **Update**: This operation modifies existing data in the database. For example, changing values of an existing record.
+- **Delete**: This operation removes data from the database. For example, deleting a record from a table.
+These operations are fundamental to managing and manipulating data in a database, ensuring that users can interact with the data effectively.
 
 This is a simple todo app, demonstrates CRUD operations in MERN stack.
 
