@@ -58,7 +58,7 @@ python weather_app.py
 
 ## Screenshots
 
-![Dubai](https://github.com/somaiaahmed/Weather-Forecast/assets/52898207/39da5238-6124-4923-8a6a-0bad9ae61065)
+![Cairo](https://github.com/somaiaahmed/Project-Guidance/assets/52898207/cfde9af0-0f6b-498a-95eb-4431f4303831)
 ![Berlin](https://github.com/somaiaahmed/Weather-Forecast/assets/52898207/ebc52cb8-b662-4437-96e2-1c3b1fc84e67)
 
 
