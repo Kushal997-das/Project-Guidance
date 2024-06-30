@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    font-style: Arial;
+    border: border-box;
+}
+.box
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title
+{
+    background-image: url("amazonlogin.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
+
+.box2
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.signin
+{
+    width: 300px;
+    height: 600px;
+    padding: 20px 26px;
+    border: 0.1px solid rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+button
+{
+    width:100%;
+    height: 29px;
+    background-color:#f4de0b;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: none;
+}
+label
+{
+    font-size: 0.85rem;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    width: 294px;
+    height: 19px;
+}
+input
+{
+    
+    height: 27px;
+    padding: 3px 7px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+}
+p
+{
+    font-size: 0.85rem;
+}
+a
+{
+    text-decoration: none;
+    color: #0066cd;
+}
+hr
+{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
