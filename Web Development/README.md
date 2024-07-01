@@ -38,7 +38,7 @@
 | 64. | [White Board](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/White%20Board) | 65. | [Blurry Loading](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/blurry_loading) | 66. | [Flipbook](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/flipbook) |
 | 67. | [Pinterest Static](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/pinterest-static) | 68. | [Food Menu Cart](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Food%20Menu%20Cart) |  69. | [Weight Converter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Weight-Converter) |
 | 70. | [Zomato Landing Page](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Zomato-Landing-Page) | 71. | [MarkdownPreviewer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Markdown%20Previewer) |
-| 71. | [Trignometric Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Trignometric Calculator)
+| 72. | [Trignometric Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Trignometric_Calculator)|
 
 
 
