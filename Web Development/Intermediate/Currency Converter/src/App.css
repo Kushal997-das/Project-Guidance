@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+    /* background-color: #cbf5df;
+    background-image: linear-gradient(90deg, #c5eed8 0%, #f8f7a2 100%); */
+    /* background-image: linear-gradient(109.6deg, rgba(254, 253, 205, 1) 11.2%, rgba(163, 230, 255, 1) 91.1%); */
+    /* background-image: linear-gradient(109.6deg, rgb(250, 249, 194) 11.2%, rgb(206, 240, 252) 91.1%); */
+    background-color: black;
+}
+header h1{
+    /* background: -webkit-linear-gradient(109.6deg, rgb(226, 212, 11) 11.2%, rgb(19, 217, 243) 91.1%); */
+    background: -webkit-linear-gradient(109.6deg,rgba(255, 209, 67, 1) 11.2%, rgb(236, 104, 27) 91.1%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.container {
+    width: 400px;
+    margin-top: 30px;
+    backdrop-filter: blur(7px) saturate(144%);
+        -webkit-backdrop-filter: blur(7px) saturate(144%);
+        background-color: rgba(255, 255, 255, 0.36);
+        /* background-color: rgba(220, 235, 233, 0.596); */
+        border-radius: 12px;
+        border: 1px solid rgba(89, 91, 94, 0.3);
+        -webkit-box-shadow: 7px 9px 20px 0px rgba(202, 237, 233, 1);
+            -moz-box-shadow: 7px 9px 20px 0px rgba(202, 237, 233, 1);
+            box-shadow: 7px 9px 20px 0px rgba(202, 237, 233, 1);
+    /* margin: 0 auto; */
+}
+
+.input-amount,
+.input-from,
+.input-to {
+    margin-bottom: 20px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+select {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background: rgb(7, 169, 180);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(89, 74, 224);
+}
+
+.output {
+    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+} */
+
+.flag-select-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+select {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.swap-btn {
+    
+    margin: 10px 0;
+    padding: 5px 10px;
+    /* background-color: #f0f0f0; */
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+@media  (max-width: 768px) {
+        .cont{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+        }
+        .container{
+            width: 95%;
+            margin: 0 28px;
+        }
+        .imghero{
+            margin: 0px 25px;
+        }
+    }
