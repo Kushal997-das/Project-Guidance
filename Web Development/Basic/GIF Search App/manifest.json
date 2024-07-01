@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "GIF Search App",
+    "version": "1.0",
+    "description": "Can generate the gif you want",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "index.html"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
