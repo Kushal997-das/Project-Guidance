@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>RGB Color Slider</title>
+</head>
+<body>
+    <div class="container well well-lg">
+        <div class="jumbotron ">
+            <h1><span style="color : red">R</span><span style="color: green">G</span><span style="color: blue;">B</span> Color Slider</h1>
+        </div>
+    </div>
+    <p style="display: flex; justify-content: center; font-weight: 100; font-family: sans-serif; font-size: larger;">Adjust Your Values</p>
+    <div class="container col">
+        <!-- Row for R -->
+        <div class="row col-lg-4">
+            <div class="col-sm-4">
+                <p style="color: red;">R</p>
+            </div>
+            <div class="col-sm-4 slidecontainer">
+                <input type="range" min="0" max="255" value="0" class="slider" id="R">
+            </div>
+            <div class="col-sm-4" id="OutputR"></div>
+        </div>
+        <!-- Row for G -->
+        <div class="row col-lg-4">
+            <div class="col-sm-4">
+                <p style="color: green;">G</p>
+            </div>
+            <div class="col-sm-4 slidecontainer">
+                <input type="range" min="0" max="255" value="0" class="slider" id="G">
+            </div>
+            <div class="col-sm-4" id="OutputG"></div>
+        </div>
+        <!-- Row for B -->
+        <div class="row col-lg-4">
+            <div class="col-sm-4">
+                <p style="color: blue;">B</p>
+            </div>
+            <div class="col-sm-4 slidecontainer">
+                <input type="range" min="0" max="255" value="0" class="slider" id="B">
+            </div>
+            <div class="col-sm-4" id="OutputB"></div>
+        </div>
+    </div>
+    <div class="container " id="square" ></div>
+    <div class="H">
+    <div class="hexacode" id="hexa"></div>
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
