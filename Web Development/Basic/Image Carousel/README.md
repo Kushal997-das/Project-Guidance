@@ -1,4 +1,4 @@
-# Image-Carousel
+# Image-Carousel🖼️
 
 ### About:
 Web Application which allows users to add and remove images and shows them. It also has a chatbox made from API integration.
