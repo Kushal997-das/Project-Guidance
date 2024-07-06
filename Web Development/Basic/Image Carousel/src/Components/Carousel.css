@@ -1,0 +1,152 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.file-input-wrapper,
+.file-input-wrapper-below {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.file-input-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.file-label {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.file-label:hover {
+  background-color: #0056b3;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.checkbox-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: #007bff 5px solid;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  z-index: 1000;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.carousel-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button.inactive {
+  background-color: #f5c6cb;
+  cursor: not-allowed;
+}
+
+.remove-button.active:hover {
+  background-color: #c82333;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
