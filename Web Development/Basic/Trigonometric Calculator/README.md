@@ -18,7 +18,7 @@
 
 ## 📷  Screenshots <a name = "Screenshots"></a>
 
-![TrignometricCalculator]()
+![TrignometricCalculator](https://github.com/Kushal997-das/Project-Guidance/assets/168436423/ab55530f-24b9-45d0-860b-f2c5d2a6436d)
 
 ## Demo
-
+https://github.com/Kushal997-das/Project-Guidance/assets/168436423/07b6e363-7753-4371-b88b-14cd4cd3986d
