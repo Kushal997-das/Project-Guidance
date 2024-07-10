@@ -119,6 +119,7 @@ particlesJS('particles-js',
 
 );
 
+/*---Back-To-Top Button---*/
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.getElementById('backtotop');
     button.style.display = 'none';
