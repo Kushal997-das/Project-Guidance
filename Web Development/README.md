@@ -37,7 +37,9 @@
 | 61. | [Trimorphic Number Checker](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Trimorphic%20Number%20Checker) | 62. | [Type Writer Effect](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Type%20Writer%20Effect) | 63. | [Weather App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Weather%20App) |
 | 64. | [White Board](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/White%20Board) | 65. | [Blurry Loading](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/blurry_loading) | 66. | [Flipbook](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/flipbook) |
 | 67. | [Pinterest Static](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/pinterest-static) | 68. | [Food Menu Cart](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Food%20Menu%20Cart) |  69. | [Weight Converter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Weight-Converter) |
-| 70. | [Zomato Landing Page](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Zomato-Landing-Page) | 71. | [MarkdownPreviewer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Markdown%20Previewer) | 72. | [RGB Color Slider](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/RGB%20Color%20Slider) |
+| 70. | [Zomato Landing Page](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Zomato-Landing-Page) | 71. | [MarkdownPreviewer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Markdown%20Previewer) | 72. | [Amazon-Clone](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Amazon-Clone)
+| 73. | [RGB Color Slider](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/RGB%20Color%20Slider) |
+
 
 
 
