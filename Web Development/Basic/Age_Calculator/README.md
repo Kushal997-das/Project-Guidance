@@ -65,6 +65,14 @@ This will start the development server and you can view the application in your 
 3. **Error Handling:**
    - If a future date is selected, an error message will be displayed prompting you to select a valid date of birth.
 
+## Screenshots
+
+![Age Calculator](./Images/age_calculator_ss.png)
+
+## Deployment Link
+
+The application is deployed on Vercel. You can access it [here](https://age-calculator-rho-two.vercel.app/).
+
 ## Issue Solved
 
   Solves Issue [#1181](https://github.com/Kushal997-das/Project-Guidance/issues/1181)
