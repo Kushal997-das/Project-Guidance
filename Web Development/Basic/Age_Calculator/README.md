@@ -55,14 +55,6 @@ npm start
 
 This will start the development server and you can view the application in your browser at `http://localhost:3000`.
 
-## Screenshots
-
-![Age Calculator](./Images/age_calculator_ss.png)
-
-## Deployment link
-
-[Age Calculator](https://age-calculator-rho-two.vercel.app/) - Click here to view the live application.
-
 ## Usage
 
 1. **Enter Date of Birth:**
