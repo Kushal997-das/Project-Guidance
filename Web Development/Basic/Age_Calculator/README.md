@@ -66,27 +66,16 @@ This will start the development server and you can view the application in your 
 ## Usage
 
 1. **Enter Date of Birth:**
-   - Select your date of birth using the date picker.
+   - Select your date of birth using the date picker in the website.
 2. **Calculate Age:**
    - Click the "Calculate Age" button.
    - The application will display your age in years, months, and days.
 3. **Error Handling:**
    - If a future date is selected, an error message will be displayed prompting you to select a valid date of birth.
 
-## Contributing
+## Issue Solved
 
-Contributions are welcome! If you have any suggestions or find any bugs, please open an issue or create a pull request.
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
-
-## Contact
-
-For any questions or suggestions, feel free to contact me at [parnaroychowdhury2020@gmail.com].
+  Solves Issue [#1181](https://github.com/Kushal997-das/Project-Guidance/issues/1181)
 
 ---
 
