@@ -118,3 +118,25 @@ particlesJS('particles-js',
     }
 
 );
+
+/*---Back-To-Top Button---*/
+document.addEventListener("DOMContentLoaded", function() {
+    var button = document.getElementById('backtotop');
+    button.style.display = 'none';
+
+    window.addEventListener('scroll', function() {
+        if (this.window.scrollY > 200) {
+            button.style.display = 'block';
+        } else {
+            button.style.display = 'none';
+        }
+    });
+
+    button.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});

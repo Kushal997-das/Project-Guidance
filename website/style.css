@@ -558,6 +558,34 @@ video {
   width: 100%;
 }
 
+.backtotop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  padding: 14px;
+  background-color: #4A42D9;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
+  z-index: 9999;
+}
+
+.backtotop:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.backtotop i {
+  font-size: 30px;
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
