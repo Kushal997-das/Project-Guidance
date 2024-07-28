@@ -68,19 +68,19 @@
                 class="hidden text-white backdrop-blur opacity-85 fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
                 <ul>
 
-                    <li class="py-4">
+                    <li  class="py-4 menu-link">
                         <a href="#intro" class="no-new-tab font-semibold hover-effect">Introduction</a>
                     </li>
-                    <li class="py-4">
+                    <li  class="py-4 menu-link">
                         <a href="#domains" class="no-new-tab font-semibold hover-effect">Domains</a>
                     </li>
-                    <li class="py-4">
+                    <li  class="py-4 menu-link">
                         <a href="#contribution" class="no-new-tab font-semibold hover-effect">Contribution</a>
                     </li>
-                    <li class="py-4">
+                    <li  class="py-4 menu-link">
                         <a href="#contents" class="no-new-tab font-semibold hover-effect">Contents</a>
                     </li>
-                    <li class="py-4">
+                    <li  class="py-4 menu-link">
                         <a href="#contributors" class="no-new-tab font-semibold hover-effect">Contributors</a>
                     </li>
 
@@ -498,7 +498,7 @@
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div
-                        class="w-full bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
+                        class="w-full transition-transform duration-300 transform hover:scale-105 bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
                         <div>
                             <img class="object-center object-cover h-auto w-full"
                                 src="https://img.freepik.com/premium-photo/3d-rendering-robot-artificial-intelligence-black-background-futuristic-technology-robot_844516-420.jpg"
@@ -680,20 +680,33 @@
     <script>
 
 
-
-
         document.addEventListener('DOMContentLoaded', function () {
             const menuButton = document.getElementById('menuButton');
             const menuIcon = document.getElementById('menuIcon');
             const closeIcon = document.getElementById('closeIcon');
             const mobileMenu = document.getElementById('mobileMenu');
+            const menuLinks = document.getElementsByClassName('menu-link'); // Fixed selector
 
-            menuButton.addEventListener('click', function () {
+            // Function to toggle menu visibility
+            function toggleMenu() {
                 const isMenuOpen = mobileMenu.classList.toggle('hidden');
                 menuIcon.classList.toggle('hidden', !isMenuOpen);
                 closeIcon.classList.toggle('hidden', isMenuOpen);
+            }
+
+            // Add event listener to the menu button
+            menuButton.addEventListener('click', function () {
+                toggleMenu();
+            });
+
+            // Add event listener to each menu link
+            Array.from(menuLinks).forEach(link => {
+                link.addEventListener('click', function () {
+                    toggleMenu(); // Close the menu when a link is clicked
+                });
             });
         });
+
         window.addEventListener('DOMContentLoaded', (event) => {
             // Select all anchor tags without the 'no-new-tab' class and add the target attribute with the value '_blank'
             const anchorTags = document.querySelectorAll('a:not(.no-new-tab)');
