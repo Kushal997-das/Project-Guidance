@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechQuiz Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">TechQuiz Pro</a>
+
+            <nav class="navbar">
+                <a href="#">Home</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website</span>
+                        <span class="header-score"></span>
+                    </div>
+
+                    <h2 class="question-text">What does HTML stands for?</h2>
+
+                    <div class="option-list">
+
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total"></span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Quiz Result!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">
+                                0%
+                            </span>
+                        </div>
+                        <span class="score-text">Your Score 0 out of 10</span>
+
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go to Home</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>TechQuiz Pro</h1>
+                    <p>Are you ready to dive into the world of technology and test your expertise? Welcome to TechQuiz Pro, the premier quiz app specifically designed for tech enthusiasts, professionals, and curious minds alike!</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Total 10 Questions to be answered.</span>
+        <span class="info">2. You cant leave before attempting all Questions.</span>
+        <span class="info">3. You cant move between questions.</span>
+        <span class="info">4. Results will be declared immediately after finishing the quiz.</span>
+        <span class="info">5. All the best.</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
