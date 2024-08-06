@@ -1,0 +1,68 @@
+@media only screen and (max-width: 600px) {
+    .main {
+        overflow-x: hidden;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    .container{
+        height: 100svh;
+        overflow: hidden;
+    }
+    .header {
+        padding: 5% 5%;
+    }
+
+    .home{
+        width: 100%;
+        /* padding: 5%; */
+        height: 100svh;
+    }
+
+    .home-content{
+        margin: 0 5%;
+    }
+
+    .question-text{
+        font-size: 20px;
+        font-weight: 600;   
+    }
+
+    .home-content h1 {
+        font-size: 48px;
+        font-weight: 700;
+        text-shadow: 0 0 10px rgba(0,0 0 .3);
+    }
+
+    .popup-info{
+        width: 80vw;
+    }
+
+    .popup-info h2 {
+        font-size: 36px;
+        color: #c40094;
+    }
+
+    .quiz-section{
+        height: 100svh;
+    }
+
+    .info-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        text-align: center;
+        text-shadow: 0 0 10px rgba(0,0 0 .3);
+        margin-bottom: 30px;
+    }
+
+    .quiz-section .result-box{
+        width: 90%;
+    }
+    .quiz-section .quiz-box{
+        width: 95%;
+    }
+}

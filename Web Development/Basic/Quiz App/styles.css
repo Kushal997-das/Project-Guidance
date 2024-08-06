@@ -18,7 +18,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     padding: 20px 10%;
     background: transparent;
     display: flex;
@@ -55,6 +55,7 @@ body{
     pointer-events: auto;
     background-position: center;
     transition: .3s ease;
+    width: 100vw;
 }
 
 .main.active{
@@ -65,7 +66,8 @@ body{
 .container{
     display: flex;
     height: 100vh;
-    width: 200%;
+    /* width: 200%; */
+    width: 200vw;
 }
 
 .home{
@@ -79,6 +81,7 @@ body{
 }
 
 .home-content{
+    width: 100%;
     max-width: 600px;
     display: flex;
     flex-direction: column;
@@ -124,13 +127,14 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(.9);
-    width: 500px;
+    max-width: 500px;
     background: #fff;
     border-radius: 6px;
     padding: 10px 25px;
     opacity: 0;
     pointer-events: none;
     transition: 0.3s;
+    width: 100%;
 }
 
 .popup-info.active{
@@ -198,6 +202,7 @@ body{
     background-color: #09001d;
     position: relative;
     left: -50%;
+    
     /* left: 0; */
     transition: .25s ease-in-out;
     z-index: 100;
@@ -212,7 +217,8 @@ body{
 
 .quiz-section .quiz-box{
     position: relative;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     background: transparent;
     border: 2px solid #c40094;
     border-radius: 6px;
