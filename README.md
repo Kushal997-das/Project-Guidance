@@ -141,6 +141,12 @@ git push -u origin <your_branch_name>
 <td align="center"> <img align="center" height="85" width="85" alt="Hacktoberfest_icon" src="https://user-images.githubusercontent.com/61356005/208831424-aec2774d-f3a9-4aed-8399-9a85802e1650.svg" />  </td> 
 <td align="center"> <img align="center" height="83" width="83" alt= "SOWC3.0" src="https://user-images.githubusercontent.com/61356005/210384287-49e5ceab-71a6-410b-89a0-ee9ba553bc1e.png" /> </td>
 <td align="center"> <img align="center" height="83" width="83" alt= "hecktoberfest2023" src="https://github.com/Kushal997-das/Project-Guidance/assets/61356005/a39b0354-56ff-4161-9076-1b576a053537" /> </td>
+<td align="center"> <img align="center" height="83" width="83" alt= "winter of blockchain girlscript" src="https://github.com/user-attachments/assets/d9bec6f3-066c-4c8b-8e04-0c80c321765f" /> </td>
+
+
+
+
+
 
 
 </tr>
