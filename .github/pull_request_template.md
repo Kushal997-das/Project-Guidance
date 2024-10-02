@@ -1,8 +1,7 @@
-# Hacktoberfest! 🎊🎈
+# Project-Guidance! 🎊🎈
 
 
-
-### 🎉 Have you read the [Contributing Guidelines](https://github.com/Kushal997-das/Hacktoberfest-2024/blob/master/CONTRIBUTING.md)? 🤔
+### 🎉 Have you read the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)? 🤔
 
 (Write your answer here.)
 
