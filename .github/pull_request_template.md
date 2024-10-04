@@ -14,9 +14,9 @@ Fixes #issue_no 🔧
 
 ### ✅ Checklist
 
-- [ ] I have read the contribution guidelines. 📚
+- [ ] I have read the [contribution guidelines 📚](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) 
 - [ ] I have reviewed the issue list before making my submission. 🔍
-- [ ] I have updated the README.md and linked to my code. 📄
+- [ ] I have updated the `README.md` and linked to my code. 📄
 
 ### 🏷️ Additional Context
 
