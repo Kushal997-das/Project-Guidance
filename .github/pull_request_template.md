@@ -2,11 +2,13 @@
 
 ### 🎉 Have you reviewed the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)? 🤔
 
-(Please write your response here.)
+<!-- Please check the boxes that apply by replacing `[ ]` with `[x]`. -->
+- [ ] YES
+- [ ] NO
 
 ### 📝 Description
 
-(Please provide a brief description of your changes here.)
+<!-- Please provide a brief description of your changes here. -->
 
 Fixes #issue_no 🔧
 
@@ -24,6 +26,8 @@ Fixes #issue_no 🔧
 
 This pull request is associated with the following initiative. Please choose the one you are contributing to:
 
+<!-- Please check the boxes that apply by replacing `[ ]` with `[x]`. -->
+
 - [ ] GSSoC (Girl Script Summer of Code)
 - [ ] GSSoC 2024 Extd.
 - [ ] Hacktoberfest 2024
@@ -32,7 +36,7 @@ This pull request is associated with the following initiative. Please choose the
 - [ ] Personal
 - [ ] Other (please specify): _______________
 
-<!-- Please check the boxes that apply by replacing `[ ]` with `[x]`. -->
+
 
 Could you please confirm how this aligns with the project’s objectives?
 
