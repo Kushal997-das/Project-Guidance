@@ -2,6 +2,11 @@
 
 ### 🎉 Have you reviewed the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)? 🤔 *(Required)*
 
+### Welcome! 🎉
+
+Thank you for visiting our repository! We're excited to have you here. If you find this project useful, please consider giving it a star! ⭐
+
+
 <!-- Please check the boxes that apply by replacing `[ ]` with `[x]`. -->
 - [ ] YES
 - [ ] NO
