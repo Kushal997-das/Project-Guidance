@@ -6,7 +6,7 @@
 - [ ] ✅ YES
 - [ ] ❌ NO
 
-### 📝 Description *(Required)*
+### 📝 Description 
 
 <!-- Please provide a brief description of your changes here. -->
 
