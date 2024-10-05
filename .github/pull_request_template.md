@@ -14,7 +14,7 @@ Fixes #issue_no 🔧
 
 ### ✅ Checklist
 
-Please check the boxes that apply by replacing `[ ]` with `[x]`.
+<!-- Please check the boxes that apply by replacing `[ ]` with `[x]`. -->
 
 - [ ] I have read the [Contribution Guidelines 📚](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) 
 - [ ] I have reviewed the issue list before making my submission. 🔍
@@ -32,7 +32,7 @@ This pull request is associated with the following initiative. Please choose the
 - [ ] Personal
 - [ ] Other (please specify): _______________
 
-Please check the boxes that apply by replacing `[ ]` with `[x]`.
+<!-- Please check the boxes that apply by replacing `[ ]` with `[x]`. -->
 
 Could you please confirm how this aligns with the project’s objectives?
 
