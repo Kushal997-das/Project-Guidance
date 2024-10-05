@@ -1,4 +1,10 @@
-name: Bug Report
+# Project-Guidance! 🎊🎈
+
+### 🎉 Have you reviewed the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)? 🤔
+
+(Please write your response here.)
+
+name: Bug Report 🐛
 description: Report a bug you found
 title: "[Bug Title here] "
 labels: "bug"
@@ -6,11 +12,27 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report! 🙏
+
+  - type: dropdown #initiative
+    attributes:
+      label: Initiative 🌟
+      description: Please choose the initiative you are contributing to:
+      options:
+        - GSSoC (Girl Script Summer of Code) 🌼
+        - GSSoC 2024 Extd 🌸
+        - Hacktoberfest 2024 🎃
+        - Script Winter of Code (SWoC) ❄️
+        - Winter of Blockchain (WoB) ⛄
+        - Personal ✨
+        - Other (please specify): _______________
+
+    validations:
+      required: true
 
   - type: textarea #description
     attributes:
-      label: What happened?
+      label: What happened? 🤔
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
     validations:
@@ -18,23 +40,17 @@ body:
 
   - type: textarea #reproduce
     attributes:
-      label: How can we reproduce this bug?
+      label: How can we reproduce this bug? 🔄
       description: Are there any specific steps you had to take in order to trigger the bug, and what is the expected behaviour we should expect?
       placeholder: Kindly elaborate.
     validations:
       required: true
 
-  - type: textarea #desktop info
+  - type: dropdown #urgency
     attributes:
-      label: Desktop Information (Optional)
-      description: Please provide the desktop configuration (OS,Browser, dependency version etc)
-      placeholder: Type here.
-
-  - type: dropdown #urgent
-    attributes:
-      label: Urgency (Optional)
+      label: Urgency ⚠️ (Optional)
       description: How urgent do you think it is to fix this bug?
       options:
-        - Low priority
-        - Medium priority
-        - High priority
+        - Low priority 🟢
+        - Medium priority 🟡
+        - High priority 🔴
