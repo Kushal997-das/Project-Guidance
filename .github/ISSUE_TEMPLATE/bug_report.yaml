@@ -6,20 +6,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! 🐞
+        Thanks for taking the time to fill out this bug report!
 
   - type: dropdown #initiative
     attributes:
       label: Initiative (Required)
       description: Please choose the initiative you are contributing to:
       options:
-        - GSSoC (Girl Script Summer of Code) 🌸
-        - GSSoC 2024 Extd 🚀
-        - Hacktoberfest 2024 🎃
-        - Script Winter of Code (SWoC) ❄️
-        - Winter of Blockchain (WoB) ⛄
-        - Personal 🧑‍💻
-        - Other (please specify): _______________ ✏️
+        - GSSoC (Girl Script Summer of Code)
+        - GSSoC 2024 Extd
+        - Hacktoberfest 2024
+        - Script Winter of Code (SWoC)
+        - Winter of Blockchain (WoB)
+        - Personal
+        - Other (please specify): _______________
     validations:
       required: true
 
@@ -36,6 +36,6 @@ body:
       label: Urgency (Optional)
       description: How urgent do you think it is to fix this bug?
       options:
-        - Low priority 🚦
-        - Medium priority ⚠️
-        - High priority 🔴
+        - Low priority
+        - Medium priority
+        - High priority
