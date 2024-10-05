@@ -1,8 +1,11 @@
 ---
-name: Blank Issue
-description: Use this template to create a blank issue with a specified format.
-title: "Title: "
-labels: "General"
+name: Custom issue template
+about: Use this space to report custom or blank issues that don’t fit predefined categories.
+  Share your ideas, suggestions, or concerns to help us enhance the project!
+title: Custom Issue Report
+labels: ''
+assignees: ''
+
 ---
 
 # Project-Guidance! 🎊🎈
