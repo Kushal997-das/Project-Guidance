@@ -1,3 +1,11 @@
+---
+name: Blank Issue
+description: Use this template to create a blank issue with a specified format.
+title: "Title: "
+labels: "General"
+---
+
+
 # Project-Guidance! 🎊🎈
 
 ### Welcome! 🎉
@@ -28,6 +36,9 @@ Thank you for opening an issue! Your contributions help us improve the project. 
 - [ ] 🙋‍♂️ Personal
 - [ ] 📌 Other (please specify): _______________
 
-### 💬 Next Steps
-Expect a response within [X days].  
+### 💬 Next Steps :
+
+You can expect a response within [X days].
+<!-- Please replace X with the exact number -->
+
 Feel free to check back or provide more details if needed!
