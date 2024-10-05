@@ -1,7 +1,10 @@
 ---
-name: ❓ Questions and Help
+name: "❓ Questions and Help"
 about: If you have questions, please check the below links
-labels: "question"
+title: ''
+labels: question
+assignees: ''
+
 ---
 
 ## ❓ Questions and Help
@@ -14,4 +17,3 @@ Please contact me instead.
 - [GitHub](https://github.com/Kushal997-das)
 - [Instagram](https://www.instagram.com/kushal_das07/)
 - [LinkedIn](https://www.linkedin.com/in/kushal-das-7337421a9/)
-
