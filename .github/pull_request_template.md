@@ -3,8 +3,8 @@
 ### 🎉 Have you reviewed the [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)? 🤔 *(Required)*
 
 <!-- Please check the boxes that apply by replacing `[ ]` with `[x]`. -->
-- [ ] ✅ YES
-- [ ] ❌ NO
+- [ ] YES
+- [ ] NO
 
 ### 📝 Description 
 
@@ -28,4 +28,4 @@ This pull request is associated with the following initiative. Please choose the
 - [ ] 🙋‍♂️ Personal
 - [ ] 📌 Other (please specify): _______________
 
-Could you please confirm how this aligns with the project’s objectives? 🤝 *(Required)*
+
