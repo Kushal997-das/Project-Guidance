@@ -31,6 +31,4 @@ This pull request is part of one of the following initiatives. Please select the
 
 Could you please confirm that this aligns with the project’s goals?
 
-## 🔗 Related Issues or Pull Requests
-
-(Please list any related issues or pull requests here.)
+---
