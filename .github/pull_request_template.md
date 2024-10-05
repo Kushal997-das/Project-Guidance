@@ -14,21 +14,22 @@ Fixes #issue_no 🔧
 
 ### ✅ Checklist
 
-- [ ] I have read the [contribution guidelines 📚](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) 
+- [ ] I have read the [Contribution Guidelines 📚](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md) 
 - [ ] I have reviewed the issue list before making my submission. 🔍
 - [ ] I have updated the `README.md` and linked to my code. 📄
 
-### 🏷️ Additional Context
+### 🏷️ Initiative Participation
 
-This pull request is part of one of the following initiatives. Please select the one you are contributing under:
+This pull request is associated with the following initiative. Please choose the one you are contributing to:
 
 - [ ] GSSoC (Girl Script Summer of Code)
+- [ ] GSSoC 2024 Extd
 - [ ] Hacktoberfest 2024
 - [ ] Script Winter of Code (SWoC)
 - [ ] Winter of Blockchain (WoB)
 - [ ] Personal
 - [ ] Other (please specify): _______________
 
-Could you please confirm that this aligns with the project’s goals?
+Could you please confirm how this aligns with the project’s objectives?
 
 ---
