@@ -1,19 +1,29 @@
 ---
-name: "❓ Questions and Help"
+name: ❓ Questions and Help
 about: If you have questions, please check the below links
-title: ''
+title: ""
 labels: question
-assignees: ''
+assignees: ""
 
 ---
+- type: dropdown
+  attributes:
+    label: Initiative (Required)
+    description: "Please choose the initiative you are contributing to:"
+    options:
+      - GSSoC (Girl Script Summer of Code) 🌸
+      - GSSoC 2024 Extd 🚀
+      - Hacktoberfest 2024 🎃
+      - Script Winter of Code (SWoC) ❄️
+      - Winter of Blockchain (WoB) ⛄
+      - Personal 🧑‍💻
+      - "Other (please specify): _______________ ✏️"
+  validations:
+    required: true
 
-## ❓ Questions and Help
-
-
+--- >-
 Please contact me instead.
 
-
-- [Email](mailto:daskushal980@gmail.com)
-- [GitHub](https://github.com/Kushal997-das)
-- [Instagram](https://www.instagram.com/kushal_das07/)
-- [LinkedIn](https://www.linkedin.com/in/kushal-das-7337421a9/)
+-[Email](mailto:daskushal980@gmail.com) -
+[GitHub](https://github.com/Kushal997-das) -
+[LinkedIn](https://www.linkedin.com/in/kushal-das-7337421a9/)
