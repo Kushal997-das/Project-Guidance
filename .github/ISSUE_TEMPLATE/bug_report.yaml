@@ -8,6 +8,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report! 🐞
+        Have you read the Contributing Guidelines? [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
+
   - type: dropdown
     attributes:
       label: Initiative (Required)
@@ -22,6 +24,7 @@ body:
         - "Other (please specify): _______________ ✏️"
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: What happened?
@@ -29,6 +32,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+
   - type: dropdown
     attributes:
       label: Urgency (Optional)
