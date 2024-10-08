@@ -42,5 +42,3 @@ Thank you for opening an issue! Your contributions help us improve the project. 
 
 You can expect a response within [X days].
 <!-- Please replace X with the exact number -->
-
-Feel free to check back or provide more details if needed!
