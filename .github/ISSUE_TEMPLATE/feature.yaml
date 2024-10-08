@@ -1,9 +1,14 @@
+---
 name: Feature Request
 description: Request/Suggest any feature you think is missing
 title: "Title: "
-labels: "Feature Request"
+labels: Feature Request
 body:
-  - type: dropdown # Initiative
+  - type: markdown
+    attributes:
+      value: Have you read the Contributing Guidelines? [Contributing
+        Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
+  - type: dropdown
     attributes:
       label: Initiative (Required)
       description: "Please choose the initiative you are contributing to:"
@@ -17,24 +22,21 @@ body:
         - "Other (please specify): _______________ ✏️"
     validations:
       required: true
-
-  - type: textarea # Problem Description
+  - type: textarea
     attributes:
       label: Is your feature request related to a problem? Please describe.
       description: A clear and concise description of what the problem is.
       placeholder: Type Here ...
     validations:
       required: true
-
-  - type: textarea # Solution
+  - type: textarea
     attributes:
       label: Describe the solution you'd like.
       description: A clear and concise description of what you want to happen.
       placeholder: Kindly elaborate.
     validations:
       required: true
-
-  - type: textarea # Additional Context
+  - type: textarea
     attributes:
       label: Add any other context or screenshots about the feature request here.
       description: Any miscellaneous suggestions you'd like to give.
