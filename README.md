@@ -89,8 +89,10 @@ Check out [CONTRIBUTING.md ✨](https://github.com/Kushal997-das/Project-Guidanc
 
 ### Kindly follow the steps below to get started:
 
-**1.** **Star ⭐** [this repository](https://github.com/Kushal997-das/Project-Guidance) to show your support!
+**1.** **Star ⭐** [this repository](https://github.com/Kushal997-das/Project-Guidance) to show your support
+
 **2.** **Fork 🍴** [this repository](https://github.com/Kushal997-das/Project-Guidance) to create your copy.
+
 **3.** **Clone 🔄** the forked repository.
  ```bash
  git clone https://github.com/<your-github-username>/Project-Guidance
