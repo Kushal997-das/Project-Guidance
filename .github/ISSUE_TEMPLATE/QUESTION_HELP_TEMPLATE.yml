@@ -4,10 +4,11 @@ about: If you have questions, please check the below links
 title: ""
 labels: question
 assignees: ""
-initiatives:
+body:
   - type: markdown
     attributes:
-      value: Have you read the Contributing Guidelines? [Contributing
+      value: >
+        Have you read the Contributing Guidelines? [Contributing
         Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
   - type: dropdown
     attributes:
