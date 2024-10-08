@@ -76,7 +76,7 @@ Consider this repository your personal space to find or add any new projects. Be
 ## 📁 Website Folder
 The `website` folder houses all frontend files for the web application, including HTML, CSS, JavaScript, and assets. This organized structure promotes clean development, enhances responsiveness, and facilitates easy collaboration. For more details, [click here](https://github.com/Kushal997-das/Project-Guidance/tree/main/website).
 
-## Contributing 🤝
+## 🤝 Contributing 
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/Kushal997-das/Project-Guidance/pulls) 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance)
@@ -179,7 +179,7 @@ git push -u origin <your_branch_name>
 
 
 
-## Stargazers over time 🤗🚀
+## 🤗🚀 Stargazers over time 
 
 <img align="center" alt="Stargazers over time" src="https://starchart.cc/Kushal997-das/Project-Guidance.svg?raw=true&color=green" /><br><br>
 
