@@ -5,6 +5,10 @@ title: ""
 labels: question
 assignees: ""
 initiatives:
+  - type: markdown
+    attributes:
+      value: Have you read the Contributing Guidelines? [Contributing
+        Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
   - type: dropdown
     attributes:
       label: Initiative (Required)
