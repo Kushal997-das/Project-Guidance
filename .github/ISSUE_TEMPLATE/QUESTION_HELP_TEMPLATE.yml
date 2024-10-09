@@ -1,13 +1,12 @@
----
-name: Bug Report
-description: Report a bug you found
-title: "[Bug Title here]"
-labels: bug
+name: ❓ Questions and Help
+description: If you have questions, please check the below links.
+title: "Questions or Help"
+labels: question
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! 🐞
         Have you read the Contributing Guidelines? [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
 
   - type: dropdown
@@ -27,17 +26,8 @@ body:
 
   - type: textarea
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      label: Additional Info
+      description: "Please provide any additional information or questions you may have."
+      placeholder: Type here...
     validations:
-      required: true
-
-  - type: dropdown
-    attributes:
-      label: Urgency (Optional)
-      description: How urgent do you think it is to fix this bug?
-      options:
-        - Low priority 🚦
-        - Medium priority ⚠️
-        - High priority 🔴
+      required: false
