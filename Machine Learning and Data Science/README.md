@@ -24,7 +24,7 @@
 | 19. | [Single Neural Network](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Single%20Neural%20Network) | 20. | [Titanic Survival Prediction](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Titanic_Survival_Prediction) | 21. | [Uber Analysis](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Uber%20Analysis) |
 | 22. | [Walmart Analysis](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Walmart%20Analysis) | 23. | [Wine Quality Prediction](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Wine%20Quality%20Prediction) | 24. | [Water Quality Data EDA](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Water%20Quality%20Data%20EDA) |
 | 25.| [Calorie Burnt Prediction](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Calorie%20Burnt%20Prediction)| 26.| [Super Resolution Using Deep Learning](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Super_Resolution_Using_Deep_Learning)
-
+27.| [Admission Prediction Using Linear](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Basic/Super_Resolution_Using_Deep_Learning)
 
 <br>
 
@@ -35,7 +35,8 @@
 | 01. | [Covid Third Wave Forecasting ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Covid_Third_Wave_Forecasting) | 02. | [Exploratory Data Analysis - Terrorism](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Exploratory%20Data%20Analysis%20-%20Terrorism) | 03. | [Iris Webapp](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Iriswebapp-main) |
 | 04. | [ Prediction using Decision Tree Algorithm ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Prediction%20using%20Decision%20Tree%20Algorithm) | 05. | [ Explore Buisness Analytics ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/To%20explore%20Business%20Analytics) | 06. | [Centroid-Digits](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Centroid-Digits) |
 | 07. | [Digit Recognizer Using ANN](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Digit%20Recognizer%20Using%20ANN) | 08. | [IPL Prediction](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/IPL%20Prediction) | 09. | [Whatsapp Chat Analyzer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Whatsapp%20Chat%20Analyzer) |
-|10. |[2 Digit Classification](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/2_Digit_Classification)| 11. |[Crop Recommednation Using ML ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Crop%20Recommedation%20using%20ML)| 12. | [Loan Amount Prediction](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Loan%20Amount%20Prediction)
+|10. |[2 Digit Classification](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/2_Digit_Classification)| 11. |[Crop Recommednation Using ML ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Crop%20Recommedation%20using%20ML)| 12. | [Loan Amount Prediction](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Loan%20Amount%20Prediction) |  13. | [ Disease_Predictor](https://github.com/NimraAslamkhan/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Intermediate/Disease_Predictor)
+
 
 <br>
 
@@ -68,3 +69,7 @@
 <div align="right">
   <b><a href="#top">↥ Back To Top</a></b>
 </div>
+
+
+
+

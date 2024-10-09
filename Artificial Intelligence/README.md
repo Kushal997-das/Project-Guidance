@@ -1,3 +1,4 @@
+
 <h1 id="top" align="center">Artificial Intelligence 🤖</h1>
 
 <p align="center"><img src="https://www.srimax.com/wp-content/uploads/2020/01/Importance-of-Artificial-Intelligence.jpeg" alt="Artificial Intelligence Image" width=600px />
@@ -19,31 +20,51 @@
 
 <h1> 🎯 Explore <i>Artificial Intelligence</i> With Three Level:-<a href="#Bottom"><img src="https://img.shields.io/badge/-Bottom-red?style=for-the-badge" align="right"/></a></h1>
 
-## Level 1: Basic 🚀
+# 🤖 Artificial Intelligence Projects
 
-| S-No. | Projects | S-No. | Projects | S-No. | Projects |
-|:--|:--|:--|:--|:--|:--|
-| 01. | [Emotion + Posture Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Emotion%20%2B%20Posture%20Detection) | 02. | [Object Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Object_Detection) | 03. | [TIC-TAC-TOE AI](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/TIC-TAC-TOE%20AI) |
-| 04. | [Audio to ISL(Indian Sign Language) Translator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Audio%20to%20ISL%20Translator) |
+Welcome to the Artificial Intelligence section of Project Guidance! Here, you can explore a variety of exciting projects ranging from basic to advanced levels. Each project has been carefully curated to help you enhance your skills and knowledge in AI. 
 
-## Level 2: Intermediate 🚀
+## 📚 Project Levels
+
+### Level 1: Basic 🚀
 
 | S-No. | Projects |
-|:--|:--
+|:--|:--|
+| 01. | [Emotion + Posture Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Emotion%20%2B%20Posture%20Detection) |
+| 02. | [Object Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Object_Detection) |
+| 03. | [TIC-TAC-TOE AI](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/TIC-TAC-TOE%20AI) |
+| 04. | [Audio to ISL (Indian Sign Language) Translator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Audio%20to%20ISL%20Translator) |
+
+### Level 2: Intermediate 🚀
+
+| S-No. | Projects |
+|:--|:--|
 | 01. | [Tiktok Hand-Gesture Filter Clone](https://github.com/SAM-DEV007/Project-Guidance/tree/Tiktok-HandGesture-Clone/Artificial%20Intelligence/Intermediate/Hand_Gesture) |
 
-## Level 3: Advanced 🚀
+### Level 3: Advanced 🚀
 
-<i>Nothing to showcase here!</i>
+<i>Nothing to showcase here yet!</i>
 
 ---
 
-<br/>
-<h3> <p align="center">Show some ❤️ by starring⭐ this Repository!</p> </h3>
+## 🔗 Recent Changes
 
-<h3> <p align="center"> 💌 More projects will added consecutively. 💌</p> </h3>
+- **Basic AI Section**:
+  - [Emotion + Posture Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Emotion%20%2B%20Posture%20Detection): Updated README.md last year.
+  - [Object Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Object_Detection): Updated README.md two years ago.
+  - [TIC-TAC-TOE AI](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/TIC-TAC-TOE%20AI): Added to AI Basic three years ago.
+  - [Audio to ISL Translator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Audio%20to%20ISL%20Translator): Updated README.md last year.
 
-### <p align="center"> 🎉 We Welcome all Contributors, Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉<br> <br>
+- **Intermediate AI Section**:
+  - [Hand Gesture](https://github.com/NimraAslamkhan/Project-Guidance/tree/main/Artificial%20Intelligence/Intermediate/Hand_Gesture): Bump certifi in last three months.
+
+---
+
+<h3 align="center">Show some ❤️ by starring ⭐ this Repository!</h3>
+
+<h3 align="center">💌 More projects will be added consecutively. 💌</h3>
+
+### <p align="center"> 🎉 We welcome all contributors! Please read our [Code of Conduct](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md) and [Contributing Rules](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). 🎉<br><br>
 
 <div align="center" id="Bottom">
 
@@ -52,5 +73,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 [![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/Kushal997-das/)
 <p align="right"><a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" /></a></p>
+
 
 </div>
