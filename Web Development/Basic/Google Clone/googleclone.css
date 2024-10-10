@@ -8,6 +8,16 @@ body{
     display: flex;
     
 }
+#appsicon img{
+height: 24px;
+margin-top: 5px;
+width: auto;}
+ #appsicon img:hover{
+    border: none; 
+    
+    background-color: lightgray;
+
+} 
 .header a{
     text-decoration: none;
     color: black;
@@ -17,9 +27,9 @@ body{
 }
 .header a:hover{
     text-decoration: underline;
-    color: brown;
-    font-size: 20px;
+
 }
+
 .header img{
     border-radius: 50px;
 }
@@ -27,8 +37,7 @@ body{
     padding-top: 8px;
 }
 .header img:hover{
-    width: 50px;
-    height: 50px;
+   
     transition: 1s;
 }
 #mainbody{
@@ -38,6 +47,7 @@ body{
 }
 #mainbody img{
     display: block;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -59,43 +69,57 @@ body{
     position: absolute;
     z-index: 1;
     left: 12px;
-    top: 12px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-#inputSection #takeInput #voiceIcon {
+#inputSection #takeInput #voiceIcon,
+#inputSection #takeInput #searchByImage {
     position: absolute;
     display: flex;
     flex: 0 0 auto;
-    left: 95%;
-    top: 12%;
+    top: 50%;
+    cursor: pointer;
+    transform: translatey(-50%);
+  
+}
+#inputSection #takeInput #voiceIcon{
+right :60px;
+}
+#inputSection #takeInput #searchByImage {
+    right: 20px;
 }
 
+
+
 #inputSection #takeInput input{
-    display: flex;
+   
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     height: 40px;
-    border-width: 1px;
+    
     border-radius: 50px;
-    padding-left: 20px;
-    outline: none;
+    border: 1px solid #dfe1e5;
     padding-left: 40px;
+    outline: none;
+    padding-right: 40px;
 }
 #inputSection #takeInput input:hover{
-    box-shadow: 0px 2px 5px #61C5FA;
+    box-shadow: 0px 0px 9px #d0d2d6;
     border-width: 0px;
 }
-#inputSection #takeInput input:focus{
-    box-shadow: 0px 1px 5px #61C5FA;
-    border-width: 0px;
-}
+/* #inputSection #takeInput input:focus{
+    box-shadow: 0px 0px 5px #61C5FA;
+    border-width: 0px; */
+
 #inputSection #differentButtons{
     padding-top: 2%;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 #inputSection #differentButtons button{
@@ -106,10 +130,11 @@ body{
     border: 1px solid #f8f9fa;
     border-radius: 7px;
     background-color: rgba(245, 245, 245, 0.479);
+    cursor: pointer;
 }
 #inputSection #differentButtons button:hover{
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.192);
-    background-color: rgba(136, 126, 126, 0.1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+   
     transition: 0.1s;
 }
 #langSelect{
@@ -125,10 +150,10 @@ body{
 }
 
 #langSelect a:hover{
-    text-decoration: none;
+    text-decoration: underline;
     padding-left: 15px;
     transition: 0.5s;
-    font-size: 20px;
+    
 }
 
 #footer{
@@ -167,7 +192,7 @@ body{
     color: rgb(68, 65, 65, 1);
     text-decoration: underline;
     transition: 1s;
-    font-size: 20px;
+    
 }
 
 #footer #lower #rightside{
@@ -187,5 +212,10 @@ body{
     color: rgb(68, 65, 65, 1);
     text-decoration: underline;
     transition: 1s;
-    font-size: 20px;
+    text-decoration: underline;
+    
+}
+.center{
+    margin: auto;
+    margin-top:48px ;
 }
