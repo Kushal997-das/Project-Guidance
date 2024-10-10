@@ -5,7 +5,8 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.4.0",
-    "nodemon": "^3.1.1"
+    "nodemon": "^3.1.1",
+    "server": "file:"
   },
   "scripts": {
     "start": "node app.js"
@@ -13,7 +14,6 @@
   "name": "server",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",

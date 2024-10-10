@@ -17,7 +17,8 @@
     "request": "^2.88.2"
   },
   "dependencies": {
-    "express-handlebars": "^6.0.2"
+    "express-handlebars": "^6.0.2",
+    "stock-market": "file:"
   },
   "engines": {
     "node": "16.13.2"
