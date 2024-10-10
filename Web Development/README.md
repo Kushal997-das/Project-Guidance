@@ -39,7 +39,7 @@
 | 70. | [Zomato Landing Page](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Zomato-Landing-Page) | 71. | [Markdown Previewer](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Markdown%20Previewer) | 72. | [Amazon Clone](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Amazon-Clone) |
 | 73. | [RGB Color Slider](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/RGB%20Color%20Slider) | 74. | [Quiz App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Quiz%20App) | 75. | [Bullseye Game](https://github.com/NimraAslamkhan/ProjectGuidance/tree/main/Web%20Development/Basic/Bullseye%20Game) |
 | 76. | [React Calculator](https://github.com/NimraAslamkhan/ProjectGuidance/tree/main/Web%20Development/Basic/React%20Calculator) | 77. | [Sudoku Game](https://github.com/NimraAslamkhan/Project-Guidance/tree/main/Web%20Development/Basic/Sudoku%20Game) | 78. | [Etch-a-Sketch](https://github.com/NimraAslamkhan/ProjectGuidance/tree/main/Web%20Development/Basic/etch-a-sketch) |
-| 79. | [Virtual Classes Attendance](https://github.com/NimraAslamkhan/Project-Guidance/tree/main/Web%20Development/Basic/virtual-classes-attendance-automation-system) | | | | |
+| 79. | [Virtual Classes Attendance](https://github.com/NimraAslamkhan/Project-Guidance/tree/main/Web%20Development/Basic/virtual-classes-attendance-automation-system) | 80. | [Blinkit Clone](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic/Blinkit-Clone) | | |
 
 
 ## Level 2: Intermediate 🚀
