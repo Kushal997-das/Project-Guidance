@@ -1,34 +1,8 @@
-
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="30" src="https://img.shields.io/badge/Project Guidance-💡-orange.svg?&style=for-the-badge&logo=KD&logoColor=blue" /></a> <br> 
 
-# 🌟 Project Guidance – Your One-Stop Resource for Projects! 🚀
+### The Ultimate resources for beginner to advanced level projects all at one place 😎 <br>
 
-Welcome to **Project Guidance**, the ultimate hub for beginner to advanced level projects across various domains! Whether you're just starting or looking to level up your skills, this repository has got you covered with well-organized, easy-to-understand source code.
-
-<div align="center">
-  <img alt="Project-Guidance-official-logo" width="700px" height='500px' src="https://user-images.githubusercontent.com/61356005/208656065-d81784e0-c739-49da-99f9-e9a5f2781cb5.gif"/>
-</div>
-
----
-
-
-## 📌 **About Project Guidance**
-
-This repository contains amazing projects across multiple programming languages, organized by domain and difficulty level. Whether you're a complete beginner 🔰 or an advanced developer, you can find or contribute projects that match your level.
-
-Our mission is to make project discovery simple. No more searching multiple places—consider this your personal project hub where you can find or add new projects in a few easy steps. Contributing isn’t just about coding, either! You can help by writing documentation, tests, or suggesting improvements.
-
-🎯 **Highlights:**
-
-- Beginner to advanced level projects 🏗️
-- Support for multiple domains (AI, IoT, Web, ML, and more!) 🌐
-- Easy contribution process 🤝
-- Open-source love ❤️
-
-  
-
----
-
+<img align="center" alt="Project-Guidance-official-logo"  width="700px" height='500px' src="https://user-images.githubusercontent.com/61356005/208656065-d81784e0-c739-49da-99f9-e9a5f2781cb5.gif"/>
 
 
 <a href="https://github.com/Kushal997-das/Project-Guidance/"><img align='center' height="25" src="https://img.shields.io/badge/Hola - 👋-pink.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a> <br>
@@ -51,12 +25,12 @@ Our mission is to make project discovery simple. No more searching multiple plac
 
 <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/Projects-100 +-blue.svg?color=5ac4bf"></a> <br>
 
+📌 Introduction
+------------------
+**Project-Guidance** Contains amazing projects written in multiple programming languages. Here you can easily find beginner to advanced level projects. The main reason behind creating this repository is so that people can find their projects all at one place with the source code. Most of the programmers (beginners 🔰 ) are unable to find the project so we took the initiative to help them. Consider this repository as your personal space to find or add any new project to this repository .
+Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions. 🌟🏆
 
-# 📌 Introduction
 
-**Project-Guidance** contains amazing projects written in multiple programming languages. Here, you can easily find beginner to advanced level projects, all in one place with source code. Many programmers, especially beginners 🔰, often struggle to find suitable projects, which is why we created this repository—to help them.
-
-Consider this repository your personal space to find or add any new projects. Being an open-source contributor doesn’t just mean writing code; you can also help by writing documentation, creating tests, or even giving suggestions. 🌟🏆
 
 ---
 
@@ -73,8 +47,139 @@ Consider this repository your personal space to find or add any new projects. Be
 | **Web Development**               | [Basic Web Projects](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Basic)         | [Intermediate Web Projects](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Intermediate)         | [Advanced Web Projects](https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development/Advanced) 
 
 
-## 📁 Website Folder
-The `website` folder houses all frontend files for the web application, including HTML, CSS, JavaScript, and assets. This organized structure promotes clean development, enhances responsiveness, and facilitates easy collaboration. For more details, [click here](https://github.com/Kushal997-das/Project-Guidance/tree/main/website).
+## Contributing :handshake:
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/Kushal997-das/Project-Guidance/pulls)[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?color=red)](https://github.com/Kushal997-das/Project-Guidance)
+
+> Please read our [Code of Conduct :octocat:](https://github.com/Kushal997-das/Project-Guidance/blob/main/CODE_OF_CONDUCT.md).
+
+
+**We're accepting PRs for our open and unassigned [issues🐛](https://github.com/Kushal997-das/Project-Guidance/issues)**. Please check [CONTRIBUTING.md✨](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md). We'd love your contributions! **Kindly follow the steps below to get started:** 
+
+**0.** Star [this](https://github.com/Kushal997-das/Project-Guidance) repository.
+
+**1.** Fork [this](https://github.com/Kushal997-das/Project-Guidance) repository.
+
+**2.** Clone the forked repository.
+
+```bash
+git clone https://github.com/<your-github-username>/Project-Guidance
+```
+
+**3.** Navigate to the project directory.
+
+```bash
+cd Project-Guidance
+```
+
+**4.** Create a new branch.
+
+```bash
+git checkout -b <your_branch_name>
+```
+
+**5.** Make changes.
+
+**6.** Stage your changes and commit
+
+```bash
+git add -A
+
+git commit -m "<your_commit_message>"
+```
+
+**7.** Push your local commits to the remote repo.
+
+```bash
+git push -u origin <your_branch_name>
+```
+
+**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to `develop` !
+
+**9.** **Congratulations!** :tada: Sit and relax, you've made your contribution to [Project-Guidance](https://github.com/Kushal997-das/Project-Guidance). :v: :heart: 💥
+
+<br><br>
+
+<h1 align=center> Project Admin ❤️ </h1> 
+
+<!-- <td align="center"><a href="https://github.com/Kushal997-das"><img src="" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4>
+<a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td> -->
+
+<td align="center"><a href="https://github.com/Kushal997-das"><img src="https://user-images.githubusercontent.com/61356005/208653305-10842164-36d6-4951-98f1-9bb59739f348.png" width=150px height=150px /></a><h4>Kushal Das</h4><a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://img.icons8.com/color/512/linkedin-2--v2.png" width="32px" height="32px"></a>
+<a href="https://kushaldas.hashnode.dev/"><img src="https://img.icons8.com/color/512/hashnode.png" width="32px" height="32px"></a>
+</td>
+
+<h2>Engaging and Collaborating with </h2>
+
+<table>
+<tr>
+<td align="center"> <img height="80" alt="GSSOC" src="https://user-images.githubusercontent.com/61356005/208653712-a0f28fe3-a5fc-4f53-ae3c-9cdfa560bb41.png" /> </td>
+<td align="center"> <img align="center" height="85" width="85" alt="Hacktoberfest_icon" src="https://user-images.githubusercontent.com/61356005/208831424-aec2774d-f3a9-4aed-8399-9a85802e1650.svg" />  </td> 
+<td align="center"> <img align="center" height="83" width="83" alt= "SOWC3.0" src="https://user-images.githubusercontent.com/61356005/210384287-49e5ceab-71a6-410b-89a0-ee9ba553bc1e.png" /> </td>
+<td align="center"> <img align="center" height="83" width="83" alt= "hecktoberfest2023" src="https://github.com/Kushal997-das/Project-Guidance/assets/61356005/a39b0354-56ff-4161-9076-1b576a053537" /> </td>
+<td align="center"> <img align="center" height="83" width="83" alt= "winter of blockchain girlscript" src="https://github.com/user-attachments/assets/d9bec6f3-066c-4c8b-8e04-0c80c321765f" /> </td>
+
+
+
+
+
+
+
+</tr>
+</table>
+
+
+
+ 
+ 
+<!--
+<h1 align=center> Project Maintainers ❤️ </h1> 
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Kushal997-das"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/photo_2022-03-05_11-30-51.jpg" width=150px height=150px /></a></br> <h4 style="color:red;">Kushal Das</h4><h4 style="color:red;">Project-Admin</h4>
+<a href="https://www.linkedin.com/in/kushal-das-7337421a9/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+
+<td align="center"><a href="https://github.com/photon149"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/SS.jpg" width=150px height=150px /></a></br> <h4 style="color:red;">Shiwansh Raj</h4><h4 style="color:red;">Mentor</h4>
+<a href="https://www.linkedin.com/in/shiwanshraj/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+
+<td align="center"><a href="https://github.com/prakhar3062"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Documents/GSSoc/PP.png" width=150px height=150px /></a></br> <h4 style="color:red;">PRAKHAR MISHRA </h4><h4 style="color:red;">Mentor</h4>
+<a href="https://www.linkedin.com/in/prakhar-mishra-39880520a/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+</tr>
+</table>
+-->
+
+
+<br>
+
+## Stargazers over time 🤗🚀
+
+<img align="center" alt="Stargazers over time" src="https://starchart.cc/Kushal997-das/Project-Guidance.svg?raw=true&color=green" /><br><br>
+
+<a href ="https://github.com/Kushal997-das/Project-Guidance/graphs/contributors"><img align='center' height="25" src="https://img.shields.io/badge/contributors✨-green.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
+<a href ="https://github.com/Kushal997-das/Project-Guidance/discussions"><img align='center' height="25" src="https://img.shields.io/badge/Discussions-black.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
+<a href ="https://github.com/Kushal997-das/Project-Guidance/actions"><img align='center' height="25" src="https://img.shields.io/badge/Actions-red.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a>
+
+<a href ="https://github.com/Kushal997-das/Project-Guidance"><img align='center' height="25" src="https://img.shields.io/badge/made with- Programming languages-orange.svg?&style=for-the-badge&logo=KushalDas&logoColor=blue" /></a> <br>
+
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/Kushal997-das/)
+
+## Awesome contributors :star_struck:
+<a href="https://github.com/Kushal997-das/Project-Guidance/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Kushal997-das/Project-Guidance" />
+</a> <br><br>
+
+:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+
+
+
+
+
+
+
 
 ## 🤝 Contributing 
 
