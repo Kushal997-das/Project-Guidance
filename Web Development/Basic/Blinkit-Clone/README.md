@@ -2,7 +2,7 @@
 Blinkit is an online grocery delivery service in India that offers a wide range of products for instant delivery.
 
 ### Tech Stack used: 
-This is simple login page of Blinkit website. Tech Stack that used here are:
+This is the simple login page of Blinkit website. Tech Stack that used here are:
 - <strong>HTML</strong>
 - <strong>CSS</strong>
 
