@@ -91,7 +91,7 @@
 | 09. | [Registration Form](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/RegistrationForm) |
 | 10. | [Temperature Convertor Tool](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/Temperature%20Convertor%20Tool) |
 | 11. | [Tic Tac Toe](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/TicTacToe) |
-| 12. | [Currency Converter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/currency-converter) |
+
 </br>
 
 ## SQL 🚀
