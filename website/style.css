@@ -1581,3 +1581,33 @@ body::-webkit-scrollbar-thumb {
     color: rgb(96 165 250 / var(--tw-text-opacity));
   }
 }
+
+
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.flex {
+  display: flex;
+}
+
+.space-x-4>*:not(:last-child) {
+  margin-right: 1rem;
+}
