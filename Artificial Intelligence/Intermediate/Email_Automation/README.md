@@ -72,3 +72,11 @@ The script will send emails to all recipients listed in the Excel file and print
 ## Security Note
 
 Never share your `.env` file or commit it to version control systems. It contains sensitive information that should be kept private.
+
+## Contributor
+This project was contributed by Tanmay Shingavi.
+
+GitHub: https://github.com/decodingafterlife
+LinkedIn: https://www.linkedin.com/in/tanmay-shingavi/
+
+Feel free to reach out for any questions or suggestions!
