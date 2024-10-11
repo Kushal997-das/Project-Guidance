@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Hackathon Tracker</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="register">
+            <form>
+                <h2>Register Hackathon</h2>
+                <div class="form-group">
+                    <label for="name">Hackathon Name</label>
+                    <input type="text" id="name" placeholder="Enter hackathon name" required>
+                </div>
+                <div class="form-group">
+                    <label for="registration-date">Registration Date</label>
+                    <input type="date" id="registration-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="deadline">Deadline</label>
+                    <input type="date" id="deadline" required>
+                </div>
+                <div class="form-group">
+                    <label for="status">Status</label>
+                    <select id="status" required>
+                        <option value="in-progress">In Progress</option>
+                        <option value="submitted">Submitted</option>
+                        <option value="completed">Completed</option>
+                    </select>
+                </div>
+                <button type="submit">Add Hackathon</button>
+            </form>
+        </section>
+        <section id="dashboard">
+            <h2>Hackathon Dashboard</h2>
+            <section id="in-progress">
+                <h2 style="display: none;">In Progress</h2>
+                <div class="hackathon-dashboard"></div>
+            </section>
+            <section id="submitted">
+                <h2 style="display: none;">Submitted</h2>
+                <div class="hackathon-dashboard"></div>
+            </section>
+            <section id="completed">
+                <h2 style="display: none;">Completed</h2>
+                <div class="hackathon-dashboard"></div>
+            </section>
+        </section>
+        <section id="calendar-section">
+            <h2>Calendar</h2>
+            <div id="calendar-container">
+                <div id="calendar"></div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha384-Uz1UHyakAAz121kPY0Nx6ZGzYeUTy9zAtcpdwVmFCEwiTGPA2K6zSGgkKJEQfMhK" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js" integrity="sha384-GRxLpKWDxL5ZLge/IN/AFNu8Fw9xA9BlwkhYxnOet8Jnrf2phws/uKVPGNlKWG53" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

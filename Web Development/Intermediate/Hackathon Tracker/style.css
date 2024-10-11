@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #575757;
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.hackathon-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.hackathon-card {
+    width: calc(33.333% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 1.75rem;
+    border: 1px solid #ccc;
+}
+.hackathon-card h3 {
+    margin-top: 0;
+}
+.hackathon-card .status {
+    font-weight: bold;
+}
+.edit-btn, .delete-btn {
+    margin-right: 5px;
+}
+#calendar-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+#calendar {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .hackathon-card {
+        width: calc(50% - 10px);
+    }
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #calendar {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+    .hackathon-card {
+        width: 100%;
+    }
+    #calendar {
+        width: 100%;
+    }
+}
