@@ -44,6 +44,11 @@ The Hackathon Tracker is a web application that helps users manage and track the
 3. Entries can be edited or deleted by using the respective buttons on each hackathon card.
 4. View your deadlines on the calendar for a visual representation of upcoming events.
 
+### Screenshot
+
+![Hackathon Tracker Screenshot](screenshot.PNG)
 
 
-#
+
+
+
