@@ -45,8 +45,7 @@
 | S-No. | Projects | S-No. | Projects | S-No. | Projects |
 |:--:|:--:|:--:|:--:|:--:|:--:| 
 | 01. | [ Detox ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Detox) | 02. | [Timeline Analysis Covid-19](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Timeline%20Analysis%20Covid-19) | 03. | [ Exploratory Data Analysis (Sports) ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/EXPLORATORY%20DATA%20ANALYSIS%20(SPORTS)) |
-| 04. | [ Stock Market Prediction using Numerical and Textual analysis ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Stock%20Market%20Prediction%20using%20Numerical%20and%20Textual%20Analysis) | 05. | [ EDA and Perform Modelling on Ionosphere dataset ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/EDA-and-Perform-Modelling-on-Ionosphere-Dataset-main) |
-
+| 04. | [ Stock Market Prediction using Numerical and Textual analysis ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Stock%20Market%20Prediction%20using%20Numerical%20and%20Textual%20Analysis) | 05. | [ EDA and Perform Modelling on Ionosphere dataset ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/EDA-and-Perform-Modelling-on-Ionosphere-Dataset-main) | 06. | [ Brain Tumor Detection ](https://github.com/Kushal997-das/Project-Guidance/tree/main/Machine%20Learning%20and%20Data%20Science/Advanced/Brain-Tumor-Detection) |
 
 ---
 
