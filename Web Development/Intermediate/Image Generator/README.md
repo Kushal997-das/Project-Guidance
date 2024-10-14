@@ -22,6 +22,10 @@ git clone <repository-url>
 ```
 cd <repository-directory>
 ```
+## create .env  at root of the folder
+```
+VITE_HOST= your server URL 
+```
 
 ### Starting Frontend :
 
@@ -48,18 +52,21 @@ cd server
 
 ```
 API_KEY=your_api_key_here
+FRONTEND_URL=""
 ```
 
 ### Starting Backend :
 
 ```
 npm install
-nodemon index.js
+npx nodemon index.js
 ```
+## Demo video
+Demo Video [Here](https://drive.google.com/file/d/15PmkjI34Wo2k6_bGK53dmWar4GSQ99WU/view?usp=drive_link)
+## Hosted LInk
 
-## Demo Video
+[Here](https://ai-image-generator-frontend-hers9ipc5-damarudhvarmas-projects.vercel.app/).
 
-Watch the demo video [here](https://drive.google.com/file/d/1UCp9J30T5U7xSZRcB4OpwMd1AycaFrvb/view).
 
 ## Acknowledgements
 
