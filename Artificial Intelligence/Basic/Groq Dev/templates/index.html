@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Whisper</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/html.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/java.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/cpp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/csharp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/ruby.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/go.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/swift.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/typescript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/php.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/rust.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/kotlin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/scala.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/python.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> AI Coding Assistant</h1>
+        </header>
+        <main>
+            <section class="answer-section">
+                <div class="code-header">
+                    <h2><i class="fas fa-laptop-code"></i>Display Screen</h2>
+                    <button id="copy-button" class="copy-btn" onclick="copyCode()">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+                <div id="code-display" class="code-container"></div>
+            </section>
+
+            <section class="question-section">
+                <form hx-post="/ask" hx-target="#code-display" hx-swap="innerHTML">
+                    <textarea name="question" placeholder="Ask your coding question here..."></textarea>
+                    <div class="form-row">
+                        <div class="model-selection">
+                            <select name="model" id="model-select">
+                                {% for model in model_options %}
+                                    <option value="{{ model.value }}">{{ model.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <button type="submit"><i class="fas fa-paper-plane"></i> Ask</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>© 2023 AI Coding Assistant</p>
+            <div class="social-icons">
+                <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/your-twitter-username" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://your-website.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+            </div>
+        </footer>
+    </div>
+    <!-- <div class="social-icons">
+        <a href="https://github.com/yashksaini-coder" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yashksaini" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/easycodesDev/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+    </div> -->
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
