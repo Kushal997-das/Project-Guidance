@@ -1711,3 +1711,15 @@ body::-webkit-scrollbar-thumb {
     background-positon-x: 0px;
   }
 }
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #1f2937; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+/* The hover effect on the cards under the "Table of Content" */
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+}
