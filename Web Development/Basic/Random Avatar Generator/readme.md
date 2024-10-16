@@ -15,6 +15,9 @@ This is a simple web application that generates random avatars based on a random
 - CSS
 - JavaScript
 
+## Screenshot
+
+![random-avatar](https://github.com/user-attachments/assets/279c82f0-26d2-4d38-8840-21a8c0cd04c4)
 
 
 
