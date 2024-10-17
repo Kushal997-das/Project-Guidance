@@ -1,0 +1,11 @@
+{
+  "name": "project-guidance",
+  "version": "1.0.0",
+  "description": "<a href=\"https://github.com/Kushal997-das/Project-Guidance/\"><img align='center' height=\"30\" src=\"https://img.shields.io/badge/Project Guidance-💡-orange.svg?&style=for-the-badge&logo=KD&logoColor=blue\" /></a> <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kushal Das",
+  "license": "MIT"
+}
