@@ -1,0 +1,4 @@
+Flask
+markupsafe
+groq
+python-dotenv
