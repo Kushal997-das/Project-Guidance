@@ -70,7 +70,7 @@
 | 26. | [Image Request](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Image%20Request) |
 | 27. | [Internet Speed Meter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Internet%20Speed%20Meter) |
 | 28. | [Live News App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Live%20News%20App) |
-| 29. | [Screen Recorder](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Screen-Recorder) |
+| 29. | [Screen Recorder](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Screen_Recorder) |
 | 30. | [PDF Utility Tool](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/PDF%20Utility%20Tool) |
 | 31. | [Quiz_Application](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Quiz_Application) |
 | 32. | [Selenium Automated game playing bot](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Selenium-Automated-Cookie-PlayerGame) |
