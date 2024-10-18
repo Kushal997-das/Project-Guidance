@@ -1,0 +1,147 @@
+
+*{
+    margin:0;
+    padding:0; 
+}
+
+body {
+    background-color: rgb(228, 225, 218);
+    font-family: clear sans,helvetica neue,Arial,sans-serif;
+    
+}
+
+.gameBoard{
+    
+    /* position: absolute; */
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    background: #bbada0;
+    border-radius: 6px;
+    width:  70vmin;
+    height: 70vmin;
+    margin: 5vmin auto ;
+    padding: 4px;
+    
+}
+
+.gameBoard div{
+    background: rgba(238,228,218,.35);
+    height: 16vmin;
+    width:  16vmin;
+    border-radius: 0.5vmin;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 9vmin;
+    line-height: 17vmin;
+      
+}
+
+.topbar
+{
+    display: flex;
+    justify-content: space-around;
+    margin:2vmin;
+    color:white;
+    font-size: medium ;
+}
+
+.heading
+{
+    margin: 1.5vmin 8vmin;
+    color: #776e65;
+    font-size: 7vmin;
+}
+
+.newPlay
+{
+    background: #8f7a66;
+    border-radius: 1vmin;
+    border: none;
+    color:white;
+    font-family: clear sans,helvetica neue,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 2.5vmin;
+    padding: 0 3vmin;
+    line-height: 1vmin;
+    height: 8vmin;
+}
+
+.scoreBar
+{
+    background-color:#cfb69f; 
+    font-weight: bold;
+    color: #ebe4d8;
+    padding: 0 3vmin;
+    line-height: 8vmin;
+    border-radius: 1vmin; 
+    height: 8vmin;  
+    margin-bottom: 2vmin;
+}
+
+.best ,.points
+{
+    font-size: 4vmin;
+    font-weight: lighter;
+    color:white;
+}
+
+/* //coloring the cell  */
+
+.value2 {
+    background: #eee4da !important;
+    color: #727371;
+}
+
+.value4 {
+    background-color: #ede0c8 !important;
+    color: #727371;
+}
+
+.value8 {
+    color: #f9f6f2;
+    background: #f2b179 !important;
+}
+
+.value16{
+    color: #f9f6f2;
+    background: #f59563 !important;
+}
+
+.value32{
+    color: #f9f6f2;
+    background: #f67c5f !important;
+}
+
+.value64{
+    color: #f9f6f2;
+    background: #f65e3b !important;
+}
+
+.value128{
+    color: #f9f6f2;
+    background: #edcf72 !important;
+}
+
+.value256{
+    color: #f9f6f2;
+    background: #edcc61 !important;
+}
+
+.value512{
+   
+    color:#f9f6f2;
+    background:#edc850 !important;
+    
+}
+
+.value1024{
+    color: white;
+    background:#edc53f !important;
+}
+
+.value2048{
+color:#f9f6f2;
+background-color:#edc22e !important;
+}
