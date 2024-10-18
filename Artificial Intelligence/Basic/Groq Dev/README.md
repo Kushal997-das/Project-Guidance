@@ -55,16 +55,3 @@ GroqDev is a Flask-based AI coding app that leverages the Groq API, offering mul
 3. Click the "Ask" button to submit your query.
 4. View the AI-generated response in the display screen.
 5. Use the copy button to easily copy the code snippets.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check [issues](https://github.com/yashksaini-coder/GroqDev/issues) page.
-
-## 📝 License
-
-This project is [MIT](LICENSE) licensed.
-
----
-Note: This project is currently under development. People who want to contribute are welcome to do so. 
-
-⭐️ Star this repo if you find it helpful!
