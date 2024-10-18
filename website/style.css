@@ -1711,3 +1711,53 @@ body::-webkit-scrollbar-thumb {
     background-positon-x: 0px;
   }
 }
+
+/* General styles for the contribution section */
+#contribution {
+    background-color: #000; /* Black background for the section */
+}
+
+/* Styles for the heading */
+#contribution h1 {
+    color: #fff; /* White text color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* General styles for the contribution section */
+#contribution {
+    background-color: #000; /* Black background for the section */
+}
+
+/* Styles for the heading */
+#contribution h1 {
+    color: #fff; /* White text color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effects for the main heading */
+#contribution h1:hover {
+    color: yellow; /* Change text color to yellow on hover */
+    transform: scale(1.05); /* Increase size slightly on hover */
+}
+
+/* Styles for the "Steps to Contribute" container */
+#contribution .flex {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth scaling and shadow effect */
+}
+
+/* Hover effects for the entire card */
+#contribution .flex:hover {
+    transform: scale(1.02); /* Scale up on hover */
+    box-shadow: 0 4px 10px rgba(128, 128, 128, 0.5); /* Subtle grey shadow on hover */
+}
+
+/* Styles for the step items */
+#contribution p {
+    color: #fff; /* Default text color */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effects for step items */
+#contribution p:hover {
+    color: yellow; /* Change text color to yellow on hover */
+}
