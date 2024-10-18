@@ -27,7 +27,7 @@
 | S.No | Project | S.No | Project | S.No | Project |
 |:---:|:-------|:----:|:-------|:----:|:-------|
 | 01. | [BMI Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/BMI%20Calculator) | 02. | [Simple Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/Simple%20Calculator) | 03. | [Tic-Tac-Toe Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/TicTacToe%20Game) |
-| 04. | [Voice to Text](https://github.com/utkarsh006/Project-Guidance/tree/VoiceApp/Mobile%20Applications/Basic/Voicetotext) |  |  |  |  |
+| 04. | [Voice to Text](https://github.com/Kushal997-das/Project-Guidance/tree/main/Mobile%20Applications/Basic/Voicetotext) |  |  |  |  |
 
 ---
 
