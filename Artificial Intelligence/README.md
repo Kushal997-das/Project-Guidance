@@ -57,7 +57,7 @@ Welcome to the Artificial Intelligence section of Project Guidance! Here, you ca
   - [Audio to ISL Translator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Audio%20to%20ISL%20Translator): Updated README.md last year.
 
 - **Intermediate AI Section**:
-  - [Hand Gesture](https://github.com/NimraAslamkhan/Project-Guidance/tree/main/Artificial%20Intelligence/Intermediate/Hand_Gesture): Bump certifi in last three months.
+  - [Hand Gesture](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Intermediate/Hand_Gesture): Bump certifi in last three months.
 
 ---
 
