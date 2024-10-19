@@ -1,0 +1,78 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+:root {
+  --text-color-primary: #f9fafb;
+  --background-color: #111827;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.main {
+  padding: 2rem 0;
+  width: 30vw;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+}
+
+.heading-1 {
+  color: var(--text-color-primary);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  border-radius: 4px;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border: none;
+  width: 25vw;
+  margin-bottom: 0.5rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.t-checkbox {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.btn-primary {
+  font-size: 1.25rem;
+  padding: 0.5rem 0.875rem;
+}
+
+.todo {
+  color: var(--text-color-primary);
+  font-size: 1.5rem;
+}
+
+.todos-container {
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.t-pointer {
+  cursor: pointer;
+}
+
+.todos {
+  padding-bottom: 0.5rem;
+}
+
+.todo-text {
+  word-wrap: break-word;
+}
+
+.checked-todo {
+  text-decoration: line-through;
+  color: var(--text-color-primary);
+}
+
+.del-btn {
+    color: #f9fafb;
+}
