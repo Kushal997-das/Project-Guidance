@@ -1,0 +1,121 @@
+.left{
+    display: inline-block;
+      
+     position:absolute;
+    left: 38px;
+    top: 20px;
+}
+/* inline elements do not allow setting width and height, and they only respect horizontal margins and padding. On the other hand, inline-block elements allow setting width and height, and they respect both horizontal and vertical margins and padding. */
+.mid{
+    display: block;
+   
+    width:52%;
+   
+    margin :20px auto; 
+}
+/* Block-level elements typically start on a new line and take up the full width available to them, extending horizontally to the left and right edges of their containing element. */
+/* setting auto for left and right margins will center the element horizontally within its containing element. This is a common technique used for horizontally centering a block-level element. */
+.right{
+    position:absolute;
+    right: 7px;
+    top: 22px;
+    display: inline-block; 
+  
+   
+}
+/* When an element is set to position: absolute;, it is taken out of the normal document flow, and its position is determined based on the positioning contex */
+body{
+    
+   font-family:'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+padding:0px;
+background:url("https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg");
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    
+    display: inline-block;
+}
+.navbar li a{
+    
+    color:rgb(169, 189, 182);
+    text-decoration: none;
+    padding: 20px; 
+    font-size:27px;
+    font-style:initial;
+
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color:bisque;
+}
+.navbar li a.active{
+    color: grey;
+}
+.left img{
+    width:88px;
+     /* filter:invert(100%); */
+     /* if u want to convert the image to white colour */
+}
+.left div{
+    text-align:center;
+    color:rgb(169, 189, 182);
+    line-height:5px;
+    /* line-height property is used to define the amount of space above and below inline elements, such as text */
+}
+.btn{
+    font-family:'Baloo Bhai', cursive;
+    margin:0px 9px;
+    color:rgb(169, 189, 182);
+    background-color: black;
+    padding:5px 11px;
+    border: 2px solid grey;
+    border-radius:89px;
+    font-size:18px;
+    cursor: pointer;
+  
+
+}
+.btn:hover{
+    background-color: rgb(162, 138, 138);
+    
+}
+.container{
+    border: 2px solid white;
+    margin:77px 53px;
+    padding:27px;
+    width:35%;
+    border-radius :28px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width:400px;
+    padding:1px;
+    border:2px solid black;
+    border-radius:6px;
+    font-size:25px;
+    font-family:'Baloo Bhai', cursive; 
+    
+}
+.container h1{
+    text-align: center;
+    color:rgb(100, 138, 138);
+    
+}
+.container button{
+   display:block;
+   width:23%;
+   /* margin:15px; for movement of submit button away from the prev box */
+   border-radius:4px;
+   font-size:24px;
+   background-color: rgb(100, 138, 138);
+   color:rgb(54, 26, 26);
+}
+.container button:hover{
+    background-color:rgb(0, 109, 109)
+}
