@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Score Recognizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        input[type="file"], input[type="text"], button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #5cb85c;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #e7f3fe;
+        }
+        .error {
+            color: red;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 2rem;
+            }
+            label {
+                font-size: 1rem;
+            }
+            input[type="file"], input[type="text"], button {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ATS Score Recognizer</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="resume">Upload Your Resume (PDF)</label>
+            <input type="file" name="resume" required>
+
+            <label for="job_description">Job Description</label>
+            <input type="text" name="job_description" placeholder="Enter job description" required>
+
+            <label for="cgpa">CGPA / Percentage</label>
+            <input type="text" name="cgpa" placeholder="Enter CGPA or percentage" required>
+
+            <button type="submit">Calculate Score</button>
+        </form>
+
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+
+        {% if score is not none %}
+            <div class="result">
+                <h2>Your ATS Score: {{ score }}%</h2>
+                <h3>Detailed Scores:</h3>
+                <ul>
+                    <li>Skills: {{ detailed_scores.skills }}</li>
+                    <li>Projects: {{ detailed_scores.projects }}</li>
+                    <li>Education: {{ detailed_scores.education }}</li>
+                    <li>Basic Information: {{ detailed_scores.info }}</li>
+                </ul>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
