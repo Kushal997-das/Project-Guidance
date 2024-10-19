@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Responsive design for different device widths -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Tracker</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to FullCalendar CSS for calendar functionality -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Main title of the application -->
+        <h1>Hackathon Tracker</h1>
+    </header>
+    <nav>
+        <ul>
+            <!-- Navigation links to different sections of the page -->
+            <li><a href="#register">Register</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- Section for registering a new hackathon -->
+        <section id="register">
+            <form>
+                <h2>Register Hackathon</h2>
+                <div class="form-group">
+                    <label for="name">Hackathon Name</label>
+                    <input type="text" id="name" placeholder="Enter hackathon name" required>
+                </div>
+                <div class="form-group">
+                    <label for="registration-date">Registration Date</label>
+                    <input type="date" id="registration-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="deadline">Deadline</label>
+                    <input type="date" id="deadline" required>
+                </div>
+                <div class="form-group">
+                    <label for="status">Status</label>
+                    <select id="status" required>
+                        <option value="in-progress">In Progress</option>
+                        <option value="submitted">Submitted</option>
+                        <option value="completed">Completed</option>
+                    </select>
+                </div>
+                <!-- Button to submit the form -->
+                <button type="submit">Add Hackathon</button>
+            </form>
+        </section>
+        
+        <!-- Section for displaying hackathon dashboard -->
+        <section id="dashboard">
+            <h2>Hackathon Dashboard</h2>
+            <!-- Section for in-progress hackathons -->
+            <section id="in-progress">
+                <h2 style="display: none;">In Progress</h2>
+                <div class="hackathon-dashboard"></div>
+            </section>
+            <!-- Section for submitted hackathons -->
+            <section id="submitted">
+                <h2 style="display: none;">Submitted</h2>
+                <div class="hackathon-dashboard"></div>
+            </section>
+            <!-- Section for completed hackathons -->
+            <section id="completed">
+                <h2 style="display: none;">Completed</h2>
+                <div class="hackathon-dashboard"></div>
+            </section>
+        </section>
+        
+        <!-- Section for the calendar -->
+        <section id="calendar-section">
+            <h2>Calendar</h2>
+            <div id="calendar-container">
+                <!-- Placeholder for the calendar -->
+                <div id="calendar"></div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Scripts for functionality -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha384-Uz1UHyakAAz121kPY0Nx6ZGzYeUTy9zAtcpdwVmFCEwiTGPA2K6zSGgkKJEQfMhK" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js" integrity="sha384-GRxLpKWDxL5ZLge/IN/AFNu8Fw9xA9BlwkhYxnOet8Jnrf2phws/uKVPGNlKWG53" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

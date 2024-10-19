@@ -1,0 +1,179 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the document */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Use border-box model for better sizing */
+    background-color: #f4f4f4; /* Set background color */
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50; /* Set background color of the header */
+    color: white; /* Set text color to white */
+    padding: 1em; /* Add padding around the header */
+    text-align: center; /* Center align the text */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the navigation items */
+    background-color: #333; /* Set background color for nav */
+}
+
+nav ul li {
+    margin: 0 10px; /* Add horizontal margin between items */
+}
+
+nav ul li a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+    padding: 14px 20px; /* Add padding to links */
+    display: block; /* Make the link a block-level element */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Change background color on hover */
+}
+
+/* Main container styling */
+.container {
+    padding: 20px; /* Add padding inside the container */
+    max-width: 1200px; /* Set max width for larger screens */
+    margin: 0 auto; /* Center align the container */
+}
+
+/* Registration form styling */
+#register {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the form */
+    align-items: center; /* Align items vertically centered */
+    flex-direction: column; /* Stack children vertically */
+    background-color: white; /* Set background color to white */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px; /* Add bottom margin to each form group */
+    width: 100%; /* Make it full width */
+}
+
+.form-group label {
+    display: block; /* Make label block-level element */
+    margin-bottom: 5px; /* Add margin below label */
+}
+
+.form-group input, .form-group select {
+    width: 100%; /* Make input and select elements full width */
+    padding: 8px; /* Add padding */
+    box-sizing: border-box; /* Include padding in total width */
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50; /* Set button background color */
+    color: white; /* Set text color to white */
+    padding: 10px 15px; /* Add padding */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Round button corners */
+}
+
+button:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+/* Dashboard styling for hackathons */
+.hackathon-dashboard {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    gap: 10px; /* Add gap between items */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+/* Individual hackathon card styling */
+.hackathon-card {
+    width: calc(33.333% - 10px); /* Set width to one-third with margin consideration */
+    box-sizing: border-box; /* Include padding and border in total width */
+    margin-bottom: 10px; /* Add bottom margin */
+    border-radius: 5px; /* Round corners */
+    background-color: #f9f9f9; /* Set background color for card */
+    padding: 1.75rem; /* Add padding inside the card */
+    border: 1px solid #ccc; /* Add border to card */
+}
+
+.hackathon-card h3 {
+    margin-top: 0; /* Remove top margin for heading */
+}
+
+.hackathon-card .status {
+    font-weight: bold; /* Make status text bold */
+}
+
+/* Button styling within the hackathon card */
+.edit-btn, .delete-btn {
+    margin-right: 5px; /* Add margin to the right of buttons */
+}
+
+/* Calendar container styling */
+#calendar-container {
+    background-color: white; /* Set background color to white */
+    padding: 2rem; /* Add padding */
+    border-radius: 10px; /* Round corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin-bottom: 20px; /* Add bottom margin */
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Calendar styling */
+#calendar {
+    width: 100%; /* Make calendar full width */
+    box-sizing: border-box; /* Include padding and border in total width */
+    overflow: auto; /* Allow overflow content to scroll */
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .hackathon-card {
+        width: calc(50% - 10px); /* Set card width to half */
+    }
+
+    button {
+        width: 100%; /* Make buttons full width */
+        margin-top: 10px; /* Add top margin to buttons */
+    }
+
+    #calendar {
+        width: 100%; /* Make calendar full width */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column; /* Stack nav items vertically */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Add vertical margin between nav items */
+    }
+
+    .hackathon-card {
+        width: 100%; /* Make cards full width */
+    }
+
+    #calendar {
+        width: 100%; /* Make calendar full width */
+    }
+}
