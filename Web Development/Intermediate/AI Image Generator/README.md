@@ -22,9 +22,11 @@ git clone <repository-url>
 ```
 cd <repository-directory>
 ```
-## create .env  at root of the folder
+
+## create .env at root of the folder
+
 ```
-VITE_HOST= your server URL 
+VITE_HOST= your server URL
 ```
 
 ### Starting Frontend :
@@ -61,12 +63,14 @@ FRONTEND_URL=""
 npm install
 npx nodemon index.js
 ```
+
 ## Demo video
+
 Demo Video [Here](https://drive.google.com/file/d/15PmkjI34Wo2k6_bGK53dmWar4GSQ99WU/view?usp=drive_link)
+
 ## Hosted LInk
 
-[Here](https://ai-image-generator-frontend-hers9ipc5-damarudhvarmas-projects.vercel.app/).
-
+[Here](https://ai-image-generator-frontend-5712.onrender.com/).
 
 ## Acknowledgements
 
