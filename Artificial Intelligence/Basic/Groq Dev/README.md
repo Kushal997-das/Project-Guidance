@@ -79,12 +79,6 @@ We welcome contributions to GroqDev! Here's how you can help:
 5. Push to the branch (`git push origin feature/AmazingFeature`)
 6. Open a Pull Request
 
-Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Thanks to the Groq team for their powerful API
@@ -92,6 +86,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-⚠️ **Note**: GroqDev is currently in active development. We appreciate your patience and welcome any feedback or contributions to improve the project.
-
-⭐ If you find GroqDev helpful, please star this repository to show your support!
+⭐ If you find [GroqDev](https://github.com/yashksaini-coder/GroqDev) helpful, please star this repository to show your support!
