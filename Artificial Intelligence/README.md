@@ -34,6 +34,7 @@ Welcome to the Artificial Intelligence section of Project Guidance! Here, you ca
 | 02. | [Object Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Object_Detection) |
 | 03. | [TIC-TAC-TOE AI](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/TIC-TAC-TOE%20AI) |
 | 04. | [Audio to ISL (Indian Sign Language) Translator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Audio%20to%20ISL%20Translator) |
+| 05. | [Code Chatter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Code%20Chatter) |
 
 ### Level 2: Intermediate 🚀
 
