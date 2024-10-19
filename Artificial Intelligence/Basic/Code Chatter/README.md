@@ -1,6 +1,6 @@
-# GroqDev: AI-Powered Coding Assistant
+# CodeChatter: AI-Powered Coding Assistant
 
-GroqDev is an advanced Flask-based application that harnesses the power of the Groq API to provide intelligent coding assistance. This versatile tool offers multiple AI model selections, enabling developers to leverage artificial intelligence for various coding tasks, including code completion, debugging, and optimization.
+CodeChatter is an advanced Flask-based application that harnesses the power of the Groq API to provide intelligent coding assistance. This versatile tool offers multiple AI model selections, enabling developers to leverage artificial intelligence for various coding tasks, including code completion, debugging, and optimization.
 
 ## 🌟 Key Features
 
@@ -8,7 +8,7 @@ GroqDev is an advanced Flask-based application that harnesses the power of the G
 - **Multi-Model Support**: Choose from a range of AI models to best suit your specific coding needs.
 - **Syntax Highlighting**: Enjoy clear, color-coded syntax for multiple programming languages.
 - **One-Click Code Copying**: Easily copy generated code snippets with a single click.
-- **Responsive Design**: Access GroqDev seamlessly across various devices and screen sizes.
+- **Responsive Design**: Access CodeChatter seamlessly across various devices and screen sizes.
 - **User-Friendly Interface**: Intuitive design for effortless interaction with AI models.
 
 ## 🚀 Technology Stack
@@ -21,8 +21,8 @@ GroqDev is an advanced Flask-based application that harnesses the power of the G
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yashksaini-coder/GroqDev.git
-   cd GroqDev
+   git clone https://github.com/yashksaini-coder/CodeChatter.git
+   cd CodeChatter
    ```
 
 2. **Set Up a Virtual Environment** (Recommended)
@@ -62,7 +62,7 @@ GroqDev is an advanced Flask-based application that harnesses the power of the G
 
 ## 🧪 Running Tests
 
-Ensure the quality and reliability of GroqDev by running the test suite:
+Ensure the quality and reliability of CodeChatter by running the test suite:
 
 ```bash
 python -m pytest tests/
@@ -70,7 +70,7 @@ python -m pytest tests/
 
 ## 🤝 Contributing
 
-We welcome contributions to GroqDev! Here's how you can help:
+We welcome contributions to CodeChatter! Here's how you can help:
 
 1. Fork the repository
 2. Create a new branch (`git checkout -b feature/AmazingFeature`)
@@ -82,8 +82,8 @@ We welcome contributions to GroqDev! Here's how you can help:
 ## 🙏 Acknowledgments
 
 - Thanks to the Groq team for their powerful API
-- Shoutout to all contributors who have helped shape GroqDev
+- Shoutout to all contributors who have helped shape CodeChatter
 
 ---
 
-⭐ If you find [GroqDev](https://github.com/yashksaini-coder/GroqDev) helpful, please star this repository to show your support!
+⭐ If you find [CodeChatter](https://github.com/yashksaini-coder/CodeChatter) helpful, please star this repository to show your support!
