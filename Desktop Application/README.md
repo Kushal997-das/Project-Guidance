@@ -70,7 +70,7 @@
 | 26. | [Image Request](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Image%20Request) |
 | 27. | [Internet Speed Meter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Internet%20Speed%20Meter) |
 | 28. | [Live News App](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Live%20News%20App) |
-| 29. | [Screen Recorder](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Screen-Recorder) |
+| 29. | [Screen Recorder](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Screen_Recorder) |
 | 30. | [PDF Utility Tool](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/PDF%20Utility%20Tool) |
 | 31. | [Quiz_Application](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Quiz_Application) |
 | 32. | [Selenium Automated game playing bot](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Selenium-Automated-Cookie-PlayerGame) |
@@ -80,11 +80,11 @@
 
 | S-No. | [Basic](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java) | S-No. | [Intermediate](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java) | S-No. | [Advanced](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java) |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| 01. | [Book Library](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BookLibrary) | 01. | [CMD](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD) | 01. | [Red Black Tree GUI](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI) |
-| 02. | [Brick Breaker](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BrickBreaker) | 02. | [Mail API](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Mail%20API) | 02. | [Notification REST API](https://github.com/TawfikYasser/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API) |
-| 03. | [CPU Scheduler](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler) | 03. | [Router Synhronization](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization) |
+| 01. | [Book Library](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BookLibrary) | 01. | [CMD](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/CMD) | 01. | [Red Black Tree GUI](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Red%20Black%20Tree%20GUI) |
+| 02. | [Brick Breaker](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/BrickBreaker) | 02. | [Mail API](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Mail%20API) | 02. | [Notification REST API](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Advanced/Java/Notification%20REST%20API) |
+| 03. | [CPU Scheduler](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/CPU%20Scheduler) | 03. | [Router Synhronization](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Router%20Synchronization) |
 | 04. | [Ludo Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/LudoGame) | 04. | [Connect 4 Game](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Intermediate/Java/Connect%204%20Game) |
-| 05. | [Currency Converter](https://github.com/SamarpanCoder2002/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/currency-converter) |
+| 05. | [Currency Converter](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/currency-converter) |
 | 06. | [Calculator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/Calculator)  |
 | 07. | [Library Management System](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/Library%20Management%20System) |
 | 08. | [Notepad](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Java/Notepad) |
