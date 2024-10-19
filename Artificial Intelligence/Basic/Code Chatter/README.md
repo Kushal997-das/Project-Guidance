@@ -60,24 +60,46 @@ CodeChatter is an advanced Flask-based application that harnesses the power of t
 4. **View Response**: The AI-generated code or explanation will appear in the display area.
 5. **Copy Code**: Use the copy button next to code snippets for easy copying.
 
-## 🧪 Running Tests
+## 🧪 A preview
 
-Ensure the quality and reliability of CodeChatter by running the test suite:
+<div align="center" style="display: flex; flex-direction: column; align-items: center;">
+   <img src="static/assets/image_1.png" style="margin-bottom: 10px;">
+   <img src="static/assets/image_2.png" style="margin-bottom: 10px;">
+   <img src="static/assets/image_3.png" style="margin-bottom: 10px;">   
+</div>
 
-```bash
-python -m pytest tests/
-```
-
+--- 
 ## 🤝 Contributing
 
 We welcome contributions to CodeChatter! Here's how you can help:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-5. Push to the branch (`git push origin feature/AmazingFeature`)
-6. Open a Pull Request
+Here's the section with the corresponding Git commands added for clarity:
+
+1. **Fork the repository**  
+   - Click the [Fork](https://github.com/yashksaini-coder/CodeChatter) button in the top-right corner of the repository page on GitHub.
+
+2. **Create a new branch**  
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+
+3. **Make your changes**  
+   (Edit the necessary files in your local repository.)
+
+4. **Commit your changes**  
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+
+5. **Push to the branch**  
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+
+6. **Open a Pull Request**  
+   - Go to your GitHub repository, navigate to the "Pull Requests" tab, and click "New Pull Request." Select your branch and follow the prompts to submit your Pull Request.
+
+This structured list should help guide users through the process effectively!
 
 ## 🙏 Acknowledgments
 
