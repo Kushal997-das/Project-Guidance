@@ -1,0 +1,106 @@
+/* <------------ Import font -------------> */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Kode Mono", monospace;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a3c2f;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 30px;
+    background-color: #084d3a;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(13, 13, 13, 0.319);
+}
+.container h2{
+    font-size: 2rem;
+    color: #f3f2f2;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.container .rows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.container .rows p,
+.container .rows .timer{
+    color: #f3f2f2;
+}
+.container .reset{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: #f3f2f2;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: #084d3a;
+    cursor: pointer;
+    box-shadow: 0 2px 7px rgba(13, 13, 13, 0.231);
+    transition: all 0.4s ease-in;
+}
+.game{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    margin-bottom: 20px;
+}
+.container .reset:focus{
+    color: #f3f2f2;
+    background-color: #0a3c2f;
+}
+.item{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    position: relative;
+    cursor: pointer;
+    transform: rotateY(180deg);
+    transition: all 0.25s ease-in;
+}
+.item.boxOpen{
+    transform: rotateY(0deg);
+}
+.item::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #10614a;
+    transition: all 0.25s ease-in;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+.boxOpen::after,
+.boxMatched::after{
+    transform: rotateY(180deg);
+}
