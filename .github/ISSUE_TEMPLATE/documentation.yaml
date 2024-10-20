@@ -1,0 +1,32 @@
+---
+name: Documentation
+description: Report an issue related to documentation.
+title: "Title: "
+labels: Documentation
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Have you read the [Contributing
+        Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)?
+  - type: dropdown
+    attributes:
+      label: Initiative (Required)
+      description: "Please choose the initiative you are contributing to:"
+      options:
+        - GSSoC (Girl Script Summer of Code) 🌸
+        - GSSoC 2024 Extd 🚀
+        - Hacktoberfest 2024 🎃
+        - Script Winter of Code (SWoC) ❄️
+        - Winter of Blockchain (WoB) ⛄
+        - Personal 🧑‍💻
+        - "Other (please specify): _______________ ✏️"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Explain what you want to add/change in the documentation.
+      description: A clear and concise description of what the issue is.
+      placeholder: Type Here ...
+    validations:
+      required: true

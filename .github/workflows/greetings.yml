@@ -1,0 +1,17 @@
+name: Greetings
+
+on:
+  pull_request_target:
+    types: [closed]
+
+jobs:
+  congratulate:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Congratulate on every PR merge
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            @${{ github.event.pull_request.user.login }} Hurray, your PR got merged into our Project-Guidance 🥳. Thanks a bunch. Feel free to take another Issue. 💖

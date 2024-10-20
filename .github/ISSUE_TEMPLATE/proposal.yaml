@@ -1,0 +1,37 @@
+---
+name: Proposal
+description: Propose a non-trivial change to Project-Guidance.
+title: "Title: "
+labels: Proposal
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Have you read the [Contributing
+        Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)?
+  - type: dropdown
+    attributes:
+      label: Initiative (Required)
+      description: "Please choose the initiative you are contributing to:"
+      options:
+        - GSSoC (Girl Script Summer of Code) 🌸
+        - GSSoC 2024 Extd 🚀
+        - Hacktoberfest 2024 🎃
+        - Script Winter of Code (SWoC) ❄️
+        - Winter of Blockchain (WoB) ⛄
+        - Personal 🧑‍💻
+        - "Other (please specify): _______________ ✏️"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Is your proposal related to a problem? Please describe.
+      description: A clear and concise description of what the proposal is.
+      placeholder: Ex. The current documentation lacks clarity on installation steps...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Add any other context or screenshots about the proposal request here.
+      description: Any miscellaneous context you'd like to give.
+      placeholder: You can provide links to related issues or screenshots here...

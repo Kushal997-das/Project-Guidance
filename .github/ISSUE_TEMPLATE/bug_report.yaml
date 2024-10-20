@@ -1,0 +1,43 @@
+---
+name: Bug Report
+description: Report a bug you found
+title: "[Bug Title here]"
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! 🐞
+        Have you read the Contributing Guidelines? [Contributing Guidelines](https://github.com/Kushal997-das/Project-Guidance/blob/main/CONTRIBUTING.md)
+
+  - type: dropdown
+    attributes:
+      label: Initiative (Required)
+      description: "Please choose the initiative you are contributing to:"
+      options:
+        - GSSoC (Girl Script Summer of Code) 🌸
+        - GSSoC 2024 Extd 🚀
+        - Hacktoberfest 2024 🎃
+        - Script Winter of Code (SWoC) ❄️
+        - Winter of Blockchain (WoB) ⛄
+        - Personal 🧑‍💻
+        - "Other (please specify): _______________ ✏️"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Urgency (Optional)
+      description: How urgent do you think it is to fix this bug?
+      options:
+        - Low priority 🚦
+        - Medium priority ⚠️
+        - High priority 🔴
