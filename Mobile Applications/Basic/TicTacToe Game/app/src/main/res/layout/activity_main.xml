@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:layout_margin="20dp"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:elevation="4dp"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:titleTextColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/displayTv"
@@ -31,6 +47,7 @@
             android:textSize="50sp"
             android:textColor="@android:color/black"
             android:layout_weight="1"
+            app:backgroundTint="@color/teal_200"
             android:layout_width="0dp"
             android:layout_height="match_parent" />
         <Button
@@ -40,11 +57,13 @@
             android:layout_marginLeft="8dp"
             android:textColor="@android:color/black"
             android:layout_width="0dp"
+            app:backgroundTint="@color/teal_200"
             android:layout_height="match_parent"
             android:layout_weight="1" />
         <Button
             android:id="@+id/button3"
             android:textSize="50sp"
+            app:backgroundTint="@color/teal_200"
             android:textColor="@android:color/black"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -55,6 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        app:backgroundTint="@color/teal_200"
         android:orientation="horizontal">
 
         <Button
@@ -62,12 +82,14 @@
             android:textSize="50sp"
             android:textColor="@android:color/black"
             android:layout_width="0dp"
+            app:backgroundTint="@color/teal_200"
             android:layout_height="match_parent"
             android:layout_weight="1" />
         <Button
             android:id="@+id/button5"
             android:textSize="50sp"
             android:layout_marginRight="8dp"
+            app:backgroundTint="@color/teal_200"
             android:layout_marginLeft="8dp"
             android:textColor="@android:color/black"
             android:layout_width="0dp"
@@ -76,8 +98,10 @@
         <Button
             android:id="@+id/button6"
             android:textSize="50sp"
+            app:backgroundTint="@color/teal_200"
             android:textColor="@android:color/black"
             android:layout_width="0dp"
+
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
@@ -94,6 +118,7 @@
             android:textSize="50sp"
             android:textColor="@android:color/black"
             android:layout_width="0dp"
+            app:backgroundTint="@color/teal_200"
             android:layout_height="match_parent"
             android:layout_weight="1" />
         <Button
@@ -103,6 +128,7 @@
             android:layout_marginLeft="8dp"
             android:textColor="@android:color/black"
             android:layout_width="0dp"
+            app:backgroundTint="@color/teal_200"
             android:layout_height="match_parent"
             android:layout_weight="1" />
         <Button
@@ -110,6 +136,7 @@
             android:textSize="50sp"
             android:textColor="@android:color/black"
             android:layout_width="0dp"
+            app:backgroundTint="@color/teal_200"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
@@ -127,4 +154,5 @@
         android:textSize="24sp"
         app:backgroundTint="@color/teal_200" />
 
+    </LinearLayout>
 </LinearLayout>
