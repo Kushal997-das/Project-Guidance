@@ -1,0 +1,7 @@
+Flask
+Pillow
+pytesseract
+pdf2image
+PyMuPDF
+nltk
+flask_bootstrap

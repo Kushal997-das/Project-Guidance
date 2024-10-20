@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+input[type="file"], textarea {
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+}
