@@ -5,19 +5,12 @@ from tkinter import messagebox
 
 
 def newTask():
-
-    task = my_entry.get()
-
+    task = my_entry.get().strip()  # Strip leading/trailing whitespace
     if task != "":
-
         lb.insert(END, task)
-
         my_entry.delete(0, "end")
-
     else:
-
-        messagebox.showwarning("warning", "Please enter some task.")
-
+        messagebox.showwarning("Warning", "Please enter a valid task.")
 
 
 def deleteTask():
