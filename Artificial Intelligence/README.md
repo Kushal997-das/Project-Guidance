@@ -47,19 +47,6 @@ Welcome to the Artificial Intelligence section of Project Guidance! Here, you ca
 
 ---
 
-## 🔗 Recent Changes
-
-- **Basic AI Section**:
-  - [Emotion + Posture Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Emotion%20%2B%20Posture%20Detection): Updated README.md last year.
-  - [Object Detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Object_Detection): Updated README.md two years ago.
-  - [TIC-TAC-TOE AI](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/TIC-TAC-TOE%20AI): Added to AI Basic three years ago.
-  - [Audio to ISL Translator](https://github.com/Kushal997-das/Project-Guidance/tree/main/Artificial%20Intelligence/Basic/Audio%20to%20ISL%20Translator): Updated README.md last year.
-
-- **Intermediate AI Section**:
-  - [Hand Gesture](https://github.com/NimraAslamkhan/Project-Guidance/tree/main/Artificial%20Intelligence/Intermediate/Hand_Gesture): Bump certifi in last three months.
-
----
-
 <h3 align="center">Show some ❤️ by starring ⭐ this Repository!</h3>
 
 <h3 align="center">💌 More projects will be added consecutively. 💌</h3>
