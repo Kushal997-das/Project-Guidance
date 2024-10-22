@@ -48,7 +48,9 @@ The Hackathon Tracker is a web application that helps users manage and track the
 
 ![Hackathon Tracker Screenshot](screenshot.PNG)
 
+### Live Demo
 
+Check out the live version of the project [here](https://hackathontracker.netlify.app/)
 
 
 
