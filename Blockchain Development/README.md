@@ -21,8 +21,7 @@
 
 | S-No. | Projects | S-No. | Projects |
 |:--:|:--:|:--:|:--:|
-| 01. | [Raffle](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Intermediate/Raffle) | 02. | [Voting](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Intermediate/Voting) |
-
+| 01. | [Raffle](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Intermediate/Raffle) |
 ## Level 3: Advanced 🚀
 
 <i>Nothing to showcase here!</i>
