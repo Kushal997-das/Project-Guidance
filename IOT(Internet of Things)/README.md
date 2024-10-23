@@ -25,15 +25,15 @@
 | 13. | [Arduino PIR Motion Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_PIR_Motion_Sensor) | 14. | [Arduino RGB Mixing](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_RGB_Mixing)| 15. | [Arduino Serial Monitor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Serial_Monitor)
 | 16. | [Arduino Servo Motor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Servo_Motor) | 17. | [Arduino Stress Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Stress_Sensor) | 18. | [Arduino Temperature Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Temperature_Sensor) 
 | 19. | [Arduino Traffic Light Simulator](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_TrafficLight_Simulator) | 20. | [Arduino UltraSonic Sensor](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_UltraSonic_Sensor) | 21. | [Multi Arduino Knight Rider Lights](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Multi%20Arduino%20Knight%20Rider%20Lights)
-| 22. | [Arduino_Line_Follower_Robot](https://github.com/deedGhost/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Line_Follower_Robot)| 23. | [Automated_Billing_System](https://github.com/Vrisha213/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Automated_Billing_System)
+| 22. | [Arduino_Line_Follower_Robot](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Arduino_Line_Follower_Robot)| 23. | [Automated_Billing_System](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Basic/Automated_Billing_System)
 
 
 ## Level 2: Intermediate 🚀
 
 | S-No. | Projects | S-No. | Projects | S-No. | Projects |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| 01. | [Gas leakage detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/gas%20leakage%20detection) | 02. |  [Vehicle Accident Prevention System](https://github.com/rittikadeb/Project-Guidance/tree/vehicle-accident-prevention/IOT(Internet%20of%20Things)/Intermediate/Vehicle%20Accident%20Prevention%20System) | 03. |  [Home Security System](https://github.com/NimraAslamkhan/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/Home%20Security%20System)
-| 04. | [Home Automation](https://github.com/rittikadeb/Project-Guidance/tree/home-automation/IOT(Internet%20of%20Things)/Intermediate/Home%20Automation) |
+| 01. | [Gas leakage detection](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/gas%20leakage%20detection) | 02. |  [Vehicle Accident Prevention System](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/Vehicle%20Accident%20Prevention%20System) | 03. |  [Home Security System](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/Home%20Security%20System)
+| 04. | [Home Automation](https://github.com/Kushal997-das/Project-Guidance/tree/main/IOT(Internet%20of%20Things)/Intermediate/Home%20Automation) |
 
 ## Level 3: Advanced 🚀
 
