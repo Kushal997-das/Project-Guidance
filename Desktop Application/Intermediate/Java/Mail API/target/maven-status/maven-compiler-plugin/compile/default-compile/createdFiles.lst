@@ -1,0 +1,5 @@
+com\mail\jty\JtyMail\service\MailService.class
+com\mail\jty\JtyMail\api\MailController.class
+com\mail\jty\JtyMail\dao\MailDataAccessLayerClass.class
+com\mail\jty\JtyMail\JtyMailApplication.class
+com\mail\jty\JtyMail\dao\MailDataAccessLayer.class
