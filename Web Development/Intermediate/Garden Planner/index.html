@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Garden Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Garden Planner</h1>
+
+        <!-- Garden plot settings -->
+        <div class="plot-settings">
+            <label for="plot-width">Plot Width (meters): </label>
+            <input type="number" id="plot-width" placeholder="Enter width" min="1" />
+            <label for="plot-length">Plot Length (meters): </label>
+            <input type="number" id="plot-length" placeholder="Enter length" min="1" />
+            <button id="set-plot">Set Plot Area</button>
+        </div>
+
+        <!-- Garden grid area -->
+        <div class="grid-container">
+            <div class="grid" id="garden-grid">
+                <!-- Dynamically generated grid cells -->
+            </div>
+        </div>
+
+        <!-- Plant entry section -->
+        <div class="controls">
+            <h2>Add Your Plants</h2>
+            <input type="text" id="plant-name" placeholder="Plant Name">
+            <input type="number" id="plant-cost" placeholder="Cost per plant" min="1">
+            <input type="file" id="plant-image" accept="image/*">
+            <button id="add-plant">Add Plant</button>
+
+            <h3>Total Cost: <span id="total-cost">$0</span></h3>
+            <button id="save-layout">Save Layout</button>
+            <button id="load-layout">Load Layout</button>
+            <button id="download-layout">Download Layout as Image</button>
+        </div>
+
+        <!-- Plant list for drag and drop -->
+        <div id="plant-list" class="plant-list">
+            <!-- User-added plants will appear here -->
+        </div>
+
+        <!-- Undo/Redo buttons -->
+        <div class="undo-redo">
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+        </div>
+
+        <!-- Sidebar for weather/soil-based suggestions -->
+        <div class="sidebar">
+            <h2>Plant Suggestions</h2>
+            <label for="weather">Select Weather:</label>
+            <select id="weather">
+                <option value="sunny">Sunny</option>
+                <option value="rainy">Rainy</option>
+                <option value="temperate">Temperate</option>
+            </select>
+            <label for="soil">Select Soil Type:</label>
+            <select id="soil">
+                <option value="sandy">Sandy</option>
+                <option value="clay">Clay</option>
+                <option value="loamy">Loamy</option>
+            </select>
+            <div id="suggested-plants"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

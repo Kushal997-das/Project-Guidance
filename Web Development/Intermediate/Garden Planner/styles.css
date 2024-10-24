@@ -1,0 +1,193 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+/* Container Styles */
+.container {
+    width: 100%;
+    max-width: 1400px;
+    background: #ffffff;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+/* Headings */
+h1, h2 {
+    font-weight: 700;
+    color: #27ae60;
+    text-align: center;
+}
+
+/* Plot Settings */
+.plot-settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f9fc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.plot-settings label {
+    font-weight: 500;
+    color: #555;
+}
+
+.plot-settings input, .plot-settings button {
+    padding: 10px;
+    border: 2px solid #27ae60;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.plot-settings button {
+    background-color: #27ae60;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.plot-settings button:hover {
+    background-color: #229954;
+}
+
+/* Garden Grid */
+.grid-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 12px;
+    grid-gap: 2px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.grid div {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #27ae60;
+    transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+}
+
+.grid div:hover {
+    background-color: #c8e6c9;
+    transform: scale(1.05);
+}
+
+/* Plant List */
+#plant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.plant-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    cursor: grab;
+    transition: transform 0.3s ease;
+}
+
+.plant-item:hover {
+    transform: translateY(-5px);
+}
+
+.plant-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Sidebar */
+.sidebar {
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.sidebar label, .sidebar select {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Buttons */
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #229954;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Total Cost Tracker */
+#total-cost {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-left: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .grid div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .plot-settings, .controls, .sidebar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
