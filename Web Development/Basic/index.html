@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="clock" id="clock">
+        <div class="time" id="time">00:00:00</div>
+        <div class="date" id="date">00:00</div>
+        <div class="buttons">
+            <div class="button" id="startButton">Start</div>
+            <div class="button hidden" id="lapButton">Lap</div>
+            <div class="button hidden" id="pauseButton">Pause</div>
+            <div class="button hidden" id="stopButton">Stop</div>
+            <div class="button" id="resetButton">Reset</div>
+        </div>
+    </div>
+    <div class="laps" id="laps"></div>
+    <script src="./logic.js" defer></script>
+    
+</body>
+</html>
