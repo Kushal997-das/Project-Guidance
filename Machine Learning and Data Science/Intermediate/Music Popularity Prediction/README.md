@@ -8,7 +8,6 @@ This project involves building machine learning models to estimate the popularit
 ![](https://img.shields.io/badge/Status-Complete-green.svg)
 
 ### Overview: 
-<br>
 Music popularity prediction means using regression techniques to forecast the popularity of songs based on various music features and metadata. Expected results include accurate predictions of a song’s future performance in terms of streams, downloads, and chart positions, which enable music producers, artists, and marketers to make informed decisions.
 
 >### <strong>Dataset used :</strong> [Spotify_data.csv](https://statso.io/music-popularity-case-study/)
