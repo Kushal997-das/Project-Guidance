@@ -68,6 +68,8 @@ body {
   /* 2 */
 }
 
+
+
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
@@ -1382,7 +1384,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 1024px) {
   .top-navbar {
-    display: inline-flex !important;
+    display: inline-flex ;
   }
 }
 
@@ -1711,3 +1713,81 @@ body::-webkit-scrollbar-thumb {
     background-positon-x: 0px;
   }
 }
+#Navbar{
+  background: #212121;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  
+}
+
+.nav {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+.nav * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+  margin-right: 50px;
+  
+}
+
+.nav li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding-right: 60px;
+  margin-right: 40px;
+}
+
+.nav a {
+  padding: .5em .8em;
+  color: #E9EED9;
+  position:relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a::before,
+.nav a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.nav a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #6AD4DD;
+  border-right: 3px solid #6AD4DD;
+  transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #6AD4DD;
+  border-left: 3px solid #6AD4DD;
+  transform: translate(100%, -50%)
+}
+
+.nav a:hover:before,
+.nav a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.nav a:hover {
+  color: #6AD4DD;
+}
+
