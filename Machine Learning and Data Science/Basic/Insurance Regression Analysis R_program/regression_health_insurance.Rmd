@@ -1,0 +1,61 @@
+df = read.csv('/Users/sanatkumargupta/Desktop/data_science_mini_projects/regressin_health_insurance/insurance.csv', header=TRUE)
+
+head(df)
+#identify numeric colums
+num_cols <- unlist(lapply(df, is.numeric))
+#unlist returns logical vector t/f  --- it convert list by lapply to vector
+plot(df[,num_cols])
+#plot graph for all x such that num col is true
+
+round(cor(df[,num_cols]),2)
+#cor() function computes the correlation matrix for the selected numeric columns
+
+smoker = as.factor(df$smoker)
+# as.factor() function converts the smoker column into a factor. In R, factors are used to handle categorical variables.
+head(df)
+# factor is be be treated as category and not as numeric or text
+sex = as.factor(df$sex)
+region = as.factor(df$region)
+
+# tilde ~ separates the dependent and independent variables in formulas in R.
+#smoker is the independent (categorical) variable, which has been previously defined as a factor (e.g., "Yes" or "No" for smoker status).
+#main = 'smoker':
+#This specifies the title of the plot. The text 'smoker' will appear as the title above the boxplot.
+
+boxplot(df$charges ~ smoker, main = 'smoker')
+boxplot(df$charges ~ sex, main = 'sex')
+boxplot(df$charges ~ region, main = 'region')
+
+model1 = lm(charges ~. , data = df)
+summary(model1)
+
+# lm -> linear regression model
+# charges ~ .: The formula here indicates that you're modeling the charges variable (dependent variable) as a function of all other variables in the data frame df (independent variables).
+#The dot (.) means "all other columns in df except for charges". So, all predictor variables in the dataset will be included in the model.
+
+# make prediction
+# Convert columns to factors
+df$sex <- as.factor(df$sex)
+df$smoker <- as.factor(df$smoker)
+df$region <- as.factor(df$region)
+# Check levels in the original data
+levels(df$sex)        # Ensure "male" and "female" are present
+levels(df$smoker)     # Ensure "yes" and "no" are present
+levels(df$region)     # Check all levels present in df
+# Create a data frame for multiple new customers
+new_data_multiple <- data.frame(
+  age = c(30, 45),
+  sex = factor(c("male", "female"), levels = levels(df$sex)),
+  bmi = c(22.5, 30.0),
+  children = c(0, 2),
+  smoker = factor(c("no", "yes"), levels = levels(df$smoker)),
+  region = factor(c("southwest", "southeast"), levels = levels(df$region))
+)
+
+# Make predictions for multiple new customers
+predicted_charges_multiple <- predict(model1, newdata = new_data_multiple)
+
+# Display the predicted charges for multiple customers
+print(predicted_charges_multiple)
+
+
