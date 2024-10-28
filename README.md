@@ -27,10 +27,8 @@
 
 📌 Introduction
 ------------------
-**Project-Guidance** Contains amazing projects written in multiple programming languages. Here you can easily find beginner to advanced level projects. The main reason behind creating this repository is so that people can find their projects all at one place with the source code. Most of the programmers (beginners 🔰 ) are unable to find the project so we took the initiative to help them. Consider this repository as your personal space to find or add any new project to this repository .
-Being an open source contributor doesn't just mean writing code, either. You can help out by writing documentation, tests, or even giving suggestions. 🌟🏆
-
-
+**Project-Guidance** This GitHub repository, Project Guidance, offers an extensive collection of project resources for beginners to advanced developers, across multiple domains like AI, Blockchain, Web, and Mobile Development. It provides categorized resources, from basic to advanced, to help users easily find projects based on their skill level.
+The repository actively welcomes contributors, offering guidelines for forking, cloning, and creating pull requests. Contributions are encouraged in areas beyond code, including documentation, testing, and suggestions. It's a valuable repository for those looking to enhance their coding skills or contribute to open source. The repository is ongoing, so there’s always room to contribute and collaborate. 🌟🏆
 
 ---
 
