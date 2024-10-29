@@ -52,3 +52,7 @@ open index.html
 ### Screenshots
 
 ![Garden Planner Preview](GardenPlanner.PNG)
+
+### Working Video
+
+![Click Here](https://www.loom.com/share/63af9ee04cfd4383b7dca9b3f8273348?sid=97c8d627-2348-4e72-bcdb-15a6300a26af)
