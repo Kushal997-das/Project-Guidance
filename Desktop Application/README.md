@@ -74,6 +74,8 @@
 | 30. | [PDF Utility Tool](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/PDF%20Utility%20Tool) |
 | 31. | [Quiz_Application](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Quiz_Application) |
 | 32. | [Selenium Automated game playing bot](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Selenium-Automated-Cookie-PlayerGame) |
+| 33. | [Maze Solver Application](https://github.com/Kushal997-das/Project-Guidance/tree/main/Desktop%20Application/Basic/Python/Selenium-Automated-Cookie-PlayerGame) |
+
 </br>
 
 ## Java 🚀
