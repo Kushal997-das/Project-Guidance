@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+    
+}
+.ul img{
+    height: 50px;
+    width: 50px;
+    transition: all 0.2s ease-in-out;
+}
+.ul img:hover{
+    transform: scale(1.2,1.2);
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f9e4e3;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+.li a{
+    color: burlywood;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+
+}   
+.li :hover {
+    box-shadow: 0 0 4px rgba(255, 255, 255, 1);
+    color: rgba(222, 184, 135, 0.605);
+    background-color: #fbc9d69a;
+} 
+h1{
+    color: black;
+    text-shadow: 1px 1px 4px black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.hero_txt{
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+    color: rgb(87, 79, 87);  
+}
+h2{
+    color: burlywood;
+    text-shadow: 1px 1px 2px black;
+    margin: 10px;
+}
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+.search-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: linear-gradient(to left, #ffffff 0%,#f9e4e3 70%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+label{
+    background-color: none;
+    padding: 10px 0 10px 10px;
+    color: burlywood;
+    text-shadow: 1px 1px 2px black;
+    font-size: 18px;
+}
+
+input,
+select {
+background-color: #f9e4e3;
+color: black;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button{
+    border-radius: 25px;
+    background-color: #fff;
+    border: 3px solid #f9e4e3;  
+    padding: 10px;
+    margin-left: 10px;
+    color: burlywood;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+}
+.results-container {
+max-width: 800px;
+margin: 20px auto;
+}
+
+ul {
+list-style: none;
+padding: 20px;
+}

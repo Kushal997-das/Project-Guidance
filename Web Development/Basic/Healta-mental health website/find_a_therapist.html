@@ -1,0 +1,115 @@
+<html>
+    <head>
+       
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resourses </title>
+    <link rel="icon" href="h.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="find_a_therapist.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    </head>
+
+    <body>
+       <nav class="nav_bar">
+        <div class="nav">
+            
+            <ul class="ul">
+                <li><a href="index.html"><img  src="h.jpg" alt="H"></a></li>
+                <li class="li"><a href="about us.html">Find a Therapist</a></li>
+                <li class="li"><a href="resources.html">Resources</a></li>
+                <li class="li"><a href="contact.asp">Online Support Community</a></li>
+                <li class="li"><a href="about us.html">About Us</a></li>
+                
+                
+              </ul>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Find a Therapist</h1>
+        <div class="hero_txt">
+            <p>Millions of individuals, from all walks of life, seek therapy for various mental health concerns. You're not alone in your journey, and there's no shame in reaching out for support.By reaching out to a therapist, you're breaking the silence and taking control of your well-being. It's a powerful step toward a healthier and happier life.
+            </p>
+        </div> 
+        <section class="search-container">
+            <h2>Search for a Therapist</h2><br>
+            <form id="search-form">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter your location">
+                <label for="specialization">Specialization:</label>
+                <select id="specialization" name="specialization">
+
+                    <option id="all" value="all">All Specializations</option>
+                    <option value="anxiety">Anxiety</option>
+                    <option value="depression">Depression</option>
+                    <option value="stress">Stress Management</option>
+                    <option value="ptsd">Post traumatic stress disorder</option>
+                    <option value="Bipolar Disorder">Bipolar Disorder</option>
+                    <option value="Schizophrenia">Schizophrenia</option>
+                    <option value="OT">Occupational Therapy</option>
+                    <!-- Add more options as needed -->
+                </select>
+                
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    
+        <section class="results-container">
+            <h2>Search Results</h2>
+            <ul id="results-list">
+    
+                    
+                    <section class="search-container">
+                        <!-- Your search form goes here (as shown in the previous example) -->
+                    </section>
+                
+                    <section class="results-container">
+                        <h2>Search Results</h2>
+                        <ul id="results-list">
+                            <!-- Results will be dynamically generated here -->
+                        </ul>
+                    </section>
+                
+                    <!-- Sample therapist listings (for demonstration purposes) -->
+                    
+            </ul>
+        </section>
+    </div>
+    <script>
+        // Simulated therapist data (you would fetch this from a server in a real application)
+        const therapistData = [
+            { name: "Ms. Sonam Vig, Bachelor of Occupational Therapy (BOT)", specialization: "Occupational Therapy", location: "patel Nagar, Delhi", rating: 5.0 },
+            { name: "Dr. Sugandha Gupta, MBBS, DNB - Psychiatry", specialization: "Depression", location: "Karol Bagh, Delhi", rating: 5.0 },
+            { name: "Dr Manish Sarka, MBBS, DPM (Psychiatry)", specialization: "Anxiety", location: "Chicago, IL", rating: 4.0 },
+            { name: "Dr Manish Sarka, MBBS, DPM (Psychiatry)", specialization: "Anxiety", location: "Vivek Vihar, Delhi", rating: 4.0 }
+            // Add more therapist data as needed
+        ];
+
+        // Function to display therapist listings
+        function displayTherapistListings() {
+            const resultsList = document.getElementById("results-list");
+
+            // Clear existing results
+            resultsList.innerHTML = "";
+
+            // Iterate through therapist data and create list items
+            therapistData.forEach(therapist => {
+                const listItem = document.createElement("li");
+                listItem.innerHTML = `
+                    <h3>${therapist.name}</h3>
+                    <p><strong>Specialization:</strong> ${therapist.specialization}</p>
+                    <p><strong>Location:</strong> ${therapist.location}</p>
+                    <p><strong>Rating:</strong> ${therapist.rating}</p>
+                `;
+                resultsList.appendChild(listItem);
+            });
+        }
+
+        // Initial display of therapist listings
+        displayTherapistListings();
+    </script>
+
+    </body>
