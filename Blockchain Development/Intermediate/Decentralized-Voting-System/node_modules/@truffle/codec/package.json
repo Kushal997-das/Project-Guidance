@@ -1,0 +1,70 @@
+{
+  "name": "@truffle/codec",
+  "description": "Library for encoding and decoding smart contract data",
+  "license": "MIT",
+  "author": "",
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/codec#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trufflesuite/truffle.git",
+    "directory": "packages/codec"
+  },
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "0.17.3",
+  "main": "dist/lib/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "ttsc",
+    "docs": "./scripts/generate-docs",
+    "prepare": "yarn build",
+    "start": "ttsc --watch"
+  },
+  "types": "dist/lib/index.d.ts",
+  "dependencies": {
+    "@truffle/abi-utils": "^1.0.3",
+    "@truffle/compile-common": "^0.9.8",
+    "big.js": "^6.0.3",
+    "bn.js": "^5.1.3",
+    "cbor": "^5.2.0",
+    "debug": "^4.3.1",
+    "lodash": "^4.17.21",
+    "semver": "^7.5.4",
+    "utf8": "^3.0.0",
+    "web3-utils": "1.10.0"
+  },
+  "devDependencies": {
+    "@truffle/contract-schema": "^3.4.16",
+    "@types/big.js": "^6.0.2",
+    "@types/bn.js": "^5.1.0",
+    "@types/cbor": "^5.0.1",
+    "@types/debug": "^4.1.5",
+    "@types/lodash": "^4.14.179",
+    "@types/semver": "^7.5.1",
+    "@types/utf8": "^2.1.6",
+    "ts-node": "10.7.0",
+    "ttypescript": "1.5.15",
+    "typedoc": "0.24.8",
+    "typescript": "^4.9.5",
+    "typescript-transform-paths": "3.3.1"
+  },
+  "keywords": [
+    "abi",
+    "contract",
+    "decoder",
+    "encoder",
+    "ethereum",
+    "solidity",
+    "state"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": "^16.20 || ^18.16 || >=20"
+  },
+  "gitHead": "033fc64fcdf91ceef61100938d7ffbd53b63eee5"
+}

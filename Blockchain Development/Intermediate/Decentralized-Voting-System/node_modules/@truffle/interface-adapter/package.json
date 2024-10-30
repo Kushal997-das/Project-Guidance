@@ -1,0 +1,48 @@
+{
+  "name": "@truffle/interface-adapter",
+  "description": "A library that provides an adapter layer for Truffle to interace with different types of networks/ledgers.",
+  "license": "MIT",
+  "homepage": "https://github.com/trufflesuite/truffle/tree/master/packages/interface-adapter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trufflesuite/truffle.git",
+    "directory": "packages/interface-adapter"
+  },
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle/issues"
+  },
+  "version": "0.5.37",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "test": "mocha --exit -r ts-node/register test/**/*.test.ts",
+    "watch": "tsc -w"
+  },
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "bn.js": "^5.1.3",
+    "ethers": "^4.0.32",
+    "web3": "1.10.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "ganache": "7.9.1",
+    "mocha": "10.1.0",
+    "ts-node": "10.7.0",
+    "typescript": "^4.9.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": "^16.20 || ^18.16 || >=20"
+  },
+  "gitHead": "033fc64fcdf91ceef61100938d7ffbd53b63eee5"
+}

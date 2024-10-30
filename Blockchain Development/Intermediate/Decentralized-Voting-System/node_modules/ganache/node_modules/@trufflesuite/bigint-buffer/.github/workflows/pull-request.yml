@@ -1,0 +1,63 @@
+name: Build and Test for applicable OS
+
+on: [pull_request]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        node: [18.2.0]
+        os: [ubuntu-20.04, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: install node-gyp
+        run: npm install --global node-gyp@9.0.0
+
+      - name: install prebuildify
+        run: npm install --global prebuildify@5.0.0
+
+      - name: prebuild binary files
+        run: prebuildify --napi --strip
+
+      - name: Upload prebuild-assets
+        uses: actions/upload-artifact@v2
+        with:
+          name: prebuilds-${{ matrix.os }}-x64
+          path: prebuilds
+          retention-days: 1
+
+  run_tests:
+    needs: build
+    strategy:
+      matrix:
+        node: [12.x, 14.x, 16.x, 18.x]
+        os: [ubuntu-20.04, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: download ${{ matrix.os }} binaries
+        uses: actions/download-artifact@v2
+        with:
+          name: prebuilds-${{ matrix.os }}-x64
+
+      - run: cp -rf linux-x64 prebuilds
+        if: startsWith(matrix.os, 'ubuntu')
+      - run: cp -rf darwin-x64 prebuilds
+        if: startsWith(matrix.os, 'macos')
+      - run: cp -Recurse -Force win32-x64 prebuilds
+        if: startsWith(matrix.os, 'windows')
+
+      - run: npm ci
+      - run: npm run fix
+      - run: npm run pretest
+      - run: npm run test:node
+      - run: npm run posttest

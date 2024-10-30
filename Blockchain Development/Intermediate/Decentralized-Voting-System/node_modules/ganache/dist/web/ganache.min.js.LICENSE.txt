@@ -1,0 +1,95 @@
+/*!
+ * @ganache/colors
+ *
+ * @author David Murdoch
+ * @license MIT
+ */
+
+/*!
+ * @ganache/console.log
+ *
+ * @author David Murdoch
+ * @license MIT
+ */
+
+/*!
+ * @ganache/ethereum
+ *
+ * @author David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)
+ * @license MIT
+ */
+
+/*!
+ * @ganache/ethereum-options
+ *
+ * @author David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)
+ * @license MIT
+ */
+
+/*!
+ * @ganache/ethereum-transaction
+ *
+ * @author David Murdoch
+ * @license MIT
+ */
+
+/*!
+ * @ganache/ethereum-utils
+ *
+ * @author David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)
+ * @license MIT
+ */
+
+/*!
+ * @ganache/secp256k1
+ *
+ * @author David Murdoch
+ * @license MIT
+ */
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*! Case - v1.6.2 - 2020-03-24
+* Copyright (c) 2020 Nathan Bubna; Licensed MIT, GPL */
+
+/*! crc32.js (C) 2014-present SheetJS -- http://sheetjs.com */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! noble-hashes - MIT License (c) 2022 Paul Miller (paulmillr.com) */
+
+/*! noble-secp256k1 - MIT License (c) 2019 Paul Miller (paulmillr.com) */
+
+/*! queue-microtask. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! run-parallel-limit. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/**
+ * [js-sha3]{@link https://github.com/emn178/js-sha3}
+ *
+ * @version 0.8.0
+ * @author Chen, Yi-Cyuan [emn178@gmail.com]
+ * @copyright Chen, Yi-Cyuan 2015-2018
+ * @license MIT
+ */

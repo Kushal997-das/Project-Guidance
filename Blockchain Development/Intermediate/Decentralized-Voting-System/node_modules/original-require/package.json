@@ -1,0 +1,16 @@
+{
+  "name": "original-require",
+  "version": "1.0.1",
+  "description": "The require statement. Useful for bundling with Webpack in rare cases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcoulter/original-require.git"
+  },
+  "homepage": "https://github.com/tcoulter/original-require",
+  "author": "Tim Coulter <tim@timothyjcoulter.com>",
+  "license": "MIT"
+}

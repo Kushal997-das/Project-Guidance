@@ -1,0 +1,1 @@
+{"version":3,"file":"getPrivateKeys.js","sourceRoot":"","sources":["../../src/constructor/getPrivateKeys.ts"],"names":[],"mappings":";;;AAGA,yEAAyE;AAClE,MAAM,cAAc,GAAG,CAC5B,gBAAkC,EACR,EAAE;IAC5B,IAAI,aAAa,IAAI,gBAAgB,EAAE;QACrC,OAAO,gBAAgB,CAAC,WAAW,CAAC;KACrC;SAAM;QACL,OAAO,SAAS,CAAC;KAClB;AACH,CAAC,CAAC;AARW,QAAA,cAAc,kBAQzB"}

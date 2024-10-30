@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.stringOf = void 0;
+const array_1 = require("./array");
+const PatternsToString_1 = require("./_internals/mappers/PatternsToString");
+const SlicesForStringBuilder_1 = require("./_internals/helpers/SlicesForStringBuilder");
+function stringOf(charArb, constraints = {}) {
+    const unmapper = (0, PatternsToString_1.patternsToStringUnmapperFor)(charArb, constraints);
+    const experimentalCustomSlices = (0, SlicesForStringBuilder_1.createSlicesForString)(charArb, unmapper);
+    const enrichedConstraints = Object.assign(Object.assign({}, constraints), { experimentalCustomSlices });
+    return (0, array_1.array)(charArb, enrichedConstraints).map(PatternsToString_1.patternsToStringMapper, unmapper);
+}
+exports.stringOf = stringOf;

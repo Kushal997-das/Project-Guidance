@@ -1,0 +1,73 @@
+name: Build for applicable OS
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    if: ${{ !startsWith(github.event.head_commit.message, '[Github Actions]')  && !startsWith(github.event.head_commit.message, '[Skip CI]') }} # Prevent recursive builds
+    strategy:
+      matrix:
+        node: [18.2.0]
+        os: [ubuntu-20.04, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: install node-gyp
+        run: npm install --global node-gyp@9.0.0
+
+      - name: install prebuildify
+        run: npm install --global prebuildify@5.0.0
+
+      - name: prebuild binary files
+        run: prebuildify --napi --strip
+
+      - name: Upload prebuild-assets
+        uses: actions/upload-artifact@v2
+        with:
+          name: prebuilds-${{ matrix.os }}-x64
+          path: prebuilds
+          retention-days: 1
+
+  aggregate_binaries:
+    needs: build
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: download ubuntu-20.04 binaries
+        uses: actions/download-artifact@v2
+        with:
+          name: prebuilds-ubuntu-20.04-x64
+
+      - name: download windows-latest binaries
+        uses: actions/download-artifact@v2
+        with:
+          name: prebuilds-windows-latest-x64
+
+      - name: download macos-latest binaries
+        uses: actions/download-artifact@v2
+        with:
+          name: prebuilds-macos-latest-x64
+
+      - run: cp -rf linux-x64 prebuilds
+      - run: cp -rf win32-x64 prebuilds
+      - run: cp -rf darwin-x64 prebuilds
+
+      - name: configure Git
+        run: |
+          git config --global user.name 'Robot'
+          git config --global user.email 'robot@trufflesuite.com'
+          git remote set-url origin https://robot:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
+
+      - run: git add prebuilds
+      - run: git diff --quiet && git diff --staged --quiet || git commit -am '[GitHub Actions] Updated prebuilt binaries.'
+      - run: git push origin

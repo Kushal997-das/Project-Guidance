@@ -1,0 +1,1 @@
+{"version":3,"file":"getMnemonic.js","sourceRoot":"","sources":["../../src/constructor/getMnemonic.ts"],"names":[],"mappings":";;;AAGA,qEAAqE;AAC9D,MAAM,WAAW,GAAG,CACzB,gBAAkC,EACZ,EAAE;IACxB,IAAI,UAAU,IAAI,gBAAgB,EAAE;QAClC,OAAO,gBAAgB,CAAC,QAAQ,CAAC;KAClC;AACH,CAAC,CAAC;AANW,QAAA,WAAW,eAMtB"}

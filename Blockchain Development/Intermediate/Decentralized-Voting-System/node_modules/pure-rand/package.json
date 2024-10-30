@@ -1,0 +1,72 @@
+{
+  "name": "pure-rand",
+  "version": "5.0.5",
+  "description": " Pure random number generator written in TypeScript",
+  "type": "commonjs",
+  "main": "lib/pure-rand.js",
+  "exports": {
+    ".": {
+      "require": "./lib/pure-rand.js",
+      "import": "./lib/esm/pure-rand.js",
+      "types": "./lib/types/pure-rand.d.ts",
+      "default": "./lib/esm/pure-rand.js"
+    }
+  },
+  "module": "lib/esm/pure-rand.js",
+  "types": "lib/types/pure-rand.d.ts",
+  "files": [
+    "lib"
+  ],
+  "sideEffects": false,
+  "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "format:check": "prettier --list-different \"**/*.{js,ts}\"",
+    "format": "prettier --write \"**/*.{js,ts}\"",
+    "build": "tsc && tsc -p ./tsconfig.declaration.json",
+    "build:esm": "tsc --module es2015 --outDir lib/esm --moduleResolution node && cp package.esm-template.json lib/esm/package.json",
+    "build:prod": "yarn build && yarn build:esm && node postbuild/main.cjs",
+    "build:prod-ci": "cross-env EXPECT_GITHUB_SHA=true yarn build:prod",
+    "test": "jest --config jest.config.js --coverage",
+    "build:bench:old": "tsc --outDir lib-reference/",
+    "build:bench:new": "tsc --outDir lib-test/",
+    "bench": "node perf/benchmark.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubzzz/pure-rand.git"
+  },
+  "author": "Nicolas DUBIEN <github@dubien.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dubzzz/pure-rand/issues"
+  },
+  "homepage": "https://github.com/dubzzz/pure-rand#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^18.6.3",
+    "cross-env": "^7.0.3",
+    "fast-check": "^3.1.1",
+    "jest": "^26.1.0",
+    "prettier": "2.7.1",
+    "replace-in-file": "^6.1.0",
+    "source-map-support": "^0.5.16",
+    "tinybench": "^2.3.1",
+    "ts-jest": "^26.1.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.2"
+  },
+  "keywords": [
+    "pure random",
+    "random number generator"
+  ],
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://github.com/sponsors/dubzzz"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/fast-check"
+    }
+  ]
+}

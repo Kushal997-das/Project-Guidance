@@ -1,0 +1,157 @@
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>Truffle Decoding and Encoding</title><meta name="description" content="Documentation for Truffle Decoding and Encoding"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/search.js" id="tsd-search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container">
+<div class="table-cell" id="tsd-search" data-base=".">
+<div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
+<div class="field">
+<div id="tsd-toolbar-links"></div></div>
+<ul class="results">
+<li class="state loading">Preparing search index...</li>
+<li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">Truffle Decoding and Encoding</a></div>
+<div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="7" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="11" width="14" height="2" fill="var(--color-text)"></rect></svg></a></div></div></header>
+<div class="container container-main">
+<div class="col-content">
+<div class="tsd-page-title">
+<h2>Truffle Decoding and Encoding</h2></div>
+<div class="tsd-panel tsd-typography"><a id="md:truffle-decoding-and-encoding" class="tsd-anchor"></a><h1><a href="#md:truffle-decoding-and-encoding">Truffle Decoding and Encoding</a></h1><p>This documentation provides information and complete interface listings for two
+packages: <strong>@truffle/decoder</strong>, a high-level library for decoding, and
+<strong>@truffle/codec</strong>, a low-level package for encoding, decoding, and data
+representation.</p>
+<a id="md:contents" class="tsd-anchor"></a><h2><a href="#md:contents">Contents</a></h2><a id="md:high-level-interface-for-common-use" class="tsd-anchor"></a><h3><a href="#md:high-level-interface-for-common-use">High-level interface (for common use)</a></h3><p>[[@truffle/decoder]] provides a high-level interface for <strong>decoding
+transactions, events, and state variables for Ethereum smart contracts.</strong> This
+package accepts Truffle&#39;s
+<a href="https://www.trufflesuite.com/docs/truffle/reference/contract-abstractions">contract abstractions</a>
+as input (or Truffle&#39;s artifact files and a provider) and connects to the
+blockchain to retrieve raw values for decoding.</p>
+<a id="md:low-level-interface-for-special-case-purposes" class="tsd-anchor"></a><h3><a href="#md:low-level-interface-for-special-case-purposes">Low-level interface (for special-case purposes)</a></h3><p>[[@truffle/codec]] provides the underlying low-level interfaces for performing
+this decoding, as well as interfaces for encoding these values and for decoding
+of local Solidity variables and other data observable in a debugging trace.</p>
+<p>This library is meant to be <strong>self-contained</strong>, makes <strong>no network connections</strong>
+of its own, and <strong>seeks to restrict its dependencies</strong> to those which provide
+data structures for high-precision numbers and other special-purpose data
+utilities.</p>
+<p><em>Although most use cases will not require invoking the codec directly, a few key
+parts of this library are directly relevant to decoder use. See notes below.</em></p>
+<a id="md:ℹ️-important-notes" class="tsd-anchor"></a><h2><a href="#md:ℹ️-important-notes">ℹ️ Important notes</a></h2><a id="md:output-format" class="tsd-anchor"></a><h3><a href="#md:output-format">Output format</a></h3><p>Both the decoder and the codec return results as objects containing both type
+information and either high-precision values or accurate errors in place of
+values. We recommend familiarizing yourself with the [[Format]] documentation in
+order to use these packages.</p>
+<a id="md:decoding-modes" class="tsd-anchor"></a><h3><a href="#md:decoding-modes">Decoding modes</a></h3><p>The decoder operates in either of two modes:</p>
+<ol>
+<li>Full mode (<code>&quot;decodingMode&quot;: &quot;full&quot;</code>), which uses source code information to
+return types and values to match the original Solidity.</li>
+<li>ABI mode (<code>&quot;decodingMode&quot;: &quot;abi&quot;</code>), which uses only information from the
+contract ABI and returns less information, e.g. returning
+[[Format.Values.UintResult|<code>UintResult</code>]]s in place of
+[[Format.Values.EnumResult|<code>EnumResult</code>]]s and
+[[Format.Values.AddressResult|<code>AddressResult</code>]]s instead of
+[[Format.Values.ContractResult|<code>ContractResult</code>]]s</li>
+</ol>
+<p>By default, the decoder uses <strong>full mode</strong>, but for technical reasons, this may
+not be reliable. If decoding fails in full mode, it <strong>falls back to ABI mode.</strong></p>
+<p>Returned decodings (i.e. [[CalldataDecoding]] and [[LogDecoding]]) indicate
+which mode was used via the <code>&quot;decodingMode&quot;</code> field.</p>
+<p>To ensure full mode works:</p>
+<ul>
+<li>Use Solidity v0.4.12 or higher;</li>
+<li>Ensure all contracts in your projects have distinct names;</li>
+<li>Compile all your contracts at the same time;</li>
+<li>Ensure all custom data types are declared in a file with at least one
+contract.</li>
+</ul>
+<p>(Our apologies for these technical limitations, but we are working to address
+these last three problems.)</p>
+<p>If you can&#39;t use full mode or don&#39;t want to deal with the distinction, the
+decoder provides
+[[ProjectDecoder.abifyCalldataDecoding|<code>decoder.abifyCalldataDecoding</code>]] and
+[[ProjectDecoder.abifyLogDecoding|<code>decoder.abifyLogDecoding</code>]] methods, which
+accept decodings in either mode and always return ABI mode.</p>
+<a id="md:additional-notes-on-decoding-modes" class="tsd-anchor"></a><h4><a href="#md:additional-notes-on-decoding-modes">Additional notes on decoding modes</a></h4><ul>
+<li><p>Full mode may reject certain decodings (e.g. out of range enums) that are fine
+in ABI mode.</p>
+</li>
+<li><p>ABI-fied full mode decodings may contain extra information that regular ABI
+mode results do not.</p>
+</li>
+<li><p>Decoding mode applies to the entire decoding, but objects that contain
+multiple decodings (e.g. [[DecodedLog]]) may contain decodings in different
+modes.</p>
+</li>
+<li><p>You can only decode state variables in full mode. If full mode fails while
+decoding a state variable, it will throw an exception.</p>
+</li>
+<li><p>If a contract <code>Base</code> declares an event <code>Event</code> and a contract <code>Derived</code>
+inheriting from <code>Base</code> overrides <code>Event</code>, if <code>Derived</code> then emits
+<code>Base.Event</code>, ABI mode may not be able to decode it.</p>
+</li>
+</ul>
+<a id="md:additional-notes-on-decoding-state-variables" class="tsd-anchor"></a><h4><a href="#md:additional-notes-on-decoding-state-variables">Additional notes on decoding state variables</a></h4><ul>
+<li><p>While internal function pointers can only be decoded in full mode, full mode
+still may not be able to determine all the information about them. Thus, for
+internal function pointers, you may get a bare-bones decoding, or you may get
+a decoding with more information.</p>
+</li>
+<li><p>Solidity 0.6.5 contains a bug that may cause some state variables to decode
+incorrectly if there is an immutable state variable which is written to but
+never read from.</p>
+</li>
+<li><p>In any version of Solidity, it is impossible to decode an immutable state
+variable which is written to but never read from; these will decode to an
+error.</p>
+</li>
+<li><p>Not all constant state variables can presently be decoded; some of these may
+simply decode to an error.</p>
+</li>
+</ul>
+<hr>
+<p align="center">
+⚡
+</p>
+
+<hr>
+</div></div>
+<div class="col-sidebar">
+<div class="page-menu">
+<div class="tsd-navigation settings">
+<details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)" id="icon-chevronDown"></path></svg>Settings</h3></summary>
+<div class="tsd-accordion-details">
+<div class="tsd-filter-visibility">
+<h4 class="uppercase">Member Visibility</h4><form>
+<ul id="tsd-filter-options">
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-private" name="private"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Private</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li></ul></form></div>
+<div class="tsd-theme-toggle">
+<h4 class="uppercase">Theme</h4><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
+<details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary">
+<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg>On This Page</h3></summary>
+<div class="tsd-accordion-details">
+<ul>
+<li>
+<ul>
+<li><a href="#md:truffle-decoding-and-encoding"><span>Truffle <wbr/>Decoding and <wbr/>Encoding</span></a></li>
+<li>
+<ul>
+<li><a href="#md:contents"><span>Contents</span></a></li>
+<li>
+<ul>
+<li><a href="#md:high-level-interface-for-common-use"><span>High-<wbr/>level interface (for common use)</span></a></li>
+<li><a href="#md:low-level-interface-for-special-case-purposes"><span>Low-<wbr/>level interface (for special-<wbr/>case purposes)</span></a></li></ul></li>
+<li><a href="#md:ℹ️-important-notes"><span>ℹ️ <wbr/>Important notes</span></a></li>
+<li>
+<ul>
+<li><a href="#md:output-format"><span>Output format</span></a></li>
+<li><a href="#md:decoding-modes"><span>Decoding modes</span></a></li>
+<li>
+<ul>
+<li><a href="#md:additional-notes-on-decoding-modes"><span>Additional notes on decoding modes</span></a></li>
+<li><a href="#md:additional-notes-on-decoding-state-variables"><span>Additional notes on decoding state variables</span></a></li></ul></li></ul></li></ul></li></ul></li></ul></div></details></div>
+<div class="site-menu">
+<nav class="tsd-navigation"><a href="index.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-4"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)"></path></g></svg><span>Truffle <wbr/>Decoding and <wbr/>Encoding</span></a>
+<ul class="tsd-small-nested-navigation">
+<li><a href="modules/_truffle_codec.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@truffle/codec</span></a></li>
+<li><a href="modules/_truffle_encoder.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>@truffle/encoder</span></a></li>
+<li><a href="modules/decoder_lib.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg><span>decoder/lib</span></a></li></ul></nav></div></div></div>
+<div class="tsd-generator">
+<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div>
+<div class="overlay"></div></body></html>

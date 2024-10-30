@@ -1,0 +1,21 @@
+{
+    "name": "decentralized-voting-system",
+    "version": "1.0.0",
+    "description": "A decentralized voting system built with Solidity and Truffle.",
+    "main": "index.js",
+    "scripts": {
+        "test": "truffle test",
+        "migrate": "truffle migrate --network development",
+        "deploy": "node scripts/deploy.js"
+    },
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^1.7.0",
+        "dotenv": "^8.2.0",
+        "truffle": "^5.1.56",
+        "web3": "^1.3.0"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "mocha": "^8.2.1"
+    }
+}

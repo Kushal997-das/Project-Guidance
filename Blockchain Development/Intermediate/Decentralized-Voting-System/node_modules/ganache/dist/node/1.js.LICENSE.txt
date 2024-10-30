@@ -1,0 +1,48 @@
+/*!
+ * @ganache/colors
+ *
+ * @author David Murdoch
+ * @license MIT
+ */
+
+/*!
+ * @ganache/console.log
+ *
+ * @author David Murdoch
+ * @license MIT
+ */
+
+/*!
+ * @ganache/ethereum
+ *
+ * @author David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)
+ * @license MIT
+ */
+
+/*!
+ * @ganache/ethereum-options
+ *
+ * @author David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)
+ * @license MIT
+ */
+
+/*!
+ * @ganache/ethereum-transaction
+ *
+ * @author David Murdoch
+ * @license MIT
+ */
+
+/*!
+ * @ganache/ethereum-utils
+ *
+ * @author David Murdoch <david@trufflesuite.com> (https://davidmurdoch.com)
+ * @license MIT
+ */
+
+/*!
+ * @ganache/secp256k1
+ *
+ * @author David Murdoch
+ * @license MIT
+ */

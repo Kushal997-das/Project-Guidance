@@ -1,0 +1,33 @@
+{
+    "name": "web3-eth-accounts",
+    "version": "1.10.4",
+    "description": "Web3 module to generate Ethereum accounts and sign data and transactions.",
+    "repository": "https://github.com/ethereum/web3.js/tree/1.x/packages/web3-eth-accounts",
+    "license": "LGPL-3.0",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "types": "types/index.d.ts",
+    "scripts": {
+        "compile": "tsc -b tsconfig.json",
+        "dtslint": "dtslint --localTs ../../node_modules/typescript/lib  types"
+    },
+    "main": "lib/index.js",
+    "dependencies": {
+        "@ethereumjs/common": "2.6.5",
+        "@ethereumjs/tx": "3.5.2",
+        "@ethereumjs/util": "^8.1.0",
+        "eth-lib": "0.2.8",
+        "scrypt-js": "^3.0.1",
+        "uuid": "^9.0.0",
+        "web3-core": "1.10.4",
+        "web3-core-helpers": "1.10.4",
+        "web3-core-method": "1.10.4",
+        "web3-utils": "1.10.4"
+    },
+    "devDependencies": {
+        "dtslint": "^3.4.1",
+        "typescript": "4.9.5"
+    },
+    "gitHead": "56d35a4a9ec59c2735085dce1a5eebb0bb44fbce"
+}

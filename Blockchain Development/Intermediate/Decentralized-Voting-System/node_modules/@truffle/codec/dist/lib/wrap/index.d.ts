@@ -1,0 +1,14 @@
+import type * as Format from "../format";
+import type { Method, Resolution } from "./types";
+import type { WrapOptions, ResolveOptions } from "./types";
+import type { WrapRequest, WrapResponse } from "../types";
+import { NoOverloadsMatchedError, NoUniqueBestOverloadError, TypeMismatchError, BadResponseTypeError } from "./errors";
+export * from "./errors";
+import { wrap } from "./wrap";
+export { NoOverloadsMatchedError, NoUniqueBestOverloadError, TypeMismatchError, BadResponseTypeError };
+export { wrap };
+export * from "./types";
+export * as Messages from "./messages";
+export declare function wrapMultiple(types: Format.Types.OptionallyNamedType[], inputs: unknown[], wrapOptions: WrapOptions): Generator<WrapRequest, Format.Values.Value[], WrapResponse>;
+export declare function wrapForMethod(method: Method, inputs: unknown[], resolveOptions: ResolveOptions): Generator<WrapRequest, Resolution, WrapResponse>;
+export declare function resolveAndWrap(methods: Method[], inputs: unknown[], { userDefinedTypes, allowOptions, allowJson, strictBooleans }: ResolveOptions): Generator<WrapRequest, Resolution, WrapResponse>;

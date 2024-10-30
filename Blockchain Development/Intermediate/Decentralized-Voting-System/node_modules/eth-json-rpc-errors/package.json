@@ -1,0 +1,39 @@
+{
+  "name": "eth-json-rpc-errors",
+  "version": "2.0.2",
+  "description": "Ethereum JSON RPC and Provider errors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "test:coverage": "nyc tape test",
+    "lint": "./node_modules/.bin/eslint index.js",
+    "lint:fix": "./node_modules/.bin/eslint index.js --fix",
+    "prepare": "yarn lint:fix && yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaMask/eth-json-rpc-errors.git"
+  },
+  "keywords": [
+    "json",
+    "rpc",
+    "ethereum",
+    "errors",
+    "utility"
+  ],
+  "author": "Erik Marks <rekmarks@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MetaMask/eth-json-rpc-errors/issues"
+  },
+  "homepage": "https://github.com/MetaMask/eth-json-rpc-errors#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "fast-deep-equal": "^2.0.1",
+    "nyc": "^14.1.1",
+    "tape": "^4.11.0"
+  },
+  "dependencies": {
+    "fast-safe-stringify": "^2.0.6"
+  }
+}
