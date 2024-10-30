@@ -19,8 +19,9 @@
 
 ## Level 2: Intermediate 🚀
 
-<i>Nothing to showcase here!</i>
-
+| S-No. | Projects | S-No. | Projects |
+|:--:|:--:|:--:|:--:|
+| 01. | [Raffle](https://github.com/Kushal997-das/Project-Guidance/tree/main/Blockchain%20Development/Intermediate/Raffle) |
 ## Level 3: Advanced 🚀
 
 <i>Nothing to showcase here!</i>
