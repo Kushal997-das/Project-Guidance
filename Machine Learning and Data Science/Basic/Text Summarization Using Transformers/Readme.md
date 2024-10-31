@@ -36,11 +36,23 @@ The **Text Summarization Using Transformers** project aims to automatically gene
 
 5. **Evaluation of Summary Quality**: 
    - Use the ROUGE metric to quantitatively evaluate the performance of the generated summaries against reference summaries.
+# Text Summarization Using Transformers
 
-## Installation
-You can run this project in Google Colab. To set up the necessary libraries, run the following commands:
+## Project Overview
+The **Text Summarization Using Transformers** project aims to automatically generate concise summaries from larger text documents using state-of-the-art natural language processing (NLP) techniques. This project leverages the power of pre-trained transformer models, specifically BART and T5, to produce high-quality summaries that capture the essence of the original texts.
 
-```python
-!pip install transformers
-!pip install nltk
-!pip install rouge-score
+## Example Results
+
+### Original Article
+![Original Article](https://github.com/user-attachments/assets/aa27dc2d-6897-45a8-875c-dc8087683d66)
+
+
+### Generated Summary
+![Generated Summary](https://github.com/user-attachments/assets/0e81c519-a2a5-4eb5-aa79-70abeb445fe6)
+
+
+### Evaluation Scores
+![Evaluation Scores](https://github.com/user-attachments/assets/f9634d8e-9f63-480a-a6d0-67adfb8192e1)
+
+
+
