@@ -61,11 +61,31 @@ html,
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
+/* Light theme (default) */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --border-color: #dddddd;
+}
+
+/* Dark theme */
+.dark {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --border-color: #333333;
+}
+
 body {
   margin: 0;
   /* 1 */
   line-height: inherit;
   /* 2 */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.border-neutral-700/80 {
+    border-color: var(--border-color);
 }
 
 /*
