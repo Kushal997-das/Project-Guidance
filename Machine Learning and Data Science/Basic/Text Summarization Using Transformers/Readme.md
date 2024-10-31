@@ -38,9 +38,6 @@ The **Text Summarization Using Transformers** project aims to automatically gene
    - Use the ROUGE metric to quantitatively evaluate the performance of the generated summaries against reference summaries.
 # Text Summarization Using Transformers
 
-## Project Overview
-The **Text Summarization Using Transformers** project aims to automatically generate concise summaries from larger text documents using state-of-the-art natural language processing (NLP) techniques. This project leverages the power of pre-trained transformer models, specifically BART and T5, to produce high-quality summaries that capture the essence of the original texts.
-
 ## Example Results
 
 ### Original Article
