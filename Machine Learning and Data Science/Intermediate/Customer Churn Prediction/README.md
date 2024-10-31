@@ -81,3 +81,10 @@ pip install -r requirements.txt
 - Random Forest showed comparable performance with slightly lower metrics
 - Logistic Regression provided a good baseline but was outperformed by both ensemble methods
 
+Threshold vs Recall and Threshold vs Precision graph (XGBoost)
+![image](https://github.com/user-attachments/assets/42be4ba5-052d-4e7c-8c16-be57bc929d80)
+
+ROC Curve
+![{05BAA722-2B5D-466B-94C4-5ECB09D9A904}](https://github.com/user-attachments/assets/3a3cacb5-15e2-4876-bf49-94d3d3515866)
+
+
