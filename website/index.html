@@ -48,7 +48,12 @@
                         <a href="#contributors" class="no-new-tab">Contributors</a>
                     </li>
                 </ul>
+                <!-- Light/Dark mode toggle button -->
+            <button id="theme-toggle" class="text-gray-800 dark:text-gray-200 p-2 rounded-full focus:outline-none">
+                <span id="theme-toggle-icon">🌞</span> <!-- Default icon for light mode -->
+            </button>
 
+                
                 <div class=" md:flex sm:flex flex-col justify-end">
                     <button id="menuButton">
                         <!-- Icons for Menu and X can be added via SVG or other methods -->
@@ -656,6 +661,33 @@
                 const mobileMenu = document.getElementById('mobileMenu');
                 const menuLinks = document.getElementsByClassName('menu-link'); // Fixed selector
 
+
+                // JavaScript for theme toggle functionality
+               const themeToggleButton = document.getElementById('theme-toggle');
+               const themeToggleIcon = document.getElementById('theme-toggle-icon');
+
+               // Load saved theme from local storage
+               if (localStorage.getItem('theme') === 'dark') {
+                    document.body.classList.add('dark');
+                    themeToggleIcon.textContent = '🌙'; // Icon for dark mode
+                 } else {
+            themeToggleIcon.textContent = '🌞'; // Icon for light mode
+             }
+
+             // Toggle theme on button click
+              themeToggleButton.addEventListener('click', () => {
+              document.body.classList.toggle('dark');
+    
+            // Update icon based on the current theme
+            if (document.body.classList.contains('dark')) {
+              themeToggleIcon.textContent = '🌙';
+              localStorage.setItem('theme', 'dark');
+             } else {
+           themeToggleIcon.textContent = '🌞';
+           localStorage.setItem('theme', 'light');
+            }
+          });
+                
                 // Function to toggle menu visibility
                 function toggleMenu() {
                     const isMenuOpen = mobileMenu.classList.toggle('hidden');
