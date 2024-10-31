@@ -5,7 +5,7 @@ The link for the website is here: : https://niharika2005.github.io/HEALTA/
 
 The following are the features of the  Website:
 
-1) The basic options such as About us, Find a Therepist, Resources and Oniline Community
+1) The basic options such as About us, Find a Therepist, Resources and Online Community
    ![Screenshot (188)](https://github.com/user-attachments/assets/507d7a49-d580-4152-8667-e0c99fb3a664)
 2) ABOUT US
     ![Screenshot (187)](https://github.com/user-attachments/assets/3f93a4b6-af62-4c85-a8c0-ed730a19e8c1)
