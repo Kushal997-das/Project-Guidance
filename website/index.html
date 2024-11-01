@@ -353,6 +353,31 @@
                             </ul>
                         </div>
                     </article>
+                        <!-- Cyber Security -->
+                    <article
+                        class="cyber-security relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+                        style="background-image: url('https://github.com/user-attachments/assets/7c04df9e-fa77-4130-9048-9e1b2bac7775');">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                        </div>
+                        <div
+                            class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex flex-col justify-center items-center">
+                            <h3 class="text-center mb-4">
+                                <a class="text-white text-2xl font-bold text-center" href="#">
+                                    <span class="absolute inset-0"></span>
+                                    Cyber Security
+                                </a>
+                            </h3>
+                            <ul class="list-disc list-inside text-white">
+                                <li><a href="https://github.com/NANDAGOPALNG/Project-Guidance/blob/main/Cyber%20Security/Basic"
+                                        class="text-blue-300 font-semibold hover:underline">Basic</a></li>
+                                <li><a href="https://github.com/NANDAGOPALNG/Project-Guidance/blob/main/Cyber%20Security/Intermediate"
+                                        class="text-blue-300 font-semibold hover:underline">Intermediate</a></li>
+                                <li><a href="https://github.com/NANDAGOPALNG/Project-Guidance/blob/main/Cyber%20Security/Advanced"
+                                        class="text-blue-300 font-semibold hover:underline">Advanced</a></li>
+                            </ul>
+                        </div>
+                    </article>
                 </section>
             </article>
         </section>
@@ -577,6 +602,19 @@
                                 class="text-base text-gray-300 hover:text-blue-300 hover:underline font-normal">Github</a>
                         </div>
                     </div>
+                    <div
+                        class="cyber-security w-full bg-gray-800 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
+                        <div>
+                            <img class="object-center object-cover h-auto w-full"
+                                src="https://github.com/user-attachments/assets/7c04df9e-fa77-4130-9048-9e1b2bac7775"
+                                alt="photo">
+                        </div>
+                        <div class="text-center py-8 sm:py-6">
+                            <p class="text-xl text-slate-200 font-semibold mb-2 card-text">Web Development</p>
+                            <a href="https://github.com/NANDAGOPALNG/Project-Guidance/tree/main/Cyber%20Security"
+                                class="text-base text-gray-300 hover:text-blue-300 hover:underline font-normal">Github</a>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -713,6 +751,11 @@
             Array.from(document.getElementsByClassName('web-development')).forEach(function (ele) {
                 ele.addEventListener('click', function () {
                     window.location.href = 'https://github.com/Kushal997-das/Project-Guidance/tree/main/Web%20Development'
+                });
+            });
+            Array.from(document.getElementsByClassName('cyber-security')).forEach(function (ele) {
+                ele.addEventListener('click', function () {
+                    window.location.href = 'https://github.com/NANDAGOPALNG/Project-Guidance/tree/main/Cyber%20Security'
                 });
             });
 
