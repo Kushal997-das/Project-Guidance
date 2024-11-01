@@ -85,6 +85,16 @@ To run this project locally:
 
 3. Run the `insurance.R` script to load the data, build the model, and make predictions.
 
+![Screenshot 2024-10-23 at 10 22 30 PM](https://github.com/user-attachments/assets/d3a5b8eb-fe69-489f-a5ca-b1a466f04211)
+
+![Screenshot 2024-10-23 at 10 22 23 PM](https://github.com/user-attachments/assets/be21091d-76c7-4555-934f-7eb86d42d7e2)
+
+![Screenshot 2024-10-23 at 10 22 16 PM](https://github.com/user-attachments/assets/a00d9635-4c1d-42be-a7e4-86b0bf6a153a)
+
+![Screenshot 2024-10-23 at 10 22 08 PM](https://github.com/user-attachments/assets/307ddcc1-fa9b-4429-93e8-ab21a6d94e56)
+
+
+
 ### Conclusion
 
 This project showcases the use of linear regression for predictive modeling in the context of health insurance. By analyzing various factors, we gain insight into what drives insurance costs and can provide predictions for new customers.
