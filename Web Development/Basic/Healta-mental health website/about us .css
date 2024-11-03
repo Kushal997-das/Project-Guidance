@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+    
+}
+.ul img{
+    height: 50px;
+    width: 50px;
+    transition: all 0.2s ease-in-out;
+}
+.ul img:hover{
+    transform: scale(1.2,1.2);
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f9e4e3;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+.li a{
+    color: burlywood;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+
+}   
+.li :hover {
+    box-shadow: 0 0 4px rgba(255, 255, 255, 1);
+    color: rgba(222, 184, 135, 0.605);
+    background-color: #fbc9d69a;
+} 
+
+.main_page{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #fbc9d69a;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.base_line{
+    margin: 5px;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: bold;          
+}
+.base_para{
+    margin: 5px;
+    width: 50%;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    color: rgb(87, 79, 87);            
+
+}
+.main_text{
+    margin-left: 75px;
+    margin-top: 120px;
+}
+.paragraph{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+}
+.socials i{
+    padding: 0 5px;
+    color: burlywood;
+    opacity: 0.5;
+    padding-right: 10px;
+    font-size: 25px;
+}
+.socials i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.tag_line{
+    font-size: 32px;
+    font-weight: 900;
+    width: 400px;
+    margin-top: 0px;
+
+}
+.paragraph{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about{
+    font-size: 25px;
+    color: rgb(105, 105, 105);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.nav_bar{
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+}
+.image{
+    margin-top: 40px;
+}
+.image img{
+    height: 350px;
+    width: 575px;
+    margin-left: 50px;   
+}
+
