@@ -30,7 +30,3 @@ Input maze.txt in format:
 Loading image into the interface:
 ![Screenshot (3097)](https://github.com/user-attachments/assets/49559047-c2bd-452c-95ff-af77cb7ba775)
 The file has been loaded and saved in the form of .png file with the name 'temp_maze.png'
-
-After solving the maze:
-![Screenshot (3098)](https://github.com/user-attachments/assets/6bd72a2c-6962-455e-95cc-468917caebb9)
-After solving the maze, the image is saved as 'solved_maze.png'
