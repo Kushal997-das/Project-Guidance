@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Your existing styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="profile.css" />
+    <title>Profile - HiddenGems</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* General body styling */
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffff;
+      }
+
+      h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900; /* Bold */
+      }
+
+      p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300; /* Light */
+      }
+
+      nav {
+        display: flex;
+        padding: 0px;
+        align-items: center;
+        gap: 10px;
+        position: fixed;
+        top: 0;
+        background: #fff;
+        left: 0;
+        right: 0;
+      }
+
+      nav a {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500; /* Medium */
+        text-decoration: none;
+        color: #003049;
+        font-weight: 600;
+        padding: 10px 15px;
+        border-radius: 20px;
+      }
+
+      nav a img {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .logo img {
+        width: 90px;
+        height: max-content;
+        padding-top: 25px;
+      }
+
+      a.icon:hover {
+        background: #f700005e;
+      }
+      a.icon {
+        font-size: 20px;
+        border-radius: 50px;
+      }
+
+      input {
+        width: 70%;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background: #e9e9e9;
+        font-weight: 500;
+      }
+
+      #container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 150px;
+      }
+
+      #posts-grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+      }
+
+      .col {
+        height: auto;
+        width: calc(100% / 5);
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+      }
+
+      .card {
+        margin: 0;
+        width: 100%;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 20px;
+      }
+
+      /* Profile Header Section */
+      .profile-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px 100px;
+        background-color: #f2edede7;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+      }
+
+      /* Profile Picture Styling */
+      .profile-picture img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 3px solid #003049;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+
+      .profile-picture img:hover {
+        transform: scale(1.05);
+      }
+
+      /* Profile Info */
+      .profile-info {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      /* Username styling */
+      .profile-info h1 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #003049;
+        margin-bottom: 10px;
+      }
+
+      /* Profile Stats */
+      .profile-info .profile-stats {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 20px 0;
+      }
+
+      /* Styling individual stats */
+      .profile-info .profile-stats span {
+        font-weight: bold;
+        font-size: 18px;
+        color: #f70000;
+        padding-bottom: 10px;
+      }
+
+      .profile-info .profile-stats .stat-item {
+        text-align: center;
+        font-size: 16px;
+        color: #003049;
+      }
+
+      /* Hover effect for stats */
+      .profile-info .profile-stats .stat-item:hover {
+        color: #fc4949;
+        transition: color 0.3s ease;
+      }
+
+      /* Bio text */
+      .profile-info p {
+        font-size: 16px;
+        color: #555;
+      }
+
+      /* Grid layout for the posts */
+      .posts-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        grid-gap: 10px; /* Gap between images */
+      }
+      #postswr {
+        padding-left: 10px;
+      }
+
+      /* Ensures images fill the grid cells */
+      .posts-grid img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* Existing modal styling (keep this) */
+      #modalOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        z-index: 9;
+      }
+
+      #createPostModal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 90%;
+        max-width: 500px;
+        padding: 20px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        z-index: 10;
+        max-height: 80vh; /* Limit the height of the modal */
+        overflow-y: auto; /* Allow scrolling if content exceeds modal height */
+      }
+
+      /* Make modal responsive for smaller devices */
+      @media (max-width: 768px) {
+        #createPostModal {
+          width: 95%;
+          max-width: none; /* Remove max-width constraint on small screens */
+          top: 10%; /* Adjust positioning for better look */
+          transform: translate(
+            -50%,
+            0
+          ); /* Remove vertical centering for small screens */
+          max-height: 90vh; /* Ensure more height for mobile devices */
+        }
+      }
+
+      /* Style individual fields */
+      #dropZone,
+      input,
+      textarea {
+        font-family: "Roboto", sans-serif;
+        padding-top: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+
+      #dropZone {
+        border: 2px #003049;
+        border-style: groove;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+
+      #title,
+      textarea {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #eab7b7;
+        background-color: #f7f5f0e7;
+      }
+
+      textarea {
+        height: 100px;
+        resize: vertical; /* Allow resizing vertically */
+      }
+
+      #postButton {
+        width: 100%;
+        padding: 10px;
+        background-color: #fc4949;
+        color: #003049;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      #postButton:hover {
+        background-color: #f70000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar-->
+    <!--<nav>
+      
+      <a class="logo" href="#"><img src="logo.png" alt="Logo" /></a>
+
+      
+      <input type="text" class="search" placeholder="Search" />
+
+      
+      <a href="home.html"><i class="fas fa-home"></i></a>
+      <a href="#"><i class="fas fa-compass"></i></a>
+      <a href="#"><i class="fas fa-heart"></i></a>
+
+      
+      <a href="profile.html">
+        <img src="profile.jpg" alt="Profile" class="profile-icon" />
+      </a>
+    </nav>-->
+    <nav>
+      <a class="logo" href="#"><img src="logo.png" alt="" /></a>
+      <a href="home.html">Home</a>
+
+      <a href="#" id="createPostBtn">Create</a>
+      <input type="text" class="search" placeholder="Search" />
+      <a href="#" class="icon"><i class="fas fa-bell"></i></a>
+      <a href="#" class="icon"><i class="fas fa-heart"></i></a>
+      <a href="#" id="profile-link"><img src="profile.jpg" alt="" /></a>
+    </nav>
+
+    <!-- This is the modal overlay -->
+    <div id="modalOverlay" style="display: none"></div>
+
+    <div id="createPostModal">
+      <h2>Create a Post</h2>
+      <div id="dropZone">Drag and drop an image or click to upload</div>
+      <img id="preview" src="" alt="Image Preview" style="display: none" />
+      <input type="text" id="title" placeholder="Enter title" />
+      <textarea id="description" placeholder="Enter description"></textarea>
+      <button id="postButton">Post</button>
+    </div>
+
+    <!-- Profile Header Section -->
+    <section class="profile-header" id="container">
+      <!-- Profile Picture -->
+      <div class="profile-picture">
+        <img src="profile.jpg" alt="Profile Picture" />
+      </div>
+
+      <!-- Profile Info -->
+      <div class="profile-info">
+        <h1>Username</h1>
+
+        <div class="profile-stats">
+          <div class="stat-item">
+            <span id="post-count">0</span>
+            <p>Posts</p>
+          </div>
+          <div class="stat-item">
+            <span>1.2k</span>
+            <p>Followers</p>
+          </div>
+          <div class="stat-item">
+            <span>300</span>
+            <p>Following</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Posts Grid Section -->
+    <section class="profile-posts">
+      <!-- Title for the posts section -->
+      <h2 id="postswr">Posts</h2>
+
+      <!-- Grid layout for posts (images) -->
+      <div id="posts-grid">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </section>
+
+    <!-- Add JavaScript if needed -->
+    <script>
+      // JS for any dynamic interactions can go here (e.g., fetching images dynamically)
+      let page = 1;
+      let fetching = false;
+      const container = document.getElementById("posts-grid");
+      const cols = Array.from(container.getElementsByClassName("col"));
+      console.log(cols);
+
+      const fetchImageData = async () => {
+        try {
+          fetching = true;
+          const response = await fetch(
+            `https://api.artic.edu/api/v1/artworks?limit=15&fields=id,title,image_id`
+          );
+          const data = await response.json();
+          fetching = false;
+          return data.data
+            .map((artwork) => {
+              return artwork.image_id
+                ? `https://www.artic.edu/iiif/2/${artwork.image_id}/full/600,/0/default.jpg`
+                : null;
+            })
+            .filter((image) => image); // Remove null entries
+        } catch (error) {
+          console.error("Error fetching data:", error);
+          fetching = false;
+          throw error;
+        }
+      };
+      fetchImageData()
+        .then((images) => {
+          // Check if images were successfully retrieved
+          if (images.length > 0) {
+            document.getElementById(
+              "post-count"
+            ).textContent = `${images.length} posts`;
+            images.forEach((image, index) => {
+              // Create a card for each image and append it to a column
+              createCard(image, cols[index % cols.length]);
+
+              // Log which column each image was placed in
+              console.log(index % cols.length);
+            });
+          }
+        })
+        .catch((error) => {
+          console.error("Error initial fetch:", error);
+        });
+
+      const createCard = (image, col) => {
+        // Create a card div element
+        const card = document.createElement("div");
+        card.classList.add("card");
+
+        // Create an img element and set its source to the image URL
+        const img = document.createElement("img");
+        img.src = image;
+        img.alt = "Image";
+        img.style.width = "100%";
+
+        // If an image fails to load, hide its parent card
+        img.onerror = function () {
+          this.parentElement.style.display = "none";
+        };
+        // Append the image to the card, and the card to the column
+        card.appendChild(img);
+        col.appendChild(card);
+      };
+
+      // Add this modal overlay to your HTML for background dimming
+      const modalOverlay = document.createElement("div");
+      modalOverlay.id = "modalOverlay";
+      document.body.appendChild(modalOverlay);
+
+      // Variables for modal and posting functionality
+      const createPostBtn = document.getElementById("createPostBtn");
+      const createPostModal = document.getElementById("createPostModal");
+      const dropZone = document.getElementById("dropZone");
+      const preview = document.getElementById("preview");
+      const postButton = document.getElementById("postButton");
+      const postsGrid = document.getElementById("posts-grid");
+      const postCount = document.getElementById("post-count"); // Correct ID
+      let imageFile = null;
+      //let count = 0;
+
+      // Open Modal
+      createPostBtn.addEventListener("click", () => {
+        createPostModal.style.display = "block";
+        modalOverlay.style.display = "block";
+      });
+
+      // Close modal when clicking outside the modal
+      modalOverlay.addEventListener("click", () => {
+        createPostModal.style.display = "none";
+        modalOverlay.style.display = "none";
+      });
+
+      // Handle drag and drop upload
+      dropZone.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        dropZone.classList.add("dragging");
+      });
+
+      dropZone.addEventListener("dragleave", () => {
+        dropZone.classList.remove("dragging");
+      });
+
+      dropZone.addEventListener("drop", (e) => {
+        e.preventDefault();
+        dropZone.classList.remove("dragging");
+        const file = e.dataTransfer.files[0];
+        if (file && file.type.startsWith("image/")) {
+          const reader = new FileReader();
+          reader.onload = () => {
+            preview.src = reader.result;
+            preview.style.display = "block";
+          };
+          reader.readAsDataURL(file);
+          imageFile = file;
+        }
+      });
+
+      // Handle click to upload image
+      dropZone.addEventListener("click", () => {
+        const input = document.createElement("input");
+        input.type = "file";
+        input.accept = "image/*";
+        input.onchange = (e) => {
+          const file = e.target.files[0];
+          if (file && file.type.startsWith("image/")) {
+            const reader = new FileReader();
+            reader.onload = () => {
+              preview.src = reader.result;
+              preview.style.display = "block";
+            };
+            reader.readAsDataURL(file);
+            imageFile = file;
+          }
+        };
+        input.click();
+      });
+
+      // Post button logic: Adding the image and incrementing the post count
+      postButton.addEventListener("click", () => {
+        const title = document.getElementById("title").value.trim();
+        const description = document.getElementById("description").value.trim();
+
+        if (imageFile) {
+          // Create a new post (card format) with an image
+          const newImage = preview.src;
+
+          // Create a card for the new image using the same format as fetched images
+          createCard(
+            newImage,
+            cols[
+              Array.from(document.querySelectorAll(".card")).length %
+                cols.length
+            ]
+          );
+
+          // Increment post count and update the display
+          let count = parseInt(postCount.textContent); // Convert to integer
+          count += 1;
+          postCount.textContent = `${count} posts`; // Update the post count display
+
+          // Reset modal fields and close the modal
+          preview.src = "";
+          preview.style.display = "none";
+          document.getElementById("title").value = "";
+          document.getElementById("description").value = "";
+          imageFile = null;
+
+          // Hide the modal
+          createPostModal.style.display = "none";
+          modalOverlay.style.display = "none";
+        } else {
+          alert("Please upload an image.");
+        }
+      });
+    </script>
+  </body>
+</html>
