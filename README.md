@@ -109,7 +109,7 @@ git push -u origin <your_branch_name>
 <a href="https://kushaldas.hashnode.dev/"><img src="https://img.icons8.com/color/512/hashnode.png" width="32px" height="32px"></a>
 </td>
 
-<h2>Engaging and Collaborating with </h2>
+<h2>Engaging and Collaborating with 🤝💬</h2>
 
 <table>
 <tr>
@@ -118,6 +118,19 @@ git push -u origin <your_branch_name>
 <td align="center"> <img align="center" height="83" width="83" alt= "SOWC3.0" src="https://user-images.githubusercontent.com/61356005/210384287-49e5ceab-71a6-410b-89a0-ee9ba553bc1e.png" /> </td>
 <td align="center"> <img align="center" height="83" width="83" alt= "hecktoberfest2023" src="https://github.com/Kushal997-das/Project-Guidance/assets/61356005/a39b0354-56ff-4161-9076-1b576a053537" /> </td>
 <td align="center"> <img align="center" height="83" width="83" alt= "winter of blockchain girlscript" src="https://github.com/user-attachments/assets/d9bec6f3-066c-4c8b-8e04-0c80c321765f" /> </td>
+<td align="center"> <img align="center" height="83" width="83" alt= "hecktoberfest2023" src="https://github.com/user-attachments/assets/ba802636-ee6e-471f-be1f-9696d3632472" /> </td>
+<td align="center"> <img align="center" height="83" width="85" alt= "GSSOC-ext" src="https://github.com/user-attachments/assets/c27681e6-6961-49ea-8deb-7d1f2ce13b8f" /> </td>
+<td align="center"> <img align="center" height="83" width="83" alt= "web3conf" src="https://github.com/user-attachments/assets/200ebf21-d8fc-41a4-9bc6-b8000b92795e" /> </td>
+<td align="center"> <img align="center" height="83" width="83" alt= "IEEE IGDTUW" src="https://github.com/user-attachments/assets/edfe62e9-9fb0-467d-bdfb-a81745245a26" /> </td>
+<td align="center"> <img align="center" height="83" width="83" alt= "Winter Of Code" src="https://github.com/user-attachments/assets/8ef926d1-b781-464f-8b35-94a66eab7b56" /> </td>
+
+
+
+
+
+
+
+
 
 
 
